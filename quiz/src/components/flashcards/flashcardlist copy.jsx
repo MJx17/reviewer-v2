@@ -197,7 +197,7 @@ export default function FlashcardSwiper({ subjectId, refreshKey, onEdit }) {
         slidesPerView={1}
         spaceBetween={20}
         centeredSlides
-        virtual
+        // virtual
         navigation={{
           prevEl: prevRef.current,
           nextEl: nextRef.current,
@@ -211,7 +211,7 @@ export default function FlashcardSwiper({ subjectId, refreshKey, onEdit }) {
           const state = getCardState(card);
 
           return (
-            <SwiperSlide key={card._id}>
+            <SwiperSlide key={card._id} >
               <div className={`card ${flippedCards.includes(index) ? "flipped" : ""} ${card.state}`}>
 
                 {/* Status badge */}

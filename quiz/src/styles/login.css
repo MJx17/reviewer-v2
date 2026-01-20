@@ -231,3 +231,16 @@
     box-shadow: 0 10px 40px #00000029;
     transition: .3s;
 }
+
+.login-error {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.user-error {
+  color: red; /* visible, actionable error */
+}
+
+.system-error {
+  color: orange; /* less alarming, system issue */
+}

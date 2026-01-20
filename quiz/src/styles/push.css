@@ -1,0 +1,13 @@
+.push-btn {
+  padding: 0.6em 1.2em;
+  background-color: #344bbd;
+  color: white;
+  border: none;
+  border-radius: 0.4em;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.push-btn.subscribed {
+  background-color: #0d7bf1;
+}

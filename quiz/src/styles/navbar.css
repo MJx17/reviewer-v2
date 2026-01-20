@@ -12,10 +12,15 @@
 }
 
 /* Logo */
+/* Navbar logo */
 .navbar-logo {
   font-size: 1.5rem;
   font-weight: bold;
+  text-decoration: none; /* remove underline */
+  color: #fff;
+  transition: color 0.2s ease;
 }
+
 
 /* Links Container */
 .navbar-links {

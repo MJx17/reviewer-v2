@@ -9,6 +9,7 @@
   justify-content: center;
   flex-direction: column;
   padding: 1rem 0;
+
 }
 
 .mySwiper {
@@ -34,7 +35,7 @@
    Page Container
 ========================= */
 .subject-flashcards-page {
-  max-width: 900px;
+
   margin: 0 auto;
   padding: 2rem 1rem;
   font-family: 'Inter', sans-serif;
@@ -42,6 +43,36 @@
   flex-direction: column;
   gap: 2rem;
 }
+
+.subject-flashcard-headers {
+  display: flex;
+  flex-direction: column;  /* stack back link and header row */
+  align-items: center;     /* center everything horizontally */
+  gap: 1rem;               /* spacing between back link and header row */
+  width: 100%;
+}
+
+.back-link {
+  align-self: flex-start;  /* left-align relative to the header row container */
+  text-decoration: none;
+  color: #344bbd;
+  font-weight: 500;
+  font-size: 0.9rem;
+  margin-left: 0;           /* align with row padding */
+}
+
+
+
+.flashcards-subject-page-header, .flashcards-subject-back {
+  display: flex;
+  justify-content: space-between; /* H2 left, button right */
+  align-items: center;
+  width: 100%;
+  max-width: 600px;      /* match card width */
+
+  box-sizing: border-box;
+}
+
 
 /* =========================
    Header
@@ -62,19 +93,7 @@
   margin: 0;
 }
 
-.back-link {
-  font-size: 1rem;
-  color: #3b82f6;
-  /* Calm blue */
-  text-decoration: none;
-  font-weight: 500;
-  transition: color 0.2s ease;
-}
 
-.back-link:hover {
-  color: #1e40af;
-  /* Darker blue */
-}
 
 /* =========================
    Add Flashcard Button
@@ -129,7 +148,7 @@
   position: relative;
 }
 
-.card-inner {
+ .card-inner {
   position: relative;
   width: 100%;
   min-height: 400px;
@@ -137,11 +156,13 @@
   transition: transform 0.6s;
   border-radius: 0.6em;
   border: 3px solid transparent;
-  /* default border */
   box-sizing: border-box;
   background-color: transparent;
-}
+} 
 
+
+
+  /* default border */
 /* Flip effect */
 .card.flipped .card-inner {
   transform: rotateY(180deg);
@@ -189,7 +210,7 @@
 
 
 /* Front & Back Faces */
-.front,
+/* .front,
 .back {
   position: absolute;
   inset: 0;
@@ -202,22 +223,50 @@
   padding: 1em;
   overflow: hidden;
   background-color: transparent;
-  /* inner faces remain transparent */
+} */
+
+.front,
+.back {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  backface-visibility: hidden;
+  box-shadow: 0 0.4em 1.2em rgba(28, 28, 28, 0.08);
+
+  /* Center content */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertical center */
+  align-items: center;     /* horizontal center */
+
+  padding: 1em;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;      /* center text horizontally */
 }
+
 
 .back {
   transform: rotateY(180deg);
 }
 
-/* Card Content */
 .question-div,
+.answer-div {
+  font-weight: 500;
+  overflow-wrap: break-word;
+  width: 100%;
+  max-width: 90%;
+}
+
+/* Card Content */
+/* .question-div,
 .answer-div {
   width: 100%;
   min-height: 300px;
   font-weight: 500;
   overflow-wrap: break-word;
   text-align: justify;
-}
+} */
 
 /* =========================
    Buttons
@@ -347,10 +396,23 @@
   margin-top: 0.75rem;
 }
 
+.card-actions-row {
+  display: flex;
+  justify-content: space-between; /* counter left, icons right */
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem; /* spacing before review buttons */
+}
+
+.deck-counter {
+  font-weight: 800;
+  font-size: 0.9rem;
+   color: #3b82f6;
+}
+
 .card-actions {
   display: flex;
   gap: 0.6rem;
-  justify-content: flex-end;
 }
 
 .card-actions svg {

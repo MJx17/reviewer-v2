@@ -18,6 +18,17 @@ export const getNotes = (params = {}) => {
   return apiRequest(endpoint, { method: 'GET' });
 };
 
+// src/services/noteService.js
+// export const getNotes = (params = {}) => {
+//   const query = new URLSearchParams(params).toString();
+//   const endpoint = query ? `${NOTES_URL}?${query}` : NOTES_URL;
+//   return apiRequest(endpoint, { method: "GET" });
+// };
+
+
+export const getNoteById = async (id) => {
+  return apiRequest(`/notes/${id}`); // backend route: GET /notes/:id
+};
 /**
  * Create a new note.
  *

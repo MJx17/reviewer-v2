@@ -1,0 +1,269 @@
+.features-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 6rem 1.5rem;
+
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 2rem;
+}
+
+/* Tablet and Desktop Breakpoints */
+@media (min-width: 768px) {
+  .features-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .features-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.feature-card {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 1rem;
+  border: 1px solid #f1f5f9;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon {
+  font-size: 1.875rem;
+  margin-bottom: 1rem;
+}
+
+.feature-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+
+.feature-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.feature-description {
+  color: #6b7280;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  flex-grow: 1; /* Pushes the button to the bottom */
+}
+
+.feature-button {
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #374151;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.feature-button:hover {
+  background-color: #f9fafb;
+  border-color: #10b981;
+  color: #10b981;
+}
+
+/* Hero */
+
+
+.hero-section {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 6rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+
+@media (min-width: 1024px) {
+  .hero-section {
+    flex-direction: row;
+    text-align: left;
+    min-height: 70vh;
+  }
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-title {
+  display: flex;
+  flex-direction: column;  /* stack lines vertically */
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+  font-size: clamp(2.2rem, 4vw, 3rem);
+  font-weight: 800;
+  color: #111827;
+}
+
+.hero-greeting {
+  align-self: flex-start;  /* left align */
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.hero-username {
+  align-self: center;      /* center username */
+  font-weight: 900;
+  font-size: 1.4em;
+  color: #10B981;          /* optional accent color */
+}
+
+
+.hero-description {
+  font-size: 1.25rem;
+  color: #4b5563;
+  line-height: 1.7;
+  max-width: clamp(250px, 80%, 500px); /* min 250px, max 500px, otherwise 80% */
+  margin-bottom: 2rem;
+  text-align: justify;
+}
+
+@media (max-width: 640px) {
+  .hero-description {
+    margin-bottom: 1.5rem; /* less empty space on mobile */
+    text-align: left;       /* optional: better readability on narrow screens */
+  }
+}
+
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap; /* Ensures buttons stack on very small screens */
+  gap: 1rem;
+}
+
+/* Primary Action */
+.primary-btn {
+  padding: 0.875rem 2rem;
+  background-color: #34d399;
+  color: white;
+  border: none;
+  border-radius: 0.75rem;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(52, 211, 153, 0.25);
+  transition: all 0.2s ease;
+}
+
+.primary-btn:hover {
+  background-color: #10b981;
+  transform: translateY(-2px);
+}
+
+/* Subscription Button (Secondary Style) */
+.subscribe-btn {
+  padding: 0.875rem 2rem;
+  background-color: #ffffff;
+  color: #374151;
+  border: 1.5px solid #d1d5db;
+  border-radius: 0.75rem;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.subscribe-btn:hover:not(:disabled) {
+  border-color: #34d399;
+  color: #10b981;
+  background-color: #f0fdf4;
+}
+
+/* Success State when Subscribed */
+.subscribe-btn.subscribed {
+  background-color: #f0fdf4;
+  color: #059669;
+  border-color: #34d399;
+  cursor: default;
+  box-shadow: none;
+}
+
+.subscribe-btn {
+  background-color: #1e90ff;
+  color: white;
+}
+
+.unsubscribe-btn {
+  background-color: #ff4d4f;
+  color: white;
+}
+
+.subscribe-btn:hover, .unsubscribe-btn:hover {
+  opacity: 0.8;
+}
+
+/* Mobile & Base Styles */
+.hero-visual {
+  flex: 1;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* Tablet & Desktop Styles */
+@media (min-width: 1024px) {
+  .hero-section {
+    flex-direction: row;
+    text-align: left;
+    min-height: 80vh; /* Increased height to give the image more room */
+    gap: 6rem; /* Increased gap to prevent crowding */
+  }
+
+  .hero-content {
+    flex: 1; /* Text takes up 50% */
+  }
+
+  .hero-visual {
+    flex: 1.2; /* Image takes up slightly more than 50% to look "heroic" */
+    max-width: 700px; /* Increased limit for large monitors */
+    display: flex;
+    justify-content: flex-end; /* Aligns image to the right edge */
+  }
+
+  .visual-container {
+    padding: 3rem; /* More "breathing room" inside the mint box */
+    width: 100%;
+  }
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  border-radius: 1.5rem;
+  display: block;
+  /* Added a slightly stronger shadow for depth on large screens */
+  box-shadow: 0 20px 40px rgba(0,0,0,0.08); 
+}

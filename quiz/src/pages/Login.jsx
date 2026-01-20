@@ -1,10 +1,10 @@
 import { useEffect, useRef, useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import "../styles/login.css";
-import { login, getProfile } from "../services/authService";
+import { loginService, getProfile } from "../services/authService";
 import { useAuth } from "../context/authContext";
 import Loading from "../components/ui/loading"; // optional spinner
-
+import { toast } from "react-toastify";
 const LoginModal = () => {
 
   const bodyRef = useRef(document.body);
@@ -17,13 +17,13 @@ const LoginModal = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
-  const { setUser } = useAuth();
+  const { user, setUser, setAccessToken, set } = useAuth();
   const navigate = useNavigate();
-  const location = useLocation();
 
   // Form state
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+
 
   // ===== Modal control =====
   const openModal = () => {
@@ -66,27 +66,37 @@ const LoginModal = () => {
   }, []);
 
   // ===== Handle login submission =====
+  // ===== Handle login submission =====
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
     setError(null);
 
     try {
-      await login(email, password);
-
-      // ✅ use API service (correct base URL + refresh handling)
-      const profile = await getProfile();
-      setUser(profile.user);
-
-      const from = location.state?.from?.pathname || "/todos";
-      navigate(from, { replace: true });
+      const res = await loginService(email, password);
+      setUser(res.user);
+      setAccessToken(res.accessToken || null);
+      closeModal();
+      navigate("/home", { replace: true });
     } catch (err) {
-      setError(err.message || "Login failed");
+      // handle error from API
+      if (err.type === "user") {
+        setError({ message: err.error, type: "user" });
+      } else {
+        setError({
+          message: "Oops! Something went wrong. Please try again later.",
+          type: "system",
+        });
+      }
+
+      toast.error(err.error || "Login failed");
     } finally {
+      // ✅ always stop loading
       setLoading(false);
     }
-
   };
+
+
 
   return (
     <div className="login-container" style={{ height: "200vh" }}>
@@ -139,7 +149,10 @@ const LoginModal = () => {
                 />
               </div>
 
-              {error && <p className="login-error">{error}</p>}
+              {error && <p className={`login-error ${error.type}-error`}>{error.message}</p>}
+
+
+
 
               <div className="login-modal-buttons">
                 <a href="forgot-password" className="login-forgot-password">Forgot your password?</a>

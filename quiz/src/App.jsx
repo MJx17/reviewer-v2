@@ -18,6 +18,9 @@ import "./App.css";
 import Unauthorized from "./pages/Unauthorized";
 import ForgotPassword from "./pages/ForgotPassword";
 import ResetPassword from "./pages/ResetPassword";
+import Modal from "react-modal";
+import HomePage from "./pages/homepage";
+Modal.setAppElement("#root");
 
 const App = () => {
   return (
@@ -41,6 +44,7 @@ const App = () => {
             </ProtectedRoute>
           }
         >
+          <Route path="/home" element={<HomePage />} />
           <Route path="/todos" element={<TodoListPage />} />
           <Route path="/todos/:date" element={<DayTodosPage />} />
 

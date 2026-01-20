@@ -74,34 +74,34 @@ export default function FlashcardsPage() {
   return (
     <div className="flashcards-page">
       {/* Header with H1 and Add button */}
-       <div className="flashcards-page-header">
+      <div className="flashcards-page-header">
         <h1>Flashcards</h1>
         <button className="add-note-btn" onClick={() => handleAddFlashcard()}>
           <FaPlus /> Add Flashcard
         </button>
       </div>
-     
+
 
       <FlashcardSubjectsTable
         subjects={subjects}
         flashcards={flashcards}
         onSelect={handleSelectSubject}
       />
-<AppModal
-  isOpen={modalOpen}                 // modal visibility
-  onClose={() => setModalOpen(false)} // close handler
-  title="Add Flashcard"
-  maxWidth="600px"
->
-  <GeneralFlashcardForm
-    subjectId={selectedSubject?._id}  // optional chaining in case not set yet
-    onSuccess={(newFlashcard) => {
-      handleSaveFlashcard(newFlashcard); // update flashcards state
-      setModalOpen(false);               // close modal after success
-    }}
-    onCancel={() => setModalOpen(false)}
-  />
-</AppModal>
+      <AppModal
+        isOpen={modalOpen}                 // modal visibility
+        onClose={() => setModalOpen(false)} // close handler
+        title="Add Flashcard"
+        maxWidth="600px"
+      >
+        <GeneralFlashcardForm
+          subjectId={selectedSubject?._id}  // optional chaining in case not set yet
+          onSuccess={(newFlashcard) => {
+            handleSaveFlashcard(newFlashcard); // update flashcards state
+            setModalOpen(false);               // close modal after success
+          }}
+          onCancel={() => setModalOpen(false)}
+        />
+      </AppModal>
 
     </div>
   );

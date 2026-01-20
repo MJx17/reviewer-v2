@@ -5,6 +5,7 @@ import AppModal from "../components/ui/modal";
 import AddFlashcardForm from "../components/flashcards/AddFlashcardForm";
 import { toast } from "react-toastify";
 import '../styles/flashcard.css';
+import FlashcardDeck from "../components/flashcards/flashcarddeck";
 
 const SUBJECTS_API = "http://localhost:3001/subjects";
 
@@ -60,20 +61,24 @@ export default function SubjectFlashcardsPage() {
 
   return (
     <div className="subject-flashcards-page">
-      <Link to="/flashcards" className="back-link">
-        ← Back to Subjects
-      </Link>
 
-      <div className="flashcards-page-header">
-        <h2>{subject.name}</h2>
-        <button className="add-note-btn" onClick={handleAddFlashcard}>
-          + Add Flashcard
-        </button>
+      <div className="subject-flashcard-headers">
+        <div className="flashcards-subject-back">
+          <Link to="/flashcards" className="back-link">
+            ← Back to Subjects
+          </Link>
+        </div>
+        <div className="flashcards-subject-page-header">
+          <h2>{subject.name}</h2>
+          <button className="add-note-btn" onClick={handleAddFlashcard}>
+            + Add Flashcard
+          </button>
+        </div>
       </div>
 
 
 
-      <FlashcardList
+      <FlashcardDeck
         subjectId={subjectId}
         refreshKey={refreshKey}
         onEdit={handleEdit}
@@ -82,6 +87,14 @@ export default function SubjectFlashcardsPage() {
         }
       />
 
+      {/* <FlashcardList
+        subjectId={subjectId}
+        refreshKey={refreshKey}
+        onEdit={handleEdit}
+        onDeleted={(deletedId) =>
+          setFlashcards((prev) => prev.filter((f) => f._id !== deletedId))
+        }
+      /> */}
 
 
 

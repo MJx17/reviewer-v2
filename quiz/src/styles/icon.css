@@ -39,3 +39,57 @@
   display: none;
 }
 }
+
+
+/* Container for arrows side by side */
+.card-swiper-container {
+  position: relative;           /* for absolutely positioning arrows */
+  max-width: 800px;             /* card max width */
+  margin: 0 auto;               /* center container */
+}
+
+.card-swiper {
+  /* your existing card styles */
+  width: 100%;
+}
+
+.arrow-nav-container {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  pointer-events: none; /* container won't block clicks */
+}
+
+.arrow-nav-container button {
+  pointer-events: all; /* enable clicks for buttons */
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: color 0.2s, transform 0.2s;
+}
+
+.arrow-button.active {
+  color: #344bbd; /* brighter when active */
+}
+
+.arrow-button.disabled {
+  color: #ccc;     /* gray out when disabled */
+  cursor: not-allowed;
+}
+
+.arrow-button.active:hover {
+  transform: scale(1.1);
+  color: #0d7bf1;
+}
+
+
+@media (max-width: 700px) {
+ .arrow-nav-container {
+   display: none;
+
+ }
+}
