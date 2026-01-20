@@ -1,0 +1,129 @@
+/* Navbar Container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+  background-color: #111827;
+  color: #ffffff;
+  position: relative;
+  z-index: 10;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Logo */
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Links Container */
+.navbar-links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+/* Links */
+.nav-link {
+  color: #d1d5db;
+  text-decoration: none;
+  font-weight: 500;
+  padding-bottom: 2px;
+  transition: color 0.2s, border-bottom 0.2s;
+}
+
+.nav-link:hover {
+  color: #facc15;
+}
+
+/* Active link */
+.nav-link.active {
+  color: #facc15;
+  border-bottom: 2px solid #facc15;
+}
+
+/* Logout button */
+.nav-link-logout-btn {
+  all: unset;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #bb2626;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+.nav-link-logout-btn:hover {
+  background-color: #eb0d0d;
+  transform: scale(1.05);
+}
+
+.nav-link-logout-btn:active {
+  transform: scale(0.97);
+}
+
+/* Hamburger Toggle Button */
+.navbar-toggle {
+  display: none;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* Hide mobile logout by default */
+.mobile-logout {
+  display: none;
+}
+
+/* =========================
+   MOBILE STYLES
+========================= */
+@media (max-width: 640px) {
+  .navbar-links {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #111827;
+    flex-direction: column;
+    width: 200px;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    display: none;
+  }
+
+  .navbar-links.open {
+    display: flex;
+  }
+
+  .navbar-toggle {
+    display: block;
+  }
+
+  .nav-link {
+    padding: 8px 0;
+    border-bottom: 1px solid #2c2c2c;
+  }
+
+  .nav-link:last-child {
+    border-bottom: none;
+  }
+
+  /* Hide desktop logout and show mobile logout inside menu */
+  .desktop-logout {
+    display: none;
+  }
+
+  .mobile-logout {
+    display: inline-flex;
+    margin-top: 10px;
+  }
+}

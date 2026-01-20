@@ -1,0 +1,297 @@
+/* =========================*/
+.notes-list-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px 16px;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+
+/* =========================
+   NotesList Page Container
+========================= */
+
+.notes-page {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px 16px;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.notes-page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  gap: 12px;
+}
+
+.notes-page-header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #3b2f2f;
+  margin: 0;
+}
+
+.add-note-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  background-color: #3b82f6;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.15s ease;
+}
+
+.add-note-btn:hover {
+  background-color: #2563eb;
+  transform: translateY(-1px);
+}
+
+.notes-list-header {
+  display: flex;
+  flex-wrap: wrap;
+  /* allow wrapping if needed */
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+  margin-top: 20px;
+}
+
+/* Title styling */
+.notes-list-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #3b2f2f;
+  margin: 0;
+  flex: 1 1 auto;
+  /* allow title to shrink */
+  min-width: 0;
+  /* important for flex-wrap to shrink correctly */
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+/* Button styling */
+.notes-add-note-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  background-color: #3b82f6;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.15s ease;
+  margin-left: auto;
+  /* always push to right */
+}
+
+.notes-add-note-btn:hover {
+  background-color: #2563eb;
+  transform: translateY(-1px);
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+  .notes-list-header {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .notes-list-title {
+    flex: 1 1 100%;
+    margin-bottom: 8px;
+  }
+
+  .notes-add-note-btn {
+    flex: 0 0 auto;
+    width: auto;
+    justify-content: center;
+  }
+}
+
+/* =========================
+   Notes Cards
+========================= */
+.notes-cards-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.notes-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  position: relative;
+}
+
+.notes-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.notes-card-header {
+  display: flex;
+  align-items: flex-start; /* align top of title and status */
+  gap: 8px;                /* space between title and status */
+  margin-bottom: 8px;
+  flex-wrap: wrap;         /* allow title to wrap */
+}
+
+
+.notes-card-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+  color: #92400e;
+  flex: 1 1 0;            /* grow to take space but allow wrapping */
+  min-width: 0;            /* crucial for flex wrapping */
+}
+
+
+.notes-card-body {
+  font-size: 0.9rem;
+  color: #374151;
+  margin-bottom: 8px;
+  max-height: 150px;
+  /* max height */
+  overflow: hidden;
+  display: -webkit-box;
+  /* for multiline ellipsis */
+  -webkit-line-clamp: 2;
+  /* number of lines to show */
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+.notes-card-status {
+  font-weight: 600;
+  font-size: 0.8rem;
+  padding: 4px 10px;
+  border-radius: 4px;
+  white-space: nowrap;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 1;
+  
+  /* Brush effect */
+  background: currentColor;
+  color: white;
+  clip-path: polygon(
+    0% 0%, 95% 0%, 100% 25%, 100% 75%, 95% 100%, 0% 100%
+  ); /* skewed edges */
+  text-align: center;
+}
+
+
+.notes-card-info {
+  font-size: 0.85rem;
+  color: #ff3c00;
+  margin-bottom: 8px;
+}
+
+.notes-card-actions {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+.note-action-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #8c8c8c;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 0.9rem;
+}
+
+.note-action-btn.edit {
+  color: #3b82f6;
+  border-color: #3b82f6;
+}
+
+.note-action-btn.edit:hover {
+  background-color: #3b82f6;
+  color: #fff;
+}
+
+.note-action-btn.delete {
+  color: #ef4444;
+  border-color: #ef4444;
+}
+
+.note-action-btn.delete:hover {
+  background-color: #ef4444;
+  color: #fff;
+}
+
+.note-action-btn.view {
+  color: #10b981;
+  border-color: #10b981;
+}
+
+.note-action-btn.view:hover {
+  background-color: #10b981;
+  color: #fff;
+}
+
+/* Empty message */
+.empty-message {
+  text-align: center;
+  color: #6b7280;
+  padding: 16px 0;
+  font-style: italic;
+}
+
+.notes-card-status.active {
+  background: #dbeafe; /* light blue */
+  color: #1e40af;      /* dark blue */
+}
+
+.notes-card-status.archived {
+  background: #fef3c7; /* light yellow */
+  color: #92400e;      /* dark yellow/orange */
+}
+
+.notes-card-status.learning {
+  background: #e0f2fe; /* sky blue */
+  color: #0369a1;      /* darker */
+}
+
+.notes-card-status.completed {
+  background: #dcfce7; /* light green */
+  color: #166534;      /* dark green */
+}
+
+.notes-card-status.review {
+  background: #fde2e2; /* light red/pink */
+  color: #b91c1c;      /* dark red */
+}

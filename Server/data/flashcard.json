@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "question": "What is 2 + 2?",
+    "answer": "4",
+    "explanation": "Adding two and two gives four."
+  },
+  {
+    "id": 2,
+    "question": "What is the derivative of x^2?",
+    "answer": "2x",
+    "explanation": "Use the power rule: d/dx[x^n] = n*x^(n-1)."
+  },
+  {
+    "id": 3,
+    "question": "What is the value of π (pi) approximately?",
+    "answer": "3.14159",
+    "explanation": "Pi is the ratio of the circumference of a circle to its diameter."
+  }
+]

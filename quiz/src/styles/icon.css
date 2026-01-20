@@ -1,0 +1,41 @@
+.custom-prev-button-home.hidden,
+.custom-next-button-home.hidden {
+  display: none;
+}
+
+.custom-prev-button-home,
+.custom-next-button-home {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #344bbd; 
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  transition: color 0.3s, transform 0.3s; 
+  display: block;
+  }
+
+.custom-prev-button-home {
+  left: 10px; 
+}
+
+.custom-next-button-home {
+  right: 10px; 
+}
+
+
+.custom-prev-button-home:hover,
+.custom-next-button-home:hover {
+  color: #0d7bf1; 
+  transform: translateY(-50%) scale(1.1); 
+}
+
+
+@media (max-width: 768px) {
+    .custom-prev-button-home,
+.custom-next-button-home {
+  display: none;
+}
+}

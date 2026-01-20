@@ -1,0 +1,169 @@
+.flashcards-page {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 24px 16px;
+    font-family: 'Inter', system-ui, sans-serif;
+}
+
+
+.flashcards-page-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 16px;
+    margin-top: 20px;
+}
+
+
+
+
+
+.flashcard-subject-cards-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 16px;
+    margin-top: 20px;
+}
+
+@media (max-width: 480px) {
+    .flashcard-subject-cards-wrapper {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+.flashcard-subject-card {
+    background-color: #fff7f0;
+    /* soft beige */
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    min-height: 150px;
+    max-width: 300px;
+}
+
+@media (max-width: 768px) {
+    .flashcard-subject-card {
+        max-width: none;
+    }
+}
+
+.flashcard-subject-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+/* Header: subject name + flashcard count */
+.flashcard-subject-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 12px;
+    gap: 8px;
+}
+
+.flashcard-subject-name {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #3b2f2f;
+
+    flex: 1 1 auto;
+    min-width: 0;
+    /* required for flex wrapping */
+    line-height: 1.3;
+
+    /* wrap long words */
+    overflow-wrap: break-word;
+    /* standard modern property */
+    word-wrap: break-word;
+    /* legacy support */
+    word-break: break-word;
+    /* breaks long words */
+}
+
+.flashcard-subject-count {
+    font-size: 0.85rem;
+    color: #8c6142;
+    background-color: #f0e4d8;
+    padding: 4px 8px;
+    border-radius: 6px;
+    flex-shrink: 0;
+    /* prevents badge from shrinking */
+    white-space: nowrap;
+    /* badge stays on one line */
+}
+
+/* Actions (button) */
+.flashcard-subject-card-actions {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flashcard-subject-btn {
+    padding: 8px 14px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #a67c52;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.15s ease;
+}
+
+.flashcard-subject-btn:hover {
+    background-color: #8c6142;
+    transform: translateY(-1px);
+}
+
+/* =========================
+   Mobile adjustments
+========================= */
+@media (max-width: 480px) {
+    .flashcard-subject-cards-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .flashcard-subject-card {
+        padding: 14px;
+    }
+
+    /* keep header row horizontal on mobile, let name wrap */
+    .flashcard-subject-card-header {
+        flex-direction: row;
+        /* don't stack */
+        align-items: flex-start;
+        gap: 8px;
+    }
+}
+
+/* Fallback / No flashcard */
+.no-flashcard-text {
+    font-size: 0.875rem;
+    color: #8c6142;
+    /* greyed out */
+    font-style: italic;
+    text-align: center;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 38px;
+    /* match button height */
+    border-radius: 8px;
+
+}
+
+/* Empty fallback for no subjects */
+.empty-message {
+    text-align: center;
+    font-style: italic;
+    color: #8c6142;
+    padding: 24px 0;
+    font-size: 1rem;
+}

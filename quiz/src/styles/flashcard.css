@@ -1,0 +1,562 @@
+/* =========================
+   Flashcards Page
+========================= */
+
+
+.flashcard-swiper-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem 0;
+}
+
+.mySwiper {
+  width: 100%;
+  max-width: 600px;
+  /* Cards won’t exceed 600px */
+  min-height: 70vh;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .mySwiper {
+    min-height: 60vh;
+  }
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* =========================
+   Page Container
+========================= */
+.subject-flashcards-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* =========================
+   Header
+========================= */
+.subject-flashcards-page header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+.subject-flashcards-page header h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #1f2937;
+  /* Dark gray-blue */
+  margin: 0;
+}
+
+.back-link {
+  font-size: 1rem;
+  color: #3b82f6;
+  /* Calm blue */
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.back-link:hover {
+  color: #1e40af;
+  /* Darker blue */
+}
+
+/* =========================
+   Add Flashcard Button
+========================= */
+.add-flashcard-con {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1.2em 1em;
+}
+
+.add-flashcard-con button {
+  font-size: 16px;
+  color: #1f2937;
+  /* dark text */
+  font-weight: bold;
+  padding: 0.7em 2em;
+  border: 2px solid #3b82f6;
+  /* blue border */
+  border-radius: 4px;
+  position: relative;
+  background: #e0e7ff;
+  /* subtle blue background */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: 0.3s ease all;
+  z-index: 1;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.add-flashcard-con button:hover {
+  background-color: #3b82f6;
+  color: #fff;
+  border-color: #3b82f6;
+}
+
+/* =========================
+   Flashcard
+========================= */
+
+/* Card background based on state */
+/* =========================
+   Card Container & Flip
+========================= */
+.card {
+  width: 90%;
+  max-width: 600px;
+  min-height: 400px;
+  perspective: 1000px;
+  margin: 0 auto;
+  border-radius: 0.6em;
+  position: relative;
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  min-height: 400px;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+  border-radius: 0.6em;
+  border: 3px solid transparent;
+  /* default border */
+  box-sizing: border-box;
+  background-color: transparent;
+}
+
+/* Flip effect */
+.card.flipped .card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Status Colors */
+.card.new .card-inner {
+  border: 3px solid #3b82f6;
+  background-color: #dbeafe;
+}
+
+.card.relearning .card-inner {
+  border: 3px solid #8b5cf6;
+  background-color: #ede9fe;
+}
+
+.card.review .card-inner {
+  border: 3px solid #16a34a;
+  background-color: #dcfce7;
+}
+
+.card.mastered .card-inner {
+  border: 3px solid #f59e0b;
+  background-color: #fef3c7;
+}
+
+
+
+
+.card.last-hard .card-inner {
+  border-color: #ef4444;
+}
+
+/* red */
+.card.last-good .card-inner {
+  border-color: #16a34a;
+}
+
+/* green */
+.card.last-easy .card-inner {
+  border-color: #10b981;
+}
+
+/* teal */
+
+
+/* Front & Back Faces */
+.front,
+.back {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  backface-visibility: hidden;
+  box-shadow: 0 0.4em 1.2em rgba(28, 28, 28, 0.08);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1em;
+  overflow: hidden;
+  background-color: transparent;
+  /* inner faces remain transparent */
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+
+/* Card Content */
+.question-div,
+.answer-div {
+  width: 100%;
+  min-height: 300px;
+  font-weight: 500;
+  overflow-wrap: break-word;
+  text-align: justify;
+}
+
+/* =========================
+   Buttons
+========================= */
+.buttons-con {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.buttons-con svg,
+.buttons-con button {
+  width: 40px;
+  height: 40px;
+  color: #3b82f6;
+  /* blue accent */
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.buttons-con button {
+  background: #f3f4f6;
+  border: 1px solid #3b82f6;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 0.2em 0.5em;
+}
+
+.buttons-con button:hover {
+  background-color: #3b82f6;
+  color: #fff;
+}
+
+/* Filter Buttons */
+/* =========================
+
+/* =========================
+   Flashcard Filters
+========================= */
+.flashcard-filters {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.flashcard-filters button {
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: all 0.2s ease;
+  color: #fff;
+  background-color: #6b7280;
+  /* default gray */
+}
+
+.flashcard-filters button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
+}
+
+/* State-specific colors */
+/* State-specific filter buttons */
+.flashcard-filters button.all {
+  background-color: #374151;
+  /* dark gray */
+  color: white;
+}
+
+.flashcard-filters button.new {
+  background-color: #3b82f6;
+  /* blue */
+  color: white;
+}
+
+.flashcard-filters button.review {
+  background-color: #16a34a;
+  /* green */
+  color: white;
+}
+
+.flashcard-filters button.relearning {
+  background-color: #8b5cf6;
+  /* purple */
+  color: white;
+}
+
+.flashcard-filters button.mastered {
+  background-color: #f59e0b;
+  /* orange */
+  color: white;
+}
+
+.flashcard-filters button.due {
+  background-color: #ef4444;
+  /* red */
+  color: white;
+}
+
+/* Optional: highlight active button */
+.flashcard-filters button.active {
+  outline: 2px solid #000;
+  transform: scale(1.05);
+}
+
+/* Active filter */
+.flashcard-filters button.active {
+  border: 2px solid #111827;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+
+/* =========================
+   Footer & Explanation
+========================= */
+.card-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+.card-actions {
+  display: flex;
+  gap: 0.6rem;
+  justify-content: flex-end;
+}
+
+.card-actions svg {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+  transition: color 0.2s ease, transform 0.15s ease;
+}
+
+/* Speaker */
+.card-actions .icon-speak {
+  color: #3b82f6;
+  /* blue */
+}
+
+.card-actions .icon-speak:hover {
+  color: #2563eb;
+}
+
+/* Edit */
+.card-actions .icon-edit {
+  color: #10b981;
+  /* green */
+}
+
+.card-actions .icon-edit:hover {
+  color: #059669;
+}
+
+/* Delete */
+.card-actions .icon-delete {
+  color: #ef4444;
+  /* red */
+}
+
+.card-actions .icon-delete:hover {
+  color: #dc2626;
+}
+
+/* Optional: subtle hover lift */
+.card-actions svg:hover {
+  transform: translateY(-1px);
+}
+
+
+.review-actions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+}
+
+.review-actions button {
+  padding: 0.5rem 0;
+  border-radius: 6px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.review-actions button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.btn-hard {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.btn-good {
+  background: #e0e7ff;
+  color: #1e40af;
+}
+
+.btn-easy {
+  background: #dcfce7;
+  color: #166534;
+}
+
+
+
+
+
+.flashcard-explanation {
+  background-color: #e0e7ff;
+  /* subtle blue */
+  border-left: 4px solid #3b82f6;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #1f2937;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  /* space between label, text, and speaker */
+  flex-wrap: wrap;
+  word-wrap: break-word;
+}
+
+.explanation-label {
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.explanation-text {
+  flex: 1;
+  min-width: 0;
+  /* ensures text wraps correctly */
+}
+
+.explanation-speaker {
+  width: 24px;
+  height: 24px;
+  color: #3b82f6;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: 0.2s ease;
+}
+
+.explanation-speaker:hover {
+  color: #1e40af;
+}
+
+
+/* =========================
+   Responsive
+========================= */
+@media (max-width: 640px) {
+  .card {
+    width: 90%;
+    min-height: 350px;
+  }
+}
+
+@media (max-width: 450px) {
+  body {
+    font-size: 14px;
+  }
+
+  .card {
+    width: 95%;
+  }
+}
+
+
+
+
+
+
+.flashcard-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-group label {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.flashcard-form input,
+.flashcard-form select,
+.flashcard-form textarea {
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 0.95rem;
+}
+
+.flashcard-form textarea {
+  resize: vertical;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.btn-primary {
+  background: #2563eb;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.btn-secondary {
+  background: #e5e7eb;
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}

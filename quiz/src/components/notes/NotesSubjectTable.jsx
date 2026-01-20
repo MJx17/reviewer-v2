@@ -1,0 +1,74 @@
+// src/components/notes/NotesSubjectTable.jsx
+import { useState } from "react";
+import PropTypes from "prop-types";
+import Pagination from "../ui/pagination";
+
+const ITEMS_PER_PAGE = 9;
+
+export default function NotesSubjectTable({ subjects, notes, onSelect }) {
+  const [page, setPage] = useState(1);
+
+  const getNoteCount = (subjectId) =>
+    notes.filter((n) => n.subjectId === subjectId).length;
+
+  if (!subjects || subjects.length === 0) {
+    return (
+      <p className="empty-message">
+        No subjects available. Please add a subject first.
+      </p>
+    );
+  }
+
+  const totalPages = Math.ceil(subjects.length / ITEMS_PER_PAGE);
+
+  const paginatedSubjects = subjects.slice(
+    (page - 1) * ITEMS_PER_PAGE,
+    page * ITEMS_PER_PAGE
+  );
+
+  return (
+    <>
+      <div className="notes-subject-cards-wrapper">
+        {paginatedSubjects.map((subject) => {
+          const count = getNoteCount(subject._id);
+
+          return (
+            <div key={subject._id} className="notes-subject-card">
+              <div className="notes-subject-card-header">
+                <span className="notes-subject-name">{subject.name}</span>
+                <span className="notes-subject-count">
+                  {count} {count === 1 ? "Note" : "Notes"}
+                </span>
+              </div>
+
+              <div className="notes-subject-card-actions">
+                {count > 0 ? (
+                  <button
+                    className="notes-subject-btn"
+                    onClick={() => onSelect(subject)}
+                  >
+                    View
+                  </button>
+                ) : (
+                  <span className="no-notes-text">No notes yet</span>
+                )}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+
+      <Pagination
+        currentPage={page}
+        totalPages={totalPages}
+        onPageChange={setPage}
+      />
+    </>
+  );
+}
+
+NotesSubjectTable.propTypes = {
+  subjects: PropTypes.array.isRequired,
+  notes: PropTypes.array.isRequired,
+  onSelect: PropTypes.func.isRequired,
+};
