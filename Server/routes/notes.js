@@ -1,5 +1,5 @@
 const express = require("express");
-const Note = require("../models/Note");
+const Note = require("../Models/Note");
 const bodyParser = require("body-parser"); // ensure we can set limits
 
 const router = express.Router();

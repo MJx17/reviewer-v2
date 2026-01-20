@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const Flashcard = require("../models/FlashCard"); // adjust path if needed
+const Flashcard = require("../Models/FlashCard"); // adjust path if needed
 
 // ========================
 // GET all flashcards (optionally by subject)
