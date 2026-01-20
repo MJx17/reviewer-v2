@@ -2,7 +2,7 @@
 const nodemailer = require("nodemailer");
 const crypto = require("crypto");
 const bcrypt = require("bcryptjs");
-const User = require("../models/user");
+const User = require("../Models/user");
 
 // Utility response helper
 const sendResponse = (res, statusCode, data) => {
