@@ -14,7 +14,7 @@ import PublicLayout from "./layouts/publicLayout";
 import ProtectedLayout from "./layouts/protectedLayout";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import "./app.css";
+import "./App.css";
 import Unauthorized from "./pages/Unauthorized";
 import ForgotPassword from "./pages/ForgotPassword";
 import ResetPassword from "./pages/ResetPassword";
