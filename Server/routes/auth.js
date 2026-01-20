@@ -1,17 +1,16 @@
 // routes/userRoutes.js
 const express = require('express');
 const router = express.Router();
-const userController = require('../controller/AuthController');
-const authenticateUser = require('../middleware/authMiddleware');
+const userController = require('../controllers/AuthController');
 
-router.post('/login', userController.loginUser);
+
+
 router.post('/logout', userController.logoutUser);
 router.post('/refresh', userController.refreshToken);
 router.post('/create', userController.createUser);
-
+router.post('/login', userController.loginUser);
 // Protected route example
-router.get('/profile', authenticateUser, (req, res) => {
-  res.json({ message: 'User is authenticated!', user: req.user });
-});
+router.get("/profile", userController.getProfile);
+
 
 module.exports = router;

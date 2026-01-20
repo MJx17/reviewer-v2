@@ -1,0 +1,3003 @@
+[
+    {
+        "id": 1,
+        "question": "What law governs the practice of Medical Technology in the Philippines?",
+        "answer": "Republic Act No. 5527",
+        "explanation": "RA 5527 is the Philippine Medical Technology Act of 1969."
+    },
+    {
+        "id": 2,
+        "question": "What is the full title of RA 5527?",
+        "answer": "Philippine Medical Technology Act of 1969",
+        "explanation": "It defines the scope and regulation of Medical Technology practice."
+    },
+    {
+        "id": 3,
+        "question": "Which body regulates Medical Technologists?",
+        "answer": "Professional Regulation Commission (PRC)",
+        "explanation": "PRC supervises professional regulation through respective boards."
+    },
+    {
+        "id": 4,
+        "question": "Which board governs Medical Technologists under PRC?",
+        "answer": "Board of Medical Technology",
+        "explanation": "The board formulates rules and administers licensure exams."
+    },
+    {
+        "id": 5,
+        "question": "How many members compose the Board of Medical Technology?",
+        "answer": "One Chairman and two Members",
+        "explanation": "They are appointed by the President of the Philippines."
+    },
+    {
+        "id": 6,
+        "question": "Who appoints the Board of Medical Technology members?",
+        "answer": "President of the Philippines",
+        "explanation": "Appointments are made upon recommendation of PRC."
+    },
+    {
+        "id": 7,
+        "question": "What is the term of office of the Board members?",
+        "answer": "Three years",
+        "explanation": "They may be reappointed subject to existing rules."
+    },
+    {
+        "id": 8,
+        "question": "What degree is required to take the MedTech licensure exam?",
+        "answer": "BS Medical Technology or BS Medical Laboratory Science",
+        "explanation": "Degree must be from a recognized institution."
+    },
+    {
+        "id": 9,
+        "question": "Who administers the MedTech licensure examination?",
+        "answer": "PRC through the Board of Medical Technology",
+        "explanation": "The board prepares and rates the exam."
+    },
+    {
+        "id": 10,
+        "question": "What is the passing average for the MedTech board exam?",
+        "answer": "75%",
+        "explanation": "No rating below 50% in any subject."
+    },
+    {
+        "id": 11,
+        "question": "Who is allowed to practice Medical Technology?",
+        "answer": "Registered Medical Technologists",
+        "explanation": "They must possess a valid Certificate of Registration."
+    },
+    {
+        "id": 12,
+        "question": "What document authorizes a MedTech to practice?",
+        "answer": "Certificate of Registration and Professional ID",
+        "explanation": "Issued by the PRC."
+    },
+    {
+        "id": 13,
+        "question": "What is the oath-taking requirement?",
+        "answer": "Mandatory before practice",
+        "explanation": "Passing the exam alone does not authorize practice."
+    },
+    {
+        "id": 14,
+        "question": "Who may supervise a medical laboratory?",
+        "answer": "Pathologist or qualified physician",
+        "explanation": "As required by RA 5527."
+    },
+    {
+        "id": 15,
+        "question": "Who performs laboratory tests under supervision?",
+        "answer": "Registered Medical Technologist",
+        "explanation": "Must work under a pathologist or physician."
+    },
+    {
+        "id": 16,
+        "question": "What law governs continuing professional development?",
+        "answer": "Republic Act No. 10912",
+        "explanation": "CPD is required for license renewal."
+    },
+    {
+        "id": 17,
+        "question": "How many CPD units are generally required for renewal?",
+        "answer": "15 CPD units",
+        "explanation": "Subject to current PRC resolutions."
+    },
+    {
+        "id": 18,
+        "question": "What law regulates clinical laboratories?",
+        "answer": "Republic Act No. 4688",
+        "explanation": "Also known as the Clinical Laboratory Law."
+    },
+    {
+        "id": 19,
+        "question": "Which agency licenses clinical laboratories?",
+        "answer": "Department of Health (DOH)",
+        "explanation": "Through the Bureau of Health Facilities."
+    },
+    {
+        "id": 20,
+        "question": "Who may sign laboratory results?",
+        "answer": "Pathologist",
+        "explanation": "MedTechs perform tests but do not sign results."
+    },
+    {
+        "id": 21,
+        "question": "What is the scope of practice of a MedTech?",
+        "answer": "Performance of laboratory examinations",
+        "explanation": "Includes analysis of blood, body fluids, and tissues."
+    },
+    {
+        "id": 22,
+        "question": "Is private practice allowed for MedTechs?",
+        "answer": "No",
+        "explanation": "MedTechs must work under supervision."
+    },
+    {
+        "id": 23,
+        "question": "What is the penalty for illegal practice?",
+        "answer": "Fine or imprisonment or both",
+        "explanation": "As prescribed under RA 5527."
+    },
+    {
+        "id": 24,
+        "question": "What act is considered illegal practice?",
+        "answer": "Practicing without a valid license",
+        "explanation": "Includes expired or revoked licenses."
+    },
+    {
+        "id": 25,
+        "question": "What is revocation of license?",
+        "answer": "Permanent removal of right to practice",
+        "explanation": "Due to grave violations."
+    },
+    {
+        "id": 26,
+        "question": "What is suspension of license?",
+        "answer": "Temporary prohibition from practice",
+        "explanation": "Duration depends on offense."
+    },
+    {
+        "id": 27,
+        "question": "What body hears administrative cases?",
+        "answer": "Board of Medical Technology",
+        "explanation": "Subject to PRC rules."
+    },
+    {
+        "id": 28,
+        "question": "What ethical principle requires confidentiality?",
+        "answer": "Respect for patient privacy",
+        "explanation": "Laboratory results are confidential."
+    },
+    {
+        "id": 29,
+        "question": "What law protects patient information?",
+        "answer": "Data Privacy Act of 2012 (RA 10173)",
+        "explanation": "Covers handling of patient data."
+    },
+    {
+        "id": 30,
+        "question": "Who accredits training laboratories?",
+        "answer": "CHED and DOH",
+        "explanation": "They ensure quality training."
+    },
+    {
+        "id": 31,
+        "question": "What is malpractice?",
+        "answer": "Negligent professional conduct",
+        "explanation": "Failure to meet standard of care."
+    },
+    {
+        "id": 32,
+        "question": "What is negligence?",
+        "answer": "Failure to exercise due care",
+        "explanation": "May result in harm to patient."
+    },
+    {
+        "id": 33,
+        "question": "What is the MedTech Code of Ethics?",
+        "answer": "Set of professional moral principles",
+        "explanation": "Guides proper professional behavior."
+    },
+    {
+        "id": 34,
+        "question": "Who enforces the MedTech Code of Ethics?",
+        "answer": "Board of Medical Technology",
+        "explanation": "Violations may lead to sanctions."
+    },
+    {
+        "id": 35,
+        "question": "Can a MedTech refuse to perform a test?",
+        "answer": "Yes, if unethical or unsafe",
+        "explanation": "Patient safety is paramount."
+    },
+    {
+        "id": 36,
+        "question": "What law created the PRC?",
+        "answer": "Presidential Decree No. 223",
+        "explanation": "Issued in 1973."
+    },
+    {
+        "id": 37,
+        "question": "What is professional misconduct?",
+        "answer": "Violation of laws or ethics",
+        "explanation": "Grounds for disciplinary action."
+    },
+    {
+        "id": 38,
+        "question": "Who may revoke a MedTech license?",
+        "answer": "PRC upon recommendation of the Board",
+        "explanation": "After due process."
+    },
+    {
+        "id": 39,
+        "question": "What is gross incompetence?",
+        "answer": "Lack of ability to perform duties",
+        "explanation": "Ground for suspension or revocation."
+    },
+    {
+        "id": 40,
+        "question": "What law governs HIV testing?",
+        "answer": "RA 11166",
+        "explanation": "Philippine HIV and AIDS Policy Act."
+    },
+    {
+        "id": 41,
+        "question": "Who may perform HIV testing?",
+        "answer": "Trained and certified MedTechs",
+        "explanation": "Must follow DOH protocols."
+    },
+    {
+        "id": 42,
+        "question": "What law governs drug testing?",
+        "answer": "RA 9165",
+        "explanation": "Comprehensive Dangerous Drugs Act."
+    },
+    {
+        "id": 43,
+        "question": "What is chain of custody?",
+        "answer": "Documented handling of specimens",
+        "explanation": "Critical in drug testing."
+    },
+    {
+        "id": 44,
+        "question": "What law protects workers' safety?",
+        "answer": "RA 11058",
+        "explanation": "Occupational safety and health law."
+    },
+    {
+        "id": 45,
+        "question": "What agency issues lab biosafety guidelines?",
+        "answer": "Department of Health",
+        "explanation": "Ensures laboratory safety."
+    },
+    {
+        "id": 46,
+        "question": "What is informed consent?",
+        "answer": "Permission after full disclosure",
+        "explanation": "Required before procedures."
+    },
+    {
+        "id": 47,
+        "question": "Who owns laboratory results?",
+        "answer": "Patient",
+        "explanation": "Results are confidential medical records."
+    },
+    {
+        "id": 48,
+        "question": "What is professional accountability?",
+        "answer": "Responsibility for actions",
+        "explanation": "MedTechs answer for their work."
+    },
+    {
+        "id": 49,
+        "question": "What is a training certificate?",
+        "answer": "Proof of internship completion",
+        "explanation": "Required for board exam application."
+    },
+    {
+        "id": 50,
+        "question": "What is reciprocity?",
+        "answer": "Recognition of foreign professionals",
+        "explanation": "Allowed if reciprocal agreement exists."
+    },
+    {
+        "id": 51,
+        "question": "Can foreigners practice MedTech in PH?",
+        "answer": "Only with reciprocity",
+        "explanation": "Must meet PRC requirements."
+    },
+    {
+        "id": 52,
+        "question": "What is the purpose of licensure exam?",
+        "answer": "Ensure competence and public safety",
+        "explanation": "Protects patients."
+    },
+    {
+        "id": 53,
+        "question": "What is laboratory accreditation?",
+        "answer": "Certification of quality standards",
+        "explanation": "Ensures reliable lab services."
+    },
+    {
+        "id": 54,
+        "question": "Who accredits laboratories?",
+        "answer": "DOH",
+        "explanation": "Based on standards and compliance."
+    },
+    {
+        "id": 55,
+        "question": "What is unethical advertising?",
+        "answer": "False or misleading promotion",
+        "explanation": "Prohibited under ethics."
+    },
+    {
+        "id": 56,
+        "question": "Can MedTechs receive commissions?",
+        "answer": "No",
+        "explanation": "Considered unethical."
+    },
+    {
+        "id": 57,
+        "question": "What is dual practice?",
+        "answer": "Holding conflicting roles",
+        "explanation": "May lead to ethical violations."
+    },
+    {
+        "id": 58,
+        "question": "What is patient abandonment?",
+        "answer": "Unjustified refusal of service",
+        "explanation": "Considered unethical."
+    },
+    {
+        "id": 59,
+        "question": "What law protects consumers?",
+        "answer": "RA 7394",
+        "explanation": "Consumer Act of the Philippines."
+    },
+    {
+        "id": 60,
+        "question": "What is falsification of results?",
+        "answer": "Intentional alteration of data",
+        "explanation": "Grounds for license revocation."
+    },
+    {
+        "id": 61,
+        "question": "What is quality assurance?",
+        "answer": "System to ensure accurate results",
+        "explanation": "Required in laboratories."
+    },
+    {
+        "id": 62,
+        "question": "What is professional integrity?",
+        "answer": "Honesty and ethical conduct",
+        "explanation": "Essential in practice."
+    },
+    {
+        "id": 63,
+        "question": "Who keeps the MedTech registry?",
+        "answer": "PRC",
+        "explanation": "Official list of licensed professionals."
+    },
+    {
+        "id": 64,
+        "question": "What is the role of CHED?",
+        "answer": "Regulates MedTech education",
+        "explanation": "Ensures curriculum standards."
+    },
+    {
+        "id": 65,
+        "question": "What is professional discipline?",
+        "answer": "Corrective action for violations",
+        "explanation": "Ensures ethical practice."
+    },
+    {
+        "id": 66,
+        "question": "What is continuing education?",
+        "answer": "Lifelong professional learning",
+        "explanation": "Required for competence."
+    },
+    {
+        "id": 67,
+        "question": "What law protects women and children?",
+        "answer": "RA 7610",
+        "explanation": "Special Protection Act."
+    },
+    {
+        "id": 68,
+        "question": "What is scope limitation?",
+        "answer": "Practicing only authorized tasks",
+        "explanation": "Prevents illegal practice."
+    },
+    {
+        "id": 69,
+        "question": "What is delegation?",
+        "answer": "Assigning tasks appropriately",
+        "explanation": "Must follow legal limits."
+    },
+    {
+        "id": 70,
+        "question": "What is professional liability?",
+        "answer": "Legal responsibility for actions",
+        "explanation": "Includes errors and omissions."
+    },
+    {
+        "id": 71,
+        "question": "What is ethics violation?",
+        "answer": "Breach of moral standards",
+        "explanation": "Subject to penalties."
+    },
+    {
+        "id": 72,
+        "question": "What is lab safety compliance?",
+        "answer": "Following safety protocols",
+        "explanation": "Protects staff and patients."
+    },
+    {
+        "id": 73,
+        "question": "What law governs blood services?",
+        "answer": "RA 7719",
+        "explanation": "National Blood Services Act."
+    },
+    {
+        "id": 74,
+        "question": "Who may collect blood?",
+        "answer": "Trained Medical Technologists",
+        "explanation": "Must follow DOH guidelines."
+    },
+    {
+        "id": 75,
+        "question": "What is professional independence?",
+        "answer": "Objective judgment",
+        "explanation": "Free from undue influence."
+    },
+    {
+        "id": 76,
+        "question": "What is conflict of interest?",
+        "answer": "Personal interest affecting duty",
+        "explanation": "Must be avoided."
+    },
+    {
+        "id": 77,
+        "question": "What is ethical decision-making?",
+        "answer": "Choosing morally right actions",
+        "explanation": "Based on laws and ethics."
+    },
+    {
+        "id": 78,
+        "question": "What is laboratory governance?",
+        "answer": "Proper management and oversight",
+        "explanation": "Ensures quality service."
+    },
+    {
+        "id": 79,
+        "question": "What is professional respect?",
+        "answer": "Proper conduct with colleagues",
+        "explanation": "Promotes teamwork."
+    },
+    {
+        "id": 80,
+        "question": "What is legal compliance?",
+        "answer": "Following laws and regulations",
+        "explanation": "Mandatory for practice."
+    },
+    {
+        "id": 81,
+        "question": "What is disciplinary action?",
+        "answer": "Penalty for violations",
+        "explanation": "Includes suspension or revocation."
+    },
+    {
+        "id": 82,
+        "question": "What is moral turpitude?",
+        "answer": "Act of baseness or depravity",
+        "explanation": "Ground for license revocation."
+    },
+    {
+        "id": 83,
+        "question": "What is professional courtesy?",
+        "answer": "Respectful professional behavior",
+        "explanation": "Part of ethics."
+    },
+    {
+        "id": 84,
+        "question": "What is informed refusal?",
+        "answer": "Patient declines procedure knowingly",
+        "explanation": "Must be respected."
+    },
+    {
+        "id": 85,
+        "question": "What is ethical accountability?",
+        "answer": "Answerability for ethical conduct",
+        "explanation": "Ensures trust."
+    },
+    {
+        "id": 86,
+        "question": "What is professional competence?",
+        "answer": "Ability to perform duties safely",
+        "explanation": "Maintained through CPD."
+    },
+    {
+        "id": 87,
+        "question": "What is legal sanction?",
+        "answer": "Penalty imposed by law",
+        "explanation": "For violations."
+    },
+    {
+        "id": 88,
+        "question": "What is professional dignity?",
+        "answer": "Maintaining honor of profession",
+        "explanation": "Upholds public trust."
+    },
+    {
+        "id": 89,
+        "question": "What is patient advocacy?",
+        "answer": "Protecting patient rights",
+        "explanation": "Ethical obligation."
+    },
+    {
+        "id": 90,
+        "question": "What is documentation?",
+        "answer": "Accurate record keeping",
+        "explanation": "Legal and clinical importance."
+    },
+    {
+        "id": 91,
+        "question": "What is ethical compliance?",
+        "answer": "Adherence to code of ethics",
+        "explanation": "Required for practice."
+    },
+    {
+        "id": 92,
+        "question": "What is professional responsibility?",
+        "answer": "Duty to patients and society",
+        "explanation": "Core of MedTech practice."
+    },
+    {
+        "id": 93,
+        "question": "What is lawful order?",
+        "answer": "Request consistent with law",
+        "explanation": "Must be followed."
+    },
+    {
+        "id": 94,
+        "question": "What is unethical conduct?",
+        "answer": "Action against moral standards",
+        "explanation": "Punishable offense."
+    },
+    {
+        "id": 95,
+        "question": "What is professional loyalty?",
+        "answer": "Faithfulness to profession",
+        "explanation": "Balanced with ethics."
+    },
+    {
+        "id": 96,
+        "question": "What is accountability to society?",
+        "answer": "Serving public interest",
+        "explanation": "Primary goal of licensure."
+    },
+    {
+        "id": 97,
+        "question": "What is professional self-regulation?",
+        "answer": "Maintaining standards internally",
+        "explanation": "Through PRC and board."
+    },
+    {
+        "id": 98,
+        "question": "What is ethical leadership?",
+        "answer": "Leading with integrity",
+        "explanation": "Promotes ethical culture."
+    },
+    {
+        "id": 99,
+        "question": "What is legal responsibility?",
+        "answer": "Obligation under the law",
+        "explanation": "Applies to all practitioners."
+    },
+    {
+        "id": 100,
+        "question": "What is the primary purpose of MedTech laws?",
+        "answer": "Protection of public health",
+        "explanation": "Ensures safe and competent laboratory services."
+    },
+    {
+        "id": 101,
+        "question": "What is the legal basis for MedTech licensure?",
+        "answer": "Police power of the State",
+        "explanation": "Licensure ensures protection of public health and safety."
+    },
+    {
+        "id": 102,
+        "question": "What branch of government issues professional licenses?",
+        "answer": "Executive branch",
+        "explanation": "Through the Professional Regulation Commission."
+    },
+    {
+        "id": 103,
+        "question": "What is the purpose of professional regulation?",
+        "answer": "To ensure competence and ethical practice",
+        "explanation": "Protects the public from incompetent practitioners."
+    },
+    {
+        "id": 104,
+        "question": "What is a Certificate of Registration?",
+        "answer": "Proof of passing the licensure examination",
+        "explanation": "Issued by PRC after oath-taking."
+    },
+    {
+        "id": 105,
+        "question": "What is a Professional Identification Card (PIC)?",
+        "answer": "License to practice the profession",
+        "explanation": "Must be renewed periodically."
+    },
+    {
+        "id": 106,
+        "question": "What is the validity period of a PRC license?",
+        "answer": "Three years",
+        "explanation": "Subject to renewal requirements."
+    },
+    {
+        "id": 107,
+        "question": "What happens if a MedTech practices without a license?",
+        "answer": "Illegal practice",
+        "explanation": "Punishable under RA 5527."
+    },
+    {
+        "id": 108,
+        "question": "What is estafa in relation to practice?",
+        "answer": "Fraudulent misrepresentation",
+        "explanation": "Claiming to be a licensed MedTech when not."
+    },
+    {
+        "id": 109,
+        "question": "What is due process?",
+        "answer": "Right to fair hearing",
+        "explanation": "Required before disciplinary action."
+    },
+    {
+        "id": 110,
+        "question": "What is administrative liability?",
+        "answer": "Liability under regulatory laws",
+        "explanation": "Handled by PRC and the Board."
+    },
+    {
+        "id": 111,
+        "question": "What is civil liability?",
+        "answer": "Liability for damages",
+        "explanation": "May arise from negligence."
+    },
+    {
+        "id": 112,
+        "question": "What is criminal liability?",
+        "answer": "Liability for violation of penal laws",
+        "explanation": "Includes fines or imprisonment."
+    },
+    {
+        "id": 113,
+        "question": "What is vicarious liability?",
+        "answer": "Employer liable for employee acts",
+        "explanation": "Applies in hospital settings."
+    },
+    {
+        "id": 114,
+        "question": "What doctrine holds professionals liable for negligence?",
+        "answer": "Doctrine of Res Ipsa Loquitur",
+        "explanation": "The act speaks for itself."
+    },
+    {
+        "id": 115,
+        "question": "What is standard of care?",
+        "answer": "Level of competence expected",
+        "explanation": "Based on reasonable MedTech practice."
+    },
+    {
+        "id": 116,
+        "question": "What is the primary duty of a MedTech?",
+        "answer": "Accuracy of laboratory results",
+        "explanation": "Errors may endanger patient life."
+    },
+    {
+        "id": 117,
+        "question": "What is falsification of documents?",
+        "answer": "Altering official records",
+        "explanation": "Serious offense under law."
+    },
+    {
+        "id": 118,
+        "question": "What is gross negligence?",
+        "answer": "Lack of even slight care",
+        "explanation": "Ground for license revocation."
+    },
+    {
+        "id": 119,
+        "question": "What is the legal age to take the MedTech board exam?",
+        "answer": "At least 21 years old",
+        "explanation": "As required under RA 5527."
+    },
+    {
+        "id": 120,
+        "question": "What moral requirement is needed for board exam applicants?",
+        "answer": "Good moral character",
+        "explanation": "Certified by appropriate authorities."
+    },
+    {
+        "id": 121,
+        "question": "What is cheating in licensure exams?",
+        "answer": "Use of unauthorized materials",
+        "explanation": "Grounds for disqualification."
+    },
+    {
+        "id": 122,
+        "question": "What is impersonation?",
+        "answer": "Taking exam for another person",
+        "explanation": "Criminal offense."
+    },
+    {
+        "id": 123,
+        "question": "What is ethical competence?",
+        "answer": "Ability to make moral decisions",
+        "explanation": "Required in professional practice."
+    },
+    {
+        "id": 124,
+        "question": "What is patient confidentiality?",
+        "answer": "Protection of patient information",
+        "explanation": "Mandatory ethical duty."
+    },
+    {
+        "id": 125,
+        "question": "When may patient information be disclosed?",
+        "answer": "With consent or legal order",
+        "explanation": "Allowed under specific circumstances."
+    },
+    {
+        "id": 126,
+        "question": "What law covers medico-legal cases?",
+        "answer": "Revised Penal Code",
+        "explanation": "Applies to crimes and offenses."
+    },
+    {
+        "id": 127,
+        "question": "What is professional secrecy?",
+        "answer": "Duty to keep patient data private",
+        "explanation": "Violation may incur liability."
+    },
+    {
+        "id": 128,
+        "question": "What is competence by training?",
+        "answer": "Skills gained through education",
+        "explanation": "Verified during internship."
+    },
+    {
+        "id": 129,
+        "question": "What is competence by experience?",
+        "answer": "Skills gained through practice",
+        "explanation": "Enhanced through continued work."
+    },
+    {
+        "id": 130,
+        "question": "What is self-regulation in professions?",
+        "answer": "Profession governs its own members",
+        "explanation": "Through boards and codes."
+    },
+    {
+        "id": 131,
+        "question": "What is ethical responsibility to coworkers?",
+        "answer": "Respect and cooperation",
+        "explanation": "Promotes harmonious workplace."
+    },
+    {
+        "id": 132,
+        "question": "What is laboratory error?",
+        "answer": "Incorrect test result",
+        "explanation": "May be pre-analytical, analytical, or post-analytical."
+    },
+    {
+        "id": 133,
+        "question": "What phase is patient identification part of?",
+        "answer": "Pre-analytical phase",
+        "explanation": "Common source of errors."
+    },
+    {
+        "id": 134,
+        "question": "Who is responsible for specimen integrity?",
+        "answer": "Medical Technologist",
+        "explanation": "From collection to analysis."
+    },
+    {
+        "id": 135,
+        "question": "What is quality control?",
+        "answer": "Routine checks for accuracy",
+        "explanation": "Required in laboratory operations."
+    },
+    {
+        "id": 136,
+        "question": "What is quality assurance?",
+        "answer": "Overall system ensuring quality",
+        "explanation": "Includes QC and audits."
+    },
+    {
+        "id": 137,
+        "question": "What is ethical competence in reporting?",
+        "answer": "Honest and accurate results",
+        "explanation": "No alteration or concealment."
+    },
+    {
+        "id": 138,
+        "question": "What is whistleblowing?",
+        "answer": "Reporting unethical acts",
+        "explanation": "May be ethically justified."
+    },
+    {
+        "id": 139,
+        "question": "What is conflict of interest?",
+        "answer": "Personal gain affecting judgment",
+        "explanation": "Must be avoided."
+    },
+    {
+        "id": 140,
+        "question": "What is professional accountability to patients?",
+        "answer": "Ensuring safe and accurate service",
+        "explanation": "Primary ethical duty."
+    },
+    {
+        "id": 141,
+        "question": "What is professional accountability to society?",
+        "answer": "Protect public health",
+        "explanation": "Main goal of regulation."
+    },
+    {
+        "id": 142,
+        "question": "What is continuing competence?",
+        "answer": "Maintaining skills over time",
+        "explanation": "Achieved through CPD."
+    },
+    {
+        "id": 143,
+        "question": "What is legal compliance in laboratories?",
+        "answer": "Following laws and DOH rules",
+        "explanation": "Mandatory for operation."
+    },
+    {
+        "id": 144,
+        "question": "What is ethical leadership in labs?",
+        "answer": "Leading by moral example",
+        "explanation": "Promotes ethical culture."
+    },
+    {
+        "id": 145,
+        "question": "What is patient-centered care?",
+        "answer": "Care focused on patient welfare",
+        "explanation": "Ethical obligation."
+    },
+    {
+        "id": 146,
+        "question": "What is professional misconduct?",
+        "answer": "Violation of laws or ethics",
+        "explanation": "Grounds for discipline."
+    },
+    {
+        "id": 147,
+        "question": "What is unethical delegation?",
+        "answer": "Assigning tasks to unqualified persons",
+        "explanation": "Illegal and unsafe."
+    },
+    {
+        "id": 148,
+        "question": "What is supervisory responsibility?",
+        "answer": "Oversight of laboratory staff",
+        "explanation": "Ensures quality and safety."
+    },
+    {
+        "id": 149,
+        "question": "What is lawful practice?",
+        "answer": "Practice within legal scope",
+        "explanation": "Defined by RA 5527."
+    },
+    {
+        "id": 150,
+        "question": "What is professional ethics?",
+        "answer": "Moral principles governing practice",
+        "explanation": "Guides professional conduct."
+    },
+    {
+        "id": 151,
+        "question": "What is legal prohibition?",
+        "answer": "Acts forbidden by law",
+        "explanation": "Violation leads to penalties."
+    },
+    {
+        "id": 152,
+        "question": "What is laboratory licensure?",
+        "answer": "Authority to operate a lab",
+        "explanation": "Issued by DOH."
+    },
+    {
+        "id": 153,
+        "question": "What is professional trust?",
+        "answer": "Confidence of public in MedTechs",
+        "explanation": "Built through ethical practice."
+    },
+    {
+        "id": 154,
+        "question": "What is accountability for errors?",
+        "answer": "Owning and correcting mistakes",
+        "explanation": "Ethical and professional duty."
+    },
+    {
+        "id": 155,
+        "question": "What is ethical transparency?",
+        "answer": "Openness in professional actions",
+        "explanation": "Builds trust."
+    },
+    {
+        "id": 156,
+        "question": "What is professional self-improvement?",
+        "answer": "Continuous learning",
+        "explanation": "Maintains competence."
+    },
+    {
+        "id": 157,
+        "question": "What is the ultimate goal of MedTech laws?",
+        "answer": "Public protection",
+        "explanation": "Ensures quality healthcare."
+    },
+    {
+        "id": 158,
+        "question": "What is ethical professionalism?",
+        "answer": "Competence with integrity",
+        "explanation": "Core of MedTech practice."
+    },
+    {
+        "id": 159,
+        "question": "What is disciplinary jurisdiction?",
+        "answer": "Authority to discipline members",
+        "explanation": "Vested in PRC and Board."
+    },
+    {
+        "id": 160,
+        "question": "What is public accountability?",
+        "answer": "Answerability to society",
+        "explanation": "Reason for licensure."
+    },
+    {
+        "id": 161,
+        "question": "What is ethical maturity?",
+        "answer": "Ability to resolve moral issues",
+        "explanation": "Developed through experience."
+    },
+    {
+        "id": 162,
+        "question": "What is legal ethics?",
+        "answer": "Ethics based on law",
+        "explanation": "Mandatory compliance."
+    },
+    {
+        "id": 163,
+        "question": "What is moral integrity?",
+        "answer": "Consistency of ethical values",
+        "explanation": "Essential trait of professionals."
+    },
+    {
+        "id": 164,
+        "question": "What is ethical obligation?",
+        "answer": "Moral duty to act rightly",
+        "explanation": "Beyond legal requirements."
+    },
+    {
+        "id": 165,
+        "question": "What is ethical compliance monitoring?",
+        "answer": "Ensuring ethical adherence",
+        "explanation": "Part of governance."
+    },
+    {
+        "id": 166,
+        "question": "What is patient safety?",
+        "answer": "Prevention of harm",
+        "explanation": "Primary concern in labs."
+    },
+    {
+        "id": 167,
+        "question": "What is lawful instruction?",
+        "answer": "Order consistent with law",
+        "explanation": "Must be followed."
+    },
+    {
+        "id": 168,
+        "question": "What is ethical refusal?",
+        "answer": "Declining unethical acts",
+        "explanation": "Professionally justified."
+    },
+    {
+        "id": 169,
+        "question": "What is professional accountability to employers?",
+        "answer": "Faithful performance of duties",
+        "explanation": "Within ethical limits."
+    },
+    {
+        "id": 170,
+        "question": "What is regulatory compliance?",
+        "answer": "Following PRC and DOH rules",
+        "explanation": "Mandatory for practice."
+    },
+    {
+        "id": 171,
+        "question": "What is professional honor?",
+        "answer": "Maintaining profession's reputation",
+        "explanation": "Ethical responsibility."
+    },
+    {
+        "id": 172,
+        "question": "What is legal accountability for errors?",
+        "answer": "Answering for negligence",
+        "explanation": "May involve civil or criminal liability."
+    },
+    {
+        "id": 173,
+        "question": "What is ethical practice?",
+        "answer": "Practice guided by moral principles",
+        "explanation": "Beyond technical skills."
+    },
+    {
+        "id": 174,
+        "question": "What is professional transparency?",
+        "answer": "Honest communication",
+        "explanation": "Essential for trust."
+    },
+    {
+        "id": 175,
+        "question": "What is lawful delegation?",
+        "answer": "Assigning tasks within scope",
+        "explanation": "Ensures safety."
+    },
+    {
+        "id": 176,
+        "question": "What is ethical competence in supervision?",
+        "answer": "Guiding staff responsibly",
+        "explanation": "Protects patients."
+    },
+    {
+        "id": 177,
+        "question": "What is professional responsibility to trainees?",
+        "answer": "Proper guidance and example",
+        "explanation": "Part of mentorship."
+    },
+    {
+        "id": 178,
+        "question": "What is ethical laboratory management?",
+        "answer": "Fair and lawful operations",
+        "explanation": "Ensures quality service."
+    },
+    {
+        "id": 179,
+        "question": "What is public trust?",
+        "answer": "Confidence in professionals",
+        "explanation": "Built through ethics."
+    },
+    {
+        "id": 180,
+        "question": "What is ethical accountability for mistakes?",
+        "answer": "Admitting and correcting errors",
+        "explanation": "Promotes patient safety."
+    },
+    {
+        "id": 181,
+        "question": "What is lawful professional conduct?",
+        "answer": "Conduct consistent with law",
+        "explanation": "Required of all MedTechs."
+    },
+    {
+        "id": 182,
+        "question": "What is ethical resilience?",
+        "answer": "Maintaining ethics under pressure",
+        "explanation": "Important in clinical settings."
+    },
+    {
+        "id": 183,
+        "question": "What is ethical competence in decision-making?",
+        "answer": "Choosing morally sound actions",
+        "explanation": "Protects patients."
+    },
+    {
+        "id": 184,
+        "question": "What is professional accountability to regulators?",
+        "answer": "Compliance with PRC rules",
+        "explanation": "Mandatory."
+    },
+    {
+        "id": 185,
+        "question": "What is ethical maturity in practice?",
+        "answer": "Consistent moral judgment",
+        "explanation": "Developed over time."
+    },
+    {
+        "id": 186,
+        "question": "What is lawful laboratory operation?",
+        "answer": "Operating with valid license",
+        "explanation": "Required by DOH."
+    },
+    {
+        "id": 187,
+        "question": "What is ethical responsibility in reporting?",
+        "answer": "Truthful and timely results",
+        "explanation": "Critical to patient care."
+    },
+    {
+        "id": 188,
+        "question": "What is professional conscience?",
+        "answer": "Inner sense of right and wrong",
+        "explanation": "Guides ethical actions."
+    },
+    {
+        "id": 189,
+        "question": "What is ethical accountability to patients?",
+        "answer": "Putting patient welfare first",
+        "explanation": "Fundamental duty."
+    },
+    {
+        "id": 190,
+        "question": "What is legal enforcement?",
+        "answer": "Implementation of laws",
+        "explanation": "Handled by regulatory bodies."
+    },
+    {
+        "id": 191,
+        "question": "What is ethical compliance culture?",
+        "answer": "Environment promoting ethics",
+        "explanation": "Reduces violations."
+    },
+    {
+        "id": 192,
+        "question": "What is professional self-discipline?",
+        "answer": "Controlling one's conduct",
+        "explanation": "Essential for ethics."
+    },
+    {
+        "id": 193,
+        "question": "What is lawful ethical practice?",
+        "answer": "Ethical practice within law",
+        "explanation": "Ideal professional standard."
+    },
+    {
+        "id": 194,
+        "question": "What is ethical professionalism in MedTech?",
+        "answer": "Competence, integrity, accountability",
+        "explanation": "Core professional values."
+    },
+    {
+        "id": 195,
+        "question": "What is professional accountability to the profession?",
+        "answer": "Upholding standards",
+        "explanation": "Protects profession's integrity."
+    },
+    {
+        "id": 196,
+        "question": "What is ethical stewardship?",
+        "answer": "Responsible use of resources",
+        "explanation": "Part of professionalism."
+    },
+    {
+        "id": 197,
+        "question": "What is lawful ethical leadership?",
+        "answer": "Leading within law and ethics",
+        "explanation": "Sets professional example."
+    },
+    {
+        "id": 198,
+        "question": "What is professional accountability to future patients?",
+        "answer": "Maintaining competence",
+        "explanation": "Through lifelong learning."
+    },
+    {
+        "id": 199,
+        "question": "What is ethical sustainability in practice?",
+        "answer": "Long-term ethical conduct",
+        "explanation": "Ensures trust."
+    },
+    {
+        "id": 200,
+        "question": "What defines a legally and ethically competent MedTech?",
+        "answer": "Licensed, competent, and ethical practitioner",
+        "explanation": "Meets legal and moral standards of the profession."
+    },
+    {
+        "id": 201,
+        "question": "What section of RA 5527 defines Medical Technology?",
+        "answer": "Section 2",
+        "explanation": "It defines the scope and meaning of Medical Technology."
+    },
+    {
+        "id": 202,
+        "question": "What section of RA 5527 discusses the Board of Medical Technology?",
+        "answer": "Section 4",
+        "explanation": "It establishes the composition and duties of the Board."
+    },
+    {
+        "id": 203,
+        "question": "What section of RA 5527 covers licensure examination?",
+        "answer": "Section 13",
+        "explanation": "It outlines exam administration and requirements."
+    },
+    {
+        "id": 204,
+        "question": "What section of RA 5527 states illegal practice?",
+        "answer": "Section 21",
+        "explanation": "It defines acts considered illegal practice."
+    },
+    {
+        "id": 205,
+        "question": "What section of RA 5527 discusses penalties?",
+        "answer": "Section 22",
+        "explanation": "It specifies fines and imprisonment."
+    },
+    {
+        "id": 206,
+        "question": "What is the minimum passing grade per subject?",
+        "answer": "50%",
+        "explanation": "No subject rating should fall below 50%."
+    },
+    {
+        "id": 207,
+        "question": "Who issues the Certificate of Registration?",
+        "answer": "Professional Regulation Commission",
+        "explanation": "Issued after oath-taking."
+    },
+    {
+        "id": 208,
+        "question": "What is the purpose of oath-taking?",
+        "answer": "Formal assumption of professional duties",
+        "explanation": "Required before legal practice."
+    },
+    {
+        "id": 209,
+        "question": "What is a temporary permit?",
+        "answer": "Authority to practice temporarily",
+        "explanation": "Granted under special circumstances."
+    },
+    {
+        "id": 210,
+        "question": "Who may issue temporary permits?",
+        "answer": "Board of Medical Technology",
+        "explanation": "Subject to PRC approval."
+    },
+    {
+        "id": 211,
+        "question": "What is the purpose of internship?",
+        "answer": "Practical laboratory training",
+        "explanation": "Required before board exam."
+    },
+    {
+        "id": 212,
+        "question": "What is the minimum internship duration?",
+        "answer": "One year",
+        "explanation": "Includes various laboratory sections."
+    },
+    {
+        "id": 213,
+        "question": "What law governs internship programs?",
+        "answer": "RA 7722",
+        "explanation": "Higher Education Act creating CHED."
+    },
+    {
+        "id": 214,
+        "question": "Who accredits MedTech internship hospitals?",
+        "answer": "CHED and DOH",
+        "explanation": "Ensures quality training."
+    },
+    {
+        "id": 215,
+        "question": "What is delegation of function?",
+        "answer": "Assignment of tasks to others",
+        "explanation": "Must be within legal limits."
+    },
+    {
+        "id": 216,
+        "question": "What is substandard practice?",
+        "answer": "Practice below accepted standards",
+        "explanation": "Ground for disciplinary action."
+    },
+    {
+        "id": 217,
+        "question": "What is unethical solicitation?",
+        "answer": "Seeking patients for profit",
+        "explanation": "Prohibited by ethics."
+    },
+    {
+        "id": 218,
+        "question": "What is fee splitting?",
+        "answer": "Sharing fees for referrals",
+        "explanation": "Unethical and prohibited."
+    },
+    {
+        "id": 219,
+        "question": "What is inducement?",
+        "answer": "Offering rewards for referrals",
+        "explanation": "Considered unethical."
+    },
+    {
+        "id": 220,
+        "question": "What is professional courtesy?",
+        "answer": "Respectful behavior toward colleagues",
+        "explanation": "Promotes harmony in practice."
+    },
+    {
+        "id": 221,
+        "question": "What is abandonment of duty?",
+        "answer": "Leaving post without justification",
+        "explanation": "Ground for disciplinary action."
+    },
+    {
+        "id": 222,
+        "question": "What is legal duty of care?",
+        "answer": "Obligation to act prudently",
+        "explanation": "Required in patient care."
+    },
+    {
+        "id": 223,
+        "question": "What is breach of duty?",
+        "answer": "Failure to meet standard of care",
+        "explanation": "Element of negligence."
+    },
+    {
+        "id": 224,
+        "question": "What is proximate cause?",
+        "answer": "Direct cause of injury",
+        "explanation": "Required to prove negligence."
+    },
+    {
+        "id": 225,
+        "question": "What is damage in negligence?",
+        "answer": "Actual harm suffered",
+        "explanation": "Must be proven in court."
+    },
+    {
+        "id": 226,
+        "question": "What are the four elements of negligence?",
+        "answer": "Duty, breach, causation, damage",
+        "explanation": "All must be present."
+    },
+    {
+        "id": 227,
+        "question": "What is contributory negligence?",
+        "answer": "Patient contributed to injury",
+        "explanation": "May reduce liability."
+    },
+    {
+        "id": 228,
+        "question": "What is assumption of risk?",
+        "answer": "Patient accepted known risks",
+        "explanation": "Defense in negligence cases."
+    },
+    {
+        "id": 229,
+        "question": "What is consent by operation of law?",
+        "answer": "Consent implied in emergencies",
+        "explanation": "Life-saving situations."
+    },
+    {
+        "id": 230,
+        "question": "What is implied consent?",
+        "answer": "Consent inferred from actions",
+        "explanation": "Common in routine procedures."
+    },
+    {
+        "id": 231,
+        "question": "What is express consent?",
+        "answer": "Clearly stated consent",
+        "explanation": "Written or verbal."
+    },
+    {
+        "id": 232,
+        "question": "What is ethical breach?",
+        "answer": "Violation of ethical standards",
+        "explanation": "Subject to disciplinary action."
+    },
+    {
+        "id": 233,
+        "question": "What is legal breach?",
+        "answer": "Violation of law",
+        "explanation": "Punishable by sanctions."
+    },
+    {
+        "id": 234,
+        "question": "What is professional negligence?",
+        "answer": "Failure to exercise professional care",
+        "explanation": "Also called malpractice."
+    },
+    {
+        "id": 235,
+        "question": "What is malpractice?",
+        "answer": "Negligent professional conduct",
+        "explanation": "Results in patient harm."
+    },
+    {
+        "id": 236,
+        "question": "What is medico-legal case?",
+        "answer": "Case involving law and medicine",
+        "explanation": "Requires proper documentation."
+    },
+    {
+        "id": 237,
+        "question": "What law governs medico-legal autopsies?",
+        "answer": "Revised Penal Code",
+        "explanation": "Conducted for legal investigation."
+    },
+    {
+        "id": 238,
+        "question": "What is chain of custody?",
+        "answer": "Documented specimen handling",
+        "explanation": "Ensures specimen integrity."
+    },
+    {
+        "id": 239,
+        "question": "What is evidence integrity?",
+        "answer": "Preservation of specimen validity",
+        "explanation": "Critical in legal cases."
+    },
+    {
+        "id": 240,
+        "question": "What is falsification of results?",
+        "answer": "Intentional alteration of findings",
+        "explanation": "Serious ethical and legal offense."
+    },
+    {
+        "id": 241,
+        "question": "What is delayed reporting?",
+        "answer": "Late release of results",
+        "explanation": "May cause patient harm."
+    },
+    {
+        "id": 242,
+        "question": "What is mislabeling of specimens?",
+        "answer": "Incorrect patient identification",
+        "explanation": "Major pre-analytical error."
+    },
+    {
+        "id": 243,
+        "question": "What is scope of supervision?",
+        "answer": "Extent of supervisory authority",
+        "explanation": "Defined by law."
+    },
+    {
+        "id": 244,
+        "question": "What is legal supervision?",
+        "answer": "Oversight required by law",
+        "explanation": "Ensures lawful practice."
+    },
+    {
+        "id": 245,
+        "question": "What is professional hierarchy?",
+        "answer": "Chain of authority in healthcare",
+        "explanation": "Ensures order and accountability."
+    },
+    {
+        "id": 246,
+        "question": "What is ethical hierarchy?",
+        "answer": "Prioritizing patient welfare",
+        "explanation": "Above institutional interests."
+    },
+    {
+        "id": 247,
+        "question": "What is dual loyalty?",
+        "answer": "Conflict between patient and employer",
+        "explanation": "Resolved in favor of patient."
+    },
+    {
+        "id": 248,
+        "question": "What is professional autonomy?",
+        "answer": "Independent judgment within scope",
+        "explanation": "Subject to legal limits."
+    },
+    {
+        "id": 249,
+        "question": "What is ethical autonomy?",
+        "answer": "Moral independence",
+        "explanation": "Guided by ethics."
+    },
+    {
+        "id": 250,
+        "question": "What is professional restraint?",
+        "answer": "Avoiding actions beyond scope",
+        "explanation": "Prevents illegal practice."
+    },
+    {
+        "id": 251,
+        "question": "What is ethical restraint?",
+        "answer": "Avoiding unethical acts",
+        "explanation": "Maintains integrity."
+    },
+    {
+        "id": 252,
+        "question": "What is laboratory policy?",
+        "answer": "Written operational guidelines",
+        "explanation": "Must comply with law."
+    },
+    {
+        "id": 253,
+        "question": "What is standard operating procedure?",
+        "answer": "Step-by-step lab instructions",
+        "explanation": "Ensures consistency."
+    },
+    {
+        "id": 254,
+        "question": "What is audit trail?",
+        "answer": "Documented workflow record",
+        "explanation": "Important in investigations."
+    },
+    {
+        "id": 255,
+        "question": "What is legal documentation?",
+        "answer": "Records with legal value",
+        "explanation": "Must be accurate and complete."
+    },
+    {
+        "id": 256,
+        "question": "What is ethical documentation?",
+        "answer": "Honest and timely records",
+        "explanation": "Supports patient care."
+    },
+    {
+        "id": 257,
+        "question": "What is data integrity?",
+        "answer": "Accuracy and consistency of data",
+        "explanation": "Essential for reliability."
+    },
+    {
+        "id": 258,
+        "question": "What is data confidentiality?",
+        "answer": "Protection of patient information",
+        "explanation": "Required by law."
+    },
+    {
+        "id": 259,
+        "question": "What is legal compliance audit?",
+        "answer": "Review of regulatory adherence",
+        "explanation": "Conducted by authorities."
+    },
+    {
+        "id": 260,
+        "question": "What is ethical audit?",
+        "answer": "Review of ethical practices",
+        "explanation": "Ensures moral compliance."
+    },
+    {
+        "id": 261,
+        "question": "What is professional discipline?",
+        "answer": "Corrective action for violations",
+        "explanation": "Maintains standards."
+    },
+    {
+        "id": 262,
+        "question": "What is reprimand?",
+        "answer": "Formal warning",
+        "explanation": "Lightest disciplinary penalty."
+    },
+    {
+        "id": 263,
+        "question": "What is suspension?",
+        "answer": "Temporary loss of practice rights",
+        "explanation": "Imposed for violations."
+    },
+    {
+        "id": 264,
+        "question": "What is revocation?",
+        "answer": "Permanent removal of license",
+        "explanation": "For serious offenses."
+    },
+    {
+        "id": 265,
+        "question": "What is reinstatement?",
+        "answer": "Restoration of license",
+        "explanation": "Subject to conditions."
+    },
+    {
+        "id": 266,
+        "question": "What is appeal?",
+        "answer": "Request for reconsideration",
+        "explanation": "Right of disciplined professionals."
+    },
+    {
+        "id": 267,
+        "question": "What is administrative investigation?",
+        "answer": "Fact-finding process",
+        "explanation": "Conducted by the Board."
+    },
+    {
+        "id": 268,
+        "question": "What is burden of proof?",
+        "answer": "Duty to prove allegations",
+        "explanation": "Rests on complainant."
+    },
+    {
+        "id": 269,
+        "question": "What is presumption of innocence?",
+        "answer": "Assumed innocent until proven guilty",
+        "explanation": "Basic legal principle."
+    },
+    {
+        "id": 270,
+        "question": "What is ethical presumption?",
+        "answer": "Assuming good faith",
+        "explanation": "Until evidence shows otherwise."
+    },
+    {
+        "id": 271,
+        "question": "What is conflict resolution?",
+        "answer": "Settling professional disputes",
+        "explanation": "Through proper channels."
+    },
+    {
+        "id": 272,
+        "question": "What is mediation?",
+        "answer": "Assisted dispute resolution",
+        "explanation": "Alternative to litigation."
+    },
+    {
+        "id": 273,
+        "question": "What is arbitration?",
+        "answer": "Binding dispute resolution",
+        "explanation": "Decision by neutral party."
+    },
+    {
+        "id": 274,
+        "question": "What is legal settlement?",
+        "answer": "Resolution without trial",
+        "explanation": "Agreed by parties."
+    },
+    {
+        "id": 275,
+        "question": "What is ethical settlement?",
+        "answer": "Resolution based on fairness",
+        "explanation": "Upholds integrity."
+    },
+    {
+        "id": 276,
+        "question": "What is jurisprudence?",
+        "answer": "Body of court decisions",
+        "explanation": "Guides legal interpretation."
+    },
+    {
+        "id": 277,
+        "question": "What is precedent?",
+        "answer": "Prior court ruling",
+        "explanation": "Used in deciding cases."
+    },
+    {
+        "id": 278,
+        "question": "What is statutory law?",
+        "answer": "Law enacted by legislature",
+        "explanation": "Includes RA 5527."
+    },
+    {
+        "id": 279,
+        "question": "What is administrative law?",
+        "answer": "Law governing regulatory agencies",
+        "explanation": "Applies to PRC."
+    },
+    {
+        "id": 280,
+        "question": "What is ethical jurisprudence?",
+        "answer": "Ethics guided by legal decisions",
+        "explanation": "Shapes professional conduct."
+    },
+    {
+        "id": 281,
+        "question": "What is public interest?",
+        "answer": "Welfare of society",
+        "explanation": "Primary concern of regulation."
+    },
+    {
+        "id": 282,
+        "question": "What is professional accountability?",
+        "answer": "Answerability for actions",
+        "explanation": "Legal and ethical duty."
+    },
+    {
+        "id": 283,
+        "question": "What is ethical accountability?",
+        "answer": "Moral responsibility",
+        "explanation": "Beyond legal obligation."
+    },
+    {
+        "id": 284,
+        "question": "What is legal sanction?",
+        "answer": "Penalty imposed by law",
+        "explanation": "For violations."
+    },
+    {
+        "id": 285,
+        "question": "What is ethical sanction?",
+        "answer": "Penalty imposed by profession",
+        "explanation": "Includes censure."
+    },
+    {
+        "id": 286,
+        "question": "What is professional reputation?",
+        "answer": "Public perception of competence",
+        "explanation": "Built through ethical practice."
+    },
+    {
+        "id": 287,
+        "question": "What is moral character?",
+        "answer": "Ethical qualities of a person",
+        "explanation": "Required for licensure."
+    },
+    {
+        "id": 288,
+        "question": "What is moral turpitude?",
+        "answer": "Act of baseness or depravity",
+        "explanation": "Ground for license revocation."
+    },
+    {
+        "id": 289,
+        "question": "What is ethical fitness?",
+        "answer": "Suitability to practice ethically",
+        "explanation": "Evaluated by the Board."
+    },
+    {
+        "id": 290,
+        "question": "What is legal fitness?",
+        "answer": "Qualification under the law",
+        "explanation": "Includes licensure."
+    },
+    {
+        "id": 291,
+        "question": "What is professional vigilance?",
+        "answer": "Constant awareness of duties",
+        "explanation": "Prevents errors."
+    },
+    {
+        "id": 292,
+        "question": "What is ethical vigilance?",
+        "answer": "Constant moral awareness",
+        "explanation": "Prevents violations."
+    },
+    {
+        "id": 293,
+        "question": "What is patient welfare?",
+        "answer": "Well-being of the patient",
+        "explanation": "Top ethical priority."
+    },
+    {
+        "id": 294,
+        "question": "What is public safety?",
+        "answer": "Protection of the community",
+        "explanation": "Goal of regulation."
+    },
+    {
+        "id": 295,
+        "question": "What is professional service?",
+        "answer": "Skilled work rendered to public",
+        "explanation": "Requires competence."
+    },
+    {
+        "id": 296,
+        "question": "What is ethical service?",
+        "answer": "Service guided by morality",
+        "explanation": "Enhances trust."
+    },
+    {
+        "id": 297,
+        "question": "What is legal obligation?",
+        "answer": "Duty imposed by law",
+        "explanation": "Mandatory compliance."
+    },
+    {
+        "id": 298,
+        "question": "What is ethical obligation?",
+        "answer": "Duty imposed by conscience",
+        "explanation": "Guides moral conduct."
+    },
+    {
+        "id": 299,
+        "question": "What is professional excellence?",
+        "answer": "High level of competence and ethics",
+        "explanation": "Ideal practice standard."
+    },
+    {
+        "id": 300,
+        "question": "What is the ultimate role of a Medical Technologist under the law?",
+        "answer": "Safeguard life through accurate laboratory service",
+        "explanation": "Central purpose of MedTech laws."
+    },
+    {
+        "id": 301,
+        "question": "What section of RA 5527 covers the issuance of licenses?",
+        "answer": "Section 15",
+        "explanation": "It discusses the issuance of Certificate of Registration."
+    },
+    {
+        "id": 302,
+        "question": "What section of RA 5527 covers suspension or revocation of licenses?",
+        "answer": "Section 20",
+        "explanation": "It lists grounds and procedures."
+    },
+    {
+        "id": 303,
+        "question": "What is the legal meaning of practice of Medical Technology?",
+        "answer": "Performance of laboratory tests for diagnosis",
+        "explanation": "Defined under RA 5527."
+    },
+    {
+        "id": 304,
+        "question": "What is a MedTech-intern?",
+        "answer": "Graduate undergoing required training",
+        "explanation": "Not yet licensed to practice independently."
+    },
+    {
+        "id": 305,
+        "question": "What is the legal status of MedTech interns?",
+        "answer": "Not considered licensed practitioners",
+        "explanation": "They must work under supervision."
+    },
+    {
+        "id": 306,
+        "question": "What is the role of the Chief Medical Technologist?",
+        "answer": "Supervise laboratory operations",
+        "explanation": "Ensures compliance with laws and standards."
+    },
+    {
+        "id": 307,
+        "question": "What is the minimum qualification of a Chief MedTech?",
+        "answer": "Registered Medical Technologist with experience",
+        "explanation": "Specific requirements set by DOH."
+    },
+    {
+        "id": 308,
+        "question": "What is a laboratory director?",
+        "answer": "Physician responsible for lab management",
+        "explanation": "Usually a pathologist."
+    },
+    {
+        "id": 309,
+        "question": "What law governs laboratory directors?",
+        "answer": "RA 4688",
+        "explanation": "Clinical Laboratory Law."
+    },
+    {
+        "id": 310,
+        "question": "What is supervision in laboratory practice?",
+        "answer": "Oversight by authorized physician",
+        "explanation": "Required under RA 5527."
+    },
+    {
+        "id": 311,
+        "question": "What is technical supervision?",
+        "answer": "Oversight of testing procedures",
+        "explanation": "Ensures accuracy and reliability."
+    },
+    {
+        "id": 312,
+        "question": "What is administrative supervision?",
+        "answer": "Oversight of lab operations",
+        "explanation": "Includes staffing and records."
+    },
+    {
+        "id": 313,
+        "question": "What is ethical supervision?",
+        "answer": "Ensuring ethical conduct",
+        "explanation": "Prevents misconduct."
+    },
+    {
+        "id": 314,
+        "question": "What is the scope of supervision required?",
+        "answer": "Direct or indirect as required",
+        "explanation": "Depends on lab level."
+    },
+    {
+        "id": 315,
+        "question": "What is a reference laboratory?",
+        "answer": "Lab performing specialized tests",
+        "explanation": "Often receives referred specimens."
+    },
+    {
+        "id": 316,
+        "question": "What is a satellite laboratory?",
+        "answer": "Extension of a main laboratory",
+        "explanation": "Operates under same license."
+    },
+    {
+        "id": 317,
+        "question": "What is laboratory classification?",
+        "answer": "Categorization based on services",
+        "explanation": "Defined by DOH."
+    },
+    {
+        "id": 318,
+        "question": "What is a free-standing laboratory?",
+        "answer": "Independent diagnostic laboratory",
+        "explanation": "Not hospital-based."
+    },
+    {
+        "id": 319,
+        "question": "What is a hospital-based laboratory?",
+        "answer": "Laboratory within a hospital",
+        "explanation": "Serves inpatients and outpatients."
+    },
+    {
+        "id": 320,
+        "question": "What is laboratory licensing?",
+        "answer": "Authorization to operate",
+        "explanation": "Issued by DOH."
+    },
+    {
+        "id": 321,
+        "question": "What is laboratory accreditation?",
+        "answer": "Recognition of compliance with standards",
+        "explanation": "Beyond basic licensure."
+    },
+    {
+        "id": 322,
+        "question": "What is laboratory inspection?",
+        "answer": "Assessment by regulatory authorities",
+        "explanation": "Ensures compliance."
+    },
+    {
+        "id": 323,
+        "question": "What is deficiency citation?",
+        "answer": "Noted non-compliance",
+        "explanation": "Must be corrected."
+    },
+    {
+        "id": 324,
+        "question": "What is corrective action?",
+        "answer": "Steps taken to fix deficiencies",
+        "explanation": "Required after inspection."
+    },
+    {
+        "id": 325,
+        "question": "What is preventive action?",
+        "answer": "Steps to avoid recurrence",
+        "explanation": "Part of quality management."
+    },
+    {
+        "id": 326,
+        "question": "What is quality management system?",
+        "answer": "Integrated quality processes",
+        "explanation": "Ensures reliable lab services."
+    },
+    {
+        "id": 327,
+        "question": "What is laboratory safety officer?",
+        "answer": "Person responsible for safety programs",
+        "explanation": "Ensures compliance with safety laws."
+    },
+    {
+        "id": 328,
+        "question": "What law governs occupational safety in labs?",
+        "answer": "RA 11058",
+        "explanation": "Occupational Safety and Health Law."
+    },
+    {
+        "id": 329,
+        "question": "What is biosafety?",
+        "answer": "Protection from biological hazards",
+        "explanation": "Essential in laboratory work."
+    },
+    {
+        "id": 330,
+        "question": "What is biosecurity?",
+        "answer": "Protection against misuse of biological agents",
+        "explanation": "Part of lab safety."
+    },
+    {
+        "id": 331,
+        "question": "What is waste management in labs?",
+        "answer": "Proper disposal of lab waste",
+        "explanation": "Required by environmental laws."
+    },
+    {
+        "id": 332,
+        "question": "What law governs healthcare waste?",
+        "answer": "RA 9003",
+        "explanation": "Ecological Solid Waste Management Act."
+    },
+    {
+        "id": 333,
+        "question": "What is infection control?",
+        "answer": "Measures to prevent infection spread",
+        "explanation": "Critical in labs."
+    },
+    {
+        "id": 334,
+        "question": "What is standard precaution?",
+        "answer": "Assume all specimens are infectious",
+        "explanation": "Universal safety rule."
+    },
+    {
+        "id": 335,
+        "question": "What is personal protective equipment?",
+        "answer": "Protective clothing and devices",
+        "explanation": "Reduces exposure risk."
+    },
+    {
+        "id": 336,
+        "question": "What is exposure incident?",
+        "answer": "Contact with potentially infectious material",
+        "explanation": "Requires reporting."
+    },
+    {
+        "id": 337,
+        "question": "What is incident reporting?",
+        "answer": "Documentation of accidents",
+        "explanation": "Required for safety management."
+    },
+    {
+        "id": 338,
+        "question": "What is risk assessment?",
+        "answer": "Identification of potential hazards",
+        "explanation": "Basis of safety measures."
+    },
+    {
+        "id": 339,
+        "question": "What is emergency preparedness?",
+        "answer": "Readiness for emergencies",
+        "explanation": "Includes spills and accidents."
+    },
+    {
+        "id": 340,
+        "question": "What is laboratory contingency plan?",
+        "answer": "Plan for unexpected events",
+        "explanation": "Ensures continuity."
+    },
+    {
+        "id": 341,
+        "question": "What is ethical obligation during emergencies?",
+        "answer": "Provide necessary services",
+        "explanation": "Patient welfare first."
+    },
+    {
+        "id": 342,
+        "question": "What is legal obligation during emergencies?",
+        "answer": "Act within scope of training",
+        "explanation": "Avoid illegal practice."
+    },
+    {
+        "id": 343,
+        "question": "What is Good Laboratory Practice (GLP)?",
+        "answer": "Standards for lab quality and safety",
+        "explanation": "Ensures reliability of results."
+    },
+    {
+        "id": 344,
+        "question": "What is laboratory ethics?",
+        "answer": "Moral principles in lab practice",
+        "explanation": "Guides professional conduct."
+    },
+    {
+        "id": 345,
+        "question": "What is confidentiality agreement?",
+        "answer": "Formal commitment to secrecy",
+        "explanation": "Protects patient information."
+    },
+    {
+        "id": 346,
+        "question": "What is data privacy compliance?",
+        "answer": "Adherence to RA 10173",
+        "explanation": "Protects personal information."
+    },
+    {
+        "id": 347,
+        "question": "What is access control?",
+        "answer": "Limiting data access",
+        "explanation": "Prevents data breaches."
+    },
+    {
+        "id": 348,
+        "question": "What is audit log?",
+        "answer": "Record of system access",
+        "explanation": "Important for accountability."
+    },
+    {
+        "id": 349,
+        "question": "What is electronic medical record?",
+        "answer": "Digital patient record",
+        "explanation": "Subject to privacy laws."
+    },
+    {
+        "id": 350,
+        "question": "What is retention period of lab records?",
+        "answer": "As required by DOH",
+        "explanation": "Varies by record type."
+    },
+    {
+        "id": 351,
+        "question": "What is professional communication?",
+        "answer": "Clear and respectful information exchange",
+        "explanation": "Prevents errors."
+    },
+    {
+        "id": 352,
+        "question": "What is critical value reporting?",
+        "answer": "Immediate reporting of life-threatening results",
+        "explanation": "Patient safety requirement."
+    },
+    {
+        "id": 353,
+        "question": "Who must be notified of critical values?",
+        "answer": "Attending physician or nurse",
+        "explanation": "As per lab policy."
+    },
+    {
+        "id": 354,
+        "question": "What is turnaround time?",
+        "answer": "Time from specimen receipt to result release",
+        "explanation": "Quality indicator."
+    },
+    {
+        "id": 355,
+        "question": "What is delayed turnaround time?",
+        "answer": "Late release of results",
+        "explanation": "May affect patient care."
+    },
+    {
+        "id": 356,
+        "question": "What is ethical reporting of results?",
+        "answer": "Accurate and timely reporting",
+        "explanation": "No alteration."
+    },
+    {
+        "id": 357,
+        "question": "What is amended report?",
+        "answer": "Corrected lab result",
+        "explanation": "Must be properly documented."
+    },
+    {
+        "id": 358,
+        "question": "What is addendum report?",
+        "answer": "Additional information to report",
+        "explanation": "Does not replace original."
+    },
+    {
+        "id": 359,
+        "question": "What is result verification?",
+        "answer": "Checking accuracy before release",
+        "explanation": "Prevents errors."
+    },
+    {
+        "id": 360,
+        "question": "What is release authority?",
+        "answer": "Permission to release results",
+        "explanation": "Defined by lab policy."
+    },
+    {
+        "id": 361,
+        "question": "What is professional responsibility in result release?",
+        "answer": "Ensuring correctness",
+        "explanation": "Protects patient safety."
+    },
+    {
+        "id": 362,
+        "question": "What is legal implication of wrong results?",
+        "answer": "Possible negligence case",
+        "explanation": "May lead to liability."
+    },
+    {
+        "id": 363,
+        "question": "What is ethical implication of wrong results?",
+        "answer": "Breach of professional duty",
+        "explanation": "Violates ethics."
+    },
+    {
+        "id": 364,
+        "question": "What is laboratory audit?",
+        "answer": "Systematic review of lab processes",
+        "explanation": "Ensures compliance."
+    },
+    {
+        "id": 365,
+        "question": "What is external quality assessment?",
+        "answer": "Proficiency testing",
+        "explanation": "Evaluates lab performance."
+    },
+    {
+        "id": 366,
+        "question": "What is proficiency testing failure?",
+        "answer": "Unacceptable EQA result",
+        "explanation": "Requires corrective action."
+    },
+    {
+        "id": 367,
+        "question": "What is continuous quality improvement?",
+        "answer": "Ongoing enhancement of processes",
+        "explanation": "Part of QMS."
+    },
+    {
+        "id": 368,
+        "question": "What is ethical quality improvement?",
+        "answer": "Improving care without harm",
+        "explanation": "Patient-centered."
+    },
+    {
+        "id": 369,
+        "question": "What is laboratory benchmarking?",
+        "answer": "Comparing performance with standards",
+        "explanation": "Improves quality."
+    },
+    {
+        "id": 370,
+        "question": "What is regulatory compliance failure?",
+        "answer": "Violation of regulations",
+        "explanation": "May lead to sanctions."
+    },
+    {
+        "id": 371,
+        "question": "What is notice of violation?",
+        "answer": "Formal notice of non-compliance",
+        "explanation": "Issued by regulators."
+    },
+    {
+        "id": 372,
+        "question": "What is cease and desist order?",
+        "answer": "Order to stop operations",
+        "explanation": "Due to serious violations."
+    },
+    {
+        "id": 373,
+        "question": "What is laboratory closure?",
+        "answer": "Suspension of lab operations",
+        "explanation": "Ordered by DOH."
+    },
+    {
+        "id": 374,
+        "question": "What is legal appeal in lab closure?",
+        "answer": "Request for reconsideration",
+        "explanation": "Allowed under law."
+    },
+    {
+        "id": 375,
+        "question": "What is ethical response to violations?",
+        "answer": "Immediate corrective action",
+        "explanation": "Protects patients."
+    },
+    {
+        "id": 376,
+        "question": "What is professional accountability in violations?",
+        "answer": "Answering for non-compliance",
+        "explanation": "Legal and ethical duty."
+    },
+    {
+        "id": 377,
+        "question": "What is regulatory oversight?",
+        "answer": "Monitoring by authorities",
+        "explanation": "Ensures public safety."
+    },
+    {
+        "id": 378,
+        "question": "What is compliance officer?",
+        "answer": "Person overseeing regulatory adherence",
+        "explanation": "Ensures lawful operations."
+    },
+    {
+        "id": 379,
+        "question": "What is professional compliance culture?",
+        "answer": "Environment promoting adherence",
+        "explanation": "Reduces risk."
+    },
+    {
+        "id": 380,
+        "question": "What is ethical compliance culture?",
+        "answer": "Environment promoting ethical behavior",
+        "explanation": "Builds trust."
+    },
+    {
+        "id": 381,
+        "question": "What is public reporting?",
+        "answer": "Disclosure of required information",
+        "explanation": "Transparency measure."
+    },
+    {
+        "id": 382,
+        "question": "What is legal transparency?",
+        "answer": "Open compliance with laws",
+        "explanation": "Builds credibility."
+    },
+    {
+        "id": 383,
+        "question": "What is ethical transparency?",
+        "answer": "Honest professional conduct",
+        "explanation": "Strengthens trust."
+    },
+    {
+        "id": 384,
+        "question": "What is professional integrity?",
+        "answer": "Upholding moral and legal standards",
+        "explanation": "Core professional value."
+    },
+    {
+        "id": 385,
+        "question": "What is moral integrity?",
+        "answer": "Consistency of ethical principles",
+        "explanation": "Guides actions."
+    },
+    {
+        "id": 386,
+        "question": "What is professional sustainability?",
+        "answer": "Maintaining competence over time",
+        "explanation": "Through CPD."
+    },
+    {
+        "id": 387,
+        "question": "What is ethical sustainability?",
+        "answer": "Long-term ethical conduct",
+        "explanation": "Protects profession."
+    },
+    {
+        "id": 388,
+        "question": "What is lawful ethical practice?",
+        "answer": "Practice within law and ethics",
+        "explanation": "Ideal standard."
+    },
+    {
+        "id": 389,
+        "question": "What is professional excellence in labs?",
+        "answer": "High-quality and ethical service",
+        "explanation": "Goal of regulation."
+    },
+    {
+        "id": 390,
+        "question": "What is public accountability of laboratories?",
+        "answer": "Responsibility to society",
+        "explanation": "Ensures trust."
+    },
+    {
+        "id": 391,
+        "question": "What is ethical accountability of laboratories?",
+        "answer": "Moral responsibility to patients",
+        "explanation": "Beyond legal compliance."
+    },
+    {
+        "id": 392,
+        "question": "What is legal accountability of laboratories?",
+        "answer": "Answering for regulatory violations",
+        "explanation": "Subject to sanctions."
+    },
+    {
+        "id": 393,
+        "question": "What is professional duty?",
+        "answer": "Obligation arising from profession",
+        "explanation": "Includes patient care."
+    },
+    {
+        "id": 394,
+        "question": "What is ethical duty?",
+        "answer": "Moral obligation",
+        "explanation": "Guides conduct."
+    },
+    {
+        "id": 395,
+        "question": "What is legal duty?",
+        "answer": "Obligation imposed by law",
+        "explanation": "Mandatory."
+    },
+    {
+        "id": 396,
+        "question": "What is patient-centered laboratory service?",
+        "answer": "Service prioritizing patient welfare",
+        "explanation": "Ethical focus."
+    },
+    {
+        "id": 397,
+        "question": "What is public health protection?",
+        "answer": "Prevention of harm to community",
+        "explanation": "Purpose of lab regulation."
+    },
+    {
+        "id": 398,
+        "question": "What is professional responsibility to future generations?",
+        "answer": "Maintaining standards",
+        "explanation": "Ensures sustainability."
+    },
+    {
+        "id": 399,
+        "question": "What is ethical leadership in laboratory practice?",
+        "answer": "Leading with integrity and compliance",
+        "explanation": "Sets professional example."
+    },
+    {
+        "id": 400,
+        "question": "What is the ultimate legal and ethical goal of laboratory regulation?",
+        "answer": "Protection of life and public health",
+        "explanation": "Central to MedTech laws."
+    },
+
+        {
+            "id": 401,
+            "question": "What principle states that the welfare of the patient comes first?",
+            "answer": "Beneficence",
+            "explanation": "Requires acting in the best interest of the patient."
+        },
+        {
+            "id": 402,
+            "question": "What ethical principle means do no harm?",
+            "answer": "Non-maleficence",
+            "explanation": "Avoids actions that may cause patient harm."
+        },
+        {
+            "id": 403,
+            "question": "What ethical principle involves fairness in healthcare?",
+            "answer": "Justice",
+            "explanation": "Ensures equal and fair treatment."
+        },
+        {
+            "id": 404,
+            "question": "What ethical principle respects patient decision-making?",
+            "answer": "Autonomy",
+            "explanation": "Patients have the right to decide for themselves."
+        },
+        {
+            "id": 405,
+            "question": "What is professional beneficence?",
+            "answer": "Acting for the good of patients",
+            "explanation": "Central to healthcare ethics."
+        },
+        {
+            "id": 406,
+            "question": "What is professional non-maleficence?",
+            "answer": "Avoidance of patient harm",
+            "explanation": "Includes preventing errors."
+        },
+        {
+            "id": 407,
+            "question": "What is distributive justice?",
+            "answer": "Fair allocation of resources",
+            "explanation": "Applies in public health settings."
+        },
+        {
+            "id": 408,
+            "question": "What is informed consent legally based on?",
+            "answer": "Patient autonomy",
+            "explanation": "Patients must understand before agreeing."
+        },
+        {
+            "id": 409,
+            "question": "What is ethical competence?",
+            "answer": "Ability to apply ethical principles",
+            "explanation": "Required in professional decisions."
+        },
+        {
+            "id": 410,
+            "question": "What is legal competence?",
+            "answer": "Ability to act within the law",
+            "explanation": "Requires licensure."
+        },
+        {
+            "id": 411,
+            "question": "What is professional accountability?",
+            "answer": "Answerability for professional actions",
+            "explanation": "Legal and ethical obligation."
+        },
+        {
+            "id": 412,
+            "question": "What is ethical accountability?",
+            "answer": "Moral responsibility for actions",
+            "explanation": "Beyond legal duties."
+        },
+        {
+            "id": 413,
+            "question": "What is legal accountability?",
+            "answer": "Responsibility under the law",
+            "explanation": "Includes civil and criminal liability."
+        },
+        {
+            "id": 414,
+            "question": "What is professional duty of care?",
+            "answer": "Obligation to meet standards",
+            "explanation": "Failure may lead to negligence."
+        },
+        {
+            "id": 415,
+            "question": "What is ethical duty of care?",
+            "answer": "Moral obligation to protect patients",
+            "explanation": "Patient safety is priority."
+        },
+        {
+            "id": 416,
+            "question": "What is legal duty of care?",
+            "answer": "Duty imposed by law",
+            "explanation": "Mandatory compliance."
+        },
+        {
+            "id": 417,
+            "question": "What is professional misconduct?",
+            "answer": "Violation of laws or ethics",
+            "explanation": "Grounds for disciplinary action."
+        },
+        {
+            "id": 418,
+            "question": "What is unprofessional conduct?",
+            "answer": "Behavior below professional standards",
+            "explanation": "May damage public trust."
+        },
+        {
+            "id": 419,
+            "question": "What is gross misconduct?",
+            "answer": "Severe unethical or illegal behavior",
+            "explanation": "May result in license revocation."
+        },
+        {
+            "id": 420,
+            "question": "What is moral turpitude?",
+            "answer": "Act of baseness or depravity",
+            "explanation": "Ground for disqualification or revocation."
+        },
+        {
+            "id": 421,
+            "question": "What is good moral character?",
+            "answer": "Consistent ethical behavior",
+            "explanation": "Required for licensure."
+        },
+        {
+            "id": 422,
+            "question": "What is professional credibility?",
+            "answer": "Trustworthiness of a practitioner",
+            "explanation": "Built through competence and ethics."
+        },
+        {
+            "id": 423,
+            "question": "What is public trust?",
+            "answer": "Confidence of society in professionals",
+            "explanation": "Protected by regulation."
+        },
+        {
+            "id": 424,
+            "question": "What is social responsibility?",
+            "answer": "Duty to serve public interest",
+            "explanation": "Beyond individual patients."
+        },
+        {
+            "id": 425,
+            "question": "What is ethical social responsibility?",
+            "answer": "Serving society with integrity",
+            "explanation": "Promotes public welfare."
+        },
+        {
+            "id": 426,
+            "question": "What is legal social responsibility?",
+            "answer": "Compliance with public laws",
+            "explanation": "Mandatory for institutions."
+        },
+        {
+            "id": 427,
+            "question": "What is professional altruism?",
+            "answer": "Selfless concern for patients",
+            "explanation": "Core ethical value."
+        },
+        {
+            "id": 428,
+            "question": "What is ethical altruism?",
+            "answer": "Putting patient welfare above self",
+            "explanation": "Strengthens professionalism."
+        },
+        {
+            "id": 429,
+            "question": "What is professional conscience?",
+            "answer": "Internal sense of right and wrong",
+            "explanation": "Guides ethical decisions."
+        },
+        {
+            "id": 430,
+            "question": "What is ethical conscience?",
+            "answer": "Moral awareness",
+            "explanation": "Prevents unethical acts."
+        },
+        {
+            "id": 431,
+            "question": "What is legal conscience?",
+            "answer": "Awareness of legal limits",
+            "explanation": "Prevents illegal practice."
+        },
+        {
+            "id": 432,
+            "question": "What is professional vigilance?",
+            "answer": "Constant attentiveness to duties",
+            "explanation": "Reduces errors."
+        },
+        {
+            "id": 433,
+            "question": "What is ethical vigilance?",
+            "answer": "Continuous moral awareness",
+            "explanation": "Prevents ethical lapses."
+        },
+        {
+            "id": 434,
+            "question": "What is legal vigilance?",
+            "answer": "Awareness of regulatory compliance",
+            "explanation": "Prevents violations."
+        },
+        {
+            "id": 435,
+            "question": "What is professional maturity?",
+            "answer": "Balanced judgment and responsibility",
+            "explanation": "Developed through experience."
+        },
+        {
+            "id": 436,
+            "question": "What is ethical maturity?",
+            "answer": "Consistent ethical decision-making",
+            "explanation": "Strengthened over time."
+        },
+        {
+            "id": 437,
+            "question": "What is legal maturity?",
+            "answer": "Understanding legal consequences",
+            "explanation": "Essential in practice."
+        },
+        {
+            "id": 438,
+            "question": "What is professional restraint?",
+            "answer": "Limiting actions within scope",
+            "explanation": "Prevents illegal practice."
+        },
+        {
+            "id": 439,
+            "question": "What is ethical restraint?",
+            "answer": "Avoiding morally wrong actions",
+            "explanation": "Maintains integrity."
+        },
+        {
+            "id": 440,
+            "question": "What is legal restraint?",
+            "answer": "Avoiding prohibited acts",
+            "explanation": "Required by law."
+        },
+        {
+            "id": 441,
+            "question": "What is professional discretion?",
+            "answer": "Sound judgment in practice",
+            "explanation": "Used within legal limits."
+        },
+        {
+            "id": 442,
+            "question": "What is ethical discretion?",
+            "answer": "Moral judgment in decisions",
+            "explanation": "Guided by ethics."
+        },
+        {
+            "id": 443,
+            "question": "What is legal discretion?",
+            "answer": "Choices allowed by law",
+            "explanation": "Must not exceed authority."
+        },
+        {
+            "id": 444,
+            "question": "What is professional loyalty?",
+            "answer": "Faithfulness to profession",
+            "explanation": "Balanced with ethics."
+        },
+        {
+            "id": 445,
+            "question": "What is ethical loyalty?",
+            "answer": "Commitment to moral principles",
+            "explanation": "Overrides personal interest."
+        },
+        {
+            "id": 446,
+            "question": "What is legal loyalty?",
+            "answer": "Adherence to laws and rules",
+            "explanation": "Mandatory."
+        },
+        {
+            "id": 447,
+            "question": "What is professional excellence?",
+            "answer": "High competence and ethics",
+            "explanation": "Goal of regulation."
+        },
+        {
+            "id": 448,
+            "question": "What is ethical excellence?",
+            "answer": "Consistently moral conduct",
+            "explanation": "Builds trust."
+        },
+        {
+            "id": 449,
+            "question": "What is legal excellence?",
+            "answer": "Full compliance with laws",
+            "explanation": "Avoids sanctions."
+        },
+        {
+            "id": 450,
+            "question": "What is professional integrity?",
+            "answer": "Honesty and adherence to standards",
+            "explanation": "Core professional value."
+        },
+        {
+            "id": 451,
+            "question": "What is ethical integrity?",
+            "answer": "Consistency of moral values",
+            "explanation": "Guides conduct."
+        },
+        {
+            "id": 452,
+            "question": "What is legal integrity?",
+            "answer": "Strict observance of law",
+            "explanation": "Ensures lawful practice."
+        },
+        {
+            "id": 453,
+            "question": "What is professional sustainability?",
+            "answer": "Maintaining competence long-term",
+            "explanation": "Through CPD."
+        },
+        {
+            "id": 454,
+            "question": "What is ethical sustainability?",
+            "answer": "Long-term ethical practice",
+            "explanation": "Protects profession."
+        },
+        {
+            "id": 455,
+            "question": "What is legal sustainability?",
+            "answer": "Continued compliance with laws",
+            "explanation": "Ensures uninterrupted practice."
+        },
+        {
+            "id": 456,
+            "question": "What is professional role modeling?",
+            "answer": "Setting positive example",
+            "explanation": "Influences juniors."
+        },
+        {
+            "id": 457,
+            "question": "What is ethical role modeling?",
+            "answer": "Demonstrating ethical behavior",
+            "explanation": "Encourages integrity."
+        },
+        {
+            "id": 458,
+            "question": "What is legal role modeling?",
+            "answer": "Demonstrating lawful practice",
+            "explanation": "Promotes compliance."
+        },
+        {
+            "id": 459,
+            "question": "What is professional mentorship?",
+            "answer": "Guiding junior practitioners",
+            "explanation": "Promotes competence."
+        },
+        {
+            "id": 460,
+            "question": "What is ethical mentorship?",
+            "answer": "Guiding ethical conduct",
+            "explanation": "Shapes values."
+        },
+        {
+            "id": 461,
+            "question": "What is legal mentorship?",
+            "answer": "Teaching legal boundaries",
+            "explanation": "Prevents violations."
+        },
+        {
+            "id": 462,
+            "question": "What is professional legacy?",
+            "answer": "Impact left on the profession",
+            "explanation": "Built through ethical service."
+        },
+        {
+            "id": 463,
+            "question": "What is ethical legacy?",
+            "answer": "Moral influence on future practice",
+            "explanation": "Sustains trust."
+        },
+        {
+            "id": 464,
+            "question": "What is legal legacy?",
+            "answer": "Compliance history",
+            "explanation": "Reflects professionalism."
+        },
+        {
+            "id": 465,
+            "question": "What is professional pride?",
+            "answer": "Respect for one's profession",
+            "explanation": "Encourages ethical practice."
+        },
+        {
+            "id": 466,
+            "question": "What is ethical pride?",
+            "answer": "Pride in moral conduct",
+            "explanation": "Strengthens integrity."
+        },
+        {
+            "id": 467,
+            "question": "What is legal pride?",
+            "answer": "Pride in lawful conduct",
+            "explanation": "Avoids violations."
+        },
+        {
+            "id": 468,
+            "question": "What is professional service excellence?",
+            "answer": "Outstanding patient-centered service",
+            "explanation": "Goal of healthcare."
+        },
+        {
+            "id": 469,
+            "question": "What is ethical service excellence?",
+            "answer": "Service guided by moral values",
+            "explanation": "Builds trust."
+        },
+        {
+            "id": 470,
+            "question": "What is legal service excellence?",
+            "answer": "Service compliant with laws",
+            "explanation": "Prevents liability."
+        },
+        {
+            "id": 471,
+            "question": "What is professional accountability to society?",
+            "answer": "Protecting public health",
+            "explanation": "Core purpose of regulation."
+        },
+        {
+            "id": 472,
+            "question": "What is ethical accountability to society?",
+            "answer": "Serving the common good",
+            "explanation": "Beyond legal duties."
+        },
+        {
+            "id": 473,
+            "question": "What is legal accountability to society?",
+            "answer": "Compliance with public laws",
+            "explanation": "Mandatory."
+        },
+        {
+            "id": 474,
+            "question": "What is professional commitment?",
+            "answer": "Dedication to professional duties",
+            "explanation": "Sustains quality care."
+        },
+        {
+            "id": 475,
+            "question": "What is ethical commitment?",
+            "answer": "Dedication to moral principles",
+            "explanation": "Guides decisions."
+        },
+        {
+            "id": 476,
+            "question": "What is legal commitment?",
+            "answer": "Dedication to lawful practice",
+            "explanation": "Avoids sanctions."
+        },
+        {
+            "id": 477,
+            "question": "What is professional competence?",
+            "answer": "Ability to perform duties safely",
+            "explanation": "Maintained through education."
+        },
+        {
+            "id": 478,
+            "question": "What is ethical competence?",
+            "answer": "Ability to make moral decisions",
+            "explanation": "Essential in healthcare."
+        },
+        {
+            "id": 479,
+            "question": "What is legal competence?",
+            "answer": "Qualification under the law",
+            "explanation": "Requires valid license."
+        },
+        {
+            "id": 480,
+            "question": "What is professional accountability to patients?",
+            "answer": "Ensuring safe and accurate results",
+            "explanation": "Primary duty."
+        },
+        {
+            "id": 481,
+            "question": "What is ethical accountability to patients?",
+            "answer": "Prioritizing patient welfare",
+            "explanation": "Above self-interest."
+        },
+        {
+            "id": 482,
+            "question": "What is legal accountability to patients?",
+            "answer": "Liability for negligence",
+            "explanation": "Enforced by law."
+        },
+        {
+            "id": 483,
+            "question": "What is professional responsibility to colleagues?",
+            "answer": "Respect and cooperation",
+            "explanation": "Promotes teamwork."
+        },
+        {
+            "id": 484,
+            "question": "What is ethical responsibility to colleagues?",
+            "answer": "Fair and honest dealings",
+            "explanation": "Maintains harmony."
+        },
+        {
+            "id": 485,
+            "question": "What is legal responsibility to colleagues?",
+            "answer": "Compliance with workplace laws",
+            "explanation": "Mandatory."
+        },
+        {
+            "id": 486,
+            "question": "What is professional responsibility to employers?",
+            "answer": "Faithful service within ethics",
+            "explanation": "Balanced with patient welfare."
+        },
+        {
+            "id": 487,
+            "question": "What is ethical responsibility to employers?",
+            "answer": "Honest performance of duties",
+            "explanation": "Without compromising ethics."
+        },
+        {
+            "id": 488,
+            "question": "What is legal responsibility to employers?",
+            "answer": "Compliance with contracts and laws",
+            "explanation": "Required."
+        },
+        {
+            "id": 489,
+            "question": "What is professional accountability to regulators?",
+            "answer": "Compliance with PRC and DOH rules",
+            "explanation": "Ensures lawful practice."
+        },
+        {
+            "id": 490,
+            "question": "What is ethical accountability to regulators?",
+            "answer": "Honest cooperation",
+            "explanation": "Promotes transparency."
+        },
+        {
+            "id": 491,
+            "question": "What is legal accountability to regulators?",
+            "answer": "Submission to regulatory authority",
+            "explanation": "Mandatory."
+        },
+        {
+            "id": 492,
+            "question": "What is professional self-regulation?",
+            "answer": "Maintaining standards internally",
+            "explanation": "Through boards and ethics."
+        },
+        {
+            "id": 493,
+            "question": "What is ethical self-regulation?",
+            "answer": "Internal moral discipline",
+            "explanation": "Prevents violations."
+        },
+        {
+            "id": 494,
+            "question": "What is legal self-regulation?",
+            "answer": "Compliance without enforcement",
+            "explanation": "Ideal professional behavior."
+        },
+        {
+            "id": 495,
+            "question": "What is professional fulfillment?",
+            "answer": "Satisfaction in ethical practice",
+            "explanation": "Result of integrity."
+        },
+        {
+            "id": 496,
+            "question": "What is ethical fulfillment?",
+            "answer": "Peace from moral actions",
+            "explanation": "Strengthens professionalism."
+        },
+        {
+            "id": 497,
+            "question": "What is legal fulfillment?",
+            "answer": "Practice without legal issues",
+            "explanation": "Result of compliance."
+        },
+        {
+            "id": 498,
+            "question": "What is the highest ethical obligation of a MedTech?",
+            "answer": "Protection of patient life",
+            "explanation": "Supersedes personal interest."
+        },
+        {
+            "id": 499,
+            "question": "What is the highest legal obligation of a MedTech?",
+            "answer": "Compliance with MedTech laws",
+            "explanation": "Ensures public safety."
+        },
+        {
+            "id": 500,
+            "question": "What summarizes a legally and ethically ideal Medical Technologist?",
+            "answer": "Competent, ethical, and law-abiding",
+            "explanation": "Embodies the purpose of MedTech regulation."
+        }
+]

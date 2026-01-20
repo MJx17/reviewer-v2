@@ -84,4 +84,6 @@ const FlashcardSchema = new mongoose.Schema(
   }
 );
 
-module.exports = mongoose.model("Flashcard", FlashcardSchema);
+const Flashcard = mongoose.models.flashcards || mongoose.model("flashcards", FlashcardSchema);
+
+module.exports = Flashcard;

@@ -1,0 +1,3002 @@
+[
+  {
+    "id": 1,
+    "question": "What is the reference range of fasting blood glucose in adults?",
+    "answer": "70–99 mg/dL",
+    "explanation": "Normal fasting blood glucose levels are used to assess carbohydrate metabolism. Values ≥126 mg/dL on two occasions are diagnostic for diabetes mellitus."
+  },
+  {
+    "id": 2,
+    "question": "Which enzyme is most specific for acute myocardial infarction?",
+    "answer": "Troponin I",
+    "explanation": "Troponin I is highly specific and sensitive for myocardial injury and remains elevated for up to 7–10 days after infarction."
+  },
+  {
+    "id": 3,
+    "question": "What analytical method is commonly used to measure serum glucose?",
+    "answer": "Hexokinase method",
+    "explanation": "The hexokinase method is the reference method for glucose determination due to its high specificity and accuracy."
+  },
+  {
+    "id": 4,
+    "question": "Which electrolyte is the major extracellular cation?",
+    "answer": "Sodium (Na⁺)",
+    "explanation": "Sodium plays a crucial role in maintaining osmotic pressure, nerve impulse transmission, and fluid balance."
+  },
+  {
+    "id": 5,
+    "question": "What condition is associated with increased serum creatinine levels?",
+    "answer": "Renal dysfunction",
+    "explanation": "Creatinine is a marker of glomerular filtration rate (GFR); elevated levels indicate impaired kidney function."
+  },
+  {
+    "id": 6,
+    "question": "Which lipoprotein is considered 'bad cholesterol'?",
+    "answer": "Low-Density Lipoprotein (LDL)",
+    "explanation": "LDL transports cholesterol to peripheral tissues and contributes to atherosclerotic plaque formation."
+  },
+  {
+    "id": 7,
+    "question": "What is the primary specimen used for routine clinical chemistry tests?",
+    "answer": "Serum",
+    "explanation": "Serum is preferred because it lacks clotting factors that may interfere with chemical analyses."
+  },
+  {
+    "id": 8,
+    "question": "Which liver enzyme is most specific for hepatocellular damage?",
+    "answer": "Alanine Aminotransferase (ALT)",
+    "explanation": "ALT is primarily found in the liver and is more specific than AST for liver cell injury."
+  },
+  {
+    "id": 9,
+    "question": "What is the principle of Beer-Lambert Law?",
+    "answer": "Absorbance is directly proportional to concentration",
+    "explanation": "This principle is the basis of spectrophotometric analysis used in many clinical chemistry assays."
+  },
+  {
+    "id": 10,
+    "question": "Which hormone regulates blood calcium levels by increasing bone resorption?",
+    "answer": "Parathyroid hormone (PTH)",
+    "explanation": "PTH increases serum calcium by acting on bones, kidneys, and intestines."
+  },
+  {
+    "id": 11,
+    "question": "Which enzyme is elevated in obstructive jaundice?",
+    "answer": "Alkaline Phosphatase (ALP)",
+    "explanation": "ALP increases in cholestasis and biliary obstruction due to increased synthesis by bile duct epithelium."
+  },
+  {
+    "id": 12,
+    "question": "What is the reference range for total serum bilirubin?",
+    "answer": "0.2–1.2 mg/dL",
+    "explanation": "Values above this range indicate hyperbilirubinemia, which may be prehepatic, hepatic, or posthepatic."
+  },
+  {
+    "id": 13,
+    "question": "Which protein maintains oncotic pressure in blood?",
+    "answer": "Albumin",
+    "explanation": "Albumin accounts for about 60% of total plasma protein and prevents fluid from leaking into tissues."
+  },
+  {
+    "id": 14,
+    "question": "Which method is used for urea determination?",
+    "answer": "Urease method",
+    "explanation": "Urease hydrolyzes urea into ammonia and carbon dioxide, which are then measured."
+  },
+  {
+    "id": 15,
+    "question": "What condition causes decreased serum albumin?",
+    "answer": "Liver disease",
+    "explanation": "Albumin is synthesized in the liver; impaired function leads to decreased production."
+  },
+  {
+    "id": 16,
+    "question": "Which electrolyte imbalance is seen in Addison's disease?",
+    "answer": "Hyponatremia",
+    "explanation": "Aldosterone deficiency leads to sodium loss and potassium retention."
+  },
+  {
+    "id": 17,
+    "question": "Which test is used to monitor long-term glucose control?",
+    "answer": "Hemoglobin A1c",
+    "explanation": "HbA1c reflects average blood glucose levels over the past 2–3 months."
+  },
+  {
+    "id": 18,
+    "question": "What is the normal reference range for serum potassium?",
+    "answer": "3.5–5.1 mmol/L",
+    "explanation": "Potassium is essential for cardiac and neuromuscular function."
+  },
+  {
+    "id": 19,
+    "question": "Which lipid parameter is most protective against heart disease?",
+    "answer": "High-Density Lipoprotein (HDL)",
+    "explanation": "HDL transports cholesterol from tissues back to the liver for excretion."
+  },
+  {
+    "id": 20,
+    "question": "Which test evaluates kidney function more accurately than creatinine alone?",
+    "answer": "Creatinine clearance",
+    "explanation": "Creatinine clearance estimates glomerular filtration rate (GFR)."
+  },
+  {
+    "id": 21,
+    "question": "Which enzyme is elevated in acute pancreatitis?",
+    "answer": "Lipase",
+    "explanation": "Lipase is more specific and remains elevated longer than amylase in pancreatitis."
+  },
+  {
+    "id": 22,
+    "question": "What is the reference range for serum calcium?",
+    "answer": "8.6–10.2 mg/dL",
+    "explanation": "Calcium levels are regulated by PTH, vitamin D, and calcitonin."
+  },
+  {
+    "id": 23,
+    "question": "Which specimen is required for arterial blood gas analysis?",
+    "answer": "Arterial whole blood",
+    "explanation": "ABG analysis requires arterial blood to assess oxygenation and acid-base status."
+  },
+  {
+    "id": 24,
+    "question": "Which condition causes elevated uric acid?",
+    "answer": "Gout",
+    "explanation": "Uric acid accumulation leads to crystal deposition in joints."
+  },
+  {
+    "id": 25,
+    "question": "What method is used to measure serum sodium and potassium?",
+    "answer": "Ion-selective electrode (ISE)",
+    "explanation": "ISE provides rapid and accurate electrolyte measurements."
+  },
+  {
+    "id": 26,
+    "question": "Which liver enzyme is found in mitochondria and cytoplasm?",
+    "answer": "Aspartate Aminotransferase (AST)",
+    "explanation": "AST is less specific for liver disease because it is also present in heart and muscle."
+  },
+  {
+    "id": 27,
+    "question": "What is the normal blood pH range?",
+    "answer": "7.35–7.45",
+    "explanation": "Maintaining normal pH is essential for enzyme and cellular function."
+  },
+  {
+    "id": 28,
+    "question": "Which disorder is associated with increased BUN?",
+    "answer": "Dehydration",
+    "explanation": "Reduced renal perfusion increases urea reabsorption."
+  },
+  {
+    "id": 29,
+    "question": "Which protein fraction increases in chronic inflammation?",
+    "answer": "Gamma globulins",
+    "explanation": "Chronic inflammation stimulates immunoglobulin production."
+  },
+  {
+    "id": 30,
+    "question": "What is the principle of immunoassay?",
+    "answer": "Antigen-antibody reaction",
+    "explanation": "Immunoassays measure analytes based on their specific binding to antibodies."
+  },
+  {
+    "id": 31,
+    "question": "Which analyte is increased in diabetic ketoacidosis?",
+    "answer": "Ketone bodies",
+    "explanation": "Insulin deficiency leads to increased fat metabolism and ketone production."
+  },
+  {
+    "id": 32,
+    "question": "Which test measures proteinuria quantitatively?",
+    "answer": "24-hour urine protein",
+    "explanation": "It provides an accurate assessment of daily protein excretion."
+  },
+  {
+    "id": 33,
+    "question": "What anticoagulant is used for most chemistry tests?",
+    "answer": "Heparin",
+    "explanation": "Heparin does not interfere with most chemical analytes."
+  },
+  {
+    "id": 34,
+    "question": "Which enzyme is used as a marker for prostate cancer?",
+    "answer": "Prostate-Specific Antigen (PSA)",
+    "explanation": "PSA levels increase in prostate cancer and other prostate disorders."
+  },
+  {
+    "id": 35,
+    "question": "Which condition causes respiratory acidosis?",
+    "answer": "Chronic obstructive pulmonary disease (COPD)",
+    "explanation": "CO2 retention leads to decreased blood pH."
+  },
+  {
+    "id": 36,
+    "question": "Which vitamin deficiency causes decreased calcium absorption?",
+    "answer": "Vitamin D deficiency",
+    "explanation": "Vitamin D is required for intestinal calcium absorption."
+  },
+  {
+    "id": 37,
+    "question": "What is the reference range for serum magnesium?",
+    "answer": "1.7–2.2 mg/dL",
+    "explanation": "Magnesium is essential for neuromuscular and enzyme activity."
+  },
+  {
+    "id": 38,
+    "question": "Which analyte is falsely increased in hemolyzed samples?",
+    "answer": "Potassium",
+    "explanation": "Red blood cells contain high potassium levels, causing pseudohyperkalemia."
+  },
+  {
+    "id": 39,
+    "question": "Which test evaluates thyroid function?",
+    "answer": "Thyroid-Stimulating Hormone (TSH)",
+    "explanation": "TSH is the most sensitive initial test for thyroid disorders."
+  },
+  {
+    "id": 40,
+    "question": "Which condition shows decreased HDL levels?",
+    "answer": "Metabolic syndrome",
+    "explanation": "Insulin resistance affects lipid metabolism."
+  },
+  {
+    "id": 41,
+    "question": "Which enzyme is used to detect skeletal muscle damage?",
+    "answer": "Creatine Kinase-MM",
+    "explanation": "CK-MM is predominantly found in skeletal muscle."
+  },
+  {
+    "id": 42,
+    "question": "What is the main buffer system in blood?",
+    "answer": "Bicarbonate buffer system",
+    "explanation": "It maintains acid-base balance by regulating hydrogen ion concentration."
+  },
+  {
+    "id": 43,
+    "question": "Which analyte is decreased in SIADH?",
+    "answer": "Sodium",
+    "explanation": "Excess ADH causes water retention leading to dilutional hyponatremia."
+  },
+  {
+    "id": 44,
+    "question": "Which test measures pancreatic exocrine function?",
+    "answer": "Serum lipase",
+    "explanation": "Lipase is specific for pancreatic injury."
+  },
+  {
+    "id": 45,
+    "question": "Which protein transports iron in the blood?",
+    "answer": "Transferrin",
+    "explanation": "Transferrin binds and transports iron to tissues."
+  },
+  {
+    "id": 46,
+    "question": "Which condition causes increased serum ammonia?",
+    "answer": "Hepatic encephalopathy",
+    "explanation": "Liver failure impairs ammonia detoxification."
+  },
+  {
+    "id": 47,
+    "question": "Which analyte is used to assess nutritional status?",
+    "answer": "Prealbumin",
+    "explanation": "Prealbumin has a short half-life and reflects recent nutritional changes."
+  },
+  {
+    "id": 48,
+    "question": "Which disorder causes hypocalcemia?",
+    "answer": "Hypoparathyroidism",
+    "explanation": "Low PTH decreases calcium release from bone."
+  },
+  {
+    "id": 49,
+    "question": "Which method is commonly used for cholesterol measurement?",
+    "answer": "Enzymatic colorimetric method",
+    "explanation": "This method is specific and widely used in automated analyzers."
+  },
+  {
+    "id": 50,
+    "question": "Which analyte is elevated in muscle trauma?",
+    "answer": "Myoglobin",
+    "explanation": "Myoglobin is released rapidly into the bloodstream after muscle injury."
+  },
+  {
+    "id": 51,
+    "question": "Which analyte is most affected by prolonged tourniquet application?",
+    "answer": "Potassium",
+    "explanation": "Venous stasis causes hemoconcentration, leading to falsely increased potassium levels."
+  },
+  {
+    "id": 52,
+    "question": "Which enzyme increases earliest after myocardial infarction?",
+    "answer": "Creatine Kinase-MB (CK-MB)",
+    "explanation": "CK-MB rises within 3–6 hours after myocardial injury."
+  },
+  {
+    "id": 53,
+    "question": "What is the reference range for serum chloride?",
+    "answer": "98–106 mmol/L",
+    "explanation": "Chloride works with sodium to maintain osmotic pressure and acid-base balance."
+  },
+  {
+    "id": 54,
+    "question": "Which condition causes metabolic alkalosis?",
+    "answer": "Prolonged vomiting",
+    "explanation": "Loss of gastric acid leads to increased blood pH."
+  },
+  {
+    "id": 55,
+    "question": "Which test is used to confirm diabetes mellitus?",
+    "answer": "Oral Glucose Tolerance Test (OGTT)",
+    "explanation": "OGTT evaluates the body's ability to metabolize glucose."
+  },
+  {
+    "id": 56,
+    "question": "Which protein is increased in multiple myeloma?",
+    "answer": "Monoclonal immunoglobulins",
+    "explanation": "Malignant plasma cells produce excessive abnormal antibodies."
+  },
+  {
+    "id": 57,
+    "question": "Which analyte reflects recent alcohol intake?",
+    "answer": "Gamma-glutamyl transferase (GGT)",
+    "explanation": "GGT is induced by chronic alcohol consumption."
+  },
+  {
+    "id": 58,
+    "question": "Which condition causes decreased BUN?",
+    "answer": "Liver failure",
+    "explanation": "Urea synthesis is impaired when liver function declines."
+  },
+  {
+    "id": 59,
+    "question": "Which electrolyte is primarily intracellular?",
+    "answer": "Potassium",
+    "explanation": "About 98% of potassium is found inside cells."
+  },
+  {
+    "id": 60,
+    "question": "What is the normal serum osmolality range?",
+    "answer": "275–295 mOsm/kg",
+    "explanation": "Serum osmolality reflects solute concentration in plasma."
+  },
+  {
+    "id": 61,
+    "question": "Which test measures iron storage?",
+    "answer": "Serum ferritin",
+    "explanation": "Ferritin reflects total body iron stores."
+  },
+  {
+    "id": 62,
+    "question": "Which disorder causes increased alkaline phosphatase in children?",
+    "answer": "Bone growth",
+    "explanation": "ALP is elevated during periods of active bone formation."
+  },
+  {
+    "id": 63,
+    "question": "Which analyte is elevated in rhabdomyolysis?",
+    "answer": "Creatine kinase",
+    "explanation": "Muscle breakdown releases large amounts of CK into circulation."
+  },
+  {
+    "id": 64,
+    "question": "Which method is used to measure arterial blood gases?",
+    "answer": "Potentiometry",
+    "explanation": "Electrodes measure pH, pCO₂, and pO₂ directly."
+  },
+  {
+    "id": 65,
+    "question": "Which hormone decreases blood calcium levels?",
+    "answer": "Calcitonin",
+    "explanation": "Calcitonin inhibits bone resorption."
+  },
+  {
+    "id": 66,
+    "question": "Which analyte is increased in hemolytic anemia?",
+    "answer": "Unconjugated bilirubin",
+    "explanation": "Excess red cell destruction increases bilirubin production."
+  },
+  {
+    "id": 67,
+    "question": "Which test differentiates iron deficiency anemia from anemia of chronic disease?",
+    "answer": "Serum ferritin",
+    "explanation": "Ferritin is decreased in iron deficiency but normal or increased in chronic disease."
+  },
+  {
+    "id": 68,
+    "question": "Which condition causes increased lactate levels?",
+    "answer": "Tissue hypoxia",
+    "explanation": "Anaerobic metabolism produces lactic acid."
+  },
+  {
+    "id": 69,
+    "question": "Which analyte is used to assess pancreatic beta-cell function?",
+    "answer": "C-peptide",
+    "explanation": "C-peptide reflects endogenous insulin secretion."
+  },
+  {
+    "id": 70,
+    "question": "Which electrolyte abnormality is seen in renal failure?",
+    "answer": "Hyperphosphatemia",
+    "explanation": "Impaired excretion leads to phosphate retention."
+  },
+  {
+    "id": 71,
+    "question": "Which condition leads to increased serum phosphorus?",
+    "answer": "Hypoparathyroidism",
+    "explanation": "Low PTH reduces renal phosphate excretion."
+  },
+  {
+    "id": 72,
+    "question": "Which analyte is falsely decreased by lipemia?",
+    "answer": "Sodium",
+    "explanation": "Lipemia causes volume displacement error in indirect ISE methods."
+  },
+  {
+    "id": 73,
+    "question": "Which enzyme is elevated in alcoholic liver disease?",
+    "answer": "AST",
+    "explanation": "AST is typically higher than ALT in alcohol-related liver damage."
+  },
+  {
+    "id": 74,
+    "question": "Which test evaluates adrenal cortex function?",
+    "answer": "Serum cortisol",
+    "explanation": "Cortisol reflects adrenal gland activity."
+  },
+  {
+    "id": 75,
+    "question": "Which disorder causes hyperkalemia?",
+    "answer": "Acute renal failure",
+    "explanation": "Decreased potassium excretion leads to accumulation."
+  },
+  {
+    "id": 76,
+    "question": "Which protein fraction migrates fastest in electrophoresis?",
+    "answer": "Albumin",
+    "explanation": "Albumin has the highest negative charge and smallest size."
+  },
+  {
+    "id": 77,
+    "question": "Which analyte is increased in cholestasis?",
+    "answer": "Conjugated bilirubin",
+    "explanation": "Bile obstruction prevents bilirubin excretion."
+  },
+  {
+    "id": 78,
+    "question": "Which acid-base disorder shows low pH and low bicarbonate?",
+    "answer": "Metabolic acidosis",
+    "explanation": "Excess acid or bicarbonate loss lowers blood pH."
+  },
+  {
+    "id": 79,
+    "question": "Which hormone regulates sodium reabsorption in the kidney?",
+    "answer": "Aldosterone",
+    "explanation": "Aldosterone increases sodium reabsorption and potassium excretion."
+  },
+  {
+    "id": 80,
+    "question": "Which analyte is elevated in myocardial injury but not specific?",
+    "answer": "Lactate dehydrogenase (LDH)",
+    "explanation": "LDH is found in many tissues and is less specific."
+  },
+  {
+    "id": 81,
+    "question": "Which disorder causes decreased serum iron but increased ferritin?",
+    "answer": "Anemia of chronic disease",
+    "explanation": "Iron is sequestered in storage sites."
+  },
+  {
+    "id": 82,
+    "question": "Which test measures vitamin D status?",
+    "answer": "25-hydroxyvitamin D",
+    "explanation": "It is the best indicator of vitamin D stores."
+  },
+  {
+    "id": 83,
+    "question": "Which electrolyte imbalance causes muscle weakness and arrhythmia?",
+    "answer": "Hypokalemia",
+    "explanation": "Low potassium affects neuromuscular and cardiac function."
+  },
+  {
+    "id": 84,
+    "question": "Which analyte increases in nephrotic syndrome?",
+    "answer": "Cholesterol",
+    "explanation": "The liver compensates for protein loss by increasing lipid synthesis."
+  },
+  {
+    "id": 85,
+    "question": "Which enzyme is used as a tumor marker for liver cancer?",
+    "answer": "Alpha-fetoprotein (AFP)",
+    "explanation": "AFP is elevated in hepatocellular carcinoma."
+  },
+  {
+    "id": 86,
+    "question": "Which specimen is preferred for ammonia testing?",
+    "answer": "Plasma kept on ice",
+    "explanation": "Ammonia levels increase rapidly at room temperature."
+  },
+  {
+    "id": 87,
+    "question": "Which disorder causes low urine specific gravity?",
+    "answer": "Diabetes insipidus",
+    "explanation": "Lack of ADH causes dilute urine."
+  },
+  {
+    "id": 88,
+    "question": "Which analyte is increased in prolonged fasting?",
+    "answer": "Free fatty acids",
+    "explanation": "Fat breakdown increases during fasting states."
+  },
+  {
+    "id": 89,
+    "question": "Which test assesses parathyroid function?",
+    "answer": "Parathyroid hormone (PTH)",
+    "explanation": "PTH regulates calcium and phosphorus metabolism."
+  },
+  {
+    "id": 90,
+    "question": "Which analyte is elevated in tissue necrosis?",
+    "answer": "Lactate dehydrogenase (LDH)",
+    "explanation": "LDH is released from damaged cells."
+  },
+  {
+    "id": 91,
+    "question": "Which disorder shows increased cortisol levels?",
+    "answer": "Cushing syndrome",
+    "explanation": "Excess cortisol production characterizes the disorder."
+  },
+  {
+    "id": 92,
+    "question": "Which analyte is used to monitor diabetic ketoacidosis therapy?",
+    "answer": "Blood glucose",
+    "explanation": "Frequent monitoring ensures effective treatment."
+  },
+  {
+    "id": 93,
+    "question": "Which enzyme converts angiotensin I to angiotensin II?",
+    "answer": "Angiotensin-converting enzyme (ACE)",
+    "explanation": "ACE plays a key role in blood pressure regulation."
+  },
+  {
+    "id": 94,
+    "question": "Which analyte decreases in malnutrition?",
+    "answer": "Albumin",
+    "explanation": "Inadequate protein intake reduces albumin synthesis."
+  },
+  {
+    "id": 95,
+    "question": "Which test evaluates insulin resistance?",
+    "answer": "Fasting insulin level",
+    "explanation": "Elevated insulin suggests decreased insulin sensitivity."
+  },
+  {
+    "id": 96,
+    "question": "Which electrolyte abnormality is seen in hyperparathyroidism?",
+    "answer": "Hypercalcemia",
+    "explanation": "Excess PTH increases calcium release from bone."
+  },
+  {
+    "id": 97,
+    "question": "Which analyte increases in strenuous exercise?",
+    "answer": "Creatine kinase",
+    "explanation": "Muscle activity causes transient CK elevation."
+  },
+  {
+    "id": 98,
+    "question": "Which condition causes increased total protein?",
+    "answer": "Dehydration",
+    "explanation": "Fluid loss concentrates plasma proteins."
+  },
+  {
+    "id": 99,
+    "question": "Which test measures antioxidant capacity?",
+    "answer": "Uric acid",
+    "explanation": "Uric acid acts as a major plasma antioxidant."
+  },
+  {
+    "id": 100,
+    "question": "Which analyte is used to assess glomerular filtration rate?",
+    "answer": "Creatinine",
+    "explanation": "Creatinine clearance reflects kidney filtration efficiency."
+  },
+  {
+    "id": 101,
+    "question": "Which analyte is increased in hemoconcentration?",
+    "answer": "Total protein",
+    "explanation": "Loss of plasma water concentrates blood components."
+  },
+  {
+    "id": 102,
+    "question": "Which enzyme is used to assess bone disease?",
+    "answer": "Alkaline phosphatase",
+    "explanation": "ALP is elevated in conditions with increased osteoblastic activity."
+  },
+  {
+    "id": 103,
+    "question": "Which condition causes respiratory alkalosis?",
+    "answer": "Hyperventilation",
+    "explanation": "Excessive CO₂ loss increases blood pH."
+  },
+  {
+    "id": 104,
+    "question": "Which analyte is elevated in renal tubular acidosis?",
+    "answer": "Chloride",
+    "explanation": "Renal tubular acidosis is associated with hyperchloremic metabolic acidosis."
+  },
+  {
+    "id": 105,
+    "question": "Which protein acts as an acute-phase reactant?",
+    "answer": "C-reactive protein",
+    "explanation": "CRP increases rapidly in inflammation and infection."
+  },
+  {
+    "id": 106,
+    "question": "Which analyte is decreased in Wilson disease?",
+    "answer": "Ceruloplasmin",
+    "explanation": "Wilson disease is characterized by impaired copper metabolism."
+  },
+  {
+    "id": 107,
+    "question": "Which analyte increases in prolonged hypoxia?",
+    "answer": "Erythropoietin",
+    "explanation": "Hypoxia stimulates renal erythropoietin production."
+  },
+  {
+    "id": 108,
+    "question": "Which test evaluates pancreatic endocrine function?",
+    "answer": "Fasting blood glucose",
+    "explanation": "It reflects insulin-mediated glucose regulation."
+  },
+  {
+    "id": 109,
+    "question": "Which analyte is elevated in acute stress?",
+    "answer": "Cortisol",
+    "explanation": "Stress activates the hypothalamic-pituitary-adrenal axis."
+  },
+  {
+    "id": 110,
+    "question": "Which electrolyte abnormality causes tetany?",
+    "answer": "Hypocalcemia",
+    "explanation": "Low calcium increases neuromuscular excitability."
+  },
+  {
+    "id": 111,
+    "question": "Which condition causes increased conjugated bilirubin?",
+    "answer": "Obstructive jaundice",
+    "explanation": "Bile flow obstruction prevents bilirubin excretion."
+  },
+  {
+    "id": 112,
+    "question": "Which analyte is elevated in renal failure and interferes with assays?",
+    "answer": "Urea",
+    "explanation": "High urea levels can cause analytical interference."
+  },
+  {
+    "id": 113,
+    "question": "Which enzyme catalyzes the conversion of lactate to pyruvate?",
+    "answer": "Lactate dehydrogenase",
+    "explanation": "LDH plays a key role in anaerobic metabolism."
+  },
+  {
+    "id": 114,
+    "question": "Which analyte increases in hyperthyroidism?",
+    "answer": "Free T4",
+    "explanation": "Excess thyroid hormone production elevates T4 levels."
+  },
+  {
+    "id": 115,
+    "question": "Which condition causes decreased bicarbonate?",
+    "answer": "Metabolic acidosis",
+    "explanation": "Bicarbonate is consumed in buffering excess acids."
+  },
+  {
+    "id": 116,
+    "question": "Which analyte is falsely increased in icteric samples?",
+    "answer": "Total protein",
+    "explanation": "High bilirubin causes spectral interference."
+  },
+  {
+    "id": 117,
+    "question": "Which test is most specific for myocardial infarction?",
+    "answer": "Troponin I",
+    "explanation": "Troponin I is highly specific to cardiac muscle injury."
+  },
+  {
+    "id": 118,
+    "question": "Which electrolyte is decreased in diarrhea?",
+    "answer": "Potassium",
+    "explanation": "GI losses result in hypokalemia."
+  },
+  {
+    "id": 119,
+    "question": "Which analyte is elevated in muscle dystrophy?",
+    "answer": "Creatine kinase",
+    "explanation": "Muscle fiber breakdown releases CK."
+  },
+  {
+    "id": 120,
+    "question": "Which protein binds calcium in the blood?",
+    "answer": "Albumin",
+    "explanation": "About 40% of calcium is bound to albumin."
+  },
+  {
+    "id": 121,
+    "question": "Which disorder shows low sodium and high potassium?",
+    "answer": "Addison's disease",
+    "explanation": "Aldosterone deficiency affects electrolyte balance."
+  },
+  {
+    "id": 122,
+    "question": "Which analyte increases during pregnancy?",
+    "answer": "Alkaline phosphatase",
+    "explanation": "Placental ALP contributes to elevated levels."
+  },
+  {
+    "id": 123,
+    "question": "Which test measures insulin production independent of injections?",
+    "answer": "C-peptide",
+    "explanation": "C-peptide is released in equal amounts with endogenous insulin."
+  },
+  {
+    "id": 124,
+    "question": "Which condition causes decreased HDL?",
+    "answer": "Type 2 diabetes mellitus",
+    "explanation": "Insulin resistance alters lipid metabolism."
+  },
+  {
+    "id": 125,
+    "question": "Which analyte is elevated in acute inflammation?",
+    "answer": "Fibrinogen",
+    "explanation": "Fibrinogen is a positive acute-phase protein."
+  },
+  {
+    "id": 126,
+    "question": "Which disorder causes increased plasma ammonia?",
+    "answer": "Liver cirrhosis",
+    "explanation": "Impaired hepatic detoxification leads to ammonia accumulation."
+  },
+  {
+    "id": 127,
+    "question": "Which analyte is decreased in chronic kidney disease?",
+    "answer": "Calcium",
+    "explanation": "Reduced vitamin D activation lowers calcium absorption."
+  },
+  {
+    "id": 128,
+    "question": "Which enzyme is used to assess myocardial reinfarction?",
+    "answer": "CK-MB",
+    "explanation": "CK-MB returns to normal faster than troponin."
+  },
+  {
+    "id": 129,
+    "question": "Which analyte is elevated in insulinoma?",
+    "answer": "Insulin",
+    "explanation": "Tumor overproduction causes hyperinsulinemia."
+  },
+  {
+    "id": 130,
+    "question": "Which electrolyte imbalance causes cardiac arrhythmias?",
+    "answer": "Hyperkalemia",
+    "explanation": "Elevated potassium alters cardiac conduction."
+  },
+  {
+    "id": 131,
+    "question": "Which analyte is elevated in pheochromocytoma?",
+    "answer": "Catecholamines",
+    "explanation": "Tumor secretes excessive epinephrine and norepinephrine."
+  },
+  {
+    "id": 132,
+    "question": "Which test assesses bone resorption?",
+    "answer": "Serum calcium",
+    "explanation": "Increased bone breakdown raises calcium levels."
+  },
+  {
+    "id": 133,
+    "question": "Which disorder causes metabolic acidosis with increased anion gap?",
+    "answer": "Diabetic ketoacidosis",
+    "explanation": "Accumulation of ketone bodies increases the anion gap."
+  },
+  {
+    "id": 134,
+    "question": "Which analyte is elevated in heart failure?",
+    "answer": "B-type natriuretic peptide (BNP)",
+    "explanation": "BNP is released in response to ventricular stretch."
+  },
+  {
+    "id": 135,
+    "question": "Which analyte decreases in acute blood loss?",
+    "answer": "Hemoglobin",
+    "explanation": "Blood loss reduces red cell mass."
+  },
+  {
+    "id": 136,
+    "question": "Which analyte increases in hemolysis and interferes with tests?",
+    "answer": "Hemoglobin",
+    "explanation": "Free hemoglobin causes spectral interference."
+  },
+  {
+    "id": 137,
+    "question": "Which condition causes low phosphorus?",
+    "answer": "Hyperparathyroidism",
+    "explanation": "Excess PTH increases phosphate excretion."
+  },
+  {
+    "id": 138,
+    "question": "Which analyte is elevated in acute kidney injury?",
+    "answer": "Creatinine",
+    "explanation": "Reduced filtration leads to accumulation."
+  },
+  {
+    "id": 139,
+    "question": "Which analyte is used to monitor thyroid replacement therapy?",
+    "answer": "TSH",
+    "explanation": "TSH is the most sensitive indicator of therapy adequacy."
+  },
+  {
+    "id": 140,
+    "question": "Which disorder causes hypermagnesemia?",
+    "answer": "Renal failure",
+    "explanation": "Magnesium excretion is impaired."
+  },
+  {
+    "id": 141,
+    "question": "Which analyte increases after strenuous muscle activity?",
+    "answer": "Myoglobin",
+    "explanation": "Muscle injury releases myoglobin rapidly."
+  },
+  {
+    "id": 142,
+    "question": "Which condition causes decreased transferrin?",
+    "answer": "Chronic liver disease",
+    "explanation": "Reduced hepatic synthesis lowers transferrin levels."
+  },
+  {
+    "id": 143,
+    "question": "Which analyte is elevated in sepsis?",
+    "answer": "Procalcitonin",
+    "explanation": "Procalcitonin is a marker of severe bacterial infection."
+  },
+  {
+    "id": 144,
+    "question": "Which test evaluates lipid-related cardiovascular risk?",
+    "answer": "LDL cholesterol",
+    "explanation": "Elevated LDL increases atherosclerosis risk."
+  },
+  {
+    "id": 145,
+    "question": "Which analyte decreases in hypothyroidism?",
+    "answer": "Free T4",
+    "explanation": "Reduced thyroid hormone production lowers T4."
+  },
+  {
+    "id": 146,
+    "question": "Which disorder causes increased uric acid due to cell turnover?",
+    "answer": "Leukemia",
+    "explanation": "Rapid cell breakdown increases purine metabolism."
+  },
+  {
+    "id": 147,
+    "question": "Which analyte is elevated in chronic renal failure?",
+    "answer": "Phosphate",
+    "explanation": "Reduced renal excretion leads to hyperphosphatemia."
+  },
+  {
+    "id": 148,
+    "question": "Which test is used to assess insulin sensitivity?",
+    "answer": "HOMA-IR",
+    "explanation": "It estimates insulin resistance using glucose and insulin levels."
+  },
+  {
+    "id": 149,
+    "question": "Which analyte is elevated in liver metastasis?",
+    "answer": "Alkaline phosphatase",
+    "explanation": "Infiltrative liver diseases increase ALP."
+  },
+  {
+    "id": 150,
+    "question": "Which analyte best reflects short-term glycemic control?",
+    "answer": "Fructosamine",
+    "explanation": "Fructosamine reflects glucose levels over 2–3 weeks."
+  },
+  {
+    "id": 151,
+    "question": "Which analyte is elevated in acute myocardial infarction after 24–48 hours?",
+    "answer": "Troponin T",
+    "explanation": "Troponin T remains elevated longer than CK-MB and helps detect late presenters."
+  },
+  {
+    "id": 152,
+    "question": "Which condition causes decreased serum osmolality?",
+    "answer": "Overhydration",
+    "explanation": "Excess water dilutes plasma solutes."
+  },
+  {
+    "id": 153,
+    "question": "Which enzyme is used as a marker for biliary obstruction?",
+    "answer": "Gamma-glutamyl transferase (GGT)",
+    "explanation": "GGT increases in cholestasis and helps confirm hepatic origin of elevated ALP."
+  },
+  {
+    "id": 154,
+    "question": "Which analyte is increased in prolonged starvation?",
+    "answer": "Ketone bodies",
+    "explanation": "Fat metabolism becomes the primary energy source during starvation."
+  },
+  {
+    "id": 155,
+    "question": "Which electrolyte abnormality is seen in tumor lysis syndrome?",
+    "answer": "Hyperuricemia",
+    "explanation": "Rapid cell destruction releases purines metabolized to uric acid."
+  },
+  {
+    "id": 156,
+    "question": "Which test is used to measure total antioxidant status?",
+    "answer": "Total antioxidant capacity assay",
+    "explanation": "It evaluates the combined effect of all antioxidants in plasma."
+  },
+  {
+    "id": 157,
+    "question": "Which analyte is decreased in dilutional hyponatremia?",
+    "answer": "Sodium",
+    "explanation": "Excess water retention dilutes serum sodium concentration."
+  },
+  {
+    "id": 158,
+    "question": "Which enzyme is elevated in skeletal muscle injury?",
+    "answer": "Creatine kinase-MM",
+    "explanation": "CK-MM is the predominant isoenzyme in skeletal muscle."
+  },
+  {
+    "id": 159,
+    "question": "Which condition causes increased serum lactate?",
+    "answer": "Septic shock",
+    "explanation": "Poor tissue perfusion leads to anaerobic metabolism."
+  },
+  {
+    "id": 160,
+    "question": "Which analyte is elevated in hypothyroidism?",
+    "answer": "Cholesterol",
+    "explanation": "Reduced thyroid hormones decrease lipid metabolism."
+  },
+  {
+    "id": 161,
+    "question": "Which disorder causes increased serum ferritin?",
+    "answer": "Hemochromatosis",
+    "explanation": "Excess iron storage elevates ferritin levels."
+  },
+  {
+    "id": 162,
+    "question": "Which analyte decreases in acute pancreatitis?",
+    "answer": "Calcium",
+    "explanation": "Fat necrosis binds calcium, causing hypocalcemia."
+  },
+  {
+    "id": 163,
+    "question": "Which test is used to evaluate growth hormone excess?",
+    "answer": "Insulin-like growth factor 1 (IGF-1)",
+    "explanation": "IGF-1 reflects average growth hormone secretion."
+  },
+  {
+    "id": 164,
+    "question": "Which analyte is elevated in metabolic syndrome?",
+    "answer": "Triglycerides",
+    "explanation": "Insulin resistance increases triglyceride production."
+  },
+  {
+    "id": 165,
+    "question": "Which electrolyte is decreased in refeeding syndrome?",
+    "answer": "Phosphorus",
+    "explanation": "Insulin-driven cellular uptake lowers serum phosphate."
+  },
+  {
+    "id": 166,
+    "question": "Which analyte is increased in chronic inflammation?",
+    "answer": "Fibrinogen",
+    "explanation": "It is a positive acute-phase reactant."
+  },
+  {
+    "id": 167,
+    "question": "Which condition causes elevated aldosterone levels?",
+    "answer": "Conn syndrome",
+    "explanation": "Primary hyperaldosteronism leads to sodium retention and potassium loss."
+  },
+  {
+    "id": 168,
+    "question": "Which analyte is decreased in nephrotic syndrome?",
+    "answer": "Albumin",
+    "explanation": "Protein loss through urine causes hypoalbuminemia."
+  },
+  {
+    "id": 169,
+    "question": "Which enzyme is elevated in liver cell necrosis?",
+    "answer": "Alanine aminotransferase (ALT)",
+    "explanation": "ALT is more specific for hepatocellular injury."
+  },
+  {
+    "id": 170,
+    "question": "Which analyte is elevated in cyanide poisoning?",
+    "answer": "Lactate",
+    "explanation": "Cellular hypoxia forces anaerobic metabolism."
+  },
+  {
+    "id": 171,
+    "question": "Which condition causes increased serum globulins?",
+    "answer": "Chronic infection",
+    "explanation": "Persistent antigenic stimulation increases immunoglobulins."
+  },
+  {
+    "id": 172,
+    "question": "Which analyte is increased in adrenal insufficiency?",
+    "answer": "Potassium",
+    "explanation": "Aldosterone deficiency causes potassium retention."
+  },
+  {
+    "id": 173,
+    "question": "Which test is used to assess pancreatic exocrine insufficiency?",
+    "answer": "Fecal elastase",
+    "explanation": "Low levels indicate impaired pancreatic enzyme secretion."
+  },
+  {
+    "id": 174,
+    "question": "Which analyte increases during acute phase response?",
+    "answer": "C-reactive protein",
+    "explanation": "CRP rises rapidly in inflammation and infection."
+  },
+  {
+    "id": 175,
+    "question": "Which disorder causes low serum uric acid?",
+    "answer": "SIADH",
+    "explanation": "Increased renal uric acid excretion lowers serum levels."
+  },
+  {
+    "id": 176,
+    "question": "Which analyte is elevated in myocardial strain?",
+    "answer": "BNP",
+    "explanation": "BNP is released due to ventricular volume expansion."
+  },
+  {
+    "id": 177,
+    "question": "Which condition causes metabolic alkalosis with hypokalemia?",
+    "answer": "Diuretic use",
+    "explanation": "Increased renal loss of hydrogen and potassium ions occurs."
+  },
+  {
+    "id": 178,
+    "question": "Which analyte is elevated in acute hepatitis?",
+    "answer": "ALT",
+    "explanation": "ALT rises significantly during acute liver inflammation."
+  },
+  {
+    "id": 179,
+    "question": "Which analyte decreases in iron deficiency anemia?",
+    "answer": "Ferritin",
+    "explanation": "Iron stores are depleted in iron deficiency."
+  },
+  {
+    "id": 180,
+    "question": "Which enzyme is elevated in tissue breakdown?",
+    "answer": "Lactate dehydrogenase",
+    "explanation": "LDH is released from damaged cells."
+  },
+  {
+    "id": 181,
+    "question": "Which analyte is elevated in hyperaldosteronism?",
+    "answer": "Sodium",
+    "explanation": "Aldosterone promotes sodium reabsorption."
+  },
+  {
+    "id": 182,
+    "question": "Which condition causes decreased serum magnesium?",
+    "answer": "Chronic alcoholism",
+    "explanation": "Poor intake and renal losses reduce magnesium levels."
+  },
+  {
+    "id": 183,
+    "question": "Which analyte increases in prolonged immobilization?",
+    "answer": "Calcium",
+    "explanation": "Bone resorption increases during immobilization."
+  },
+  {
+    "id": 184,
+    "question": "Which test is used to evaluate insulinoma?",
+    "answer": "Fasting insulin",
+    "explanation": "Inappropriately high insulin levels suggest insulinoma."
+  },
+  {
+    "id": 185,
+    "question": "Which analyte is elevated in viral hepatitis?",
+    "answer": "ALT",
+    "explanation": "ALT is more markedly elevated than AST in viral hepatitis."
+  },
+  {
+    "id": 186,
+    "question": "Which disorder causes low bicarbonate and normal anion gap?",
+    "answer": "Diarrhea",
+    "explanation": "Loss of bicarbonate-rich intestinal fluids leads to acidosis."
+  },
+  {
+    "id": 187,
+    "question": "Which analyte is increased in bone metastasis?",
+    "answer": "Alkaline phosphatase",
+    "explanation": "Bone involvement increases osteoblastic activity."
+  },
+  {
+    "id": 188,
+    "question": "Which condition causes elevated prolactin?",
+    "answer": "Pituitary adenoma",
+    "explanation": "Tumors may secrete excess prolactin."
+  },
+  {
+    "id": 189,
+    "question": "Which analyte is elevated in massive hemolysis?",
+    "answer": "Unconjugated bilirubin",
+    "explanation": "Excess hemoglobin breakdown increases bilirubin."
+  },
+  {
+    "id": 190,
+    "question": "Which analyte is decreased in liver synthetic failure?",
+    "answer": "Albumin",
+    "explanation": "Reduced hepatic synthesis lowers albumin levels."
+  },
+  {
+    "id": 191,
+    "question": "Which test assesses catecholamine-secreting tumors?",
+    "answer": "Plasma metanephrines",
+    "explanation": "They are sensitive markers for pheochromocytoma."
+  },
+  {
+    "id": 192,
+    "question": "Which analyte is elevated in acute renal tubular necrosis?",
+    "answer": "Creatinine",
+    "explanation": "Tubular damage reduces filtration efficiency."
+  },
+  {
+    "id": 193,
+    "question": "Which disorder causes increased serum copper?",
+    "answer": "Pregnancy",
+    "explanation": "Estrogen increases ceruloplasmin synthesis."
+  },
+  {
+    "id": 194,
+    "question": "Which analyte decreases in acute inflammation?",
+    "answer": "Transferrin",
+    "explanation": "It is a negative acute-phase reactant."
+  },
+  {
+    "id": 195,
+    "question": "Which analyte is elevated in acute stress response?",
+    "answer": "Glucose",
+    "explanation": "Stress hormones increase gluconeogenesis."
+  },
+  {
+    "id": 196,
+    "question": "Which condition causes increased anion gap metabolic acidosis?",
+    "answer": "Lactic acidosis",
+    "explanation": "Accumulation of lactic acid increases the anion gap."
+  },
+  {
+    "id": 197,
+    "question": "Which analyte is elevated in estrogen therapy?",
+    "answer": "Triglycerides",
+    "explanation": "Estrogen increases hepatic lipid synthesis."
+  },
+  {
+    "id": 198,
+    "question": "Which test is used to assess pancreatic beta-cell reserve?",
+    "answer": "C-peptide",
+    "explanation": "C-peptide reflects endogenous insulin production."
+  },
+  {
+    "id": 199,
+    "question": "Which analyte increases in obstructive lung disease?",
+    "answer": "Carbon dioxide",
+    "explanation": "CO₂ retention leads to respiratory acidosis."
+  },
+  {
+    "id": 200,
+    "question": "Which analyte best reflects long-term renal function?",
+    "answer": "Creatinine clearance",
+    "explanation": "It estimates the glomerular filtration rate over time."
+  },
+  {
+    "id": 201,
+    "question": "Which analyte is elevated in acute dehydration?",
+    "answer": "Sodium",
+    "explanation": "Water loss without proportional sodium loss increases serum sodium concentration."
+  },
+  {
+    "id": 202,
+    "question": "Which enzyme is increased in myocardial injury but not specific?",
+    "answer": "Aspartate aminotransferase (AST)",
+    "explanation": "AST is found in heart, liver, and muscle tissues."
+  },
+  {
+    "id": 203,
+    "question": "Which condition causes low serum osmolality and hyponatremia?",
+    "answer": "SIADH",
+    "explanation": "Excess ADH causes water retention and dilution of sodium."
+  },
+  {
+    "id": 204,
+    "question": "Which analyte is elevated in acute inflammation and infection?",
+    "answer": "C-reactive protein",
+    "explanation": "CRP increases rapidly during inflammatory responses."
+  },
+  {
+    "id": 205,
+    "question": "Which electrolyte abnormality is seen in chronic kidney disease?",
+    "answer": "Hyperkalemia",
+    "explanation": "Impaired renal excretion leads to potassium accumulation."
+  },
+  {
+    "id": 206,
+    "question": "Which test is used to assess endogenous insulin secretion?",
+    "answer": "C-peptide",
+    "explanation": "C-peptide is released equimolarly with insulin."
+  },
+  {
+    "id": 207,
+    "question": "Which analyte is increased in acute pancreatitis?",
+    "answer": "Lipase",
+    "explanation": "Lipase is more specific than amylase for pancreatic injury."
+  },
+  {
+    "id": 208,
+    "question": "Which condition causes metabolic alkalosis?",
+    "answer": "Prolonged vomiting",
+    "explanation": "Loss of gastric acid increases blood pH."
+  },
+  {
+    "id": 209,
+    "question": "Which analyte is elevated in hypothyroidism?",
+    "answer": "TSH",
+    "explanation": "Low thyroid hormone levels cause increased TSH secretion."
+  },
+  {
+    "id": 210,
+    "question": "Which enzyme is elevated in biliary obstruction?",
+    "answer": "Alkaline phosphatase",
+    "explanation": "ALP increases due to bile duct epithelial damage."
+  },
+  {
+    "id": 211,
+    "question": "Which analyte is decreased in iron deficiency anemia?",
+    "answer": "Serum iron",
+    "explanation": "Iron stores are depleted in iron deficiency."
+  },
+  {
+    "id": 212,
+    "question": "Which analyte is elevated in chronic alcoholism?",
+    "answer": "Gamma-glutamyl transferase (GGT)",
+    "explanation": "Alcohol induces hepatic GGT production."
+  },
+  {
+    "id": 213,
+    "question": "Which condition causes increased serum phosphate?",
+    "answer": "Renal failure",
+    "explanation": "Decreased renal excretion leads to hyperphosphatemia."
+  },
+  {
+    "id": 214,
+    "question": "Which analyte is falsely increased in hemolyzed samples?",
+    "answer": "Potassium",
+    "explanation": "Red blood cell lysis releases intracellular potassium."
+  },
+  {
+    "id": 215,
+    "question": "Which hormone regulates calcium and phosphate metabolism?",
+    "answer": "Parathyroid hormone",
+    "explanation": "PTH increases calcium and decreases phosphate levels."
+  },
+  {
+    "id": 216,
+    "question": "Which analyte is elevated in acute renal failure?",
+    "answer": "Creatinine",
+    "explanation": "Reduced glomerular filtration causes accumulation."
+  },
+  {
+    "id": 217,
+    "question": "Which condition causes low serum calcium?",
+    "answer": "Hypoparathyroidism",
+    "explanation": "Insufficient PTH reduces calcium mobilization."
+  },
+  {
+    "id": 218,
+    "question": "Which analyte increases in massive tissue necrosis?",
+    "answer": "Lactate dehydrogenase",
+    "explanation": "LDH is released from damaged cells."
+  },
+  {
+    "id": 219,
+    "question": "Which test is used to evaluate adrenal medulla tumors?",
+    "answer": "Plasma metanephrines",
+    "explanation": "They are sensitive markers for pheochromocytoma."
+  },
+  {
+    "id": 220,
+    "question": "Which analyte is elevated in poorly controlled diabetes?",
+    "answer": "HbA1c",
+    "explanation": "HbA1c reflects long-term glycemic control."
+  },
+  {
+    "id": 221,
+    "question": "Which electrolyte abnormality causes muscle cramps?",
+    "answer": "Hypocalcemia",
+    "explanation": "Low calcium increases neuromuscular excitability."
+  },
+  {
+    "id": 222,
+    "question": "Which analyte is elevated in nephrotic syndrome?",
+    "answer": "Cholesterol",
+    "explanation": "Hepatic lipid synthesis increases to compensate protein loss."
+  },
+  {
+    "id": 223,
+    "question": "Which test measures pancreatic beta-cell function?",
+    "answer": "C-peptide",
+    "explanation": "It reflects endogenous insulin production."
+  },
+  {
+    "id": 224,
+    "question": "Which disorder causes increased serum uric acid?",
+    "answer": "Gout",
+    "explanation": "Uric acid crystal deposition causes joint inflammation."
+  },
+  {
+    "id": 225,
+    "question": "Which analyte is decreased in malnutrition?",
+    "answer": "Albumin",
+    "explanation": "Protein deficiency reduces albumin synthesis."
+  },
+  {
+    "id": 226,
+    "question": "Which analyte increases in prolonged fasting?",
+    "answer": "Free fatty acids",
+    "explanation": "Fat stores are mobilized for energy."
+  },
+  {
+    "id": 227,
+    "question": "Which enzyme is elevated in liver cirrhosis?",
+    "answer": "AST",
+    "explanation": "Chronic liver damage increases AST levels."
+  },
+  {
+    "id": 228,
+    "question": "Which analyte is elevated in metabolic syndrome?",
+    "answer": "Triglycerides",
+    "explanation": "Insulin resistance increases VLDL production."
+  },
+  {
+    "id": 229,
+    "question": "Which test evaluates thyroid hormone production?",
+    "answer": "Free T4",
+    "explanation": "Free T4 reflects active thyroid hormone levels."
+  },
+  {
+    "id": 230,
+    "question": "Which condition causes decreased bicarbonate?",
+    "answer": "Metabolic acidosis",
+    "explanation": "Bicarbonate is consumed buffering excess acid."
+  },
+  {
+    "id": 231,
+    "question": "Which analyte is elevated in acute stress?",
+    "answer": "Cortisol",
+    "explanation": "Stress activates adrenal hormone secretion."
+  },
+  {
+    "id": 232,
+    "question": "Which electrolyte imbalance causes arrhythmia?",
+    "answer": "Hyperkalemia",
+    "explanation": "High potassium disrupts cardiac conduction."
+  },
+  {
+    "id": 233,
+    "question": "Which analyte is elevated in cholestasis?",
+    "answer": "Conjugated bilirubin",
+    "explanation": "Bile flow obstruction prevents bilirubin excretion."
+  },
+  {
+    "id": 234,
+    "question": "Which test assesses kidney filtration capacity?",
+    "answer": "Creatinine clearance",
+    "explanation": "It estimates the glomerular filtration rate."
+  },
+  {
+    "id": 235,
+    "question": "Which analyte is elevated in bone turnover?",
+    "answer": "Alkaline phosphatase",
+    "explanation": "Osteoblastic activity increases ALP."
+  },
+  {
+    "id": 236,
+    "question": "Which analyte is decreased in dilutional states?",
+    "answer": "Sodium",
+    "explanation": "Excess water dilutes sodium concentration."
+  },
+  {
+    "id": 237,
+    "question": "Which enzyme is elevated in muscle injury?",
+    "answer": "Creatine kinase",
+    "explanation": "Muscle damage releases CK."
+  },
+  {
+    "id": 238,
+    "question": "Which condition causes respiratory acidosis?",
+    "answer": "Chronic obstructive pulmonary disease",
+    "explanation": "CO₂ retention lowers blood pH."
+  },
+  {
+    "id": 239,
+    "question": "Which analyte increases in prolonged bed rest?",
+    "answer": "Calcium",
+    "explanation": "Bone resorption increases during immobilization."
+  },
+  {
+    "id": 240,
+    "question": "Which analyte is elevated in acute hemolysis?",
+    "answer": "Unconjugated bilirubin",
+    "explanation": "Increased red cell destruction produces excess bilirubin."
+  },
+  {
+    "id": 241,
+    "question": "Which test evaluates lipid-related cardiovascular risk?",
+    "answer": "LDL cholesterol",
+    "explanation": "High LDL contributes to atherosclerosis."
+  },
+  {
+    "id": 242,
+    "question": "Which analyte is elevated in chronic kidney disease?",
+    "answer": "Phosphate",
+    "explanation": "Decreased renal excretion leads to accumulation."
+  },
+  {
+    "id": 243,
+    "question": "Which analyte is decreased in hypothyroidism?",
+    "answer": "Free T4",
+    "explanation": "Reduced thyroid hormone production lowers T4 levels."
+  },
+  {
+    "id": 244,
+    "question": "Which disorder causes hypermagnesemia?",
+    "answer": "Renal failure",
+    "explanation": "Impaired excretion leads to magnesium retention."
+  },
+  {
+    "id": 245,
+    "question": "Which analyte increases in severe infection?",
+    "answer": "Procalcitonin",
+    "explanation": "Procalcitonin is a marker of bacterial sepsis."
+  },
+  {
+    "id": 246,
+    "question": "Which condition causes increased anion gap metabolic acidosis?",
+    "answer": "Diabetic ketoacidosis",
+    "explanation": "Ketone body accumulation increases the anion gap."
+  },
+  {
+    "id": 247,
+    "question": "Which analyte is elevated in liver metastasis?",
+    "answer": "Alkaline phosphatase",
+    "explanation": "Infiltrative liver disease increases ALP."
+  },
+  {
+    "id": 248,
+    "question": "Which test assesses long-term blood glucose control?",
+    "answer": "Hemoglobin A1c",
+    "explanation": "HbA1c reflects average glucose over 2–3 months."
+  },
+  {
+    "id": 249,
+    "question": "Which analyte is elevated in acute kidney injury?",
+    "answer": "Blood urea nitrogen",
+    "explanation": "Reduced renal clearance causes BUN accumulation."
+  },
+  {
+    "id": 250,
+    "question": "Which analyte best reflects short-term renal function changes?",
+    "answer": "Serum creatinine",
+    "explanation": "Creatinine rises rapidly with decreased filtration."
+  },
+  {
+    "id": 251,
+    "question": "Which analyte is elevated in hemoconcentration due to dehydration?",
+    "answer": "Hematocrit",
+    "explanation": "Loss of plasma volume concentrates red blood cells and other analytes."
+  },
+  {
+    "id": 252,
+    "question": "Which enzyme is increased in acute hepatic injury?",
+    "answer": "Alanine aminotransferase (ALT)",
+    "explanation": "ALT is released from damaged hepatocytes."
+  },
+  {
+    "id": 253,
+    "question": "Which condition causes respiratory alkalosis?",
+    "answer": "Anxiety-induced hyperventilation",
+    "explanation": "Excess CO₂ loss increases blood pH."
+  },
+  {
+    "id": 254,
+    "question": "Which analyte is elevated in acute renal failure?",
+    "answer": "Blood urea nitrogen",
+    "explanation": "Impaired filtration leads to BUN accumulation."
+  },
+  {
+    "id": 255,
+    "question": "Which hormone increases blood glucose levels?",
+    "answer": "Glucagon",
+    "explanation": "Glucagon stimulates glycogenolysis and gluconeogenesis."
+  },
+  {
+    "id": 256,
+    "question": "Which analyte is decreased in overhydration?",
+    "answer": "Sodium",
+    "explanation": "Excess water dilutes serum sodium concentration."
+  },
+  {
+    "id": 257,
+    "question": "Which enzyme is elevated in myocardial infarction?",
+    "answer": "Troponin I",
+    "explanation": "Troponin I is highly specific for cardiac muscle injury."
+  },
+  {
+    "id": 258,
+    "question": "Which analyte is elevated in gout?",
+    "answer": "Uric acid",
+    "explanation": "Purine metabolism produces excess uric acid."
+  },
+  {
+    "id": 259,
+    "question": "Which test is used to assess thyroid gland activity?",
+    "answer": "Thyroid-stimulating hormone (TSH)",
+    "explanation": "TSH is the most sensitive indicator of thyroid function."
+  },
+  {
+    "id": 260,
+    "question": "Which electrolyte imbalance is common in renal failure?",
+    "answer": "Hyperkalemia",
+    "explanation": "Decreased renal excretion causes potassium retention."
+  },
+  {
+    "id": 261,
+    "question": "Which analyte is elevated in acute pancreatitis?",
+    "answer": "Serum lipase",
+    "explanation": "Lipase is specific for pancreatic injury."
+  },
+  {
+    "id": 262,
+    "question": "Which condition causes metabolic acidosis?",
+    "answer": "Diabetic ketoacidosis",
+    "explanation": "Accumulation of ketone bodies lowers blood pH."
+  },
+  {
+    "id": 263,
+    "question": "Which analyte is increased in chronic inflammation?",
+    "answer": "C-reactive protein",
+    "explanation": "CRP is a positive acute-phase reactant."
+  },
+  {
+    "id": 264,
+    "question": "Which analyte is decreased in iron deficiency anemia?",
+    "answer": "Ferritin",
+    "explanation": "Iron stores are depleted."
+  },
+  {
+    "id": 265,
+    "question": "Which enzyme is elevated in skeletal muscle damage?",
+    "answer": "Creatine kinase",
+    "explanation": "Muscle injury releases CK into circulation."
+  },
+  {
+    "id": 266,
+    "question": "Which condition causes increased serum bilirubin?",
+    "answer": "Hemolytic anemia",
+    "explanation": "Excess red cell destruction increases bilirubin production."
+  },
+  {
+    "id": 267,
+    "question": "Which analyte is elevated in hypothyroidism?",
+    "answer": "Cholesterol",
+    "explanation": "Reduced thyroid hormones decrease lipid metabolism."
+  },
+  {
+    "id": 268,
+    "question": "Which test measures long-term glycemic control?",
+    "answer": "Hemoglobin A1c",
+    "explanation": "HbA1c reflects average blood glucose over 2–3 months."
+  },
+  {
+    "id": 269,
+    "question": "Which electrolyte imbalance causes tetany?",
+    "answer": "Hypocalcemia",
+    "explanation": "Low calcium increases neuromuscular excitability."
+  },
+  {
+    "id": 270,
+    "question": "Which analyte is elevated in liver cirrhosis?",
+    "answer": "Aspartate aminotransferase (AST)",
+    "explanation": "Chronic liver damage increases AST levels."
+  },
+  {
+    "id": 271,
+    "question": "Which analyte is decreased in nephrotic syndrome?",
+    "answer": "Albumin",
+    "explanation": "Protein loss through urine lowers albumin levels."
+  },
+  {
+    "id": 272,
+    "question": "Which analyte is elevated in acute stress?",
+    "answer": "Cortisol",
+    "explanation": "Stress activates adrenal hormone release."
+  },
+  {
+    "id": 273,
+    "question": "Which condition causes hypermagnesemia?",
+    "answer": "Renal failure",
+    "explanation": "Impaired renal excretion leads to magnesium accumulation."
+  },
+  {
+    "id": 274,
+    "question": "Which enzyme is elevated in biliary obstruction?",
+    "answer": "Alkaline phosphatase",
+    "explanation": "ALP increases due to bile duct epithelial damage."
+  },
+  {
+    "id": 275,
+    "question": "Which analyte is elevated in acute kidney injury?",
+    "answer": "Serum creatinine",
+    "explanation": "Reduced filtration causes creatinine accumulation."
+  },
+  {
+    "id": 276,
+    "question": "Which condition causes metabolic alkalosis?",
+    "answer": "Prolonged vomiting",
+    "explanation": "Loss of gastric acid raises blood pH."
+  },
+  {
+    "id": 277,
+    "question": "Which analyte is elevated in muscle breakdown?",
+    "answer": "Myoglobin",
+    "explanation": "Muscle injury releases myoglobin rapidly."
+  },
+  {
+    "id": 278,
+    "question": "Which test assesses parathyroid function?",
+    "answer": "Parathyroid hormone (PTH)",
+    "explanation": "PTH regulates calcium and phosphate balance."
+  },
+  {
+    "id": 279,
+    "question": "Which analyte is elevated in chronic kidney disease?",
+    "answer": "Phosphate",
+    "explanation": "Decreased renal excretion leads to hyperphosphatemia."
+  },
+  {
+    "id": 280,
+    "question": "Which analyte is decreased in malnutrition?",
+    "answer": "Prealbumin",
+    "explanation": "Short half-life makes it sensitive to nutritional status."
+  },
+  {
+    "id": 281,
+    "question": "Which condition causes respiratory acidosis?",
+    "answer": "Chronic obstructive pulmonary disease",
+    "explanation": "CO₂ retention lowers blood pH."
+  },
+  {
+    "id": 282,
+    "question": "Which analyte is elevated in prolonged immobilization?",
+    "answer": "Calcium",
+    "explanation": "Bone resorption increases serum calcium."
+  },
+  {
+    "id": 283,
+    "question": "Which analyte increases in acute inflammation?",
+    "answer": "Fibrinogen",
+    "explanation": "Fibrinogen is a positive acute-phase protein."
+  },
+  {
+    "id": 284,
+    "question": "Which analyte is decreased in hypothyroidism?",
+    "answer": "Free T4",
+    "explanation": "Reduced hormone production lowers T4 levels."
+  },
+  {
+    "id": 285,
+    "question": "Which analyte is elevated in sepsis?",
+    "answer": "Procalcitonin",
+    "explanation": "Procalcitonin is a marker of severe bacterial infection."
+  },
+  {
+    "id": 286,
+    "question": "Which condition causes increased anion gap metabolic acidosis?",
+    "answer": "Lactic acidosis",
+    "explanation": "Accumulation of lactic acid increases the anion gap."
+  },
+  {
+    "id": 287,
+    "question": "Which analyte is elevated in liver metastasis?",
+    "answer": "Alkaline phosphatase",
+    "explanation": "Infiltrative liver disease increases ALP."
+  },
+  {
+    "id": 288,
+    "question": "Which test evaluates insulin resistance?",
+    "answer": "HOMA-IR",
+    "explanation": "It estimates insulin resistance using fasting glucose and insulin."
+  },
+  {
+    "id": 289,
+    "question": "Which analyte is elevated in acute hemolysis?",
+    "answer": "Unconjugated bilirubin",
+    "explanation": "Excess red cell breakdown increases bilirubin levels."
+  },
+  {
+    "id": 290,
+    "question": "Which analyte is decreased in liver synthetic failure?",
+    "answer": "Albumin",
+    "explanation": "Impaired synthesis reduces albumin levels."
+  },
+  {
+    "id": 291,
+    "question": "Which test assesses adrenal cortex function?",
+    "answer": "Serum cortisol",
+    "explanation": "Cortisol reflects adrenal hormone production."
+  },
+  {
+    "id": 292,
+    "question": "Which analyte is elevated in pregnancy?",
+    "answer": "Alkaline phosphatase",
+    "explanation": "Placental ALP contributes to increased levels."
+  },
+  {
+    "id": 293,
+    "question": "Which analyte is elevated in chronic alcoholism?",
+    "answer": "Gamma-glutamyl transferase",
+    "explanation": "Alcohol induces hepatic GGT synthesis."
+  },
+  {
+    "id": 294,
+    "question": "Which analyte is decreased in acute inflammation?",
+    "answer": "Transferrin",
+    "explanation": "It is a negative acute-phase reactant."
+  },
+  {
+    "id": 295,
+    "question": "Which analyte increases in acute stress response?",
+    "answer": "Glucose",
+    "explanation": "Stress hormones promote gluconeogenesis."
+  },
+  {
+    "id": 296,
+    "question": "Which analyte is elevated in obstructive jaundice?",
+    "answer": "Conjugated bilirubin",
+    "explanation": "Bile duct obstruction prevents bilirubin excretion."
+  },
+  {
+    "id": 297,
+    "question": "Which test is used to monitor diabetic control?",
+    "answer": "HbA1c",
+    "explanation": "It reflects long-term glycemic control."
+  },
+  {
+    "id": 298,
+    "question": "Which analyte is elevated in acute renal tubular necrosis?",
+    "answer": "Creatinine",
+    "explanation": "Tubular damage reduces filtration efficiency."
+  },
+  {
+    "id": 299,
+    "question": "Which analyte is decreased in overhydration?",
+    "answer": "Hematocrit",
+    "explanation": "Plasma dilution lowers red cell concentration."
+  },
+  {
+    "id": 300,
+    "question": "Which analyte best reflects short-term glycemic changes?",
+    "answer": "Fructosamine",
+    "explanation": "Fructosamine reflects average glucose over 2–3 weeks."
+  },
+  {
+    "id": 301,
+    "question": "Which analyte is elevated in prerenal azotemia?",
+    "answer": "Blood urea nitrogen",
+    "explanation": "Reduced renal perfusion increases urea reabsorption."
+  },
+  {
+    "id": 302,
+    "question": "Which ratio helps differentiate prerenal from renal azotemia?",
+    "answer": "BUN/Creatinine ratio",
+    "explanation": "A ratio >20:1 suggests prerenal azotemia."
+  },
+  {
+    "id": 303,
+    "question": "Which analyte increases earliest in acute kidney injury?",
+    "answer": "Creatinine",
+    "explanation": "Creatinine rises rapidly with decreased glomerular filtration."
+  },
+  {
+    "id": 304,
+    "question": "Which electrolyte is lost in diabetic ketoacidosis despite normal serum levels?",
+    "answer": "Potassium",
+    "explanation": "Total body potassium is depleted due to urinary losses."
+  },
+  {
+    "id": 305,
+    "question": "Which analyte is elevated in acute muscle injury and nephrotoxic?",
+    "answer": "Myoglobin",
+    "explanation": "Myoglobin can cause acute tubular necrosis."
+  },
+  {
+    "id": 306,
+    "question": "Which enzyme shows an AST:ALT ratio greater than 2:1?",
+    "answer": "Alcoholic liver disease",
+    "explanation": "AST predominates due to mitochondrial damage and B6 deficiency."
+  },
+  {
+    "id": 307,
+    "question": "Which analyte increases in cholestatic liver disease?",
+    "answer": "Gamma-glutamyl transferase",
+    "explanation": "GGT confirms hepatic source of elevated ALP."
+  },
+  {
+    "id": 308,
+    "question": "Which analyte is decreased in dilutional anemia?",
+    "answer": "Hemoglobin",
+    "explanation": "Plasma volume expansion dilutes red cell concentration."
+  },
+  {
+    "id": 309,
+    "question": "Which analyte is increased in hyperventilation syndrome?",
+    "answer": "Blood pH",
+    "explanation": "Excess CO₂ loss causes respiratory alkalosis."
+  },
+  {
+    "id": 310,
+    "question": "Which electrolyte imbalance is most dangerous for cardiac rhythm?",
+    "answer": "Hyperkalemia",
+    "explanation": "Elevated potassium can cause fatal arrhythmias."
+  },
+  {
+    "id": 311,
+    "question": "Which analyte is elevated in acute gout attack?",
+    "answer": "Uric acid",
+    "explanation": "Purine metabolism leads to hyperuricemia."
+  },
+  {
+    "id": 312,
+    "question": "Which analyte is falsely decreased by lipemia using indirect ISE?",
+    "answer": "Sodium",
+    "explanation": "Volume displacement causes pseudohyponatremia."
+  },
+  {
+    "id": 313,
+    "question": "Which analyte increases in massive tissue hypoxia?",
+    "answer": "Lactate",
+    "explanation": "Anaerobic metabolism produces lactic acid."
+  },
+  {
+    "id": 314,
+    "question": "Which hormone opposes insulin action?",
+    "answer": "Cortisol",
+    "explanation": "Cortisol promotes gluconeogenesis and insulin resistance."
+  },
+  {
+    "id": 315,
+    "question": "Which analyte best reflects endogenous insulin secretion?",
+    "answer": "C-peptide",
+    "explanation": "It is released equimolarly with insulin."
+  },
+  {
+    "id": 316,
+    "question": "Which analyte is elevated in postrenal obstruction?",
+    "answer": "Creatinine",
+    "explanation": "Obstruction reduces glomerular filtration."
+  },
+  {
+    "id": 317,
+    "question": "Which condition causes low urine sodium?",
+    "answer": "Prerenal azotemia",
+    "explanation": "Kidneys conserve sodium to maintain perfusion."
+  },
+  {
+    "id": 318,
+    "question": "Which analyte is elevated in hyperparathyroidism?",
+    "answer": "Calcium",
+    "explanation": "Excess PTH increases bone resorption."
+  },
+  {
+    "id": 319,
+    "question": "Which analyte decreases in hypoparathyroidism?",
+    "answer": "Calcium",
+    "explanation": "Low PTH reduces calcium mobilization."
+  },
+  {
+    "id": 320,
+    "question": "Which analyte is elevated in tumor lysis syndrome?",
+    "answer": "Phosphate",
+    "explanation": "Cell destruction releases intracellular phosphate."
+  },
+  {
+    "id": 321,
+    "question": "Which analyte is decreased in acute phase reaction?",
+    "answer": "Albumin",
+    "explanation": "Albumin is a negative acute-phase reactant."
+  },
+  {
+    "id": 322,
+    "question": "Which enzyme is elevated in myocardial reinfarction?",
+    "answer": "CK-MB",
+    "explanation": "CK-MB returns to baseline faster than troponins."
+  },
+  {
+    "id": 323,
+    "question": "Which analyte is elevated in prolonged fasting?",
+    "answer": "Ketone bodies",
+    "explanation": "Fat becomes the primary energy source."
+  },
+  {
+    "id": 324,
+    "question": "Which analyte is elevated in obstructive uropathy?",
+    "answer": "Blood urea nitrogen",
+    "explanation": "Reduced urine flow increases nitrogenous waste."
+  },
+  {
+    "id": 325,
+    "question": "Which analyte is elevated in insulin resistance?",
+    "answer": "Insulin",
+    "explanation": "Higher insulin levels compensate for reduced sensitivity."
+  },
+  {
+    "id": 326,
+    "question": "Which condition causes low serum osmolality?",
+    "answer": "SIADH",
+    "explanation": "Excess ADH causes water retention."
+  },
+  {
+    "id": 327,
+    "question": "Which analyte increases in acute stress hyperglycemia?",
+    "answer": "Glucose",
+    "explanation": "Catecholamines and cortisol increase gluconeogenesis."
+  },
+  {
+    "id": 328,
+    "question": "Which analyte is elevated in chronic hemolysis?",
+    "answer": "Unconjugated bilirubin",
+    "explanation": "Excess RBC destruction increases bilirubin production."
+  },
+  {
+    "id": 329,
+    "question": "Which analyte is elevated in skeletal muscle dystrophy?",
+    "answer": "Creatine kinase",
+    "explanation": "Muscle fiber breakdown releases CK."
+  },
+  {
+    "id": 330,
+    "question": "Which electrolyte abnormality is seen in Addison's disease?",
+    "answer": "Hyponatremia",
+    "explanation": "Aldosterone deficiency leads to sodium loss."
+  },
+  {
+    "id": 331,
+    "question": "Which analyte increases in estrogen therapy?",
+    "answer": "Triglycerides",
+    "explanation": "Estrogen increases hepatic lipid synthesis."
+  },
+  {
+    "id": 332,
+    "question": "Which analyte is elevated in chronic kidney disease mineral bone disorder?",
+    "answer": "Phosphate",
+    "explanation": "Impaired renal excretion causes hyperphosphatemia."
+  },
+  {
+    "id": 333,
+    "question": "Which analyte best indicates recent nutritional changes?",
+    "answer": "Prealbumin",
+    "explanation": "Short half-life makes it sensitive to acute changes."
+  },
+  {
+    "id": 334,
+    "question": "Which analyte is elevated in acute hepatitis?",
+    "answer": "ALT",
+    "explanation": "ALT is more specific for hepatocellular injury."
+  },
+  {
+    "id": 335,
+    "question": "Which analyte is elevated in septic shock?",
+    "answer": "Lactate",
+    "explanation": "Severe hypoperfusion causes lactic acidosis."
+  },
+  {
+    "id": 336,
+    "question": "Which analyte is decreased in dilutional hyponatremia?",
+    "answer": "Sodium",
+    "explanation": "Water retention lowers sodium concentration."
+  },
+  {
+    "id": 337,
+    "question": "Which enzyme is elevated in prostate disease?",
+    "answer": "Prostate-specific antigen",
+    "explanation": "PSA increases in prostate cancer and benign conditions."
+  },
+  {
+    "id": 338,
+    "question": "Which analyte is elevated in bone healing?",
+    "answer": "Alkaline phosphatase",
+    "explanation": "Osteoblastic activity increases ALP."
+  },
+  {
+    "id": 339,
+    "question": "Which analyte increases in metabolic syndrome?",
+    "answer": "Triglycerides",
+    "explanation": "Insulin resistance increases VLDL production."
+  },
+  {
+    "id": 340,
+    "question": "Which analyte is decreased in liver failure?",
+    "answer": "Clotting factors",
+    "explanation": "Reduced hepatic synthesis impairs coagulation."
+  },
+  {
+    "id": 341,
+    "question": "Which analyte is elevated in pheochromocytoma?",
+    "answer": "Metanephrines",
+    "explanation": "Tumor secretes excessive catecholamines."
+  },
+  {
+    "id": 342,
+    "question": "Which analyte increases in acute renal hypoperfusion?",
+    "answer": "Blood urea nitrogen",
+    "explanation": "Urea reabsorption increases with low flow."
+  },
+  {
+    "id": 343,
+    "question": "Which electrolyte imbalance causes muscle weakness and paralysis?",
+    "answer": "Hypokalemia",
+    "explanation": "Low potassium impairs muscle membrane excitability."
+  },
+  {
+    "id": 344,
+    "question": "Which analyte is elevated in rhabdomyolysis?",
+    "answer": "Creatine kinase",
+    "explanation": "Severe muscle breakdown releases CK."
+  },
+  {
+    "id": 345,
+    "question": "Which analyte is elevated in obstructive lung disease?",
+    "answer": "Carbon dioxide",
+    "explanation": "CO₂ retention causes respiratory acidosis."
+  },
+  {
+    "id": 346,
+    "question": "Which analyte is elevated in acute phase bacterial infection?",
+    "answer": "Procalcitonin",
+    "explanation": "It rises significantly in bacterial sepsis."
+  },
+  {
+    "id": 347,
+    "question": "Which analyte decreases in hypothyroidism?",
+    "answer": "Basal metabolic rate",
+    "explanation": "Reduced thyroid hormone lowers metabolism."
+  },
+  {
+    "id": 348,
+    "question": "Which analyte is elevated in chronic hypoxia?",
+    "answer": "Erythropoietin",
+    "explanation": "Kidneys increase EPO production to compensate."
+  },
+  {
+    "id": 349,
+    "question": "Which analyte increases in prolonged bed rest?",
+    "answer": "Calcium",
+    "explanation": "Bone demineralization releases calcium."
+  },
+  {
+    "id": 350,
+    "question": "Which analyte best reflects intermediate-term glycemic control?",
+    "answer": "Fructosamine",
+    "explanation": "Fructosamine reflects glucose control over 2–3 weeks."
+  },
+  {
+    "id": 351,
+    "question": "Which analyte is elevated in dehydration?",
+    "answer": "Sodium",
+    "explanation": "Water loss concentrates serum sodium, causing hypernatremia."
+  },
+  {
+    "id": 352,
+    "question": "Which enzyme is elevated in cholestatic liver disease?",
+    "answer": "Alkaline phosphatase",
+    "explanation": "Bile duct obstruction or damage increases ALP levels."
+  },
+  {
+    "id": 353,
+    "question": "Which analyte is elevated in hemolytic anemia?",
+    "answer": "Unconjugated bilirubin",
+    "explanation": "Red blood cell destruction increases bilirubin production."
+  },
+  {
+    "id": 354,
+    "question": "Which analyte is used to monitor warfarin therapy?",
+    "answer": "Prothrombin time (PT)",
+    "explanation": "Warfarin inhibits vitamin K-dependent clotting factors."
+  },
+  {
+    "id": 355,
+    "question": "Which analyte is elevated in hepatocellular injury?",
+    "answer": "Alanine aminotransferase (ALT)",
+    "explanation": "ALT is more specific for liver damage than AST."
+  },
+  {
+    "id": 356,
+    "question": "Which analyte is elevated in bone disease?",
+    "answer": "Alkaline phosphatase",
+    "explanation": "Osteoblastic activity increases ALP during bone formation."
+  },
+  {
+    "id": 357,
+    "question": "Which analyte increases in chronic kidney disease?",
+    "answer": "Phosphate",
+    "explanation": "Impaired renal excretion causes hyperphosphatemia."
+  },
+  {
+    "id": 358,
+    "question": "Which analyte is decreased in overhydration?",
+    "answer": "Sodium",
+    "explanation": "Excess water dilutes sodium concentration."
+  },
+  {
+    "id": 359,
+    "question": "Which analyte is elevated in myocardial infarction?",
+    "answer": "Troponin I",
+    "explanation": "Troponin I is highly specific for cardiac injury."
+  },
+  {
+    "id": 360,
+    "question": "Which analyte is elevated in acute pancreatitis?",
+    "answer": "Lipase",
+    "explanation": "Lipase is more specific than amylase for pancreatic injury."
+  },
+  {
+    "id": 361,
+    "question": "Which analyte is decreased in malnutrition?",
+    "answer": "Albumin",
+    "explanation": "Protein deficiency reduces hepatic albumin synthesis."
+  },
+  {
+    "id": 362,
+    "question": "Which electrolyte is elevated in Addison's disease?",
+    "answer": "Potassium",
+    "explanation": "Aldosterone deficiency reduces potassium excretion."
+  },
+  {
+    "id": 363,
+    "question": "Which analyte is elevated in nephrotic syndrome?",
+    "answer": "Cholesterol",
+    "explanation": "Hepatic lipoprotein synthesis increases to compensate for protein loss."
+  },
+  {
+    "id": 364,
+    "question": "Which hormone opposes insulin action?",
+    "answer": "Glucagon",
+    "explanation": "Glucagon raises blood glucose via glycogenolysis and gluconeogenesis."
+  },
+  {
+    "id": 365,
+    "question": "Which analyte is elevated in diabetes mellitus?",
+    "answer": "Hemoglobin A1c",
+    "explanation": "HbA1c reflects average blood glucose over 2–3 months."
+  },
+  {
+    "id": 366,
+    "question": "Which analyte is elevated in acute infection?",
+    "answer": "C-reactive protein",
+    "explanation": "CRP is a positive acute-phase reactant that rises quickly."
+  },
+  {
+    "id": 367,
+    "question": "Which analyte is elevated in muscle injury?",
+    "answer": "Creatine kinase",
+    "explanation": "CK is released from damaged skeletal or cardiac muscle."
+  },
+  {
+    "id": 368,
+    "question": "Which analyte is elevated in thyroid dysfunction (hypothyroidism)?",
+    "answer": "TSH",
+    "explanation": "Low thyroid hormone stimulates TSH secretion via negative feedback."
+  },
+  {
+    "id": 369,
+    "question": "Which analyte is decreased in hypoparathyroidism?",
+    "answer": "Calcium",
+    "explanation": "PTH deficiency reduces calcium mobilization from bone and absorption."
+  },
+  {
+    "id": 370,
+    "question": "Which analyte increases in lactic acidosis?",
+    "answer": "Lactate",
+    "explanation": "Anaerobic metabolism leads to lactic acid accumulation."
+  },
+  {
+    "id": 371,
+    "question": "Which analyte is elevated in acute kidney injury?",
+    "answer": "Creatinine",
+    "explanation": "Impaired glomerular filtration leads to creatinine accumulation."
+  },
+  {
+    "id": 372,
+    "question": "Which analyte is elevated in prerenal azotemia?",
+    "answer": "BUN/Creatinine ratio",
+    "explanation": "A ratio >20:1 indicates prerenal cause due to increased urea reabsorption."
+  },
+  {
+    "id": 373,
+    "question": "Which analyte increases in SIADH?",
+    "answer": "Urine sodium",
+    "explanation": "Excess ADH causes water retention, concentrating urine sodium."
+  },
+  {
+    "id": 374,
+    "question": "Which analyte increases in hyperthyroidism?",
+    "answer": "Free T4",
+    "explanation": "Excess thyroid hormone increases metabolism and T4 levels."
+  },
+  {
+    "id": 375,
+    "question": "Which analyte is elevated in liver obstruction?",
+    "answer": "Conjugated bilirubin",
+    "explanation": "Obstruction prevents excretion of conjugated bilirubin."
+  },
+  {
+    "id": 376,
+    "question": "Which analyte increases in acute stress?",
+    "answer": "Cortisol",
+    "explanation": "Stress activates adrenal secretion of cortisol."
+  },
+  {
+    "id": 377,
+    "question": "Which analyte is elevated in chronic alcohol use?",
+    "answer": "Gamma-glutamyl transferase",
+    "explanation": "GGT increases due to enzyme induction in the liver."
+  },
+  {
+    "id": 378,
+    "question": "Which analyte is decreased in acute inflammation?",
+    "answer": "Albumin",
+    "explanation": "Albumin is a negative acute-phase reactant."
+  },
+  {
+    "id": 379,
+    "question": "Which analyte is elevated in tumor lysis syndrome?",
+    "answer": "Potassium",
+    "explanation": "Rapid cell lysis releases intracellular potassium."
+  },
+  {
+    "id": 380,
+    "question": "Which analyte is elevated in chronic hypoxia?",
+    "answer": "Erythropoietin",
+    "explanation": "Kidneys produce more EPO to stimulate red blood cell production."
+  },
+  {
+    "id": 381,
+    "question": "Which analyte is elevated in myocardial reinfarction?",
+    "answer": "CK-MB",
+    "explanation": "CK-MB rises and falls faster than troponin, allowing reinfarction detection."
+  },
+  {
+    "id": 382,
+    "question": "Which analyte is elevated in acute hepatitis?",
+    "answer": "ALT",
+    "explanation": "ALT is released specifically from damaged hepatocytes."
+  },
+  {
+    "id": 383,
+    "question": "Which analyte is elevated in rhabdomyolysis?",
+    "answer": "Creatine kinase",
+    "explanation": "Severe skeletal muscle breakdown releases CK."
+  },
+  {
+    "id": 384,
+    "question": "Which analyte increases in obstructive lung disease?",
+    "answer": "CO₂",
+    "explanation": "CO₂ retention leads to respiratory acidosis."
+  },
+  {
+    "id": 385,
+    "question": "Which analyte is elevated in chronic kidney disease bone disorder?",
+    "answer": "Phosphate",
+    "explanation": "Decreased renal excretion causes hyperphosphatemia."
+  },
+  {
+    "id": 386,
+    "question": "Which analyte is elevated in sepsis?",
+    "answer": "Procalcitonin",
+    "explanation": "It is a sensitive marker for bacterial sepsis."
+  },
+  {
+    "id": 387,
+    "question": "Which analyte increases in prolonged fasting?",
+    "answer": "Ketone bodies",
+    "explanation": "Fatty acids are mobilized for energy, producing ketones."
+  },
+  {
+    "id": 388,
+    "question": "Which analyte is elevated in metabolic syndrome?",
+    "answer": "Triglycerides",
+    "explanation": "Insulin resistance increases VLDL synthesis."
+  },
+  {
+    "id": 389,
+    "question": "Which analyte is elevated in obstructive jaundice?",
+    "answer": "Conjugated bilirubin",
+    "explanation": "Bile duct obstruction prevents excretion."
+  },
+  {
+    "id": 390,
+    "question": "Which analyte is decreased in hypothyroidism?",
+    "answer": "Free T4",
+    "explanation": "Thyroid hormone synthesis is reduced."
+  },
+  {
+    "id": 391,
+    "question": "Which analyte increases in acute renal tubular necrosis?",
+    "answer": "Creatinine",
+    "explanation": "Tubular damage reduces filtration efficiency."
+  },
+  {
+    "id": 392,
+    "question": "Which analyte is decreased in overhydration?",
+    "answer": "Hematocrit",
+    "explanation": "Plasma expansion lowers red blood cell concentration."
+  },
+  {
+    "id": 393,
+    "question": "Which analyte is elevated in prostate disease?",
+    "answer": "Prostate-specific antigen",
+    "explanation": "PSA rises in prostate cancer and benign conditions."
+  },
+  {
+    "id": 394,
+    "question": "Which analyte is elevated in bone healing?",
+    "answer": "Alkaline phosphatase",
+    "explanation": "Osteoblastic activity increases ALP levels."
+  },
+  {
+    "id": 395,
+    "question": "Which analyte increases in insulin resistance?",
+    "answer": "Insulin",
+    "explanation": "Pancreas produces more insulin to overcome resistance."
+  },
+  {
+    "id": 396,
+    "question": "Which analyte is elevated in Addison’s disease?",
+    "answer": "Potassium",
+    "explanation": "Aldosterone deficiency reduces potassium excretion."
+  },
+  {
+    "id": 397,
+    "question": "Which analyte is elevated in Cushing’s syndrome?",
+    "answer": "Cortisol",
+    "explanation": "Excess adrenal production increases cortisol levels."
+  },
+  {
+    "id": 398,
+    "question": "Which analyte is elevated in chronic hypoxia?",
+    "answer": "Erythropoietin",
+    "explanation": "Kidneys increase EPO to stimulate red blood cell production."
+  },
+  {
+    "id": 399,
+    "question": "Which analyte increases in postrenal azotemia?",
+    "answer": "BUN and creatinine",
+    "explanation": "Obstruction of urine flow causes accumulation of nitrogenous wastes."
+  },
+  {
+    "id": 400,
+    "question": "Which analyte best reflects short-term glycemic control?",
+    "answer": "Fructosamine",
+    "explanation": "Fructosamine reflects average glucose over 2–3 weeks."
+  },
+  {
+    "id": 401,
+    "question": "Which analyte is elevated in acute alcohol ingestion?",
+    "answer": "Triglycerides",
+    "explanation": "Alcohol increases hepatic VLDL synthesis, raising triglyceride levels."
+  },
+  {
+    "id": 402,
+    "question": "Which analyte is decreased in SIADH?",
+    "answer": "Serum sodium",
+    "explanation": "Excess ADH causes water retention, diluting serum sodium."
+  },
+  {
+    "id": 403,
+    "question": "Which analyte is elevated in chronic liver disease?",
+    "answer": "AST",
+    "explanation": "AST is released from hepatocytes; chronic damage raises levels, often more than ALT."
+  },
+  {
+    "id": 404,
+    "question": "Which analyte increases in hemoconcentration?",
+    "answer": "Hematocrit",
+    "explanation": "Plasma loss concentrates red blood cells."
+  },
+  {
+    "id": 405,
+    "question": "Which analyte is elevated in acute gout flare?",
+    "answer": "Uric acid",
+    "explanation": "Purine breakdown increases uric acid during flare-ups."
+  },
+  {
+    "id": 406,
+    "question": "Which analyte is elevated in acute bacterial infection?",
+    "answer": "Procalcitonin",
+    "explanation": "Procalcitonin rises specifically in bacterial sepsis."
+  },
+  {
+    "id": 407,
+    "question": "Which analyte is decreased in iron deficiency anemia?",
+    "answer": "Ferritin",
+    "explanation": "Iron stores are depleted in deficiency states."
+  },
+  {
+    "id": 408,
+    "question": "Which analyte increases in hemolytic disease of the newborn?",
+    "answer": "Bilirubin (unconjugated)",
+    "explanation": "Excess RBC destruction produces unconjugated bilirubin."
+  },
+  {
+    "id": 409,
+    "question": "Which analyte is elevated in cholestasis?",
+    "answer": "Alkaline phosphatase",
+    "explanation": "Biliary obstruction increases ALP levels."
+  },
+  {
+    "id": 410,
+    "question": "Which analyte is elevated in acute myocardial infarction?",
+    "answer": "Troponin I",
+    "explanation": "Troponin I is highly specific and sensitive for cardiac injury."
+  },
+  {
+    "id": 411,
+    "question": "Which analyte increases in chronic alcohol use?",
+    "answer": "Gamma-glutamyl transferase",
+    "explanation": "GGT induction occurs with chronic alcohol consumption."
+  },
+  {
+    "id": 412,
+    "question": "Which analyte is elevated in hypothyroidism?",
+    "answer": "Cholesterol",
+    "explanation": "Reduced thyroid hormone slows lipid metabolism, causing hypercholesterolemia."
+  },
+  {
+    "id": 413,
+    "question": "Which analyte is elevated in renal tubular acidosis?",
+    "answer": "Urine pH",
+    "explanation": "Impaired tubular acid secretion leads to alkaline urine."
+  },
+  {
+    "id": 414,
+    "question": "Which analyte is elevated in ketoacidosis?",
+    "answer": "Beta-hydroxybutyrate",
+    "explanation": "Ketone bodies increase due to fat breakdown in uncontrolled diabetes."
+  },
+  {
+    "id": 415,
+    "question": "Which analyte is decreased in acute liver failure?",
+    "answer": "Albumin",
+    "explanation": "Hepatic synthetic function declines, lowering albumin."
+  },
+  {
+    "id": 416,
+    "question": "Which analyte is elevated in Cushing’s syndrome?",
+    "answer": "Cortisol",
+    "explanation": "Excess adrenal or pituitary activity increases cortisol levels."
+  },
+  {
+    "id": 417,
+    "question": "Which analyte increases in dehydration?",
+    "answer": "BUN",
+    "explanation": "Reduced renal perfusion enhances urea reabsorption."
+  },
+  {
+    "id": 418,
+    "question": "Which analyte is elevated in chronic hypoxia?",
+    "answer": "Erythropoietin",
+    "explanation": "Hypoxia stimulates renal EPO production to increase RBC production."
+  },
+  {
+    "id": 419,
+    "question": "Which analyte is elevated in acute pancreatitis?",
+    "answer": "Serum lipase",
+    "explanation": "Lipase is specific for pancreatic injury."
+  },
+  {
+    "id": 420,
+    "question": "Which analyte is elevated in chronic kidney disease?",
+    "answer": "Phosphate",
+    "explanation": "Reduced renal excretion causes hyperphosphatemia."
+  },
+  {
+    "id": 421,
+    "question": "Which analyte is elevated in rhabdomyolysis?",
+    "answer": "Creatine kinase",
+    "explanation": "Muscle breakdown releases CK into the bloodstream."
+  },
+  {
+    "id": 422,
+    "question": "Which analyte is elevated in SIADH?",
+    "answer": "Urine osmolality",
+    "explanation": "Excess ADH causes water retention and concentrated urine."
+  },
+  {
+    "id": 423,
+    "question": "Which analyte is elevated in obstructive jaundice?",
+    "answer": "Conjugated bilirubin",
+    "explanation": "Blocked bile ducts prevent bilirubin excretion."
+  },
+  {
+    "id": 424,
+    "question": "Which analyte is decreased in Addison’s disease?",
+    "answer": "Sodium",
+    "explanation": "Aldosterone deficiency leads to sodium loss."
+  },
+  {
+    "id": 425,
+    "question": "Which analyte is elevated in hyperaldosteronism?",
+    "answer": "Sodium",
+    "explanation": "Excess aldosterone increases sodium retention."
+  },
+  {
+    "id": 426,
+    "question": "Which analyte is decreased in metabolic acidosis?",
+    "answer": "Bicarbonate",
+    "explanation": "Bicarbonate buffers excess hydrogen ions, lowering serum levels."
+  },
+  {
+    "id": 427,
+    "question": "Which analyte is elevated in respiratory acidosis?",
+    "answer": "PaCO₂",
+    "explanation": "CO₂ retention lowers pH and increases PaCO₂."
+  },
+  {
+    "id": 428,
+    "question": "Which analyte increases in chronic hemolysis?",
+    "answer": "Unconjugated bilirubin",
+    "explanation": "Ongoing RBC destruction produces more bilirubin."
+  },
+  {
+    "id": 429,
+    "question": "Which analyte is decreased in overhydration?",
+    "answer": "Hematocrit",
+    "explanation": "Plasma dilution lowers RBC concentration."
+  },
+  {
+    "id": 430,
+    "question": "Which analyte is elevated in hyperparathyroidism?",
+    "answer": "Calcium",
+    "explanation": "Excess PTH increases calcium release from bone and absorption."
+  },
+  {
+    "id": 431,
+    "question": "Which analyte is decreased in hypoparathyroidism?",
+    "answer": "Calcium",
+    "explanation": "Low PTH reduces calcium mobilization from bone."
+  },
+  {
+    "id": 432,
+    "question": "Which analyte increases in lactic acidosis?",
+    "answer": "Lactate",
+    "explanation": "Anaerobic metabolism produces lactic acid."
+  },
+  {
+    "id": 433,
+    "question": "Which analyte is elevated in postrenal azotemia?",
+    "answer": "BUN and creatinine",
+    "explanation": "Urine flow obstruction causes nitrogenous waste accumulation."
+  },
+  {
+    "id": 434,
+    "question": "Which analyte is decreased in dilutional hyponatremia?",
+    "answer": "Sodium",
+    "explanation": "Excess water lowers sodium concentration."
+  },
+  {
+    "id": 435,
+    "question": "Which analyte is elevated in insulin resistance?",
+    "answer": "Insulin",
+    "explanation": "Pancreas produces more insulin to overcome resistance."
+  },
+  {
+    "id": 436,
+    "question": "Which analyte is elevated in acromegaly?",
+    "answer": "Growth hormone",
+    "explanation": "Excess GH secretion persists in adulthood."
+  },
+  {
+    "id": 437,
+    "question": "Which analyte is elevated in pheochromocytoma?",
+    "answer": "Metanephrines",
+    "explanation": "Catecholamine-secreting tumors increase metanephrine levels."
+  },
+  {
+    "id": 438,
+    "question": "Which analyte increases in chronic inflammation?",
+    "answer": "C-reactive protein",
+    "explanation": "CRP is a positive acute-phase reactant."
+  },
+  {
+    "id": 439,
+    "question": "Which analyte is decreased in chronic liver disease?",
+    "answer": "Albumin",
+    "explanation": "Hepatic synthetic function declines."
+  },
+  {
+    "id": 440,
+    "question": "Which analyte is elevated in myocardial ischemia?",
+    "answer": "Troponin I",
+    "explanation": "Troponin I rises with cardiac myocyte injury."
+  },
+  {
+    "id": 441,
+    "question": "Which analyte is elevated in acute hemolysis?",
+    "answer": "Unconjugated bilirubin",
+    "explanation": "Rapid RBC breakdown increases bilirubin production."
+  },
+  {
+    "id": 442,
+    "question": "Which analyte is elevated in hyperlipidemia due to hypothyroidism?",
+    "answer": "Cholesterol",
+    "explanation": "Reduced thyroid hormone slows lipid metabolism."
+  },
+  {
+    "id": 443,
+    "question": "Which analyte is elevated in chronic alcohol intake?",
+    "answer": "GGT",
+    "explanation": "Gamma-glutamyl transferase is induced by alcohol."
+  },
+  {
+    "id": 444,
+    "question": "Which analyte is elevated in metabolic syndrome?",
+    "answer": "Triglycerides",
+    "explanation": "Insulin resistance increases VLDL production."
+  },
+  {
+    "id": 445,
+    "question": "Which analyte is elevated in hyperthyroidism?",
+    "answer": "Free T4",
+    "explanation": "Excess thyroid hormone raises circulating free T4."
+  },
+  {
+    "id": 446,
+    "question": "Which analyte is decreased in chronic malnutrition?",
+    "answer": "Prealbumin",
+    "explanation": "Low protein intake reduces prealbumin synthesis."
+  },
+  {
+    "id": 447,
+    "question": "Which analyte is elevated in acute kidney injury?",
+    "answer": "Creatinine",
+    "explanation": "Reduced filtration causes creatinine accumulation."
+  },
+  {
+    "id": 448,
+    "question": "Which analyte increases in acute stress response?",
+    "answer": "Glucose",
+    "explanation": "Catecholamines and cortisol raise blood glucose."
+  },
+  {
+    "id": 449,
+    "question": "Which analyte is elevated in acute liver injury?",
+    "answer": "ALT",
+    "explanation": "ALT is released specifically from damaged hepatocytes."
+  },
+  {
+    "id": 450,
+    "question": "Which analyte best reflects intermediate-term glycemic control?",
+    "answer": "Fructosamine",
+    "explanation": "Fructosamine reflects glucose levels over 2–3 weeks."
+  },
+  {
+    "id": 451,
+    "question": "Which analyte is elevated in chronic obstructive pulmonary disease?",
+    "answer": "CO₂",
+    "explanation": "Chronic airflow obstruction leads to CO₂ retention and respiratory acidosis."
+  },
+  {
+    "id": 452,
+    "question": "Which analyte is decreased in iron deficiency anemia?",
+    "answer": "Ferritin",
+    "explanation": "Ferritin reflects iron stores, which are depleted in deficiency."
+  },
+  {
+    "id": 453,
+    "question": "Which analyte is elevated in primary hyperaldosteronism?",
+    "answer": "Aldosterone",
+    "explanation": "Excess adrenal production increases sodium retention and potassium excretion."
+  },
+  {
+    "id": 454,
+    "question": "Which analyte is elevated in rhabdomyolysis?",
+    "answer": "Creatine kinase",
+    "explanation": "Muscle breakdown releases CK into circulation."
+  },
+  {
+    "id": 455,
+    "question": "Which analyte is elevated in prolonged fasting?",
+    "answer": "Ketone bodies",
+    "explanation": "Fat is used for energy, producing ketones."
+  },
+  {
+    "id": 456,
+    "question": "Which analyte is decreased in Addison's disease?",
+    "answer": "Sodium",
+    "explanation": "Aldosterone deficiency leads to sodium loss."
+  },
+  {
+    "id": 457,
+    "question": "Which analyte is elevated in Cushing's syndrome?",
+    "answer": "Cortisol",
+    "explanation": "Excess adrenal or pituitary cortisol production."
+  },
+  {
+    "id": 458,
+    "question": "Which analyte increases in postprandial hyperglycemia?",
+    "answer": "Glucose",
+    "explanation": "Blood sugar rises after carbohydrate intake."
+  },
+  {
+    "id": 459,
+    "question": "Which analyte is decreased in overhydration?",
+    "answer": "Hematocrit",
+    "explanation": "Dilution of red blood cells occurs due to excess fluid."
+  },
+  {
+    "id": 460,
+    "question": "Which analyte is elevated in acute hemolysis?",
+    "answer": "Unconjugated bilirubin",
+    "explanation": "RBC breakdown releases bilirubin into circulation."
+  },
+  {
+    "id": 461,
+    "question": "Which analyte is elevated in acute kidney injury?",
+    "answer": "Creatinine",
+    "explanation": "Reduced glomerular filtration leads to creatinine accumulation."
+  },
+  {
+    "id": 462,
+    "question": "Which analyte increases in prerenal azotemia?",
+    "answer": "BUN",
+    "explanation": "Reduced renal perfusion increases urea reabsorption."
+  },
+  {
+    "id": 463,
+    "question": "Which analyte is elevated in obstructive jaundice?",
+    "answer": "Conjugated bilirubin",
+    "explanation": "Bile duct obstruction prevents bilirubin excretion."
+  },
+  {
+    "id": 464,
+    "question": "Which analyte is elevated in acute pancreatitis?",
+    "answer": "Serum lipase",
+    "explanation": "Lipase is specific for pancreatic inflammation."
+  },
+  {
+    "id": 465,
+    "question": "Which analyte is elevated in myocardial infarction?",
+    "answer": "Troponin I",
+    "explanation": "Troponin I is highly specific for cardiac myocyte injury."
+  },
+  {
+    "id": 466,
+    "question": "Which analyte increases in hyperthyroidism?",
+    "answer": "Free T4",
+    "explanation": "Excess thyroid hormone increases circulating free T4."
+  },
+  {
+    "id": 467,
+    "question": "Which analyte is elevated in hypothyroidism?",
+    "answer": "TSH",
+    "explanation": "Low thyroid hormone levels stimulate TSH production."
+  },
+  {
+    "id": 468,
+    "question": "Which analyte is elevated in chronic liver disease?",
+    "answer": "AST",
+    "explanation": "AST is released from hepatocytes; chronic damage raises levels."
+  },
+  {
+    "id": 469,
+    "question": "Which analyte is elevated in cholestatic liver disease?",
+    "answer": "Alkaline phosphatase",
+    "explanation": "Bile duct obstruction increases ALP levels."
+  },
+  {
+    "id": 470,
+    "question": "Which analyte is elevated in chronic alcohol use?",
+    "answer": "Gamma-glutamyl transferase",
+    "explanation": "GGT is induced by alcohol consumption."
+  },
+  {
+    "id": 471,
+    "question": "Which analyte increases in lactic acidosis?",
+    "answer": "Lactate",
+    "explanation": "Anaerobic metabolism produces lactic acid."
+  },
+  {
+    "id": 472,
+    "question": "Which analyte is decreased in dilutional hyponatremia?",
+    "answer": "Sodium",
+    "explanation": "Excess water lowers serum sodium concentration."
+  },
+  {
+    "id": 473,
+    "question": "Which analyte is elevated in postrenal azotemia?",
+    "answer": "BUN and creatinine",
+    "explanation": "Urine flow obstruction leads to accumulation of nitrogenous wastes."
+  },
+  {
+    "id": 474,
+    "question": "Which analyte is elevated in metabolic syndrome?",
+    "answer": "Triglycerides",
+    "explanation": "Insulin resistance increases VLDL synthesis."
+  },
+  {
+    "id": 475,
+    "question": "Which analyte is elevated in hyperparathyroidism?",
+    "answer": "Calcium",
+    "explanation": "Excess PTH increases calcium release from bone."
+  },
+  {
+    "id": 476,
+    "question": "Which analyte is decreased in hypoparathyroidism?",
+    "answer": "Calcium",
+    "explanation": "PTH deficiency reduces calcium mobilization from bone."
+  },
+  {
+    "id": 477,
+    "question": "Which analyte increases in chronic hypoxia?",
+    "answer": "Erythropoietin",
+    "explanation": "Kidneys produce more EPO to stimulate RBC production."
+  },
+  {
+    "id": 478,
+    "question": "Which analyte is elevated in insulin resistance?",
+    "answer": "Insulin",
+    "explanation": "Pancreas secretes more insulin to overcome resistance."
+  },
+  {
+    "id": 479,
+    "question": "Which analyte is elevated in pheochromocytoma?",
+    "answer": "Metanephrines",
+    "explanation": "Catecholamine-secreting tumors increase metanephrine levels."
+  },
+  {
+    "id": 480,
+    "question": "Which analyte is elevated in acute stress response?",
+    "answer": "Cortisol",
+    "explanation": "Stress stimulates adrenal cortisol secretion."
+  },
+  {
+    "id": 481,
+    "question": "Which analyte is elevated in acute bacterial infection?",
+    "answer": "Procalcitonin",
+    "explanation": "Procalcitonin rises specifically in bacterial sepsis."
+  },
+  {
+    "id": 482,
+    "question": "Which analyte is elevated in chronic inflammation?",
+    "answer": "C-reactive protein",
+    "explanation": "CRP is a positive acute-phase reactant."
+  },
+  {
+    "id": 483,
+    "question": "Which analyte is decreased in malnutrition?",
+    "answer": "Albumin",
+    "explanation": "Protein deficiency reduces hepatic albumin synthesis."
+  },
+  {
+    "id": 484,
+    "question": "Which analyte is decreased in overhydration?",
+    "answer": "Hematocrit",
+    "explanation": "Excess plasma dilutes red blood cells."
+  },
+  {
+    "id": 485,
+    "question": "Which analyte is elevated in hemolytic anemia?",
+    "answer": "Unconjugated bilirubin",
+    "explanation": "RBC destruction increases bilirubin production."
+  },
+  {
+    "id": 486,
+    "question": "Which analyte is elevated in acute liver injury?",
+    "answer": "ALT",
+    "explanation": "ALT is released specifically from damaged hepatocytes."
+  },
+  {
+    "id": 487,
+    "question": "Which analyte increases in obstructive lung disease?",
+    "answer": "CO₂",
+    "explanation": "CO₂ retention causes respiratory acidosis."
+  },
+  {
+    "id": 488,
+    "question": "Which analyte is elevated in bone disease?",
+    "answer": "Alkaline phosphatase",
+    "explanation": "Osteoblastic activity increases ALP during bone formation."
+  },
+  {
+    "id": 489,
+    "question": "Which analyte is elevated in acute kidney injury?",
+    "answer": "Creatinine",
+    "explanation": "Impaired glomerular filtration causes creatinine accumulation."
+  },
+  {
+    "id": 490,
+    "question": "Which analyte is elevated in rhabdomyolysis?",
+    "answer": "Creatine kinase",
+    "explanation": "Muscle breakdown releases CK into circulation."
+  },
+  {
+    "id": 491,
+    "question": "Which analyte is decreased in chronic malnutrition?",
+    "answer": "Prealbumin",
+    "explanation": "Short half-life makes it sensitive to recent protein deficiency."
+  },
+  {
+    "id": 492,
+    "question": "Which analyte is elevated in acute gout flare?",
+    "answer": "Uric acid",
+    "explanation": "Purine breakdown leads to hyperuricemia."
+  },
+  {
+    "id": 493,
+    "question": "Which analyte is elevated in chronic kidney disease bone disorder?",
+    "answer": "Phosphate",
+    "explanation": "Impaired renal excretion causes hyperphosphatemia."
+  },
+  {
+    "id": 494,
+    "question": "Which analyte is elevated in tumor lysis syndrome?",
+    "answer": "Potassium",
+    "explanation": "Rapid cell lysis releases intracellular potassium."
+  },
+  {
+    "id": 495,
+    "question": "Which analyte is decreased in hypothyroidism?",
+    "answer": "Free T4",
+    "explanation": "Thyroid hormone synthesis is reduced."
+  },
+  {
+    "id": 496,
+    "question": "Which analyte is elevated in acute stress hyperglycemia?",
+    "answer": "Glucose",
+    "explanation": "Catecholamines and cortisol increase gluconeogenesis."
+  },
+  {
+    "id": 497,
+    "question": "Which analyte is elevated in myocardial reinfarction?",
+    "answer": "CK-MB",
+    "explanation": "CK-MB rises and falls faster than troponin, allowing reinfarction detection."
+  },
+  {
+    "id": 498,
+    "question": "Which analyte is elevated in chronic hypoxia?",
+    "answer": "Erythropoietin",
+    "explanation": "Kidneys increase EPO production to stimulate RBCs."
+  },
+  {
+    "id": 499,
+    "question": "Which analyte is decreased in dilutional anemia?",
+    "answer": "Hemoglobin",
+    "explanation": "Plasma volume expansion dilutes red cell concentration."
+  },
+  {
+    "id": 500,
+    "question": "Which analyte best reflects short-term glycemic control?",
+    "answer": "Fructosamine",
+    "explanation": "Fructosamine reflects average glucose over 2–3 weeks."
+  }
+]

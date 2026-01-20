@@ -1,0 +1,3002 @@
+[
+    {
+        "id": 1,
+        "question": "What is the primary stain used in Gram staining?",
+        "answer": "Crystal violet",
+        "explanation": "Crystal violet stains Gram-positive bacteria purple due to their thick peptidoglycan layer."
+    },
+    {
+        "id": 2,
+        "question": "Which bacteria are Gram-negative cocci commonly found in the human body?",
+        "answer": "Neisseria species",
+        "explanation": "Neisseria gonorrhoeae and Neisseria meningitidis are pathogenic Gram-negative cocci."
+    },
+    {
+        "id": 3,
+        "question": "What is the morphology of Staphylococcus aureus?",
+        "answer": "Gram-positive cocci in clusters",
+        "explanation": "They appear as grape-like clusters under the microscope."
+    },
+    {
+        "id": 4,
+        "question": "Which medium is selective for Gram-negative enteric bacteria?",
+        "answer": "MacConkey agar",
+        "explanation": "MacConkey agar inhibits Gram-positive bacteria and differentiates lactose fermenters from non-fermenters."
+    },
+    {
+        "id": 5,
+        "question": "Which organism is acid-fast when stained using Ziehl-Neelsen method?",
+        "answer": "Mycobacterium tuberculosis",
+        "explanation": "Acid-fast bacilli retain carbol fuchsin dye even after acid-alcohol decolorization."
+    },
+    {
+        "id": 6,
+        "question": "What type of hemolysis is shown by Streptococcus pyogenes on blood agar?",
+        "answer": "Beta-hemolysis",
+        "explanation": "Complete lysis of red blood cells creates a clear zone around colonies."
+    },
+    {
+        "id": 7,
+        "question": "Which fungus is responsible for superficial infections like athlete’s foot?",
+        "answer": "Trichophyton species",
+        "explanation": "Dermatophytes infect keratinized tissues such as skin, hair, and nails."
+    },
+    {
+        "id": 8,
+        "question": "Which virus causes chickenpox?",
+        "answer": "Varicella-zoster virus",
+        "explanation": "It belongs to the Herpesviridae family and causes a vesicular rash."
+    },
+    {
+        "id": 9,
+        "question": "What is the main method of bacterial reproduction?",
+        "answer": "Binary fission",
+        "explanation": "Bacteria replicate by dividing into two identical daughter cells."
+    },
+    {
+        "id": 10,
+        "question": "Which bacteria is oxidase positive and comma-shaped, often causing cholera?",
+        "answer": "Vibrio cholerae",
+        "explanation": "Comma-shaped Gram-negative rods; oxidase positive and produces cholera toxin."
+    },
+    {
+        "id": 11,
+        "question": "What is the function of bacterial capsules?",
+        "answer": "Protection against phagocytosis",
+        "explanation": "Capsules prevent engulfment by host immune cells and enhance virulence."
+    },
+    {
+        "id": 12,
+        "question": "Which test differentiates Staphylococcus from Streptococcus?",
+        "answer": "Catalase test",
+        "explanation": "Staphylococci are catalase positive; Streptococci are catalase negative."
+    },
+    {
+        "id": 13,
+        "question": "Which bacteria produce spores that are highly resistant to heat and chemicals?",
+        "answer": "Bacillus and Clostridium species",
+        "explanation": "Endospores allow survival in harsh environments."
+    },
+    {
+        "id": 14,
+        "question": "Which type of virus has RNA as genetic material and replicates in the cytoplasm?",
+        "answer": "RNA virus",
+        "explanation": "RNA viruses like poliovirus and influenza replicate mostly in the cytoplasm."
+    },
+    {
+        "id": 15,
+        "question": "Which agar is used to isolate Neisseria gonorrhoeae?",
+        "answer": "Thayer-Martin agar",
+        "explanation": "It is selective for Neisseria species due to antibiotics that inhibit contaminating flora."
+    },
+    {
+        "id": 16,
+        "question": "Which bacteria is coagulase positive?",
+        "answer": "Staphylococcus aureus",
+        "explanation": "Coagulase enzyme converts fibrinogen to fibrin, a key virulence factor."
+    },
+    {
+        "id": 17,
+        "question": "Which microorganism causes malaria?",
+        "answer": "Plasmodium species",
+        "explanation": "Plasmodium falciparum, vivax, malariae, and ovale infect red blood cells and cause malaria."
+    },
+    {
+        "id": 18,
+        "question": "Which parasite is known as the 'blood fluke'?",
+        "answer": "Schistosoma species",
+        "explanation": "Schistosoma mansoni, haematobium, and japonicum inhabit blood vessels causing schistosomiasis."
+    },
+    {
+        "id": 19,
+        "question": "What is the main purpose of the KOH test in microbiology?",
+        "answer": "Detect fungal elements",
+        "explanation": "KOH dissolves keratin and helps visualize fungal hyphae and spores under a microscope."
+    },
+    {
+        "id": 20,
+        "question": "Which bacteria are known as enteric pathogens causing diarrhea?",
+        "answer": "Escherichia coli, Salmonella, Shigella",
+        "explanation": "These Gram-negative rods are common causes of gastrointestinal infections."
+    },
+    {
+        "id": 21,
+        "question": "Which virus causes infectious mononucleosis?",
+        "answer": "Epstein-Barr virus",
+        "explanation": "EBV infects B lymphocytes and causes lymphadenopathy and atypical lymphocytes."
+    },
+    {
+        "id": 22,
+        "question": "What is the primary laboratory method for detecting tuberculosis?",
+        "answer": "Acid-fast staining and culture",
+        "explanation": "Ziehl-Neelsen stain identifies AFB; Lowenstein-Jensen medium allows slow bacterial growth."
+    },
+    {
+        "id": 23,
+        "question": "Which bacteria are diplococci found in pairs and kidney-shaped?",
+        "answer": "Neisseria species",
+        "explanation": "They appear as gram-negative diplococci under microscopy."
+    },
+    {
+        "id": 24,
+        "question": "Which virus is responsible for rabies?",
+        "answer": "Rabies virus",
+        "explanation": "A neurotropic RNA virus transmitted by animal bites causing fatal encephalitis."
+    },
+    {
+        "id": 25,
+        "question": "Which microorganism causes candidiasis?",
+        "answer": "Candida albicans",
+        "explanation": "It is a yeast that can cause oral thrush, vaginal infections, and systemic candidiasis."
+    },
+    {
+        "id": 26,
+        "question": "Which test differentiates Streptococcus pneumoniae from other alpha-hemolytic streptococci?",
+        "answer": "Optochin sensitivity test",
+        "explanation": "S. pneumoniae is optochin-sensitive; viridans streptococci are resistant."
+    },
+    {
+        "id": 27,
+        "question": "Which bacteria are non-motile Gram-negative rods causing dysentery?",
+        "answer": "Shigella species",
+        "explanation": "Shigella are non-lactose fermenters and invade intestinal epithelium."
+    },
+    {
+        "id": 28,
+        "question": "Which microorganism causes whooping cough?",
+        "answer": "Bordetella pertussis",
+        "explanation": "Gram-negative coccobacillus producing pertussis toxin leading to paroxysmal cough."
+    },
+    {
+        "id": 29,
+        "question": "Which organism is associated with nosocomial infections and is multidrug-resistant?",
+        "answer": "Pseudomonas aeruginosa",
+        "explanation": "It is a Gram-negative, oxidase-positive rod with biofilm formation in hospitals."
+    },
+    {
+        "id": 30,
+        "question": "Which bacteria is responsible for tetanus?",
+        "answer": "Clostridium tetani",
+        "explanation": "An anaerobic, spore-forming Gram-positive rod producing tetanospasmin toxin."
+    },
+    {
+        "id": 31,
+        "question": "Which virus causes hepatitis B infection?",
+        "answer": "Hepatitis B virus",
+        "explanation": "DNA virus transmitted via blood, sexual contact, or perinatally; causes liver disease."
+    },
+    {
+        "id": 32,
+        "question": "Which stain is used to identify fungal spores and hyphae in clinical specimens?",
+        "answer": "Lactophenol cotton blue",
+        "explanation": "It stains chitin in fungal cell walls, highlighting morphology."
+    },
+    {
+        "id": 33,
+        "question": "Which microorganism is commonly associated with urinary tract infections?",
+        "answer": "Escherichia coli",
+        "explanation": "E. coli from the intestinal flora is the most frequent UTI pathogen."
+    },
+    {
+        "id": 34,
+        "question": "Which bacteria are small Gram-negative coccobacilli causing respiratory infections in children?",
+        "answer": "Haemophilus influenzae",
+        "explanation": "Encapsulated strains can cause meningitis and epiglottitis; non-encapsulated cause otitis media."
+    },
+    {
+        "id": 35,
+        "question": "Which microorganism causes anthrax?",
+        "answer": "Bacillus anthracis",
+        "explanation": "Gram-positive spore-forming rod; produces anthrax toxin affecting skin, lungs, or intestines."
+    },
+    {
+        "id": 36,
+        "question": "Which test detects bacterial endotoxins in medical devices and injectable drugs?",
+        "answer": "Limulus Amebocyte Lysate (LAL) test",
+        "explanation": "Based on clotting reaction of horseshoe crab blood with endotoxin (LPS)."
+    },
+    {
+        "id": 37,
+        "question": "Which bacteria is responsible for gas gangrene?",
+        "answer": "Clostridium perfringens",
+        "explanation": "Anaerobic Gram-positive spore-forming rod producing alpha-toxin causing tissue necrosis and gas formation."
+    },
+    {
+        "id": 38,
+        "question": "Which virus causes polio?",
+        "answer": "Poliovirus",
+        "explanation": "RNA virus transmitted via fecal-oral route; can cause paralytic poliomyelitis."
+    },
+    {
+        "id": 39,
+        "question": "Which parasite causes amoebic dysentery?",
+        "answer": "Entamoeba histolytica",
+        "explanation": "Ingested cysts invade intestinal mucosa causing bloody diarrhea and liver abscess."
+    },
+    {
+        "id": 40,
+        "question": "Which bacteria are Gram-positive rods, non-spore forming, causing diphtheria?",
+        "answer": "Corynebacterium diphtheriae",
+        "explanation": "Produces diphtheria toxin causing pharyngeal pseudomembrane and systemic effects."
+    },
+    {
+        "id": 41,
+        "question": "Which bacteria are facultative anaerobic Gram-negative rods causing enteric fever?",
+        "answer": "Salmonella typhi",
+        "explanation": "Invades intestinal mucosa; survives in macrophages causing systemic infection."
+    },
+    {
+        "id": 42,
+        "question": "Which bacteria produce spores resistant to boiling and disinfectants?",
+        "answer": "Bacillus and Clostridium species",
+        "explanation": "Spore formation ensures survival under extreme conditions."
+    },
+    {
+        "id": 43,
+        "question": "Which parasite causes visceral leishmaniasis?",
+        "answer": "Leishmania donovani",
+        "explanation": "Protozoan transmitted by sandfly; infects macrophages causing hepatosplenomegaly."
+    },
+    {
+        "id": 44,
+        "question": "Which bacteria are known as lactose fermenters on MacConkey agar?",
+        "answer": "Escherichia coli and Klebsiella species",
+        "explanation": "Fermentation produces acid, turning agar pink."
+    },
+    {
+        "id": 45,
+        "question": "Which test identifies bacterial motility?",
+        "answer": "Hanging drop method or motility agar",
+        "explanation": "Motile bacteria move actively; non-motile remain at inoculation site."
+    },
+    {
+        "id": 46,
+        "question": "Which virus causes measles?",
+        "answer": "Measles virus (Rubeola)",
+        "explanation": "RNA virus; causes maculopapular rash, fever, and Koplik spots."
+    },
+    {
+        "id": 47,
+        "question": "Which bacteria are urease positive and associated with urinary stones?",
+        "answer": "Proteus species",
+        "explanation": "Urease hydrolyzes urea to ammonia, increasing urine pH and forming stones."
+    },
+    {
+        "id": 48,
+        "question": "Which organism causes meningococcemia and meningitis?",
+        "answer": "Neisseria meningitidis",
+        "explanation": "Gram-negative diplococcus; may cause petechial rash and septicemia."
+    },
+    {
+        "id": 49,
+        "question": "Which microorganism is used as a biological indicator for autoclave sterilization?",
+        "answer": "Bacillus stearothermophilus spores",
+        "explanation": "Highly resistant spores ensure effective sterilization by steam."
+    },
+    {
+        "id": 50,
+        "question": "Which bacteria are Gram-positive cocci causing pneumonia and meningitis in children and adults?",
+        "answer": "Streptococcus pneumoniae",
+        "explanation": "Encapsulated diplococci causing respiratory and systemic infections."
+    },
+    {
+        "id": 51,
+        "question": "Which bacteria cause typhoid fever?",
+        "answer": "Salmonella typhi",
+        "explanation": "Gram-negative bacilli transmitted via fecal-oral route; causes systemic infection with fever."
+    },
+    {
+        "id": 52,
+        "question": "Which bacteria cause gastroenteritis associated with rice dishes?",
+        "answer": "Bacillus cereus",
+        "explanation": "Spore-forming Gram-positive rod; produces heat-stable toxin causing vomiting or diarrhea."
+    },
+    {
+        "id": 53,
+        "question": "Which parasite causes trichomoniasis?",
+        "answer": "Trichomonas vaginalis",
+        "explanation": "Flagellated protozoan; sexually transmitted causing vaginitis."
+    },
+    {
+        "id": 54,
+        "question": "Which virus causes hepatitis C infection?",
+        "answer": "Hepatitis C virus",
+        "explanation": "RNA virus transmitted via blood; may cause chronic liver disease."
+    },
+    {
+        "id": 55,
+        "question": "Which bacteria are catalase positive, coagulase negative, and common skin flora?",
+        "answer": "Staphylococcus epidermidis",
+        "explanation": "Normal skin commensal; can cause infections in prosthetic devices."
+    },
+    {
+        "id": 56,
+        "question": "Which bacteria are responsible for peptic ulcers?",
+        "answer": "Helicobacter pylori",
+        "explanation": "Gram-negative spiral bacteria; produces urease to survive acidic stomach environment."
+    },
+    {
+        "id": 57,
+        "question": "Which bacteria are Gram-negative, oxidase positive, and cause gonorrhea?",
+        "answer": "Neisseria gonorrhoeae",
+        "explanation": "Diplococci transmitted sexually; infects mucous membranes."
+    },
+    {
+        "id": 58,
+        "question": "Which test is used to detect antibodies to HIV?",
+        "answer": "ELISA",
+        "explanation": "Enzyme-linked immunosorbent assay detects anti-HIV antibodies in serum."
+    },
+    {
+        "id": 59,
+        "question": "Which fungi cause systemic mycoses in immunocompromised patients?",
+        "answer": "Histoplasma capsulatum, Cryptococcus neoformans",
+        "explanation": "Can cause disseminated infections; Cryptococcus associated with meningitis."
+    },
+    {
+        "id": 60,
+        "question": "Which bacteria produce beta-lactamase enzyme?",
+        "answer": "Staphylococcus aureus and some Gram-negative rods",
+        "explanation": "Enzyme destroys beta-lactam antibiotics like penicillin."
+    },
+    {
+        "id": 61,
+        "question": "Which bacteria cause diphtheria?",
+        "answer": "Corynebacterium diphtheriae",
+        "explanation": "Gram-positive rod; produces exotoxin causing pseudomembrane and systemic toxicity."
+    },
+    {
+        "id": 62,
+        "question": "Which parasite causes malaria with the highest mortality?",
+        "answer": "Plasmodium falciparum",
+        "explanation": "Infects red blood cells and can cause cerebral malaria."
+    },
+    {
+        "id": 63,
+        "question": "Which bacteria are Gram-negative rods causing Legionnaires’ disease?",
+        "answer": "Legionella pneumophila",
+        "explanation": "Facultative intracellular pathogen; detected by urine antigen test."
+    },
+    {
+        "id": 64,
+        "question": "Which bacteria cause whooping cough?",
+        "answer": "Bordetella pertussis",
+        "explanation": "Gram-negative coccobacillus; produces pertussis toxin leading to paroxysmal cough."
+    },
+    {
+        "id": 65,
+        "question": "Which bacteria are responsible for syphilis?",
+        "answer": "Treponema pallidum",
+        "explanation": "Spirochete; causes primary, secondary, and tertiary syphilis."
+    },
+    {
+        "id": 66,
+        "question": "Which fungus causes cryptococcal meningitis in AIDS patients?",
+        "answer": "Cryptococcus neoformans",
+        "explanation": "Encapsulated yeast; detected with India ink staining or cryptococcal antigen test."
+    },
+    {
+        "id": 67,
+        "question": "Which bacteria are Gram-negative rods causing urinary tract infections in hospitalized patients?",
+        "answer": "Klebsiella and Proteus species",
+        "explanation": "Often multidrug-resistant; may produce urease and form stones."
+    },
+    {
+        "id": 68,
+        "question": "Which virus causes shingles?",
+        "answer": "Varicella-zoster virus",
+        "explanation": "Reactivation of latent VZV in dorsal root ganglia causing vesicular rash."
+    },
+    {
+        "id": 69,
+        "question": "Which bacteria are spore-forming anaerobes causing botulism?",
+        "answer": "Clostridium botulinum",
+        "explanation": "Produces botulinum toxin causing flaccid paralysis."
+    },
+    {
+        "id": 70,
+        "question": "Which bacteria are Gram-negative, curved rods causing gastroenteritis from seafood?",
+        "answer": "Vibrio parahaemolyticus",
+        "explanation": "Comma-shaped rods; associated with consumption of raw or undercooked seafood."
+    },
+    {
+        "id": 71,
+        "question": "Which parasite causes lymphatic filariasis?",
+        "answer": "Wuchereria bancrofti",
+        "explanation": "Mosquito-transmitted nematode; causes elephantiasis."
+    },
+    {
+        "id": 72,
+        "question": "Which bacteria produce exotoxin causing tetanus?",
+        "answer": "Clostridium tetani",
+        "explanation": "Tetanospasmin interferes with neurotransmitter release causing muscle spasms."
+    },
+    {
+        "id": 73,
+        "question": "Which bacteria are responsible for community-acquired pneumonia in adults?",
+        "answer": "Streptococcus pneumoniae",
+        "explanation": "Encapsulated Gram-positive diplococcus; leading cause of bacterial pneumonia."
+    },
+    {
+        "id": 74,
+        "question": "Which virus causes genital warts?",
+        "answer": "Human papillomavirus (HPV)",
+        "explanation": "DNA virus; some types are associated with cervical cancer."
+    },
+    {
+        "id": 75,
+        "question": "Which bacteria are Gram-positive cocci causing food poisoning from improper food handling?",
+        "answer": "Staphylococcus aureus",
+        "explanation": "Produces heat-stable enterotoxin leading to vomiting and diarrhea."
+    },
+    {
+        "id": 76,
+        "question": "Which microorganism causes tinea infections?",
+        "answer": "Dermatophytes (Trichophyton, Microsporum, Epidermophyton)",
+        "explanation": "Fungi infect keratinized tissues like hair, skin, and nails."
+    },
+    {
+        "id": 77,
+        "question": "Which test detects bacterial endotoxins in injectable drugs?",
+        "answer": "Limulus Amebocyte Lysate (LAL) test",
+        "explanation": "Based on horseshoe crab blood clotting reaction to endotoxins."
+    },
+    {
+        "id": 78,
+        "question": "Which bacteria cause pseudomembranous colitis after antibiotic therapy?",
+        "answer": "Clostridioides difficile",
+        "explanation": "Anaerobic Gram-positive spore-forming rod; produces toxins A and B."
+    },
+    {
+        "id": 79,
+        "question": "Which virus causes mumps?",
+        "answer": "Mumps virus",
+        "explanation": "RNA virus causing parotitis, orchitis, and sometimes meningitis."
+    },
+    {
+        "id": 80,
+        "question": "Which bacteria are Gram-negative rods producing Shiga toxin?",
+        "answer": "Shigella dysenteriae",
+        "explanation": "Causes bloody diarrhea and may lead to hemolytic uremic syndrome."
+    },
+    {
+        "id": 81,
+        "question": "Which bacteria are Gram-positive rods causing foodborne listeriosis?",
+        "answer": "Listeria monocytogenes",
+        "explanation": "Facultative intracellular rod; dangerous in pregnancy and immunocompromised patients."
+    },
+    {
+        "id": 82,
+        "question": "Which virus causes hemorrhagic fever in West Africa?",
+        "answer": "Ebola virus",
+        "explanation": "Filovirus causing severe, often fatal, systemic illness."
+    },
+    {
+        "id": 83,
+        "question": "Which bacteria are Gram-negative rods causing typhoid fever and paratyphoid fever?",
+        "answer": "Salmonella typhi and Salmonella paratyphi",
+        "explanation": "Enteric fever transmitted via contaminated food or water."
+    },
+    {
+        "id": 84,
+        "question": "Which parasite causes cysticercosis?",
+        "answer": "Taenia solium (larvae)",
+        "explanation": "Ingestion of eggs leads to larval cysts in tissues, including CNS."
+    },
+    {
+        "id": 85,
+        "question": "Which bacteria are Gram-positive cocci causing toxic shock syndrome?",
+        "answer": "Staphylococcus aureus",
+        "explanation": "Produces TSST-1 superantigen leading to systemic inflammation."
+    },
+    {
+        "id": 86,
+        "question": "Which virus causes hemorrhagic fever transmitted by mosquitoes?",
+        "answer": "Dengue virus",
+        "explanation": "Flavivirus causing fever, rash, and sometimes shock in severe cases."
+    },
+    {
+        "id": 87,
+        "question": "Which bacteria cause plague?",
+        "answer": "Yersinia pestis",
+        "explanation": "Gram-negative rod transmitted by fleas; causes bubonic, septicemic, and pneumonic plague."
+    },
+    {
+        "id": 88,
+        "question": "Which bacteria are Gram-negative rods causing cholera?",
+        "answer": "Vibrio cholerae",
+        "explanation": "Comma-shaped bacteria producing cholera toxin; causes rice-water diarrhea."
+    },
+    {
+        "id": 89,
+        "question": "Which virus causes hemorrhagic fever with renal syndrome?",
+        "answer": "Hantavirus",
+        "explanation": "RNA virus transmitted via rodent excreta; causes fever and kidney failure."
+    },
+    {
+        "id": 90,
+        "question": "Which bacteria are Gram-negative coccobacilli causing pertussis?",
+        "answer": "Bordetella pertussis",
+        "explanation": "Causes severe coughing fits and produces pertussis toxin."
+    },
+    {
+        "id": 91,
+        "question": "Which parasite causes giardiasis?",
+        "answer": "Giardia lamblia",
+        "explanation": "Flagellated protozoan causing diarrhea, often waterborne."
+    },
+    {
+        "id": 92,
+        "question": "Which virus causes hemorrhagic fever with high fatality in Africa?",
+        "answer": "Marburg virus",
+        "explanation": "Filovirus similar to Ebola causing severe systemic illness."
+    },
+    {
+        "id": 93,
+        "question": "Which bacteria cause neonatal sepsis and meningitis transmitted from mother?",
+        "answer": "Group B Streptococcus (Streptococcus agalactiae)",
+        "explanation": "Gram-positive cocci; screened during pregnancy to prevent neonatal infection."
+    },
+    {
+        "id": 94,
+        "question": "Which bacteria are Gram-positive cocci causing nosocomial infections and MRSA?",
+        "answer": "Staphylococcus aureus",
+        "explanation": "Methicillin-resistant strains are common in hospitals."
+    },
+    {
+        "id": 95,
+        "question": "Which bacteria are Gram-negative rods causing nosocomial pneumonia in ventilated patients?",
+        "answer": "Pseudomonas aeruginosa",
+        "explanation": "Opportunistic pathogen; produces biofilm and is multidrug-resistant."
+    },
+    {
+        "id": 96,
+        "question": "Which parasite causes sleeping sickness?",
+        "answer": "Trypanosoma brucei",
+        "explanation": "Transmitted by tsetse fly; causes CNS involvement and lethargy."
+    },
+    {
+        "id": 97,
+        "question": "Which fungi cause opportunistic infections in AIDS patients?",
+        "answer": "Candida, Cryptococcus, Pneumocystis jirovecii",
+        "explanation": "Immune suppression allows fungal overgrowth leading to systemic infections."
+    },
+    {
+        "id": 98,
+        "question": "Which bacteria are Gram-negative coccobacilli causing brucellosis?",
+        "answer": "Brucella species",
+        "explanation": "Zoonotic infection; causes fever, malaise, and hepatosplenomegaly."
+    },
+    {
+        "id": 99,
+        "question": "Which virus causes severe acute respiratory syndrome (SARS)?",
+        "answer": "SARS-CoV",
+        "explanation": "Coronavirus causing respiratory illness with high transmissibility."
+    },
+    {
+        "id": 100,
+        "question": "Which microorganism causes blood-borne hepatitis transmitted via transfusion?",
+        "answer": "Hepatitis B virus",
+        "explanation": "DNA virus; major risk in contaminated blood products."
+    },
+    {
+        "id": 101,
+        "question": "Which bacteria cause bacterial meningitis in neonates?",
+        "answer": "Group B Streptococcus, E. coli, Listeria monocytogenes",
+        "explanation": "Common neonatal pathogens transmitted during birth or via maternal flora."
+    },
+    {
+        "id": 102,
+        "question": "Which virus causes chickenpox in children?",
+        "answer": "Varicella-zoster virus",
+        "explanation": "Herpesvirus family; causes vesicular rash and fever."
+    },
+    {
+        "id": 103,
+        "question": "Which bacteria are Gram-positive cocci causing endocarditis in intravenous drug users?",
+        "answer": "Staphylococcus aureus",
+        "explanation": "Colonizes heart valves; can produce vegetations leading to systemic infection."
+    },
+    {
+        "id": 104,
+        "question": "Which bacteria are Gram-negative rods causing neonatal sepsis and meningitis?",
+        "answer": "Escherichia coli K1",
+        "explanation": "Possesses capsule allowing evasion of neonatal immune system."
+    },
+    {
+        "id": 105,
+        "question": "Which virus causes infectious mononucleosis?",
+        "answer": "Epstein-Barr virus",
+        "explanation": "Infects B lymphocytes; causes fever, lymphadenopathy, and atypical lymphocytes."
+    },
+    {
+        "id": 106,
+        "question": "Which bacteria are Gram-positive cocci causing strep throat?",
+        "answer": "Streptococcus pyogenes",
+        "explanation": "Beta-hemolytic, Group A streptococci; may cause rheumatic fever if untreated."
+    },
+    {
+        "id": 107,
+        "question": "Which bacteria produce endotoxin responsible for septic shock?",
+        "answer": "Gram-negative bacteria (e.g., E. coli, Salmonella)",
+        "explanation": "Lipopolysaccharide (LPS) triggers systemic inflammation and shock."
+    },
+    {
+        "id": 108,
+        "question": "Which fungus causes opportunistic pneumonia in AIDS patients?",
+        "answer": "Pneumocystis jirovecii",
+        "explanation": "Yeast-like fungus; causes interstitial pneumonia with ground-glass opacities."
+    },
+    {
+        "id": 109,
+        "question": "Which bacteria cause whooping cough in children?",
+        "answer": "Bordetella pertussis",
+        "explanation": "Produces pertussis toxin causing paroxysmal cough and lymphocytosis."
+    },
+    {
+        "id": 110,
+        "question": "Which bacteria are Gram-positive rods causing diphtheria?",
+        "answer": "Corynebacterium diphtheriae",
+        "explanation": "Produces exotoxin leading to pharyngeal pseudomembrane and myocarditis."
+    },
+    {
+        "id": 111,
+        "question": "Which bacteria cause tuberculosis?",
+        "answer": "Mycobacterium tuberculosis",
+        "explanation": "Acid-fast bacilli; causes chronic pulmonary infection with granuloma formation."
+    },
+    {
+        "id": 112,
+        "question": "Which virus causes hepatitis A infection?",
+        "answer": "Hepatitis A virus",
+        "explanation": "RNA virus transmitted via fecal-oral route; usually self-limiting."
+    },
+    {
+        "id": 113,
+        "question": "Which bacteria are Gram-negative diplococci causing gonorrhea?",
+        "answer": "Neisseria gonorrhoeae",
+        "explanation": "Infects mucous membranes; may cause urethritis, cervicitis, or conjunctivitis."
+    },
+    {
+        "id": 114,
+        "question": "Which bacteria are responsible for Lyme disease?",
+        "answer": "Borrelia burgdorferi",
+        "explanation": "Spirochete transmitted by Ixodes ticks; causes erythema migrans and arthritis."
+    },
+    {
+        "id": 115,
+        "question": "Which bacteria cause botulism?",
+        "answer": "Clostridium botulinum",
+        "explanation": "Produces neurotoxin causing flaccid paralysis; associated with improperly canned foods."
+    },
+    {
+        "id": 116,
+        "question": "Which virus causes hemorrhagic fever with renal syndrome?",
+        "answer": "Hantavirus",
+        "explanation": "RNA virus transmitted via rodent excreta; causes fever and acute kidney injury."
+    },
+    {
+        "id": 117,
+        "question": "Which bacteria are Gram-negative rods causing cholera?",
+        "answer": "Vibrio cholerae",
+        "explanation": "Comma-shaped bacteria; produces cholera toxin leading to profuse watery diarrhea."
+    },
+    {
+        "id": 118,
+        "question": "Which parasite causes amebic liver abscess?",
+        "answer": "Entamoeba histolytica",
+        "explanation": "Protozoan invades intestinal wall; trophozoites can reach liver via portal circulation."
+    },
+    {
+        "id": 119,
+        "question": "Which bacteria cause plague?",
+        "answer": "Yersinia pestis",
+        "explanation": "Gram-negative rod; transmitted by fleas; can cause bubonic, septicemic, or pneumonic plague."
+    },
+    {
+        "id": 120,
+        "question": "Which virus causes hemorrhagic fever in Africa?",
+        "answer": "Ebola virus",
+        "explanation": "Filovirus causing high fatality; transmitted via body fluids."
+    },
+    {
+        "id": 121,
+        "question": "Which bacteria are Gram-positive cocci causing food poisoning via enterotoxin?",
+        "answer": "Staphylococcus aureus",
+        "explanation": "Heat-stable toxin causes vomiting and diarrhea."
+    },
+    {
+        "id": 122,
+        "question": "Which bacteria cause listeriosis?",
+        "answer": "Listeria monocytogenes",
+        "explanation": "Gram-positive rod; dangerous in pregnancy and immunocompromised patients."
+    },
+    {
+        "id": 123,
+        "question": "Which bacteria are Gram-negative rods causing nosocomial pneumonia?",
+        "answer": "Pseudomonas aeruginosa",
+        "explanation": "Opportunistic pathogen; produces biofilm; multidrug-resistant."
+    },
+    {
+        "id": 124,
+        "question": "Which virus causes mumps?",
+        "answer": "Mumps virus",
+        "explanation": "Paramyxovirus; causes parotitis, orchitis, and sometimes meningitis."
+    },
+    {
+        "id": 125,
+        "question": "Which bacteria cause gastroenteritis associated with rice dishes?",
+        "answer": "Bacillus cereus",
+        "explanation": "Spore-forming rod; produces emetic or diarrheal toxin."
+    },
+    {
+        "id": 126,
+        "question": "Which bacteria are Gram-negative rods causing enteric fever?",
+        "answer": "Salmonella typhi",
+        "explanation": "Invades intestinal mucosa; survives in macrophages causing systemic illness."
+    },
+    {
+        "id": 127,
+        "question": "Which bacteria produce Shiga toxin?",
+        "answer": "Shigella dysenteriae and some E. coli strains",
+        "explanation": "Cause bloody diarrhea; may lead to hemolytic uremic syndrome."
+    },
+    {
+        "id": 128,
+        "question": "Which parasite causes giardiasis?",
+        "answer": "Giardia lamblia",
+        "explanation": "Flagellated protozoan; causes waterborne diarrhea."
+    },
+    {
+        "id": 129,
+        "question": "Which bacteria are Gram-negative rods causing respiratory infections in children?",
+        "answer": "Haemophilus influenzae",
+        "explanation": "Encapsulated strains cause meningitis; non-encapsulated cause otitis media."
+    },
+    {
+        "id": 130,
+        "question": "Which bacteria are Gram-positive cocci causing pneumonia and meningitis?",
+        "answer": "Streptococcus pneumoniae",
+        "explanation": "Encapsulated diplococci; major cause of respiratory infections."
+    },
+    {
+        "id": 131,
+        "question": "Which virus causes hepatitis B infection?",
+        "answer": "Hepatitis B virus",
+        "explanation": "DNA virus transmitted via blood, sexual contact, or perinatally."
+    },
+    {
+        "id": 132,
+        "question": "Which bacteria are Gram-negative rods causing urinary tract infections?",
+        "answer": "Escherichia coli",
+        "explanation": "Most common UTI pathogen; part of normal gut flora."
+    },
+    {
+        "id": 133,
+        "question": "Which bacteria cause gas gangrene?",
+        "answer": "Clostridium perfringens",
+        "explanation": "Anaerobic spore-forming rod; produces alpha-toxin leading to tissue necrosis and gas formation."
+    },
+    {
+        "id": 134,
+        "question": "Which bacteria are Gram-negative rods causing Legionnaires’ disease?",
+        "answer": "Legionella pneumophila",
+        "explanation": "Facultative intracellular pathogen; detected by urine antigen test."
+    },
+    {
+        "id": 135,
+        "question": "Which virus causes hemorrhagic fever transmitted by mosquitoes?",
+        "answer": "Dengue virus",
+        "explanation": "Flavivirus; severe cases may lead to shock and bleeding."
+    },
+    {
+        "id": 136,
+        "question": "Which bacteria are Gram-positive cocci causing neonatal sepsis?",
+        "answer": "Group B Streptococcus (Streptococcus agalactiae)",
+        "explanation": "Screened in pregnant women to prevent neonatal infection."
+    },
+    {
+        "id": 137,
+        "question": "Which bacteria are Gram-negative rods causing dysentery?",
+        "answer": "Shigella species",
+        "explanation": "Non-lactose fermenters; invade intestinal epithelium."
+    },
+    {
+        "id": 138,
+        "question": "Which bacteria are Gram-positive rods causing tetanus?",
+        "answer": "Clostridium tetani",
+        "explanation": "Produces tetanospasmin neurotoxin causing muscle spasms."
+    },
+    {
+        "id": 139,
+        "question": "Which bacteria cause Lyme disease?",
+        "answer": "Borrelia burgdorferi",
+        "explanation": "Spirochete transmitted by Ixodes ticks; causes erythema migrans and arthritis."
+    },
+    {
+        "id": 140,
+        "question": "Which virus causes SARS (Severe Acute Respiratory Syndrome)?",
+        "answer": "SARS-CoV",
+        "explanation": "Coronavirus causing severe respiratory illness."
+    },
+    {
+        "id": 141,
+        "question": "Which fungi cause systemic infections in immunocompromised patients?",
+        "answer": "Candida, Cryptococcus, Aspergillus",
+        "explanation": "Opportunistic pathogens causing pneumonia, meningitis, and disseminated disease."
+    },
+    {
+        "id": 142,
+        "question": "Which parasite causes African sleeping sickness?",
+        "answer": "Trypanosoma brucei",
+        "explanation": "Transmitted by tsetse fly; causes CNS symptoms and lethargy."
+    },
+    {
+        "id": 143,
+        "question": "Which virus causes measles?",
+        "answer": "Measles virus (Rubeola)",
+        "explanation": "Paramyxovirus; produces maculopapular rash and Koplik spots."
+    },
+    {
+        "id": 144,
+        "question": "Which bacteria produce urease increasing urine pH?",
+        "answer": "Proteus species",
+        "explanation": "Urease hydrolyzes urea to ammonia; may cause urinary stones."
+    },
+    {
+        "id": 145,
+        "question": "Which bacteria are Gram-negative rods causing neonatal sepsis and meningitis?",
+        "answer": "Escherichia coli K1",
+        "explanation": "Capsule allows evasion of neonatal immunity."
+    },
+    {
+        "id": 146,
+        "question": "Which virus causes hepatitis C infection?",
+        "answer": "Hepatitis C virus",
+        "explanation": "RNA virus transmitted via blood; may cause chronic hepatitis."
+    },
+    {
+        "id": 147,
+        "question": "Which bacteria are Gram-positive cocci causing toxic shock syndrome?",
+        "answer": "Staphylococcus aureus",
+        "explanation": "Produces TSST-1 superantigen causing systemic inflammation."
+    },
+    {
+        "id": 148,
+        "question": "Which bacteria cause pseudomembranous colitis after antibiotic therapy?",
+        "answer": "Clostridioides difficile",
+        "explanation": "Anaerobic, spore-forming rod; produces toxins A and B causing diarrhea."
+    },
+    {
+        "id": 149,
+        "question": "Which virus causes hemorrhagic fever with high fatality in Africa?",
+        "answer": "Marburg virus",
+        "explanation": "Filovirus similar to Ebola; causes severe systemic illness."
+    },
+    {
+        "id": 150,
+        "question": "Which bacteria cause neonatal meningitis transmitted from mother?",
+        "answer": "Group B Streptococcus",
+        "explanation": "Screening in pregnancy prevents neonatal infection."
+    },
+    {
+        "id": 151,
+        "question": "Which bacteria are Gram-negative coccobacilli causing brucellosis?",
+        "answer": "Brucella species",
+        "explanation": "Zoonotic infection; causes fever, malaise, and hepatosplenomegaly."
+    },
+    {
+        "id": 152,
+        "question": "Which bacteria cause plague?",
+        "answer": "Yersinia pestis",
+        "explanation": "Gram-negative rod; transmitted by fleas; causes bubonic, septicemic, or pneumonic plague."
+    },
+    {
+        "id": 153,
+        "question": "Which virus causes hemorrhagic fever transmitted via body fluids?",
+        "answer": "Ebola virus",
+        "explanation": "Filovirus with high mortality; outbreaks in Africa."
+    },
+    {
+        "id": 154,
+        "question": "Which bacteria are Gram-positive cocci causing food poisoning via enterotoxin?",
+        "answer": "Staphylococcus aureus",
+        "explanation": "Heat-stable enterotoxin leads to vomiting and diarrhea."
+    },
+    {
+        "id": 155,
+        "question": "Which bacteria cause listeriosis in pregnant women?",
+        "answer": "Listeria monocytogenes",
+        "explanation": "Can lead to miscarriage or neonatal infection."
+    },
+    {
+        "id": 156,
+        "question": "Which bacteria are Gram-negative rods causing nosocomial pneumonia?",
+        "answer": "Pseudomonas aeruginosa",
+        "explanation": "Opportunistic pathogen; multidrug-resistant; forms biofilms."
+    },
+    {
+        "id": 157,
+        "question": "Which virus causes mumps?",
+        "answer": "Mumps virus",
+        "explanation": "Causes parotitis, orchitis, and sometimes meningitis."
+    },
+    {
+        "id": 158,
+        "question": "Which bacteria cause gastroenteritis associated with rice dishes?",
+        "answer": "Bacillus cereus",
+        "explanation": "Spore-forming rod; produces emetic or diarrheal toxin."
+    },
+    {
+        "id": 159,
+        "question": "Which bacteria cause enteric fever?",
+        "answer": "Salmonella typhi",
+        "explanation": "Invades intestinal mucosa and survives in macrophages."
+    },
+    {
+        "id": 160,
+        "question": "Which bacteria produce Shiga toxin?",
+        "answer": "Shigella dysenteriae and some E. coli strains",
+        "explanation": "Cause bloody diarrhea and hemolytic uremic syndrome."
+    },
+    {
+        "id": 161,
+        "question": "Which parasite causes giardiasis?",
+        "answer": "Giardia lamblia",
+        "explanation": "Flagellated protozoan; causes watery diarrhea."
+    },
+    {
+        "id": 162,
+        "question": "Which bacteria are Gram-negative rods causing respiratory infections in children?",
+        "answer": "Haemophilus influenzae",
+        "explanation": "Encapsulated strains cause meningitis; non-encapsulated cause otitis media."
+    },
+    {
+        "id": 163,
+        "question": "Which bacteria are Gram-positive cocci causing pneumonia?",
+        "answer": "Streptococcus pneumoniae",
+        "explanation": "Encapsulated diplococci; leading cause of bacterial pneumonia."
+    },
+    {
+        "id": 164,
+        "question": "Which virus causes hepatitis B infection?",
+        "answer": "Hepatitis B virus",
+        "explanation": "DNA virus transmitted via blood, sexual contact, or perinatally."
+    },
+    {
+        "id": 165,
+        "question": "Which bacteria cause urinary tract infections?",
+        "answer": "Escherichia coli",
+        "explanation": "Most common UTI pathogen; part of gut flora."
+    },
+    {
+        "id": 166,
+        "question": "Which bacteria cause gas gangrene?",
+        "answer": "Clostridium perfringens",
+        "explanation": "Anaerobic spore-forming rod; produces alpha-toxin causing tissue necrosis."
+    },
+    {
+        "id": 167,
+        "question": "Which bacteria cause Legionnaires’ disease?",
+        "answer": "Legionella pneumophila",
+        "explanation": "Facultative intracellular pathogen; detected by urine antigen test."
+    },
+    {
+        "id": 168,
+        "question": "Which virus causes dengue fever?",
+        "answer": "Dengue virus",
+        "explanation": "Flavivirus transmitted by mosquitoes; severe cases may lead to shock."
+    },
+    {
+        "id": 169,
+        "question": "Which bacteria are responsible for neonatal sepsis?",
+        "answer": "Group B Streptococcus",
+        "explanation": "Screening in pregnant women prevents neonatal infection."
+    },
+    {
+        "id": 170,
+        "question": "Which bacteria cause dysentery?",
+        "answer": "Shigella species",
+        "explanation": "Invades intestinal epithelium; causes bloody diarrhea."
+    },
+    {
+        "id": 171,
+        "question": "Which bacteria produce tetanospasmin toxin?",
+        "answer": "Clostridium tetani",
+        "explanation": "Neurotoxin blocks inhibitory neurotransmitters causing spastic paralysis."
+    },
+    {
+        "id": 172,
+        "question": "Which bacteria cause Lyme disease?",
+        "answer": "Borrelia burgdorferi",
+        "explanation": "Spirochete transmitted by ticks; causes erythema migrans."
+    },
+    {
+        "id": 173,
+        "question": "Which virus causes SARS?",
+        "answer": "SARS-CoV",
+        "explanation": "Coronavirus causing severe respiratory illness."
+    },
+    {
+        "id": 174,
+        "question": "Which fungi cause opportunistic infections in immunocompromised patients?",
+        "answer": "Candida, Cryptococcus, Aspergillus",
+        "explanation": "Cause pneumonia, meningitis, and systemic infections."
+    },
+    {
+        "id": 175,
+        "question": "Which parasite causes African sleeping sickness?",
+        "answer": "Trypanosoma brucei",
+        "explanation": "Transmitted by tsetse fly; affects CNS causing lethargy."
+    },
+    {
+        "id": 176,
+        "question": "Which virus causes measles?",
+        "answer": "Measles virus",
+        "explanation": "Paramyxovirus; produces rash and Koplik spots."
+    },
+    {
+        "id": 177,
+        "question": "Which bacteria produce urease in urinary infections?",
+        "answer": "Proteus species",
+        "explanation": "Urease hydrolyzes urea, increases pH, and may cause stones."
+    },
+    {
+        "id": 178,
+        "question": "Which bacteria are Gram-negative rods causing neonatal sepsis?",
+        "answer": "Escherichia coli K1",
+        "explanation": "Capsule allows evasion of neonatal immunity."
+    },
+    {
+        "id": 179,
+        "question": "Which virus causes hepatitis C?",
+        "answer": "Hepatitis C virus",
+        "explanation": "Bloodborne RNA virus; may cause chronic hepatitis."
+    },
+    {
+        "id": 180,
+        "question": "Which bacteria cause toxic shock syndrome?",
+        "answer": "Staphylococcus aureus",
+        "explanation": "TSST-1 superantigen leads to systemic inflammation."
+    },
+    {
+        "id": 181,
+        "question": "Which bacteria cause pseudomembranous colitis?",
+        "answer": "Clostridioides difficile",
+        "explanation": "Toxin-mediated diarrhea after antibiotics."
+    },
+    {
+        "id": 182,
+        "question": "Which virus causes Marburg hemorrhagic fever?",
+        "answer": "Marburg virus",
+        "explanation": "Filovirus causing severe systemic illness."
+    },
+    {
+        "id": 183,
+        "question": "Which bacteria cause food poisoning with enterotoxin?",
+        "answer": "Staphylococcus aureus",
+        "explanation": "Heat-stable toxin causes vomiting and diarrhea."
+    },
+    {
+        "id": 184,
+        "question": "Which bacteria cause listeriosis?",
+        "answer": "Listeria monocytogenes",
+        "explanation": "Dangerous in pregnancy; Gram-positive rod."
+    },
+    {
+        "id": 185,
+        "question": "Which bacteria cause nosocomial pneumonia?",
+        "answer": "Pseudomonas aeruginosa",
+        "explanation": "Opportunistic Gram-negative rod; resistant to many antibiotics."
+    },
+    {
+        "id": 186,
+        "question": "Which virus causes mumps?",
+        "answer": "Mumps virus",
+        "explanation": "Parotitis and orchitis; paramyxovirus."
+    },
+    {
+        "id": 187,
+        "question": "Which bacteria cause gastroenteritis from rice dishes?",
+        "answer": "Bacillus cereus",
+        "explanation": "Spore-forming rod; emetic or diarrheal toxin."
+    },
+    {
+        "id": 188,
+        "question": "Which bacteria cause enteric fever?",
+        "answer": "Salmonella typhi",
+        "explanation": "Systemic illness from intestinal invasion."
+    },
+    {
+        "id": 189,
+        "question": "Which bacteria produce Shiga toxin?",
+        "answer": "Shigella dysenteriae",
+        "explanation": "Causes bloody diarrhea; may lead to HUS."
+    },
+    {
+        "id": 190,
+        "question": "Which parasite causes giardiasis?",
+        "answer": "Giardia lamblia",
+        "explanation": "Flagellated protozoan causing watery diarrhea."
+    },
+    {
+        "id": 191,
+        "question": "Which bacteria cause respiratory infections in children?",
+        "answer": "Haemophilus influenzae",
+        "explanation": "Encapsulated strains cause meningitis; non-encapsulated cause otitis media."
+    },
+    {
+        "id": 192,
+        "question": "Which bacteria cause pneumonia?",
+        "answer": "Streptococcus pneumoniae",
+        "explanation": "Encapsulated Gram-positive diplococcus."
+    },
+    {
+        "id": 193,
+        "question": "Which virus causes hepatitis B?",
+        "answer": "Hepatitis B virus",
+        "explanation": "Bloodborne DNA virus; can cause chronic liver disease."
+    },
+    {
+        "id": 194,
+        "question": "Which bacteria cause UTIs?",
+        "answer": "Escherichia coli",
+        "explanation": "Most common urinary pathogen."
+    },
+    {
+        "id": 195,
+        "question": "Which bacteria cause gas gangrene?",
+        "answer": "Clostridium perfringens",
+        "explanation": "Anaerobic rod producing alpha-toxin; tissue necrosis."
+    },
+    {
+        "id": 196,
+        "question": "Which bacteria cause Legionnaires’ disease?",
+        "answer": "Legionella pneumophila",
+        "explanation": "Facultative intracellular Gram-negative rod."
+    },
+    {
+        "id": 197,
+        "question": "Which virus causes dengue fever?",
+        "answer": "Dengue virus",
+        "explanation": "Mosquito-borne flavivirus; severe forms may cause shock."
+    },
+    {
+        "id": 198,
+        "question": "Which bacteria cause neonatal sepsis?",
+        "answer": "Group B Streptococcus",
+        "explanation": "Preventable via maternal screening."
+    },
+    {
+        "id": 199,
+        "question": "Which bacteria cause dysentery?",
+        "answer": "Shigella species",
+        "explanation": "Invades intestinal mucosa causing bloody diarrhea."
+    },
+    {
+        "id": 200,
+        "question": "Which bacteria produce tetanospasmin?",
+        "answer": "Clostridium tetani",
+        "explanation": "Neurotoxin blocks inhibitory neurotransmitters causing muscle spasms."
+    },
+    {
+        "id": 201,
+        "question": "Which virus causes chickenpox?",
+        "answer": "Varicella-zoster virus",
+        "explanation": "Herpesvirus family; causes vesicular rash and fever."
+    },
+    {
+        "id": 202,
+        "question": "Which bacteria cause scarlet fever?",
+        "answer": "Streptococcus pyogenes",
+        "explanation": "Group A strep; produces erythrogenic toxin causing rash."
+    },
+    {
+        "id": 203,
+        "question": "Which bacteria are Gram-positive cocci causing toxic shock syndrome?",
+        "answer": "Staphylococcus aureus",
+        "explanation": "TSST-1 superantigen triggers systemic inflammation."
+    },
+    {
+        "id": 204,
+        "question": "Which bacteria are Gram-negative rods causing enteric fever?",
+        "answer": "Salmonella typhi",
+        "explanation": "Invades intestinal mucosa and survives in macrophages."
+    },
+    {
+        "id": 205,
+        "question": "Which bacteria cause botulism?",
+        "answer": "Clostridium botulinum",
+        "explanation": "Produces botulinum neurotoxin causing flaccid paralysis."
+    },
+    {
+        "id": 206,
+        "question": "Which parasite causes malaria with highest mortality?",
+        "answer": "Plasmodium falciparum",
+        "explanation": "Infects red blood cells; can cause cerebral malaria."
+    },
+    {
+        "id": 207,
+        "question": "Which bacteria are Gram-negative rods causing urinary tract infections?",
+        "answer": "Escherichia coli",
+        "explanation": "Most common UTI pathogen; part of normal gut flora."
+    },
+    {
+        "id": 208,
+        "question": "Which bacteria are Gram-positive rods causing diphtheria?",
+        "answer": "Corynebacterium diphtheriae",
+        "explanation": "Produces exotoxin; forms pseudomembrane in throat."
+    },
+    {
+        "id": 209,
+        "question": "Which bacteria are Gram-negative diplococci causing gonorrhea?",
+        "answer": "Neisseria gonorrhoeae",
+        "explanation": "Infects mucous membranes; can cause urethritis and cervicitis."
+    },
+    {
+        "id": 210,
+        "question": "Which bacteria cause neonatal meningitis transmitted from mother?",
+        "answer": "Group B Streptococcus",
+        "explanation": "Screening during pregnancy reduces neonatal infection."
+    },
+    {
+        "id": 211,
+        "question": "Which virus causes hepatitis A?",
+        "answer": "Hepatitis A virus",
+        "explanation": "RNA virus transmitted via fecal-oral route; usually self-limiting."
+    },
+    {
+        "id": 212,
+        "question": "Which virus causes hepatitis B?",
+        "answer": "Hepatitis B virus",
+        "explanation": "DNA virus transmitted via blood and sexual contact; may cause chronic liver disease."
+    },
+    {
+        "id": 213,
+        "question": "Which virus causes hepatitis C?",
+        "answer": "Hepatitis C virus",
+        "explanation": "Bloodborne RNA virus; can cause chronic hepatitis and cirrhosis."
+    },
+    {
+        "id": 214,
+        "question": "Which virus causes mumps?",
+        "answer": "Mumps virus",
+        "explanation": "Paramyxovirus causing parotitis and orchitis."
+    },
+    {
+        "id": 215,
+        "question": "Which virus causes measles?",
+        "answer": "Measles virus",
+        "explanation": "Paramyxovirus; causes fever, rash, and Koplik spots."
+    },
+    {
+        "id": 216,
+        "question": "Which virus causes rubella?",
+        "answer": "Rubella virus",
+        "explanation": "Togavirus; causes mild rash and congenital defects if infection occurs in pregnancy."
+    },
+    {
+        "id": 217,
+        "question": "Which bacteria cause tetanus?",
+        "answer": "Clostridium tetani",
+        "explanation": "Produces tetanospasmin neurotoxin causing spastic paralysis."
+    },
+    {
+        "id": 218,
+        "question": "Which bacteria cause gas gangrene?",
+        "answer": "Clostridium perfringens",
+        "explanation": "Produces alpha-toxin causing tissue necrosis and gas formation."
+    },
+    {
+        "id": 219,
+        "question": "Which bacteria are Gram-positive cocci causing strep throat?",
+        "answer": "Streptococcus pyogenes",
+        "explanation": "Group A streptococci; may lead to rheumatic fever if untreated."
+    },
+    {
+        "id": 220,
+        "question": "Which bacteria cause scarlet fever?",
+        "answer": "Streptococcus pyogenes",
+        "explanation": "Produces erythrogenic toxin leading to characteristic rash."
+    },
+    {
+        "id": 221,
+        "question": "Which bacteria cause diphtheria?",
+        "answer": "Corynebacterium diphtheriae",
+        "explanation": "Exotoxin produces pseudomembrane and systemic complications."
+    },
+    {
+        "id": 222,
+        "question": "Which bacteria cause whooping cough?",
+        "answer": "Bordetella pertussis",
+        "explanation": "Produces pertussis toxin causing paroxysmal cough."
+    },
+    {
+        "id": 223,
+        "question": "Which bacteria are Gram-negative rods causing typhoid fever?",
+        "answer": "Salmonella typhi",
+        "explanation": "Invades intestinal mucosa and survives in macrophages causing systemic illness."
+    },
+    {
+        "id": 224,
+        "question": "Which bacteria cause gastroenteritis from improperly stored rice?",
+        "answer": "Bacillus cereus",
+        "explanation": "Spore-forming Gram-positive rod; produces emetic or diarrheal toxin."
+    },
+    {
+        "id": 225,
+        "question": "Which bacteria cause cholera?",
+        "answer": "Vibrio cholerae",
+        "explanation": "Comma-shaped Gram-negative rod; produces cholera toxin leading to rice-water diarrhea."
+    },
+    {
+        "id": 226,
+        "question": "Which bacteria are Gram-negative rods causing Shiga toxin-mediated disease?",
+        "answer": "Shigella dysenteriae",
+        "explanation": "Causes bloody diarrhea; may lead to hemolytic uremic syndrome."
+    },
+    {
+        "id": 227,
+        "question": "Which bacteria are Gram-negative rods causing nosocomial pneumonia?",
+        "answer": "Pseudomonas aeruginosa",
+        "explanation": "Opportunistic pathogen; biofilm-forming and multidrug-resistant."
+    },
+    {
+        "id": 228,
+        "question": "Which bacteria cause neonatal sepsis and meningitis via K1 antigen?",
+        "answer": "Escherichia coli K1",
+        "explanation": "Capsular antigen helps evade neonatal immune defenses."
+    },
+    {
+        "id": 229,
+        "question": "Which bacteria cause listeriosis?",
+        "answer": "Listeria monocytogenes",
+        "explanation": "Facultative intracellular Gram-positive rod; risky in pregnancy."
+    },
+    {
+        "id": 230,
+        "question": "Which bacteria are Gram-positive cocci causing pneumonia?",
+        "answer": "Streptococcus pneumoniae",
+        "explanation": "Encapsulated diplococcus; major cause of community-acquired pneumonia."
+    },
+    {
+        "id": 231,
+        "question": "Which bacteria are Gram-negative coccobacilli causing brucellosis?",
+        "answer": "Brucella species",
+        "explanation": "Zoonotic infection; transmitted via unpasteurized milk or contact with animals."
+    },
+    {
+        "id": 232,
+        "question": "Which bacteria are Gram-negative rods causing Legionnaires’ disease?",
+        "answer": "Legionella pneumophila",
+        "explanation": "Facultative intracellular pathogen; detected by urine antigen test."
+    },
+    {
+        "id": 233,
+        "question": "Which bacteria cause pseudomembranous colitis?",
+        "answer": "Clostridioides difficile",
+        "explanation": "Produces toxins A and B causing diarrhea after antibiotics."
+    },
+    {
+        "id": 234,
+        "question": "Which bacteria produce TSST-1 causing toxic shock syndrome?",
+        "answer": "Staphylococcus aureus",
+        "explanation": "Superantigen triggers systemic inflammation and hypotension."
+    },
+    {
+        "id": 235,
+        "question": "Which virus causes hemorrhagic fever with high mortality in Africa?",
+        "answer": "Ebola virus",
+        "explanation": "Filovirus transmitted via body fluids; causes severe systemic illness."
+    },
+    {
+        "id": 236,
+        "question": "Which virus causes hemorrhagic fever in West Africa?",
+        "answer": "Marburg virus",
+        "explanation": "Filovirus similar to Ebola; causes multi-organ failure."
+    },
+    {
+        "id": 237,
+        "question": "Which virus causes dengue fever?",
+        "answer": "Dengue virus",
+        "explanation": "Mosquito-borne flavivirus; severe cases may cause shock and hemorrhage."
+    },
+    {
+        "id": 238,
+        "question": "Which parasite causes African sleeping sickness?",
+        "answer": "Trypanosoma brucei",
+        "explanation": "Transmitted by tsetse fly; CNS involvement leads to lethargy and sleep disturbances."
+    },
+    {
+        "id": 239,
+        "question": "Which parasite causes giardiasis?",
+        "answer": "Giardia lamblia",
+        "explanation": "Flagellated protozoan; causes watery diarrhea and malabsorption."
+    },
+    {
+        "id": 240,
+        "question": "Which parasite causes amebic liver abscess?",
+        "answer": "Entamoeba histolytica",
+        "explanation": "Trophozoites invade intestinal wall and reach the liver via portal circulation."
+    },
+    {
+        "id": 241,
+        "question": "Which parasite causes lymphatic filariasis?",
+        "answer": "Wuchereria bancrofti",
+        "explanation": "Mosquito-transmitted nematode causing elephantiasis."
+    },
+    {
+        "id": 242,
+        "question": "Which fungi cause opportunistic infections in AIDS patients?",
+        "answer": "Candida, Cryptococcus, Pneumocystis jirovecii",
+        "explanation": "Immune suppression allows systemic fungal infections."
+    },
+    {
+        "id": 243,
+        "question": "Which fungi cause dermatophytosis?",
+        "answer": "Trichophyton, Microsporum, Epidermophyton",
+        "explanation": "Infect keratinized tissues; cause tinea infections."
+    },
+    {
+        "id": 244,
+        "question": "Which fungi cause cryptococcal meningitis?",
+        "answer": "Cryptococcus neoformans",
+        "explanation": "Encapsulated yeast; often in AIDS patients; detected with India ink."
+    },
+    {
+        "id": 245,
+        "question": "Which bacteria cause typhoid fever?",
+        "answer": "Salmonella typhi",
+        "explanation": "Gram-negative rod; systemic disease via fecal-oral route."
+    },
+    {
+        "id": 246,
+        "question": "Which bacteria are Gram-negative rods causing nosocomial infections?",
+        "answer": "Klebsiella, Pseudomonas, Proteus",
+        "explanation": "Opportunistic, multidrug-resistant pathogens."
+    },
+    {
+        "id": 247,
+        "question": "Which bacteria produce urease?",
+        "answer": "Proteus species",
+        "explanation": "Hydrolyzes urea to ammonia; increases urine pH and stone formation."
+    },
+    {
+        "id": 248,
+        "question": "Which bacteria produce beta-lactamase?",
+        "answer": "Staphylococcus aureus and some Gram-negative rods",
+        "explanation": "Enzyme destroys beta-lactam antibiotics like penicillin."
+    },
+    {
+        "id": 249,
+        "question": "Which bacteria are Gram-positive cocci causing nosocomial infections?",
+        "answer": "Staphylococcus aureus, Staphylococcus epidermidis",
+        "explanation": "Common hospital-acquired pathogens; S. aureus may be MRSA."
+    },
+    {
+        "id": 250,
+        "question": "Which bacteria are Gram-negative coccobacilli causing brucellosis?",
+        "answer": "Brucella species",
+        "explanation": "Zoonotic pathogen; causes undulant fever and hepatosplenomegaly."
+    },
+    {
+        "id": 251,
+        "question": "Which bacteria cause plague?",
+        "answer": "Yersinia pestis",
+        "explanation": "Gram-negative rod; transmitted by fleas; causes bubonic, septicemic, or pneumonic plague."
+    },
+    {
+        "id": 252,
+        "question": "Which bacteria are Gram-negative rods causing nosocomial urinary tract infections?",
+        "answer": "Klebsiella, Proteus, Pseudomonas",
+        "explanation": "Opportunistic pathogens; often multidrug-resistant."
+    },
+    {
+        "id": 253,
+        "question": "Which bacteria are Gram-positive cocci causing endocarditis?",
+        "answer": "Staphylococcus aureus, Streptococcus viridans",
+        "explanation": "S. aureus causes acute endocarditis; viridans group causes subacute."
+    },
+    {
+        "id": 254,
+        "question": "Which bacteria produce alpha-toxin causing hemolysis?",
+        "answer": "Clostridium perfringens",
+        "explanation": "Toxin causes tissue necrosis and gas formation in gas gangrene."
+    },
+    {
+        "id": 255,
+        "question": "Which virus causes severe acute respiratory syndrome (SARS)?",
+        "answer": "SARS-CoV",
+        "explanation": "Coronavirus causing severe respiratory illness."
+    },
+    {
+        "id": 256,
+        "question": "Which virus causes Middle East Respiratory Syndrome (MERS)?",
+        "answer": "MERS-CoV",
+        "explanation": "Coronavirus; causes severe pneumonia with high mortality."
+    },
+    {
+        "id": 257,
+        "question": "Which virus causes COVID-19?",
+        "answer": "SARS-CoV-2",
+        "explanation": "Coronavirus; causes respiratory illness with variable severity."
+    },
+    {
+        "id": 258,
+        "question": "Which bacteria cause neonatal sepsis transmitted from mother?",
+        "answer": "Group B Streptococcus",
+        "explanation": "Screening in pregnancy reduces risk of neonatal infection."
+    },
+    {
+        "id": 259,
+        "question": "Which bacteria produce botulinum toxin?",
+        "answer": "Clostridium botulinum",
+        "explanation": "Neurotoxin blocks acetylcholine release causing flaccid paralysis."
+    },
+    {
+        "id": 260,
+        "question": "Which bacteria produce tetanospasmin?",
+        "answer": "Clostridium tetani",
+        "explanation": "Blocks inhibitory neurotransmitters causing spastic paralysis."
+    },
+    {
+        "id": 261,
+        "question": "Which bacteria are Gram-positive cocci causing food poisoning?",
+        "answer": "Staphylococcus aureus",
+        "explanation": "Produces heat-stable enterotoxins causing vomiting and diarrhea."
+    },
+    {
+        "id": 262,
+        "question": "Which bacteria are Gram-negative rods causing typhoid fever?",
+        "answer": "Salmonella typhi",
+        "explanation": "Systemic infection via intestinal invasion and macrophage survival."
+    },
+    {
+        "id": 263,
+        "question": "Which bacteria produce Shiga toxin?",
+        "answer": "Shigella dysenteriae, Enterohemorrhagic E. coli",
+        "explanation": "Causes bloody diarrhea and hemolytic uremic syndrome."
+    },
+    {
+        "id": 264,
+        "question": "Which bacteria cause cholera?",
+        "answer": "Vibrio cholerae",
+        "explanation": "Comma-shaped Gram-negative rod; produces cholera toxin leading to severe diarrhea."
+    },
+    {
+        "id": 265,
+        "question": "Which bacteria are Gram-positive cocci causing pneumonia?",
+        "answer": "Streptococcus pneumoniae",
+        "explanation": "Encapsulated diplococci; major cause of community-acquired pneumonia."
+    },
+    {
+        "id": 266,
+        "question": "Which bacteria are Gram-negative coccobacilli causing brucellosis?",
+        "answer": "Brucella species",
+        "explanation": "Zoonotic infection; transmitted via unpasteurized dairy products or contact with animals."
+    },
+    {
+        "id": 267,
+        "question": "Which bacteria are Gram-negative rods causing nosocomial pneumonia?",
+        "answer": "Pseudomonas aeruginosa",
+        "explanation": "Opportunistic pathogen; biofilm-forming; resistant to many antibiotics."
+    },
+    {
+        "id": 268,
+        "question": "Which bacteria cause neonatal meningitis via K1 antigen?",
+        "answer": "Escherichia coli K1",
+        "explanation": "Capsular antigen allows evasion of neonatal immune defenses."
+    },
+    {
+        "id": 269,
+        "question": "Which bacteria cause listeriosis?",
+        "answer": "Listeria monocytogenes",
+        "explanation": "Facultative intracellular Gram-positive rod; dangerous in pregnancy."
+    },
+    {
+        "id": 270,
+        "question": "Which parasite causes malaria with highest mortality?",
+        "answer": "Plasmodium falciparum",
+        "explanation": "Infects RBCs; can cause cerebral malaria and severe anemia."
+    },
+    {
+        "id": 271,
+        "question": "Which parasite causes African sleeping sickness?",
+        "answer": "Trypanosoma brucei",
+        "explanation": "Transmitted by tsetse fly; CNS involvement leads to lethargy and sleep disturbances."
+    },
+    {
+        "id": 272,
+        "question": "Which parasite causes giardiasis?",
+        "answer": "Giardia lamblia",
+        "explanation": "Flagellated protozoan; causes watery diarrhea and malabsorption."
+    },
+    {
+        "id": 273,
+        "question": "Which parasite causes amebic liver abscess?",
+        "answer": "Entamoeba histolytica",
+        "explanation": "Trophozoites invade intestinal wall and reach liver via portal circulation."
+    },
+    {
+        "id": 274,
+        "question": "Which parasite causes lymphatic filariasis?",
+        "answer": "Wuchereria bancrofti",
+        "explanation": "Mosquito-transmitted nematode causing elephantiasis."
+    },
+    {
+        "id": 275,
+        "question": "Which fungi cause opportunistic infections in AIDS patients?",
+        "answer": "Candida, Cryptococcus, Pneumocystis jirovecii",
+        "explanation": "Immune suppression allows systemic fungal infections."
+    },
+    {
+        "id": 276,
+        "question": "Which fungi cause dermatophytosis?",
+        "answer": "Trichophyton, Microsporum, Epidermophyton",
+        "explanation": "Infect keratinized tissues; cause tinea infections."
+    },
+    {
+        "id": 277,
+        "question": "Which fungi cause cryptococcal meningitis?",
+        "answer": "Cryptococcus neoformans",
+        "explanation": "Encapsulated yeast; detected by India ink; common in immunocompromised."
+    },
+    {
+        "id": 278,
+        "question": "Which virus causes hemorrhagic fever in Africa?",
+        "answer": "Ebola virus",
+        "explanation": "Filovirus transmitted via body fluids; high mortality."
+    },
+    {
+        "id": 279,
+        "question": "Which virus causes hemorrhagic fever in West Africa?",
+        "answer": "Marburg virus",
+        "explanation": "Filovirus similar to Ebola; causes multi-organ failure."
+    },
+    {
+        "id": 280,
+        "question": "Which virus causes dengue fever?",
+        "answer": "Dengue virus",
+        "explanation": "Mosquito-borne flavivirus; severe cases may cause shock and hemorrhage."
+    },
+    {
+        "id": 281,
+        "question": "Which virus causes SARS?",
+        "answer": "SARS-CoV",
+        "explanation": "Coronavirus causing severe respiratory illness."
+    },
+    {
+        "id": 282,
+        "question": "Which virus causes MERS?",
+        "answer": "MERS-CoV",
+        "explanation": "Coronavirus causing severe pneumonia and high mortality."
+    },
+    {
+        "id": 283,
+        "question": "Which virus causes COVID-19?",
+        "answer": "SARS-CoV-2",
+        "explanation": "Coronavirus; causes respiratory illness with variable severity."
+    },
+    {
+        "id": 284,
+        "question": "Which bacteria are Gram-positive cocci causing nosocomial infections?",
+        "answer": "Staphylococcus aureus, Staphylococcus epidermidis",
+        "explanation": "S. aureus may be MRSA; both cause hospital-acquired infections."
+    },
+    {
+        "id": 285,
+        "question": "Which bacteria produce beta-lactamase?",
+        "answer": "Staphylococcus aureus and some Gram-negative rods",
+        "explanation": "Enzyme destroys beta-lactam antibiotics like penicillin."
+    },
+    {
+        "id": 286,
+        "question": "Which bacteria produce urease in UTIs?",
+        "answer": "Proteus species",
+        "explanation": "Hydrolyzes urea to ammonia; increases urine pH; may cause stones."
+    },
+    {
+        "id": 287,
+        "question": "Which bacteria cause pseudomembranous colitis?",
+        "answer": "Clostridioides difficile",
+        "explanation": "Toxin-mediated diarrhea after antibiotic therapy."
+    },
+    {
+        "id": 288,
+        "question": "Which bacteria cause toxic shock syndrome?",
+        "answer": "Staphylococcus aureus",
+        "explanation": "TSST-1 superantigen triggers systemic inflammation."
+    },
+    {
+        "id": 289,
+        "question": "Which bacteria cause food poisoning?",
+        "answer": "Staphylococcus aureus, Bacillus cereus",
+        "explanation": "Produce enterotoxins leading to vomiting and diarrhea."
+    },
+    {
+        "id": 290,
+        "question": "Which bacteria cause neonatal sepsis?",
+        "answer": "Group B Streptococcus, Escherichia coli K1, Listeria monocytogenes",
+        "explanation": "Common pathogens transmitted during birth."
+    },
+    {
+        "id": 291,
+        "question": "Which bacteria cause scarlet fever?",
+        "answer": "Streptococcus pyogenes",
+        "explanation": "Produces erythrogenic toxin causing characteristic rash."
+    },
+    {
+        "id": 292,
+        "question": "Which bacteria cause whooping cough?",
+        "answer": "Bordetella pertussis",
+        "explanation": "Produces pertussis toxin causing paroxysmal cough."
+    },
+    {
+        "id": 293,
+        "question": "Which bacteria cause cholera?",
+        "answer": "Vibrio cholerae",
+        "explanation": "Comma-shaped rod; cholera toxin causes profuse watery diarrhea."
+    },
+    {
+        "id": 294,
+        "question": "Which bacteria produce Shiga toxin?",
+        "answer": "Shigella dysenteriae, EHEC",
+        "explanation": "Cause bloody diarrhea and may lead to HUS."
+    },
+    {
+        "id": 295,
+        "question": "Which bacteria cause typhoid fever?",
+        "answer": "Salmonella typhi",
+        "explanation": "Systemic disease transmitted via contaminated food and water."
+    },
+    {
+        "id": 296,
+        "question": "Which bacteria cause listeriosis?",
+        "answer": "Listeria monocytogenes",
+        "explanation": "Intracellular Gram-positive rod; dangerous in pregnancy."
+    },
+    {
+        "id": 297,
+        "question": "Which bacteria cause neonatal meningitis?",
+        "answer": "Group B Streptococcus, Escherichia coli K1, Listeria monocytogenes",
+        "explanation": "Pathogens transmitted perinatally causing sepsis and meningitis."
+    },
+    {
+        "id": 298,
+        "question": "Which parasite causes malaria?",
+        "answer": "Plasmodium species",
+        "explanation": "Transmitted by Anopheles mosquitoes; P. falciparum most deadly."
+    },
+    {
+        "id": 299,
+        "question": "Which parasite causes lymphatic filariasis?",
+        "answer": "Wuchereria bancrofti",
+        "explanation": "Mosquito-borne nematode causing elephantiasis."
+    },
+    {
+        "id": 300,
+        "question": "Which fungi cause systemic infections in immunocompromised patients?",
+        "answer": "Candida, Cryptococcus, Aspergillus",
+        "explanation": "Opportunistic pathogens causing pneumonia, meningitis, and systemic disease."
+    },
+    {
+        "id": 301,
+        "question": "Which bacteria cause bacterial meningitis in adults?",
+        "answer": "Streptococcus pneumoniae, Neisseria meningitidis",
+        "explanation": "Common adult pathogens; S. pneumoniae is leading cause in older adults, N. meningitidis in younger adults."
+    },
+    {
+        "id": 302,
+        "question": "Which bacteria cause bacterial meningitis in neonates?",
+        "answer": "Group B Streptococcus, Escherichia coli K1, Listeria monocytogenes",
+        "explanation": "Transmitted from maternal flora; major cause of neonatal sepsis and meningitis."
+    },
+    {
+        "id": 303,
+        "question": "Which bacteria cause neonatal sepsis in preterm infants?",
+        "answer": "Group B Streptococcus, E. coli, Listeria monocytogenes, Klebsiella species",
+        "explanation": "Opportunistic pathogens; often acquired perinatally or via hospital environment."
+    },
+    {
+        "id": 304,
+        "question": "Which bacteria cause pneumonia in alcoholics?",
+        "answer": "Klebsiella pneumoniae",
+        "explanation": "Gram-negative rod; produces thick, currant-jelly sputum; often lobar pneumonia."
+    },
+    {
+        "id": 305,
+        "question": "Which bacteria cause community-acquired pneumonia in adults?",
+        "answer": "Streptococcus pneumoniae, Haemophilus influenzae, Mycoplasma pneumoniae, Chlamydophila pneumoniae",
+        "explanation": "Most common causes of pneumonia in healthy adults."
+    },
+    {
+        "id": 306,
+        "question": "Which bacteria cause atypical pneumonia?",
+        "answer": "Mycoplasma pneumoniae, Chlamydophila pneumoniae, Legionella pneumophila",
+        "explanation": "Often mild; non-lobar; less purulent sputum."
+    },
+    {
+        "id": 307,
+        "question": "Which bacteria cause ventilator-associated pneumonia?",
+        "answer": "Pseudomonas aeruginosa, Klebsiella pneumoniae, Staphylococcus aureus",
+        "explanation": "Nosocomial pathogens; often multidrug-resistant."
+    },
+    {
+        "id": 308,
+        "question": "Which bacteria cause tuberculosis?",
+        "answer": "Mycobacterium tuberculosis",
+        "explanation": "Acid-fast bacillus; causes chronic pulmonary infection with granuloma formation."
+    },
+    {
+        "id": 309,
+        "question": "Which bacteria cause leprosy?",
+        "answer": "Mycobacterium leprae",
+        "explanation": "Acid-fast rod; infects skin and peripheral nerves."
+    },
+    {
+        "id": 310,
+        "question": "Which bacteria are Gram-negative rods causing urinary tract infections?",
+        "answer": "Escherichia coli, Proteus species, Klebsiella species, Pseudomonas aeruginosa",
+        "explanation": "Most common UTI pathogens; Proteus produces urease leading to stones."
+    },
+    {
+        "id": 311,
+        "question": "Which bacteria cause pyelonephritis?",
+        "answer": "Escherichia coli, Proteus species, Klebsiella species",
+        "explanation": "Ascending infection from bladder; can lead to kidney damage."
+    },
+    {
+        "id": 312,
+        "question": "Which bacteria cause cystitis?",
+        "answer": "Escherichia coli, Staphylococcus saprophyticus",
+        "explanation": "E. coli is most common; S. saprophyticus common in sexually active women."
+    },
+    {
+        "id": 313,
+        "question": "Which bacteria cause prostatitis?",
+        "answer": "Escherichia coli, Proteus species",
+        "explanation": "Gram-negative rods; ascending infection from urinary tract."
+    },
+    {
+        "id": 314,
+        "question": "Which bacteria cause skin and soft tissue infections?",
+        "answer": "Staphylococcus aureus, Streptococcus pyogenes",
+        "explanation": "S. aureus causes abscesses and cellulitis; S. pyogenes causes erysipelas and necrotizing fasciitis."
+    },
+    {
+        "id": 315,
+        "question": "Which bacteria cause necrotizing fasciitis?",
+        "answer": "Streptococcus pyogenes, Clostridium perfringens",
+        "explanation": "Rapidly spreading infection; may lead to systemic toxicity."
+    },
+    {
+        "id": 316,
+        "question": "Which bacteria cause impetigo?",
+        "answer": "Staphylococcus aureus, Streptococcus pyogenes",
+        "explanation": "Superficial skin infection; vesicles or pustules that crust over."
+    },
+    {
+        "id": 317,
+        "question": "Which bacteria cause cellulitis?",
+        "answer": "Streptococcus pyogenes, Staphylococcus aureus",
+        "explanation": "Infection of deeper skin layers; swelling, redness, warmth."
+    },
+    {
+        "id": 318,
+        "question": "Which bacteria cause scalded skin syndrome?",
+        "answer": "Staphylococcus aureus",
+        "explanation": "Exfoliative toxin causes epidermal splitting in infants and children."
+    },
+    {
+        "id": 319,
+        "question": "Which bacteria cause otitis media?",
+        "answer": "Streptococcus pneumoniae, Haemophilus influenzae, Moraxella catarrhalis",
+        "explanation": "Middle ear infection common in children; often follows viral infection."
+    },
+    {
+        "id": 320,
+        "question": "Which bacteria cause sinusitis?",
+        "answer": "Streptococcus pneumoniae, Haemophilus influenzae, Moraxella catarrhalis",
+        "explanation": "Infection of paranasal sinuses; often post-viral."
+    },
+    {
+        "id": 321,
+        "question": "Which bacteria cause epiglottitis?",
+        "answer": "Haemophilus influenzae type b",
+        "explanation": "Life-threatening infection; vaccine-preventable."
+    },
+    {
+        "id": 322,
+        "question": "Which bacteria cause meningococcemia?",
+        "answer": "Neisseria meningitidis",
+        "explanation": "Gram-negative diplococcus; causes sepsis and purpura."
+    },
+    {
+        "id": 323,
+        "question": "Which bacteria cause gonorrhea?",
+        "answer": "Neisseria gonorrhoeae",
+        "explanation": "Gram-negative diplococcus; infects mucous membranes."
+    },
+    {
+        "id": 324,
+        "question": "Which bacteria cause pelvic inflammatory disease?",
+        "answer": "Neisseria gonorrhoeae, Chlamydia trachomatis",
+        "explanation": "Ascending infection from lower genital tract."
+    },
+    {
+        "id": 325,
+        "question": "Which bacteria cause syphilis?",
+        "answer": "Treponema pallidum",
+        "explanation": "Spirochete; causes primary, secondary, and tertiary syphilis."
+    },
+    {
+        "id": 326,
+        "question": "Which bacteria cause Lyme disease?",
+        "answer": "Borrelia burgdorferi",
+        "explanation": "Spirochete transmitted by Ixodes tick; erythema migrans is hallmark."
+    },
+    {
+        "id": 327,
+        "question": "Which bacteria cause relapsing fever?",
+        "answer": "Borrelia recurrentis",
+        "explanation": "Transmitted by lice or ticks; fever comes and goes."
+    },
+    {
+        "id": 328,
+        "question": "Which bacteria cause plague?",
+        "answer": "Yersinia pestis",
+        "explanation": "Gram-negative rod; transmitted by fleas; causes bubonic, septicemic, or pneumonic plague."
+    },
+    {
+        "id": 329,
+        "question": "Which bacteria cause tularemia?",
+        "answer": "Francisella tularensis",
+        "explanation": "Gram-negative coccobacillus; zoonotic infection; transmitted by ticks or rabbits."
+    },
+    {
+        "id": 330,
+        "question": "Which bacteria cause Q fever?",
+        "answer": "Coxiella burnetii",
+        "explanation": "Intracellular Gram-negative; transmitted by aerosols from animals."
+    },
+    {
+        "id": 331,
+        "question": "Which bacteria cause brucellosis?",
+        "answer": "Brucella species",
+        "explanation": "Zoonotic infection; causes undulant fever and hepatosplenomegaly."
+    },
+    {
+        "id": 332,
+        "question": "Which bacteria cause leptospirosis?",
+        "answer": "Leptospira interrogans",
+        "explanation": "Spirochete transmitted via animal urine; causes fever, jaundice, and renal failure."
+    },
+    {
+        "id": 333,
+        "question": "Which bacteria cause anthrax?",
+        "answer": "Bacillus anthracis",
+        "explanation": "Spore-forming Gram-positive rod; causes cutaneous, inhalation, or gastrointestinal disease."
+    },
+    {
+        "id": 334,
+        "question": "Which bacteria cause botulism?",
+        "answer": "Clostridium botulinum",
+        "explanation": "Produces neurotoxin causing flaccid paralysis; foodborne or wound-related."
+    },
+    {
+        "id": 335,
+        "question": "Which bacteria cause tetanus?",
+        "answer": "Clostridium tetani",
+        "explanation": "Produces tetanospasmin causing spastic paralysis."
+    },
+    {
+        "id": 336,
+        "question": "Which bacteria cause pseudomembranous colitis?",
+        "answer": "Clostridioides difficile",
+        "explanation": "Toxin-mediated diarrhea following antibiotic use."
+    },
+    {
+        "id": 337,
+        "question": "Which bacteria cause pneumonia in cystic fibrosis patients?",
+        "answer": "Pseudomonas aeruginosa",
+        "explanation": "Chronic lung infection due to biofilm formation."
+    },
+    {
+        "id": 338,
+        "question": "Which bacteria cause endocarditis in IV drug users?",
+        "answer": "Staphylococcus aureus",
+        "explanation": "Colonizes heart valves; may cause systemic emboli."
+    },
+    {
+        "id": 339,
+        "question": "Which bacteria cause infective endocarditis in patients with prosthetic valves?",
+        "answer": "Staphylococcus epidermidis",
+        "explanation": "Opportunistic Gram-positive cocci forming biofilms on prosthetic material."
+    },
+    {
+        "id": 340,
+        "question": "Which bacteria cause food poisoning from improperly canned foods?",
+        "answer": "Clostridium botulinum",
+        "explanation": "Produces neurotoxin leading to flaccid paralysis."
+    },
+    {
+        "id": 341,
+        "question": "Which bacteria cause food poisoning from rice dishes?",
+        "answer": "Bacillus cereus",
+        "explanation": "Spore-forming Gram-positive rod; produces emetic or diarrheal toxin."
+    },
+    {
+        "id": 342,
+        "question": "Which bacteria cause food poisoning from dairy products?",
+        "answer": "Listeria monocytogenes",
+        "explanation": "Facultative intracellular pathogen; risky for pregnant women."
+    },
+    {
+        "id": 343,
+        "question": "Which bacteria cause urinary stones via urease production?",
+        "answer": "Proteus species",
+        "explanation": "Urease hydrolyzes urea to ammonia; alkalinizes urine leading to stones."
+    },
+    {
+        "id": 344,
+        "question": "Which bacteria cause meningitis in teenagers and young adults?",
+        "answer": "Neisseria meningitidis",
+        "explanation": "Gram-negative diplococcus; causes meningitis and meningococcemia."
+    },
+    {
+        "id": 345,
+        "question": "Which bacteria cause meningitis in elderly adults?",
+        "answer": "Streptococcus pneumoniae, Listeria monocytogenes",
+        "explanation": "Common pathogens in older adults; Listeria is opportunistic."
+    },
+    {
+        "id": 346,
+        "question": "Which bacteria cause otitis externa?",
+        "answer": "Pseudomonas aeruginosa, Staphylococcus aureus",
+        "explanation": "Infection of external ear canal; Pseudomonas common in swimmers."
+    },
+    {
+        "id": 347,
+        "question": "Which bacteria cause sinusitis?",
+        "answer": "Streptococcus pneumoniae, Haemophilus influenzae, Moraxella catarrhalis",
+        "explanation": "Often post-viral; infects paranasal sinuses."
+    },
+    {
+        "id": 348,
+        "question": "Which bacteria cause epiglottitis?",
+        "answer": "Haemophilus influenzae type b",
+        "explanation": "Life-threatening infection; vaccine-preventable."
+    },
+    {
+        "id": 349,
+        "question": "Which bacteria cause pneumonia in immunocompromised patients?",
+        "answer": "Pseudomonas aeruginosa, Staphylococcus aureus, Klebsiella pneumoniae",
+        "explanation": "Opportunistic pathogens causing severe lung infections."
+    },
+    {
+        "id": 350,
+        "question": "Which bacteria cause meningitis in neonates and infants?",
+        "answer": "Group B Streptococcus, Escherichia coli K1, Listeria monocytogenes",
+        "explanation": "Acquired perinatally or via hospital environment."
+    },
+    {
+        "id": 351,
+        "question": "Which bacteria cause septicemia in neonates?",
+        "answer": "Group B Streptococcus, Escherichia coli K1, Listeria monocytogenes",
+        "explanation": "Common neonatal pathogens acquired perinatally or via hospital environment."
+    },
+    {
+        "id": 352,
+        "question": "Which bacteria cause bacterial endocarditis in IV drug users?",
+        "answer": "Staphylococcus aureus",
+        "explanation": "Acute infection of heart valves; may lead to emboli and heart failure."
+    },
+    {
+        "id": 353,
+        "question": "Which bacteria cause subacute bacterial endocarditis?",
+        "answer": "Streptococcus viridans",
+        "explanation": "Often affects damaged or prosthetic valves; slower progression."
+    },
+    {
+        "id": 354,
+        "question": "Which bacteria cause cholera?",
+        "answer": "Vibrio cholerae",
+        "explanation": "Comma-shaped Gram-negative rod; cholera toxin causes severe watery diarrhea."
+    },
+    {
+        "id": 355,
+        "question": "Which bacteria cause typhoid fever?",
+        "answer": "Salmonella typhi",
+        "explanation": "Gram-negative rod; systemic infection via fecal-oral transmission."
+    },
+    {
+        "id": 356,
+        "question": "Which bacteria cause paratyphoid fever?",
+        "answer": "Salmonella paratyphi",
+        "explanation": "Similar to S. typhi but usually milder; Gram-negative rod."
+    },
+    {
+        "id": 357,
+        "question": "Which bacteria cause dysentery?",
+        "answer": "Shigella species",
+        "explanation": "Gram-negative rod; invades intestinal mucosa causing bloody diarrhea."
+    },
+    {
+        "id": 358,
+        "question": "Which bacteria produce Shiga toxin?",
+        "answer": "Shigella dysenteriae, Enterohemorrhagic E. coli (EHEC)",
+        "explanation": "Toxin causes bloody diarrhea; may lead to hemolytic uremic syndrome."
+    },
+    {
+        "id": 359,
+        "question": "Which bacteria cause gastroenteritis from improperly stored rice?",
+        "answer": "Bacillus cereus",
+        "explanation": "Spore-forming Gram-positive rod; produces emetic or diarrheal toxins."
+    },
+    {
+        "id": 360,
+        "question": "Which bacteria cause listeriosis?",
+        "answer": "Listeria monocytogenes",
+        "explanation": "Facultative intracellular Gram-positive rod; high risk in pregnant women."
+    },
+    {
+        "id": 361,
+        "question": "Which bacteria cause food poisoning from dairy products?",
+        "answer": "Listeria monocytogenes",
+        "explanation": "Can cause sepsis or meningitis in newborns and immunocompromised adults."
+    },
+    {
+        "id": 362,
+        "question": "Which bacteria cause neonatal sepsis?",
+        "answer": "Group B Streptococcus, Escherichia coli K1, Listeria monocytogenes",
+        "explanation": "Acquired during birth; major cause of neonatal morbidity and mortality."
+    },
+    {
+        "id": 363,
+        "question": "Which bacteria cause neonatal meningitis?",
+        "answer": "Group B Streptococcus, Escherichia coli K1, Listeria monocytogenes",
+        "explanation": "Pathogens transmitted perinatally; present with fever, lethargy, poor feeding."
+    },
+    {
+        "id": 364,
+        "question": "Which bacteria cause urinary tract infections?",
+        "answer": "Escherichia coli, Proteus species, Klebsiella species, Staphylococcus saprophyticus",
+        "explanation": "E. coli is most common; Proteus produces urease leading to stones."
+    },
+    {
+        "id": 365,
+        "question": "Which bacteria cause pyelonephritis?",
+        "answer": "Escherichia coli, Proteus species, Klebsiella species",
+        "explanation": "Ascending infection from bladder to kidney; may cause fever, flank pain."
+    },
+    {
+        "id": 366,
+        "question": "Which bacteria cause cystitis?",
+        "answer": "Escherichia coli, Staphylococcus saprophyticus",
+        "explanation": "Bladder infection; common in sexually active women."
+    },
+    {
+        "id": 367,
+        "question": "Which bacteria cause prostatitis?",
+        "answer": "Escherichia coli, Proteus species",
+        "explanation": "Ascending urinary tract infection affecting prostate gland."
+    },
+    {
+        "id": 368,
+        "question": "Which bacteria cause skin abscesses?",
+        "answer": "Staphylococcus aureus",
+        "explanation": "Gram-positive cocci; pus-forming; can be MRSA."
+    },
+    {
+        "id": 369,
+        "question": "Which bacteria cause cellulitis?",
+        "answer": "Streptococcus pyogenes, Staphylococcus aureus",
+        "explanation": "Infection of dermis and subcutaneous tissue; red, swollen, tender skin."
+    },
+    {
+        "id": 370,
+        "question": "Which bacteria cause erysipelas?",
+        "answer": "Streptococcus pyogenes",
+        "explanation": "Superficial cellulitis with raised, sharply demarcated borders."
+    },
+    {
+        "id": 371,
+        "question": "Which bacteria cause necrotizing fasciitis?",
+        "answer": "Streptococcus pyogenes, Clostridium perfringens",
+        "explanation": "Rapidly spreading soft tissue infection; can cause sepsis and shock."
+    },
+    {
+        "id": 372,
+        "question": "Which bacteria cause scalded skin syndrome?",
+        "answer": "Staphylococcus aureus",
+        "explanation": "Exfoliative toxin splits epidermis; common in infants and young children."
+    },
+    {
+        "id": 373,
+        "question": "Which bacteria cause impetigo?",
+        "answer": "Staphylococcus aureus, Streptococcus pyogenes",
+        "explanation": "Superficial skin infection; vesicles or pustules with honey-colored crusts."
+    },
+    {
+        "id": 374,
+        "question": "Which bacteria cause otitis media?",
+        "answer": "Streptococcus pneumoniae, Haemophilus influenzae, Moraxella catarrhalis",
+        "explanation": "Middle ear infection; often post-viral; common in children."
+    },
+    {
+        "id": 375,
+        "question": "Which bacteria cause sinusitis?",
+        "answer": "Streptococcus pneumoniae, Haemophilus influenzae, Moraxella catarrhalis",
+        "explanation": "Infection of paranasal sinuses; may follow viral upper respiratory infection."
+    },
+    {
+        "id": 376,
+        "question": "Which bacteria cause epiglottitis?",
+        "answer": "Haemophilus influenzae type b",
+        "explanation": "Life-threatening upper airway obstruction; vaccine-preventable."
+    },
+    {
+        "id": 377,
+        "question": "Which bacteria cause meningococcemia?",
+        "answer": "Neisseria meningitidis",
+        "explanation": "Gram-negative diplococcus; causes sepsis, purpura, and shock."
+    },
+    {
+        "id": 378,
+        "question": "Which bacteria cause gonorrhea?",
+        "answer": "Neisseria gonorrhoeae",
+        "explanation": "Gram-negative diplococcus; infects urethra, cervix, pharynx, or rectum."
+    },
+    {
+        "id": 379,
+        "question": "Which bacteria cause pelvic inflammatory disease?",
+        "answer": "Neisseria gonorrhoeae, Chlamydia trachomatis",
+        "explanation": "Ascending infection causing inflammation of uterus, fallopian tubes, or ovaries."
+    },
+    {
+        "id": 380,
+        "question": "Which bacteria cause syphilis?",
+        "answer": "Treponema pallidum",
+        "explanation": "Spirochete; stages include primary, secondary, latent, and tertiary disease."
+    },
+    {
+        "id": 381,
+        "question": "Which bacteria cause Lyme disease?",
+        "answer": "Borrelia burgdorferi",
+        "explanation": "Transmitted by Ixodes ticks; presents with erythema migrans."
+    },
+    {
+        "id": 382,
+        "question": "Which bacteria cause relapsing fever?",
+        "answer": "Borrelia recurrentis",
+        "explanation": "Transmitted by lice or ticks; causes intermittent fevers."
+    },
+    {
+        "id": 383,
+        "question": "Which bacteria cause plague?",
+        "answer": "Yersinia pestis",
+        "explanation": "Gram-negative rod; transmitted via fleas; causes bubonic, septicemic, or pneumonic plague."
+    },
+    {
+        "id": 384,
+        "question": "Which bacteria cause tularemia?",
+        "answer": "Francisella tularensis",
+        "explanation": "Gram-negative coccobacillus; zoonotic; transmitted by ticks or contact with rabbits."
+    },
+    {
+        "id": 385,
+        "question": "Which bacteria cause Q fever?",
+        "answer": "Coxiella burnetii",
+        "explanation": "Intracellular Gram-negative pathogen; transmitted via aerosols from animals."
+    },
+    {
+        "id": 386,
+        "question": "Which bacteria cause leptospirosis?",
+        "answer": "Leptospira interrogans",
+        "explanation": "Spirochete transmitted via animal urine; causes fever, jaundice, and renal failure."
+    },
+    {
+        "id": 387,
+        "question": "Which bacteria cause anthrax?",
+        "answer": "Bacillus anthracis",
+        "explanation": "Spore-forming Gram-positive rod; cutaneous, inhalation, or gastrointestinal forms."
+    },
+    {
+        "id": 388,
+        "question": "Which bacteria cause botulism?",
+        "answer": "Clostridium botulinum",
+        "explanation": "Produces neurotoxin causing flaccid paralysis."
+    },
+    {
+        "id": 389,
+        "question": "Which bacteria cause tetanus?",
+        "answer": "Clostridium tetani",
+        "explanation": "Produces tetanospasmin causing spastic paralysis."
+    },
+    {
+        "id": 390,
+        "question": "Which bacteria cause pseudomembranous colitis?",
+        "answer": "Clostridioides difficile",
+        "explanation": "Toxin-mediated diarrhea following antibiotic therapy."
+    },
+    {
+        "id": 391,
+        "question": "Which bacteria cause pneumonia in cystic fibrosis patients?",
+        "answer": "Pseudomonas aeruginosa",
+        "explanation": "Chronic lung infection due to biofilm formation."
+    },
+    {
+        "id": 392,
+        "question": "Which bacteria cause infective endocarditis in prosthetic valves?",
+        "answer": "Staphylococcus epidermidis",
+        "explanation": "Opportunistic Gram-positive cocci forming biofilms on prosthetic material."
+    },
+    {
+        "id": 393,
+        "question": "Which bacteria cause food poisoning from improperly canned foods?",
+        "answer": "Clostridium botulinum",
+        "explanation": "Neurotoxin causes flaccid paralysis; spores survive canning if improperly processed."
+    },
+    {
+        "id": 394,
+        "question": "Which bacteria cause food poisoning from rice dishes?",
+        "answer": "Bacillus cereus",
+        "explanation": "Spore-forming Gram-positive rod; produces emetic or diarrheal toxins."
+    },
+    {
+        "id": 395,
+        "question": "Which bacteria produce urease?",
+        "answer": "Proteus species",
+        "explanation": "Hydrolyzes urea to ammonia; can lead to alkaline urine and stone formation."
+    },
+    {
+        "id": 396,
+        "question": "Which bacteria produce beta-lactamase?",
+        "answer": "Staphylococcus aureus and some Gram-negative rods",
+        "explanation": "Enzyme destroys beta-lactam antibiotics like penicillin."
+    },
+    {
+        "id": 397,
+        "question": "Which fungi cause systemic infections in immunocompromised patients?",
+        "answer": "Candida, Cryptococcus, Aspergillus",
+        "explanation": "Opportunistic pathogens causing pneumonia, meningitis, and systemic disease."
+    },
+    {
+        "id": 398,
+        "question": "Which fungi cause dermatophytosis?",
+        "answer": "Trichophyton, Microsporum, Epidermophyton",
+        "explanation": "Infect keratinized tissues; cause tinea infections."
+    },
+    {
+        "id": 399,
+        "question": "Which fungi cause cryptococcal meningitis?",
+        "answer": "Cryptococcus neoformans",
+        "explanation": "Encapsulated yeast; common in immunocompromised; detected by India ink staining."
+    },
+    {
+        "id": 400,
+        "question": "Which parasites cause malaria?",
+        "answer": "Plasmodium species (P. falciparum, P. vivax, P. malariae, P. ovale)",
+        "explanation": "Transmitted by Anopheles mosquitoes; P. falciparum most deadly."
+    },
+    {
+        "id": 401,
+        "question": "Which virus causes hepatitis A?",
+        "answer": "Hepatitis A virus",
+        "explanation": "RNA virus; transmitted via fecal-oral route; usually self-limiting."
+    },
+    {
+        "id": 402,
+        "question": "Which virus causes hepatitis B?",
+        "answer": "Hepatitis B virus",
+        "explanation": "DNA virus; bloodborne; can cause chronic liver disease and hepatocellular carcinoma."
+    },
+    {
+        "id": 403,
+        "question": "Which virus causes hepatitis C?",
+        "answer": "Hepatitis C virus",
+        "explanation": "RNA virus; bloodborne; often leads to chronic hepatitis."
+    },
+    {
+        "id": 404,
+        "question": "Which virus causes hepatitis D?",
+        "answer": "Hepatitis D virus",
+        "explanation": "Defective RNA virus; requires HBV for replication."
+    },
+    {
+        "id": 405,
+        "question": "Which virus causes hepatitis E?",
+        "answer": "Hepatitis E virus",
+        "explanation": "RNA virus; transmitted fecal-orally; dangerous in pregnant women."
+    },
+    {
+        "id": 406,
+        "question": "Which virus causes mumps?",
+        "answer": "Mumps virus",
+        "explanation": "Paramyxovirus; causes parotitis and orchitis."
+    },
+    {
+        "id": 407,
+        "question": "Which virus causes measles?",
+        "answer": "Measles virus",
+        "explanation": "Paramyxovirus; causes Koplik spots and maculopapular rash."
+    },
+    {
+        "id": 408,
+        "question": "Which virus causes rubella?",
+        "answer": "Rubella virus",
+        "explanation": "Togavirus; mild rash; dangerous in pregnancy (congenital rubella syndrome)."
+    },
+    {
+        "id": 409,
+        "question": "Which virus causes chickenpox?",
+        "answer": "Varicella-zoster virus",
+        "explanation": "Herpesvirus; causes vesicular rash; can reactivate as shingles."
+    },
+    {
+        "id": 410,
+        "question": "Which virus causes shingles?",
+        "answer": "Varicella-zoster virus",
+        "explanation": "Reactivation of latent VZV in sensory ganglia; painful dermatomal rash."
+    },
+    {
+        "id": 411,
+        "question": "Which virus causes smallpox?",
+        "answer": "Variola virus",
+        "explanation": "Orthopoxvirus; eradicated; caused characteristic pustular rash."
+    },
+    {
+        "id": 412,
+        "question": "Which virus causes polio?",
+        "answer": "Poliovirus",
+        "explanation": "Enterovirus; can cause paralytic poliomyelitis."
+    },
+    {
+        "id": 413,
+        "question": "Which virus causes rabies?",
+        "answer": "Rabies virus",
+        "explanation": "Rhabdovirus; transmitted by animal bite; causes fatal encephalitis."
+    },
+    {
+        "id": 414,
+        "question": "Which virus causes yellow fever?",
+        "answer": "Yellow fever virus",
+        "explanation": "Flavivirus; mosquito-borne; causes jaundice and hemorrhage."
+    },
+    {
+        "id": 415,
+        "question": "Which virus causes dengue fever?",
+        "answer": "Dengue virus",
+        "explanation": "Flavivirus; transmitted by Aedes mosquitoes; severe cases cause hemorrhagic fever."
+    },
+    {
+        "id": 416,
+        "question": "Which virus causes Zika virus disease?",
+        "answer": "Zika virus",
+        "explanation": "Flavivirus; transmitted by Aedes mosquitoes; associated with microcephaly in infants."
+    },
+    {
+        "id": 417,
+        "question": "Which virus causes chikungunya?",
+        "answer": "Chikungunya virus",
+        "explanation": "Alphavirus; mosquito-borne; causes fever and joint pain."
+    },
+    {
+        "id": 418,
+        "question": "Which virus causes SARS?",
+        "answer": "SARS-CoV",
+        "explanation": "Coronavirus causing severe respiratory illness."
+    },
+    {
+        "id": 419,
+        "question": "Which virus causes MERS?",
+        "answer": "MERS-CoV",
+        "explanation": "Coronavirus causing severe pneumonia with high mortality."
+    },
+    {
+        "id": 420,
+        "question": "Which virus causes COVID-19?",
+        "answer": "SARS-CoV-2",
+        "explanation": "Coronavirus; causes respiratory illness of varying severity."
+    },
+    {
+        "id": 421,
+        "question": "Which virus causes influenza?",
+        "answer": "Influenza A and B viruses",
+        "explanation": "Orthomyxovirus; causes seasonal respiratory illness; A strains cause pandemics."
+    },
+    {
+        "id": 422,
+        "question": "Which virus causes common cold?",
+        "answer": "Rhinovirus, Coronavirus",
+        "explanation": "Usually mild upper respiratory infection."
+    },
+    {
+        "id": 423,
+        "question": "Which virus causes herpes labialis and genital herpes?",
+        "answer": "Herpes simplex virus type 1 (HSV-1) and type 2 (HSV-2)",
+        "explanation": "HSV-1 mostly oral; HSV-2 mostly genital; latent in nerve ganglia."
+    },
+    {
+        "id": 424,
+        "question": "Which virus causes infectious mononucleosis?",
+        "answer": "Epstein-Barr virus (EBV)",
+        "explanation": "Herpesvirus; infects B lymphocytes; causes fever, pharyngitis, lymphadenopathy."
+    },
+    {
+        "id": 425,
+        "question": "Which virus causes cytomegalovirus infection?",
+        "answer": "Cytomegalovirus (CMV)",
+        "explanation": "Herpesvirus; often asymptomatic; can cause congenital infections or disease in immunocompromised."
+    },
+    {
+        "id": 426,
+        "question": "Which virus causes Kaposi sarcoma?",
+        "answer": "Human herpesvirus 8 (HHV-8)",
+        "explanation": "Associated with AIDS; causes vascular tumors."
+    },
+    {
+        "id": 427,
+        "question": "Which virus causes hand-foot-mouth disease?",
+        "answer": "Coxsackievirus A16",
+        "explanation": "Enterovirus; causes vesicular lesions on hands, feet, and mouth."
+    },
+    {
+        "id": 428,
+        "question": "Which virus causes poliomyelitis?",
+        "answer": "Poliovirus",
+        "explanation": "Enterovirus; infects anterior horn cells causing paralysis."
+    },
+    {
+        "id": 429,
+        "question": "Which virus causes rabies?",
+        "answer": "Rabies virus",
+        "explanation": "Rhabdovirus; fatal encephalitis transmitted by animal bites."
+    },
+    {
+        "id": 430,
+        "question": "Which virus causes rotavirus infection?",
+        "answer": "Rotavirus",
+        "explanation": "Reovirus; major cause of diarrhea in infants and young children."
+    },
+    {
+        "id": 431,
+        "question": "Which virus causes norovirus infection?",
+        "answer": "Norovirus",
+        "explanation": "Calicivirus; causes gastroenteritis outbreaks."
+    },
+    {
+        "id": 432,
+        "question": "Which virus causes viral hemorrhagic fever?",
+        "answer": "Ebola virus, Marburg virus",
+        "explanation": "Filoviruses; high mortality; transmitted via body fluids."
+    },
+    {
+        "id": 433,
+        "question": "Which virus causes Lassa fever?",
+        "answer": "Lassa virus",
+        "explanation": "Arenavirus; transmitted by rodent urine; causes hemorrhagic fever."
+    },
+    {
+        "id": 434,
+        "question": "Which virus causes hantavirus pulmonary syndrome?",
+        "answer": "Hantavirus",
+        "explanation": "Bunyavirus; transmitted by rodent excreta; causes severe respiratory illness."
+    },
+    {
+        "id": 435,
+        "question": "Which virus causes yellow fever?",
+        "answer": "Yellow fever virus",
+        "explanation": "Flavivirus; mosquito-borne; causes jaundice and hemorrhage."
+    },
+    {
+        "id": 436,
+        "question": "Which virus causes zoster?",
+        "answer": "Varicella-zoster virus",
+        "explanation": "Reactivation of latent VZV; painful dermatomal rash."
+    },
+    {
+        "id": 437,
+        "question": "Which bacteria cause tetanus?",
+        "answer": "Clostridium tetani",
+        "explanation": "Gram-positive anaerobic rod; produces tetanospasmin causing spastic paralysis."
+    },
+    {
+        "id": 438,
+        "question": "Which bacteria cause botulism?",
+        "answer": "Clostridium botulinum",
+        "explanation": "Gram-positive anaerobe; produces neurotoxin causing flaccid paralysis."
+    },
+    {
+        "id": 439,
+        "question": "Which bacteria cause gas gangrene?",
+        "answer": "Clostridium perfringens",
+        "explanation": "Produces alpha-toxin; rapid tissue necrosis and gas formation."
+    },
+    {
+        "id": 440,
+        "question": "Which bacteria cause pseudomembranous colitis?",
+        "answer": "Clostridioides difficile",
+        "explanation": "Toxin-mediated diarrhea following antibiotic use."
+    },
+    {
+        "id": 441,
+        "question": "Which bacteria produce enterotoxins causing food poisoning?",
+        "answer": "Staphylococcus aureus, Bacillus cereus",
+        "explanation": "Produce toxins leading to vomiting or diarrhea."
+    },
+    {
+        "id": 442,
+        "question": "Which bacteria cause listeriosis?",
+        "answer": "Listeria monocytogenes",
+        "explanation": "Facultative intracellular Gram-positive rod; dangerous in pregnancy."
+    },
+    {
+        "id": 443,
+        "question": "Which bacteria cause neonatal sepsis?",
+        "answer": "Group B Streptococcus, Escherichia coli K1, Listeria monocytogenes",
+        "explanation": "Acquired during birth; can cause sepsis and meningitis."
+    },
+    {
+        "id": 444,
+        "question": "Which bacteria cause neonatal meningitis?",
+        "answer": "Group B Streptococcus, Escherichia coli K1, Listeria monocytogenes",
+        "explanation": "Perinatal pathogens; may lead to neurological complications if untreated."
+    },
+    {
+        "id": 445,
+        "question": "Which bacteria cause urinary tract infections?",
+        "answer": "Escherichia coli, Proteus, Klebsiella, Staphylococcus saprophyticus",
+        "explanation": "E. coli most common; Proteus produces urease leading to stones."
+    },
+    {
+        "id": 446,
+        "question": "Which bacteria cause pneumonia?",
+        "answer": "Streptococcus pneumoniae, Haemophilus influenzae, Mycoplasma pneumoniae",
+        "explanation": "Most common causes of community-acquired pneumonia."
+    },
+    {
+        "id": 447,
+        "question": "Which bacteria cause meningitis in adults?",
+        "answer": "Streptococcus pneumoniae, Neisseria meningitidis",
+        "explanation": "S. pneumoniae common in older adults; N. meningitidis in young adults."
+    },
+    {
+        "id": 448,
+        "question": "Which bacteria cause meningitis in neonates?",
+        "answer": "Group B Streptococcus, Escherichia coli K1, Listeria monocytogenes",
+        "explanation": "Acquired perinatally; major cause of neonatal morbidity and mortality."
+    },
+    {
+        "id": 449,
+        "question": "Which bacteria cause sepsis in immunocompromised patients?",
+        "answer": "Pseudomonas aeruginosa, Klebsiella, Staphylococcus aureus",
+        "explanation": "Opportunistic pathogens causing systemic infection."
+    },
+    {
+        "id": 450,
+        "question": "Which fungi cause systemic infections in immunocompromised patients?",
+        "answer": "Candida, Cryptococcus, Aspergillus",
+        "explanation": "Opportunistic pathogens causing pneumonia, meningitis, or systemic infection."
+    },
+    {
+        "id": 451,
+        "question": "Which fungi cause superficial skin infections?",
+        "answer": "Trichophyton, Microsporum, Epidermophyton",
+        "explanation": "Dermatophytes infect keratinized tissues causing tinea infections."
+    },
+    {
+        "id": 452,
+        "question": "Which fungi cause cryptococcal meningitis?",
+        "answer": "Cryptococcus neoformans",
+        "explanation": "Encapsulated yeast; common in AIDS patients; detected by India ink stain."
+    },
+    {
+        "id": 453,
+        "question": "Which parasite causes malaria?",
+        "answer": "Plasmodium species (P. falciparum, P. vivax, P. ovale, P. malariae)",
+        "explanation": "Transmitted by Anopheles mosquitoes; P. falciparum most deadly."
+    },
+    {
+        "id": 454,
+        "question": "Which parasite causes African sleeping sickness?",
+        "answer": "Trypanosoma brucei",
+        "explanation": "Transmitted by tsetse fly; invades CNS causing sleep disturbances."
+    },
+    {
+        "id": 455,
+        "question": "Which parasite causes Chagas disease?",
+        "answer": "Trypanosoma cruzi",
+        "explanation": "Transmitted by triatomine bug; chronic infection affects heart and GI tract."
+    },
+    {
+        "id": 456,
+        "question": "Which parasite causes giardiasis?",
+        "answer": "Giardia lamblia",
+        "explanation": "Flagellated protozoan; causes watery diarrhea and malabsorption."
+    },
+    {
+        "id": 457,
+        "question": "Which parasite causes amoebiasis?",
+        "answer": "Entamoeba histolytica",
+        "explanation": "Causes dysentery and liver abscess."
+    },
+    {
+        "id": 458,
+        "question": "Which parasite causes lymphatic filariasis?",
+        "answer": "Wuchereria bancrofti",
+        "explanation": "Transmitted by mosquitoes; causes elephantiasis."
+    },
+    {
+        "id": 459,
+        "question": "Which bacteria are Gram-positive cocci causing endocarditis?",
+        "answer": "Staphylococcus aureus, Streptococcus viridans",
+        "explanation": "S. aureus causes acute; viridans group causes subacute endocarditis."
+    },
+    {
+        "id": 460,
+        "question": "Which bacteria produce urease in UTIs?",
+        "answer": "Proteus species",
+        "explanation": "Raises urine pH; promotes kidney stones."
+    },
+    {
+        "id": 461,
+        "question": "Which bacteria produce Shiga toxin?",
+        "answer": "Shigella dysenteriae, EHEC",
+        "explanation": "Causes bloody diarrhea and may lead to hemolytic uremic syndrome."
+    },
+    {
+        "id": 462,
+        "question": "Which bacteria cause toxic shock syndrome?",
+        "answer": "Staphylococcus aureus",
+        "explanation": "TSST-1 superantigen triggers systemic inflammation."
+    },
+    {
+        "id": 463,
+        "question": "Which bacteria cause pseudomembranous colitis?",
+        "answer": "Clostridioides difficile",
+        "explanation": "Toxin-mediated diarrhea following antibiotic use."
+    },
+    {
+        "id": 464,
+        "question": "Which bacteria cause listeriosis?",
+        "answer": "Listeria monocytogenes",
+        "explanation": "Facultative intracellular Gram-positive rod; dangerous in pregnancy."
+    },
+    {
+        "id": 465,
+        "question": "Which bacteria cause neonatal sepsis?",
+        "answer": "Group B Streptococcus, Escherichia coli K1, Listeria monocytogenes",
+        "explanation": "Acquired during birth; can cause sepsis and meningitis."
+    },
+    {
+        "id": 466,
+        "question": "Which bacteria cause neonatal meningitis?",
+        "answer": "Group B Streptococcus, Escherichia coli K1, Listeria monocytogenes",
+        "explanation": "Perinatal pathogens; may lead to neurological complications if untreated."
+    },
+    {
+        "id": 467,
+        "question": "Which bacteria cause UTIs?",
+        "answer": "Escherichia coli, Proteus species, Klebsiella species, Staphylococcus saprophyticus",
+        "explanation": "Most common urinary pathogens; Proteus produces urease leading to stones."
+    },
+    {
+        "id": 468,
+        "question": "Which bacteria cause pneumonia?",
+        "answer": "Streptococcus pneumoniae, Haemophilus influenzae, Mycoplasma pneumoniae",
+        "explanation": "Common causes of community-acquired pneumonia."
+    },
+    {
+        "id": 469,
+        "question": "Which bacteria cause bacterial meningitis?",
+        "answer": "Streptococcus pneumoniae, Neisseria meningitidis, Group B Streptococcus",
+        "explanation": "Adults commonly S. pneumoniae and N. meningitidis; neonates GBS."
+    },
+    {
+        "id": 470,
+        "question": "Which bacteria cause food poisoning?",
+        "answer": "Staphylococcus aureus, Bacillus cereus, Listeria monocytogenes",
+        "explanation": "Produce toxins causing vomiting, diarrhea, or systemic illness."
+    },
+    {
+        "id": 471,
+        "question": "Which fungi cause opportunistic infections?",
+        "answer": "Candida, Cryptococcus, Aspergillus",
+        "explanation": "Common in immunocompromised hosts; may cause systemic infections."
+    },
+    {
+        "id": 472,
+        "question": "Which fungi cause dermatophytosis?",
+        "answer": "Trichophyton, Microsporum, Epidermophyton",
+        "explanation": "Infect keratinized tissues; cause tinea infections."
+    },
+    {
+        "id": 473,
+        "question": "Which fungi cause cryptococcal meningitis?",
+        "answer": "Cryptococcus neoformans",
+        "explanation": "Encapsulated yeast; seen in AIDS; detected by India ink stain."
+    },
+    {
+        "id": 474,
+        "question": "Which parasites cause malaria?",
+        "answer": "Plasmodium species",
+        "explanation": "Transmitted by Anopheles mosquitoes; P. falciparum most severe."
+    },
+    {
+        "id": 475,
+        "question": "Which parasites cause African trypanosomiasis?",
+        "answer": "Trypanosoma brucei",
+        "explanation": "Transmitted by tsetse fly; affects CNS causing sleep disturbances."
+    },
+    {
+        "id": 476,
+        "question": "Which parasites cause Chagas disease?",
+        "answer": "Trypanosoma cruzi",
+        "explanation": "Transmitted by triatomine bug; chronic infection affects heart and GI tract."
+    },
+    {
+        "id": 477,
+        "question": "Which parasites cause amoebiasis?",
+        "answer": "Entamoeba histolytica",
+        "explanation": "Invades intestinal mucosa; can cause liver abscess."
+    },
+    {
+        "id": 478,
+        "question": "Which parasites cause giardiasis?",
+        "answer": "Giardia lamblia",
+        "explanation": "Flagellated protozoan; causes watery diarrhea and malabsorption."
+    },
+    {
+        "id": 479,
+        "question": "Which parasites cause lymphatic filariasis?",
+        "answer": "Wuchereria bancrofti",
+        "explanation": "Transmitted by mosquitoes; causes elephantiasis."
+    },
+    {
+        "id": 480,
+        "question": "Which viruses cause hepatitis?",
+        "answer": "Hepatitis A, B, C, D, E viruses",
+        "explanation": "Different transmission routes; some cause chronic liver disease."
+    },
+    {
+        "id": 481,
+        "question": "Which viruses cause herpes infections?",
+        "answer": "HSV-1, HSV-2, Varicella-zoster virus, EBV, CMV, HHV-6, HHV-7, HHV-8",
+        "explanation": "Cause oral, genital, systemic, or latent infections."
+    },
+    {
+        "id": 482,
+        "question": "Which virus causes measles?",
+        "answer": "Measles virus",
+        "explanation": "Paramyxovirus; causes fever, Koplik spots, and maculopapular rash."
+    },
+    {
+        "id": 483,
+        "question": "Which virus causes rubella?",
+        "answer": "Rubella virus",
+        "explanation": "Togavirus; mild rash but dangerous in pregnancy."
+    },
+    {
+        "id": 484,
+        "question": "Which virus causes mumps?",
+        "answer": "Mumps virus",
+        "explanation": "Parotitis and orchitis; Paramyxovirus family."
+    },
+    {
+        "id": 485,
+        "question": "Which virus causes poliomyelitis?",
+        "answer": "Poliovirus",
+        "explanation": "Enterovirus; can lead to paralysis."
+    },
+    {
+        "id": 486,
+        "question": "Which virus causes rabies?",
+        "answer": "Rabies virus",
+        "explanation": "Fatal encephalitis transmitted via animal bites."
+    },
+    {
+        "id": 487,
+        "question": "Which virus causes influenza?",
+        "answer": "Influenza A and B viruses",
+        "explanation": "Orthomyxoviruses; seasonal respiratory illness."
+    },
+    {
+        "id": 488,
+        "question": "Which virus causes common cold?",
+        "answer": "Rhinovirus, Coronavirus",
+        "explanation": "Mild upper respiratory infection."
+    },
+    {
+        "id": 489,
+        "question": "Which virus causes SARS and COVID-19?",
+        "answer": "SARS-CoV, SARS-CoV-2",
+        "explanation": "Coronaviruses; severe respiratory infections."
+    },
+    {
+        "id": 490,
+        "question": "Which virus causes dengue fever?",
+        "answer": "Dengue virus",
+        "explanation": "Flavivirus; mosquito-borne; may lead to hemorrhagic fever."
+    },
+    {
+        "id": 491,
+        "question": "Which virus causes Zika virus disease?",
+        "answer": "Zika virus",
+        "explanation": "Flavivirus; transmitted by mosquitoes; causes congenital malformations."
+    },
+    {
+        "id": 492,
+        "question": "Which virus causes yellow fever?",
+        "answer": "Yellow fever virus",
+        "explanation": "Flavivirus; jaundice and hemorrhagic symptoms."
+    },
+    {
+        "id": 493,
+        "question": "Which virus causes chikungunya?",
+        "answer": "Chikungunya virus",
+        "explanation": "Alphavirus; mosquito-borne; causes fever and joint pain."
+    },
+    {
+        "id": 494,
+        "question": "Which virus causes rotavirus infection?",
+        "answer": "Rotavirus",
+        "explanation": "Reovirus; major cause of diarrhea in infants."
+    },
+    {
+        "id": 495,
+        "question": "Which virus causes norovirus infection?",
+        "answer": "Norovirus",
+        "explanation": "Calicivirus; causes gastroenteritis outbreaks."
+    },
+    {
+        "id": 496,
+        "question": "Which virus causes viral hemorrhagic fever?",
+        "answer": "Ebola virus, Marburg virus",
+        "explanation": "Filoviruses; high mortality; transmitted via body fluids."
+    },
+    {
+        "id": 497,
+        "question": "Which virus causes Lassa fever?",
+        "answer": "Lassa virus",
+        "explanation": "Arenavirus; transmitted by rodent urine; causes hemorrhagic fever."
+    },
+    {
+        "id": 498,
+        "question": "Which virus causes hantavirus pulmonary syndrome?",
+        "answer": "Hantavirus",
+        "explanation": "Transmitted by rodent excreta; causes severe respiratory illness."
+    },
+    {
+        "id": 499,
+        "question": "Which virus causes viral encephalitis?",
+        "answer": "Herpes simplex virus, West Nile virus, Japanese encephalitis virus",
+        "explanation": "Different neurotropic viruses; can cause CNS infection."
+    },
+    {
+        "id": 500,
+        "question": "Which IBSS topic integrates immunology, serology, and transfusion science?",
+        "answer": "Blood banking",
+        "explanation": "Core subject in the MedTech board exam."
+    }
+]

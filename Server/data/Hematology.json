@@ -1,0 +1,3002 @@
+[
+    {
+        "id": 1,
+        "question": "What is the normal lifespan of a red blood cell?",
+        "answer": "120 days",
+        "explanation": "RBCs circulate for about 120 days before splenic removal."
+    },
+    {
+        "id": 2,
+        "question": "Which organ primarily produces erythropoietin?",
+        "answer": "Kidneys",
+        "explanation": "Erythropoietin is released in response to hypoxia."
+    },
+    {
+        "id": 3,
+        "question": "What is the normal hemoglobin range for adult males?",
+        "answer": "13–18 g/dL",
+        "explanation": "Values below this indicate anemia."
+    },
+    {
+        "id": 4,
+        "question": "What is the normal hemoglobin range for adult females?",
+        "answer": "12–16 g/dL",
+        "explanation": "Lower due to menstruation and hormonal factors."
+    },
+    {
+        "id": 5,
+        "question": "Which cell is the immediate precursor of the erythrocyte?",
+        "answer": "Reticulocyte",
+        "explanation": "Reticulocytes mature into RBCs within 1–2 days."
+    },
+    {
+        "id": 6,
+        "question": "Which stain is used for reticulocyte counting?",
+        "answer": "New methylene blue",
+        "explanation": "It stains residual RNA in immature RBCs."
+    },
+    {
+        "id": 7,
+        "question": "What is the normal reticulocyte count in adults?",
+        "answer": "0.5–2.5%",
+        "explanation": "Indicates bone marrow activity."
+    },
+    {
+        "id": 8,
+        "question": "Which RBC index reflects average cell size?",
+        "answer": "MCV",
+        "explanation": "Used to classify anemia by size."
+    },
+    {
+        "id": 9,
+        "question": "Which anemia is characterized by low MCV?",
+        "answer": "Microcytic anemia",
+        "explanation": "Common in iron deficiency and thalassemia."
+    },
+    {
+        "id": 10,
+        "question": "Which anemia shows normal MCV?",
+        "answer": "Normocytic anemia",
+        "explanation": "Seen in acute blood loss."
+    },
+    {
+        "id": 11,
+        "question": "Which anemia has increased MCV?",
+        "answer": "Macrocytic anemia",
+        "explanation": "Associated with vitamin B12 or folate deficiency."
+    },
+    {
+        "id": 12,
+        "question": "Which index measures hemoglobin concentration in RBCs?",
+        "answer": "MCHC",
+        "explanation": "Low values indicate hypochromia."
+    },
+    {
+        "id": 13,
+        "question": "Which condition causes increased MCHC?",
+        "answer": "Hereditary spherocytosis",
+        "explanation": "Due to membrane loss."
+    },
+    {
+        "id": 14,
+        "question": "Which RBC morphology shows increased central pallor?",
+        "answer": "Hypochromic cells",
+        "explanation": "Indicates low hemoglobin content."
+    },
+    {
+        "id": 15,
+        "question": "Which RBC morphology is common in iron deficiency anemia?",
+        "answer": "Pencil cells",
+        "explanation": "Elongated hypochromic RBCs."
+    },
+    {
+        "id": 16,
+        "question": "Which RBC inclusion contains iron?",
+        "answer": "Pappenheimer bodies",
+        "explanation": "Seen in sideroblastic anemia."
+    },
+    {
+        "id": 17,
+        "question": "Which RBC inclusion is a nuclear remnant?",
+        "answer": "Howell-Jolly bodies",
+        "explanation": "Seen in splenectomy or megaloblastic anemia."
+    },
+    {
+        "id": 18,
+        "question": "Which RBC inclusion contains denatured hemoglobin?",
+        "answer": "Heinz bodies",
+        "explanation": "Common in G6PD deficiency."
+    },
+    {
+        "id": 19,
+        "question": "Which RBC morphology is crescent-shaped?",
+        "answer": "Sickle cells",
+        "explanation": "Seen in sickle cell anemia."
+    },
+    {
+        "id": 20,
+        "question": "Which anemia is caused by vitamin B12 deficiency?",
+        "answer": "Megaloblastic anemia",
+        "explanation": "Due to defective DNA synthesis."
+    },
+    {
+        "id": 21,
+        "question": "Which WBC is most abundant in circulation?",
+        "answer": "Neutrophils",
+        "explanation": "Primary defense against bacteria."
+    },
+    {
+        "id": 22,
+        "question": "Which WBC has a bilobed nucleus and red-orange granules?",
+        "answer": "Eosinophils",
+        "explanation": "Increased in parasitic infections."
+    },
+    {
+        "id": 23,
+        "question": "Which WBC releases histamine?",
+        "answer": "Basophils",
+        "explanation": "Involved in allergic reactions."
+    },
+    {
+        "id": 24,
+        "question": "Which WBC is the smallest?",
+        "answer": "Lymphocytes",
+        "explanation": "Key cells of adaptive immunity."
+    },
+    {
+        "id": 25,
+        "question": "Which WBC becomes a macrophage in tissues?",
+        "answer": "Monocytes",
+        "explanation": "Important for phagocytosis."
+    },
+    {
+        "id": 26,
+        "question": "What does a left shift indicate?",
+        "answer": "Increase in immature neutrophils",
+        "explanation": "Suggests acute infection."
+    },
+    {
+        "id": 27,
+        "question": "Which condition shows hypersegmented neutrophils?",
+        "answer": "Megaloblastic anemia",
+        "explanation": "Due to impaired DNA synthesis."
+    },
+    {
+        "id": 28,
+        "question": "What is the normal platelet count?",
+        "answer": "150,000–450,000/µL",
+        "explanation": "Essential for hemostasis."
+    },
+    {
+        "id": 29,
+        "question": "Which condition has decreased platelets?",
+        "answer": "Thrombocytopenia",
+        "explanation": "Causes bleeding tendency."
+    },
+    {
+        "id": 30,
+        "question": "Which condition has increased platelets?",
+        "answer": "Thrombocytosis",
+        "explanation": "May lead to thrombosis."
+    },
+    {
+        "id": 31,
+        "question": "Which anemia is caused by chronic inflammation?",
+        "answer": "Anemia of chronic disease",
+        "explanation": "Iron utilization is impaired."
+    },
+    {
+        "id": 32,
+        "question": "Which test best reflects iron stores?",
+        "answer": "Serum ferritin",
+        "explanation": "Low in iron deficiency anemia."
+    },
+    {
+        "id": 33,
+        "question": "Which anemia shows increased RDW?",
+        "answer": "Iron deficiency anemia",
+        "explanation": "Reflects anisocytosis."
+    },
+    {
+        "id": 34,
+        "question": "Which anemia shows target cells?",
+        "answer": "Thalassemia",
+        "explanation": "Due to excess membrane."
+    },
+    {
+        "id": 35,
+        "question": "Which hemoglobin predominates in adults?",
+        "answer": "Hemoglobin A",
+        "explanation": "Alpha2 beta2 composition."
+    },
+    {
+        "id": 36,
+        "question": "Which hemoglobin is increased in beta-thalassemia?",
+        "answer": "Hemoglobin A2",
+        "explanation": "Compensatory hemoglobin."
+    },
+    {
+        "id": 37,
+        "question": "Which anemia results from bone marrow failure?",
+        "answer": "Aplastic anemia",
+        "explanation": "Causes pancytopenia."
+    },
+    {
+        "id": 38,
+        "question": "Which anemia produces schistocytes?",
+        "answer": "Microangiopathic hemolytic anemia",
+        "explanation": "Due to RBC fragmentation."
+    },
+    {
+        "id": 39,
+        "question": "Which RBC morphology appears helmet-shaped?",
+        "answer": "Schistocytes",
+        "explanation": "Seen in DIC and TTP."
+    },
+    {
+        "id": 40,
+        "question": "Which test evaluates the intrinsic coagulation pathway?",
+        "answer": "APTT",
+        "explanation": "Prolonged in hemophilia."
+    },
+    {
+        "id": 41,
+        "question": "Which test evaluates the extrinsic pathway?",
+        "answer": "PT",
+        "explanation": "Used to monitor warfarin."
+    },
+    {
+        "id": 42,
+        "question": "Which factor is deficient in hemophilia A?",
+        "answer": "Factor VIII",
+        "explanation": "Causes prolonged APTT."
+    },
+    {
+        "id": 43,
+        "question": "Which factor is deficient in hemophilia B?",
+        "answer": "Factor IX",
+        "explanation": "Also called Christmas disease."
+    },
+    {
+        "id": 44,
+        "question": "Which disorder shows factor XI deficiency?",
+        "answer": "Hemophilia C",
+        "explanation": "Usually mild bleeding."
+    },
+    {
+        "id": 45,
+        "question": "Which test detects fibrin degradation products?",
+        "answer": "D-dimer",
+        "explanation": "Elevated in DIC."
+    },
+    {
+        "id": 46,
+        "question": "Which anticoagulant is used for CBC?",
+        "answer": "EDTA",
+        "explanation": "Preserves cell morphology."
+    },
+    {
+        "id": 47,
+        "question": "Which anticoagulant is used for coagulation tests?",
+        "answer": "Sodium citrate",
+        "explanation": "Reversible calcium binding."
+    },
+    {
+        "id": 48,
+        "question": "Which anemia shows increased reticulocyte count?",
+        "answer": "Hemolytic anemia",
+        "explanation": "Bone marrow compensation."
+    },
+    {
+        "id": 49,
+        "question": "Which anemia shows low reticulocyte count?",
+        "answer": "Aplastic anemia",
+        "explanation": "Marrow failure."
+    },
+    {
+        "id": 50,
+        "question": "Which stain is used for peripheral blood smear?",
+        "answer": "Wright-Giemsa stain",
+        "explanation": "Differentiates blood cells."
+    },
+    {
+        "id": 51,
+        "question": "Which WBC increases in viral infections?",
+        "answer": "Lymphocytes",
+        "explanation": "Commonly elevated in infectious mononucleosis."
+    },
+    {
+        "id": 52,
+        "question": "Which WBC increases in parasitic infections?",
+        "answer": "Eosinophils",
+        "explanation": "Also elevated in allergic conditions."
+    },
+    {
+        "id": 53,
+        "question": "Which leukemia shows Auer rods?",
+        "answer": "Acute myelogenous leukemia",
+        "explanation": "Auer rods are needle-like cytoplasmic inclusions in myeloblasts."
+    },
+    {
+        "id": 54,
+        "question": "Which leukemia is associated with the Philadelphia chromosome?",
+        "answer": "Chronic myelogenous leukemia",
+        "explanation": "t(9;22) translocation leads to BCR-ABL fusion."
+    },
+    {
+        "id": 55,
+        "question": "Which leukemia is most common in children?",
+        "answer": "Acute lymphoblastic leukemia",
+        "explanation": "Characterized by proliferation of lymphoblasts."
+    },
+    {
+        "id": 56,
+        "question": "Which anemia is due to intrinsic factor deficiency?",
+        "answer": "Pernicious anemia",
+        "explanation": "Causes vitamin B12 malabsorption leading to megaloblastic anemia."
+    },
+    {
+        "id": 57,
+        "question": "Which RBC morphology is seen in liver disease?",
+        "answer": "Target cells",
+        "explanation": "Due to altered lipid content in the membrane."
+    },
+    {
+        "id": 58,
+        "question": "Which condition shows teardrop-shaped RBCs?",
+        "answer": "Myelofibrosis",
+        "explanation": "Marrow fibrosis forces RBCs to deform."
+    },
+    {
+        "id": 59,
+        "question": "Which WBC granules contain myeloperoxidase?",
+        "answer": "Neutrophils",
+        "explanation": "Used to differentiate myeloid from lymphoid cells."
+    },
+    {
+        "id": 60,
+        "question": "Which test differentiates iron deficiency anemia from thalassemia trait?",
+        "answer": "RDW",
+        "explanation": "Increased in iron deficiency, normal in thalassemia."
+    },
+    {
+        "id": 61,
+        "question": "Which anemia has normal iron stores but low hemoglobin?",
+        "answer": "Anemia of chronic disease",
+        "explanation": "Iron is sequestered and unavailable for erythropoiesis."
+    },
+    {
+        "id": 62,
+        "question": "Which condition causes pancytopenia?",
+        "answer": "Aplastic anemia",
+        "explanation": "Bone marrow failure affects all cell lines."
+    },
+    {
+        "id": 63,
+        "question": "Which platelet disorder is immune-mediated?",
+        "answer": "Immune thrombocytopenic purpura (ITP)",
+        "explanation": "Autoantibodies target platelets."
+    },
+    {
+        "id": 64,
+        "question": "Which test evaluates platelet function?",
+        "answer": "Bleeding time",
+        "explanation": "Prolonged in platelet disorders."
+    },
+    {
+        "id": 65,
+        "question": "Which anemia is caused by G6PD deficiency?",
+        "answer": "Hemolytic anemia",
+        "explanation": "Oxidative stress triggers RBC destruction."
+    },
+    {
+        "id": 66,
+        "question": "Which cells are increased in polycythemia vera?",
+        "answer": "Red blood cells",
+        "explanation": "A myeloproliferative disorder causing elevated RBC mass."
+    },
+    {
+        "id": 67,
+        "question": "Which disorder shows increased hematocrit?",
+        "answer": "Polycythemia",
+        "explanation": "Can be primary (PV) or secondary (hypoxia-driven)."
+    },
+    {
+        "id": 68,
+        "question": "Which anemia is due to chronic blood loss?",
+        "answer": "Iron deficiency anemia",
+        "explanation": "Most common cause of microcytic anemia worldwide."
+    },
+    {
+        "id": 69,
+        "question": "Which anemia shows ring sideroblasts?",
+        "answer": "Sideroblastic anemia",
+        "explanation": "Iron is trapped in mitochondria of erythroblasts."
+    },
+    {
+        "id": 70,
+        "question": "Which RBC morphology is spiculated with irregular projections?",
+        "answer": "Acanthocytes",
+        "explanation": "Seen in liver disease and abetalipoproteinemia."
+    },
+    {
+        "id": 71,
+        "question": "Which RBC morphology has uniform short projections?",
+        "answer": "Echinocytes (burr cells)",
+        "explanation": "Associated with uremia and artifact."
+    },
+    {
+        "id": 72,
+        "question": "Which WBC count is elevated in leukemia?",
+        "answer": "White blood cell count",
+        "explanation": "May show immature blasts in peripheral smear."
+    },
+    {
+        "id": 73,
+        "question": "Which stain highlights iron in bone marrow?",
+        "answer": "Prussian blue stain",
+        "explanation": "Used to detect iron stores and ring sideroblasts."
+    },
+    {
+        "id": 74,
+        "question": "Which test confirms sickle cell disease?",
+        "answer": "Hemoglobin electrophoresis",
+        "explanation": "Identifies abnormal hemoglobins such as HbS."
+    },
+    {
+        "id": 75,
+        "question": "Which hemoglobin predominates in newborns?",
+        "answer": "Hemoglobin F",
+        "explanation": "Has higher oxygen affinity than adult hemoglobin."
+    },
+    {
+        "id": 76,
+        "question": "Which RBC morphology shows uneven hemoglobin distribution?",
+        "answer": "Polychromasia",
+        "explanation": "Indicates reticulocytosis."
+    },
+    {
+        "id": 77,
+        "question": "Which disorder causes prolonged PT and APTT with bleeding?",
+        "answer": "Disseminated intravascular coagulation (DIC)",
+        "explanation": "Consumption of clotting factors leads to bleeding."
+    },
+    {
+        "id": 78,
+        "question": "Which test monitors heparin therapy?",
+        "answer": "APTT",
+        "explanation": "Heparin prolongs the intrinsic pathway."
+    },
+    {
+        "id": 79,
+        "question": "Which test monitors warfarin therapy?",
+        "answer": "PT/INR",
+        "explanation": "Warfarin inhibits vitamin K-dependent factors in the extrinsic pathway."
+    },
+    {
+        "id": 80,
+        "question": "Which anemia has normal iron but impaired hemoglobin synthesis?",
+        "answer": "Anemia of chronic disease",
+        "explanation": "Iron is sequestered; ferritin normal or elevated."
+    },
+    {
+        "id": 81,
+        "question": "Which WBC increases in bacterial infection?",
+        "answer": "Neutrophils",
+        "explanation": "Primary defense against bacteria."
+    },
+    {
+        "id": 82,
+        "question": "Which RBC morphology is round without central pallor?",
+        "answer": "Spherocytes",
+        "explanation": "Seen in hereditary spherocytosis and autoimmune hemolytic anemia."
+    },
+    {
+        "id": 83,
+        "question": "Which test measures oxygen-carrying capacity of blood?",
+        "answer": "Hemoglobin concentration",
+        "explanation": "More indicative than RBC count alone."
+    },
+    {
+        "id": 84,
+        "question": "Which bleeding disorder is caused by factor XIII deficiency?",
+        "answer": "Delayed bleeding disorder",
+        "explanation": "Clot forms but is unstable and breaks down."
+    },
+    {
+        "id": 85,
+        "question": "Which cell line is elevated in leukemoid reaction?",
+        "answer": "Neutrophils",
+        "explanation": "Reactive increase, not malignant."
+    },
+    {
+        "id": 86,
+        "question": "Which test differentiates leukemoid reaction from chronic myeloid leukemia?",
+        "answer": "LAP score",
+        "explanation": "High in leukemoid reaction, low in CML."
+    },
+    {
+        "id": 87,
+        "question": "Which RBC morphology is oval-shaped?",
+        "answer": "Ovalocytes",
+        "explanation": "Seen in hereditary elliptocytosis and some anemias."
+    },
+    {
+        "id": 88,
+        "question": "Which anemia is caused by folate deficiency?",
+        "answer": "Megaloblastic anemia",
+        "explanation": "Similar to vitamin B12 deficiency but without neurologic symptoms."
+    },
+    {
+        "id": 89,
+        "question": "Which RBC morphology shows small, dense cells?",
+        "answer": "Spherocytes",
+        "explanation": "Often associated with hereditary spherocytosis."
+    },
+    {
+        "id": 90,
+        "question": "Which RBC morphology is fragmented and jagged?",
+        "answer": "Schistocytes",
+        "explanation": "Seen in DIC, TTP, HUS."
+    },
+    {
+        "id": 91,
+        "question": "Which RBC morphology is oval with central pallor?",
+        "answer": "Macro-ovalocytes",
+        "explanation": "Characteristic of megaloblastic anemia."
+    },
+    {
+        "id": 92,
+        "question": "Which anemia shows basophilic stippling?",
+        "answer": "Lead poisoning and sideroblastic anemia",
+        "explanation": "Aggregates of ribosomal RNA."
+    },
+    {
+        "id": 93,
+        "question": "Which WBC increases in chronic bacterial infection?",
+        "answer": "Monocytes",
+        "explanation": "Act as phagocytes and antigen presenters."
+    },
+    {
+        "id": 94,
+        "question": "Which WBC is elevated in allergy?",
+        "answer": "Eosinophils",
+        "explanation": "Mediates hypersensitivity reactions."
+    },
+    {
+        "id": 95,
+        "question": "Which test differentiates iron deficiency from anemia of chronic disease?",
+        "answer": "Serum ferritin",
+        "explanation": "Low in iron deficiency; normal/high in chronic disease."
+    },
+    {
+        "id": 96,
+        "question": "Which RBC inclusion is composed of RNA remnants?",
+        "answer": "Howell-Jolly bodies",
+        "explanation": "Seen in asplenia or megaloblastic anemia."
+    },
+    {
+        "id": 97,
+        "question": "Which RBC inclusion is denatured hemoglobin precipitate?",
+        "answer": "Heinz bodies",
+        "explanation": "Seen in G6PD deficiency and oxidative stress."
+    },
+    {
+        "id": 98,
+        "question": "Which test evaluates bone marrow iron?",
+        "answer": "Prussian blue stain",
+        "explanation": "Detects iron stores and ring sideroblasts."
+    },
+    {
+        "id": 99,
+        "question": "Which anemia shows low MCV and low MCH?",
+        "answer": "Iron deficiency anemia",
+        "explanation": "Microcytic hypochromic anemia."
+    },
+    {
+        "id": 100,
+        "question": "Which anemia shows normal MCV but low hemoglobin?",
+        "answer": "Anemia of chronic disease",
+        "explanation": "Normocytic normochromic anemia."
+    },
+    {
+        "id": 101,
+        "question": "Which RBC morphology is seen in thalassemia major?",
+        "answer": "Target cells and microcytes",
+        "explanation": "Due to imbalance in globin chain synthesis."
+    },
+    {
+        "id": 102,
+        "question": "What is the main function of erythrocytes?",
+        "answer": "Transport oxygen and carbon dioxide",
+        "explanation": "Erythrocytes carry oxygen from lungs to tissues and carbon dioxide back to lungs."
+    },
+    {
+        "id": 103,
+        "question": "Which hemoglobin type is predominant in adults?",
+        "answer": "Hemoglobin A (α2β2)",
+        "explanation": "Hemoglobin A makes up about 95–98% of adult hemoglobin."
+    },
+    {
+        "id": 104,
+        "question": "What is the normal lifespan of a red blood cell?",
+        "answer": "Approximately 120 days",
+        "explanation": "RBCs are removed by the spleen and liver after about 4 months."
+    },
+    {
+        "id": 105,
+        "question": "Which organ is primarily responsible for erythrocyte production?",
+        "answer": "Bone marrow",
+        "explanation": "Red bone marrow produces erythrocytes through erythropoiesis."
+    },
+    {
+        "id": 106,
+        "question": "What is the hormone that stimulates erythropoiesis?",
+        "answer": "Erythropoietin (EPO)",
+        "explanation": "EPO is produced by the kidneys in response to hypoxia."
+    },
+    {
+        "id": 107,
+        "question": "Which vitamin is essential for DNA synthesis in RBC production?",
+        "answer": "Vitamin B12 and folic acid",
+        "explanation": "Deficiency impairs DNA synthesis and leads to megaloblastic anemia."
+    },
+    {
+        "id": 108,
+        "question": "What is the cause of megaloblastic anemia?",
+        "answer": "Deficiency of Vitamin B12 or folic acid",
+        "explanation": "Impaired DNA synthesis leads to large, immature RBCs."
+    },
+    {
+        "id": 109,
+        "question": "What is the characteristic RBC morphology in iron deficiency anemia?",
+        "answer": "Microcytic, hypochromic",
+        "explanation": "Small, pale RBCs due to insufficient hemoglobin synthesis."
+    },
+    {
+        "id": 110,
+        "question": "Which lab test is most sensitive for iron deficiency anemia?",
+        "answer": "Serum ferritin",
+        "explanation": "Ferritin reflects body iron stores and decreases early in deficiency."
+    },
+    {
+        "id": 111,
+        "question": "What is the hallmark of hemolytic anemia?",
+        "answer": "Premature destruction of RBCs",
+        "explanation": "Results in increased reticulocytes, bilirubin, and LDH."
+    },
+    {
+        "id": 112,
+        "question": "Which enzyme deficiency is associated with hemolytic anemia triggered by oxidative stress?",
+        "answer": "G6PD deficiency",
+        "explanation": "Deficient G6PD makes RBCs vulnerable to oxidative damage."
+    },
+    {
+        "id": 113,
+        "question": "What type of anemia is caused by chronic kidney disease?",
+        "answer": "Normocytic, normochromic anemia",
+        "explanation": "Due to decreased erythropoietin production."
+    },
+    {
+        "id": 114,
+        "question": "Which cells are primarily affected in aplastic anemia?",
+        "answer": "Hematopoietic stem cells in the bone marrow",
+        "explanation": "Results in pancytopenia due to bone marrow failure."
+    },
+    {
+        "id": 115,
+        "question": "What is the characteristic finding in peripheral blood smear of aplastic anemia?",
+        "answer": "Pancytopenia with a hypocellular bone marrow",
+        "explanation": "All cell lines are decreased due to marrow failure."
+    },
+    {
+        "id": 116,
+        "question": "Which type of anemia is associated with chronic inflammation?",
+        "answer": "Anemia of chronic disease",
+        "explanation": "Inflammatory cytokines impair iron utilization and erythropoiesis."
+    },
+    {
+        "id": 117,
+        "question": "What is the typical reticulocyte count in aplastic anemia?",
+        "answer": "Low",
+        "explanation": "Indicates decreased RBC production."
+    },
+    {
+        "id": 118,
+        "question": "Which protein carries iron in the blood?",
+        "answer": "Transferrin",
+        "explanation": "Transports iron to tissues for hemoglobin synthesis."
+    },
+    {
+        "id": 119,
+        "question": "Which protein stores iron in the liver, spleen, and bone marrow?",
+        "answer": "Ferritin",
+        "explanation": "Ferritin stores iron intracellularly for later use."
+    },
+    {
+        "id": 120,
+        "question": "Which hemoglobinopathy is caused by a mutation in the β-globin gene?",
+        "answer": "Sickle cell disease",
+        "explanation": "Mutation leads to hemoglobin S, causing RBC sickling."
+    },
+    {
+        "id": 121,
+        "question": "What is the characteristic shape of RBCs in sickle cell disease?",
+        "answer": "Sickle-shaped or crescent-shaped",
+        "explanation": "Abnormal hemoglobin polymerization distorts the RBCs."
+    },
+    {
+        "id": 122,
+        "question": "Which test is used to diagnose sickle cell disease?",
+        "answer": "Hemoglobin electrophoresis",
+        "explanation": "Separates different hemoglobin types for identification."
+    },
+    {
+        "id": 123,
+        "question": "What triggers a sickle cell crisis?",
+        "answer": "Hypoxia, infection, dehydration, or acidosis",
+        "explanation": "Stressors promote RBC sickling and vaso-occlusion."
+    },
+    {
+        "id": 124,
+        "question": "Which hemoglobin is protective against malaria?",
+        "answer": "HbS (heterozygous sickle cell trait)",
+        "explanation": "Heterozygous carriers have partial protection."
+    },
+    {
+        "id": 125,
+        "question": "Which type of anemia shows target cells in the peripheral smear?",
+        "answer": "Thalassemia and liver disease",
+        "explanation": "Target cells appear due to abnormal hemoglobin or membrane changes."
+    },
+    {
+        "id": 126,
+        "question": "Which anemia is associated with decreased hepcidin levels?",
+        "answer": "Iron deficiency anemia",
+        "explanation": "Low hepcidin increases iron absorption but stores are depleted."
+    },
+    {
+        "id": 127,
+        "question": "What is the hallmark of microangiopathic hemolytic anemia?",
+        "answer": "Schistocytes on peripheral smear",
+        "explanation": "Fragmented RBCs result from mechanical damage in small vessels."
+    },
+    {
+        "id": 128,
+        "question": "Which disease shows Howell-Jolly bodies in RBCs?",
+        "answer": "Post-splenectomy or functional asplenia",
+        "explanation": "Nuclear remnants appear in RBCs due to absence of splenic filtration."
+    },
+    {
+        "id": 129,
+        "question": "Which laboratory finding is elevated in hemolytic anemia?",
+        "answer": "Indirect bilirubin",
+        "explanation": "RBC breakdown releases unconjugated bilirubin."
+    },
+    {
+        "id": 130,
+        "question": "What is the main defect in hereditary spherocytosis?",
+        "answer": "Defective RBC membrane proteins",
+        "explanation": "Leads to spherical RBCs that are prone to hemolysis in the spleen."
+    },
+    {
+        "id": 131,
+        "question": "Which test confirms hereditary spherocytosis?",
+        "answer": "Osmotic fragility test",
+        "explanation": "Spherocytes lyse more easily in hypotonic solutions."
+    },
+    {
+        "id": 132,
+        "question": "Which anemia is caused by autoimmune destruction of RBCs?",
+        "answer": "Autoimmune hemolytic anemia (AIHA)",
+        "explanation": "IgG or IgM antibodies target RBCs leading to hemolysis."
+    },
+    {
+        "id": 133,
+        "question": "What test is used to detect antibodies in AIHA?",
+        "answer": "Direct Coombs test",
+        "explanation": "Detects antibodies or complement attached to RBCs."
+    },
+    {
+        "id": 134,
+        "question": "Which lab finding is decreased in iron deficiency anemia?",
+        "answer": "Serum ferritin",
+        "explanation": "Ferritin reflects iron stores, which are low in deficiency."
+    },
+    {
+        "id": 135,
+        "question": "What is the characteristic RBC morphology in megaloblastic anemia?",
+        "answer": "Macrocytic, ovalocytes",
+        "explanation": "Impaired DNA synthesis produces large, oval-shaped RBCs."
+    },
+    {
+        "id": 136,
+        "question": "Which test differentiates B12 from folate deficiency?",
+        "answer": "Serum B12 and folate levels",
+        "explanation": "Low B12 or folate confirms the specific deficiency."
+    },
+    {
+        "id": 137,
+        "question": "Which neurologic symptom is specific to B12 deficiency?",
+        "answer": "Subacute combined degeneration",
+        "explanation": "Demyelination of dorsal columns and corticospinal tracts."
+    },
+    {
+        "id": 138,
+        "question": "Which anemia shows basophilic stippling on peripheral smear?",
+        "answer": "Lead poisoning and sideroblastic anemia",
+        "explanation": "Aggregates of ribosomal RNA appear as basophilic dots."
+    },
+    {
+        "id": 139,
+        "question": "Which anemia is characterized by ring sideroblasts in the bone marrow?",
+        "answer": "Sideroblastic anemia",
+        "explanation": "Iron-laden mitochondria form rings around the nucleus of erythroblasts."
+    },
+    {
+        "id": 140,
+        "question": "Which laboratory test is elevated in hemolysis?",
+        "answer": "Lactate dehydrogenase (LDH)",
+        "explanation": "Released from lysed RBCs into the serum."
+    },
+    {
+        "id": 141,
+        "question": "Which lab finding is decreased in hemolytic anemia?",
+        "answer": "Haptoglobin",
+        "explanation": "Binds free hemoglobin; consumed during hemolysis."
+    },
+    {
+        "id": 142,
+        "question": "Which anemia shows ‘bite cells’ on peripheral smear?",
+        "answer": "G6PD deficiency",
+        "explanation": "Oxidative damage removes Heinz bodies, producing bite cells."
+    },
+    {
+        "id": 143,
+        "question": "Which anemia is associated with normocytic, normochromic RBCs and chronic disease?",
+        "answer": "Anemia of chronic disease",
+        "explanation": "Inflammation impairs iron utilization despite adequate stores."
+    },
+    {
+        "id": 144,
+        "question": "Which lab finding is elevated in polycythemia vera?",
+        "answer": "Hemoglobin and hematocrit",
+        "explanation": "Increased RBC mass due to JAK2 mutation."
+    },
+    {
+        "id": 145,
+        "question": "Which mutation is most commonly seen in polycythemia vera?",
+        "answer": "JAK2 V617F",
+        "explanation": "Activating mutation leads to uncontrolled erythrocyte production."
+    },
+    {
+        "id": 146,
+        "question": "Which disorder is characterized by pancytopenia and hypocellular bone marrow?",
+        "answer": "Aplastic anemia",
+        "explanation": "Bone marrow fails to produce RBCs, WBCs, and platelets."
+    },
+    {
+        "id": 147,
+        "question": "Which anemia is microcytic and hypochromic with normal iron stores?",
+        "answer": "Thalassemia minor",
+        "explanation": "Due to globin chain imbalance, not iron deficiency."
+    },
+    {
+        "id": 148,
+        "question": "Which lab test differentiates alpha from beta thalassemia?",
+        "answer": "Hemoglobin electrophoresis",
+        "explanation": "Beta thalassemia shows increased HbA2 and HbF; alpha usually normal."
+    },
+    {
+        "id": 149,
+        "question": "Which RBC inclusions are seen in lead poisoning?",
+        "answer": "Basophilic stippling",
+        "explanation": "Impaired heme synthesis causes RNA aggregates in RBCs."
+    },
+    {
+        "id": 150,
+        "question": "Which vitamin deficiency causes microcytic anemia with neurologic symptoms?",
+        "answer": "Vitamin B6 (pyridoxine)",
+        "explanation": "Required for heme synthesis; deficiency leads to sideroblastic anemia."
+    },
+    {
+        "id": 151,
+        "question": "Which anemia is associated with chronic alcoholism?",
+        "answer": "Macrocytic anemia",
+        "explanation": "Alcohol impairs folate metabolism and bone marrow function."
+    },
+    {
+        "id": 152,
+        "question": "Which type of anemia is due to autoimmune destruction of intrinsic factor?",
+        "answer": "Pernicious anemia",
+        "explanation": "Leads to B12 deficiency and megaloblastic anemia."
+    },
+    {
+        "id": 153,
+        "question": "Which lab test confirms B12 deficiency?",
+        "answer": "Serum vitamin B12",
+        "explanation": "Low B12 confirms deficiency; methylmalonic acid and homocysteine also elevated."
+    },
+    {
+        "id": 154,
+        "question": "Which anemia shows hypersegmented neutrophils?",
+        "answer": "Megaloblastic anemia",
+        "explanation": "Impaired DNA synthesis affects both RBCs and neutrophils."
+    },
+    {
+        "id": 155,
+        "question": "Which test differentiates iron deficiency anemia from anemia of chronic disease?",
+        "answer": "Serum ferritin and TIBC",
+        "explanation": "Iron deficiency: low ferritin, high TIBC; chronic disease: high ferritin, low TIBC."
+    },
+    {
+        "id": 156,
+        "question": "Which hemoglobinopathy is due to deletion of alpha globin genes?",
+        "answer": "Alpha thalassemia",
+        "explanation": "Severity depends on the number of genes deleted."
+    },
+    {
+        "id": 157,
+        "question": "Which hemoglobinopathy is caused by a point mutation in the beta globin gene?",
+        "answer": "Sickle cell disease",
+        "explanation": "Glutamic acid is replaced by valine at position 6 of beta chain."
+    },
+    {
+        "id": 158,
+        "question": "Which anemia is associated with ringed sideroblasts in the marrow?",
+        "answer": "Sideroblastic anemia",
+        "explanation": "Iron-laden mitochondria form rings around erythroblast nuclei."
+    },
+    {
+        "id": 159,
+        "question": "Which enzyme deficiency predisposes to hemolysis after fava bean ingestion?",
+        "answer": "G6PD deficiency",
+        "explanation": "Oxidative stress damages RBCs in this deficiency."
+    },
+    {
+        "id": 160,
+        "question": "Which test detects antibodies on RBC surface in autoimmune hemolytic anemia?",
+        "answer": "Direct Coombs test",
+        "explanation": "Shows IgG or complement attached to RBCs."
+    },
+    {
+        "id": 161,
+        "question": "Which anemia shows normocytic, normochromic RBCs with low reticulocyte count?",
+        "answer": "Aplastic anemia",
+        "explanation": "Bone marrow failure results in decreased production of RBCs."
+    },
+    {
+        "id": 162,
+        "question": "Which type of hemolysis occurs in G6PD deficiency?",
+        "answer": "Extravascular and intravascular hemolysis",
+        "explanation": "Oxidative stress triggers RBC destruction."
+    },
+    {
+        "id": 163,
+        "question": "Which lab finding is elevated in hemolytic anemia due to RBC destruction?",
+        "answer": "Indirect bilirubin and LDH",
+        "explanation": "Hemolysis releases hemoglobin, increasing LDH and bilirubin."
+    },
+    {
+        "id": 164,
+        "question": "Which type of anemia is associated with chronic inflammation, infections, or malignancy?",
+        "answer": "Anemia of chronic disease",
+        "explanation": "Cytokines impair iron utilization and suppress erythropoiesis."
+    },
+    {
+        "id": 165,
+        "question": "Which anemia shows microcytic, hypochromic RBCs with normal iron stores?",
+        "answer": "Thalassemia minor",
+        "explanation": "Globin chain imbalance causes small, pale RBCs."
+    },
+    {
+        "id": 166,
+        "question": "Which lab test is used to confirm beta thalassemia trait?",
+        "answer": "Hemoglobin electrophoresis",
+        "explanation": "Shows increased HbA2 and sometimes HbF."
+    },
+    {
+        "id": 167,
+        "question": "Which anemia shows bite cells on peripheral smear after oxidative stress?",
+        "answer": "G6PD deficiency",
+        "explanation": "Heinz bodies are removed by the spleen, creating bite cells."
+    },
+    {
+        "id": 168,
+        "question": "Which anemia shows spherical RBCs on peripheral smear?",
+        "answer": "Hereditary spherocytosis",
+        "explanation": "Defective membrane proteins cause loss of RBC deformability."
+    },
+    {
+        "id": 169,
+        "question": "Which anemia is caused by autoimmune destruction of parietal cells?",
+        "answer": "Pernicious anemia",
+        "explanation": "Intrinsic factor deficiency leads to B12 malabsorption."
+    },
+    {
+        "id": 170,
+        "question": "Which vitamin deficiency leads to hypersegmented neutrophils?",
+        "answer": "Vitamin B12 or folate deficiency",
+        "explanation": "Impaired DNA synthesis affects nuclear maturation."
+    },
+    {
+        "id": 171,
+        "question": "Which lab test is most specific for iron deficiency anemia?",
+        "answer": "Serum ferritin",
+        "explanation": "Reflects iron storage; low in deficiency."
+    },
+    {
+        "id": 172,
+        "question": "Which type of anemia shows basophilic stippling of RBCs?",
+        "answer": "Lead poisoning",
+        "explanation": "Aggregated ribosomal RNA appears as basophilic dots."
+    },
+    {
+        "id": 173,
+        "question": "Which anemia is characterized by microcytic, hypochromic RBCs with elevated RBC count?",
+        "answer": "Thalassemia minor",
+        "explanation": "Body produces more RBCs to compensate for ineffective hemoglobin synthesis."
+    },
+    {
+        "id": 174,
+        "question": "Which lab test differentiates iron deficiency from thalassemia minor?",
+        "answer": "Mentzer index (MCV/RBC count)",
+        "explanation": "Index <13 suggests thalassemia, >13 suggests iron deficiency."
+    },
+    {
+        "id": 175,
+        "question": "Which anemia is caused by defective globin synthesis leading to ineffective erythropoiesis?",
+        "answer": "Thalassemia major",
+        "explanation": "Severe imbalance of alpha and beta chains causes RBC destruction in marrow."
+    },
+    {
+        "id": 176,
+        "question": "Which hemoglobinopathy is due to substitution of valine for glutamic acid at position 6 of beta chain?",
+        "answer": "Sickle cell disease",
+        "explanation": "Causes hemoglobin polymerization under low oxygen."
+    },
+    {
+        "id": 177,
+        "question": "Which anemia is associated with reticulocytosis and jaundice?",
+        "answer": "Hemolytic anemia",
+        "explanation": "RBC destruction increases bilirubin and triggers marrow compensation."
+    },
+    {
+        "id": 178,
+        "question": "Which anemia is characterized by pancytopenia and hypocellular bone marrow?",
+        "answer": "Aplastic anemia",
+        "explanation": "Bone marrow failure reduces all cell lines."
+    },
+    {
+        "id": 179,
+        "question": "Which anemia shows hypercellular marrow with ineffective erythropoiesis?",
+        "answer": "Megaloblastic anemia",
+        "explanation": "DNA synthesis defect causes large, abnormal precursors in marrow."
+    },
+    {
+        "id": 180,
+        "question": "Which lab finding is elevated in intravascular hemolysis?",
+        "answer": "Plasma hemoglobin and LDH",
+        "explanation": "Free hemoglobin and LDH increase due to RBC destruction in vessels."
+    },
+    {
+        "id": 181,
+        "question": "Which anemia shows Heinz bodies on RBCs?",
+        "answer": "G6PD deficiency",
+        "explanation": "Denatured hemoglobin precipitates in RBCs under oxidative stress."
+    },
+    {
+        "id": 182,
+        "question": "Which test differentiates alpha from beta thalassemia?",
+        "answer": "Hemoglobin electrophoresis",
+        "explanation": "Beta thalassemia shows increased HbA2 and HbF; alpha usually normal."
+    },
+    {
+        "id": 183,
+        "question": "Which anemia is caused by copper deficiency?",
+        "answer": "Microcytic anemia with neutropenia",
+        "explanation": "Copper is required for iron metabolism and hematopoiesis."
+    },
+    {
+        "id": 184,
+        "question": "Which lab finding is elevated in extravascular hemolysis?",
+        "answer": "Indirect bilirubin and LDH",
+        "explanation": "RBC destruction in spleen releases bilirubin and LDH."
+    },
+    {
+        "id": 185,
+        "question": "Which anemia shows decreased haptoglobin levels?",
+        "answer": "Hemolytic anemia",
+        "explanation": "Haptoglobin binds free hemoglobin; consumed during hemolysis."
+    },
+    {
+        "id": 186,
+        "question": "Which anemia is associated with chronic kidney disease?",
+        "answer": "Normocytic, normochromic anemia",
+        "explanation": "Due to decreased erythropoietin production."
+    },
+    {
+        "id": 187,
+        "question": "Which anemia shows normocytic, normochromic RBCs with low reticulocyte count?",
+        "answer": "Aplastic anemia",
+        "explanation": "Bone marrow fails to produce RBCs."
+    },
+    {
+        "id": 188,
+        "question": "Which lab finding is elevated in hemolytic anemia?",
+        "answer": "Reticulocyte count",
+        "explanation": "Bone marrow compensates for RBC destruction by producing more reticulocytes."
+    },
+    {
+        "id": 189,
+        "question": "Which anemia is caused by decreased intrinsic factor production?",
+        "answer": "Pernicious anemia",
+        "explanation": "Intrinsic factor deficiency impairs B12 absorption."
+    },
+    {
+        "id": 190,
+        "question": "Which anemia shows oval macrocytes and hypersegmented neutrophils?",
+        "answer": "Megaloblastic anemia",
+        "explanation": "Defective DNA synthesis affects RBC and WBC maturation."
+    },
+    {
+        "id": 191,
+        "question": "Which lab test is used to assess iron stores in the body?",
+        "answer": "Serum ferritin",
+        "explanation": "Low ferritin indicates depleted iron stores."
+    },
+    {
+        "id": 192,
+        "question": "Which anemia shows target cells, basophilic stippling, and microcytosis?",
+        "answer": "Thalassemia",
+        "explanation": "Abnormal globin chain synthesis alters RBC morphology."
+    },
+    {
+        "id": 193,
+        "question": "Which anemia shows Heinz bodies and bite cells?",
+        "answer": "G6PD deficiency",
+        "explanation": "Oxidative stress damages hemoglobin, forming Heinz bodies removed by spleen."
+    },
+    {
+        "id": 194,
+        "question": "Which anemia is associated with chronic inflammation and infection?",
+        "answer": "Anemia of chronic disease",
+        "explanation": "Cytokines impair iron utilization and erythropoiesis."
+    },
+    {
+        "id": 195,
+        "question": "Which lab finding is decreased in iron deficiency anemia?",
+        "answer": "Serum ferritin",
+        "explanation": "Reflects low body iron stores."
+    },
+    {
+        "id": 196,
+        "question": "Which lab finding is elevated in hemolysis?",
+        "answer": "Indirect bilirubin and LDH",
+        "explanation": "RBC breakdown releases these substances into blood."
+    },
+    {
+        "id": 197,
+        "question": "Which anemia shows spherical RBCs on peripheral smear?",
+        "answer": "Hereditary spherocytosis",
+        "explanation": "Membrane defects reduce deformability, causing spherocytes."
+    },
+    {
+        "id": 198,
+        "question": "Which anemia is associated with increased HbF levels?",
+        "answer": "Beta thalassemia major",
+        "explanation": "Compensatory increase in fetal hemoglobin due to defective beta globin."
+    },
+    {
+        "id": 199,
+        "question": "Which anemia shows macro-ovalocytes and hypersegmented neutrophils?",
+        "answer": "Megaloblastic anemia",
+        "explanation": "Due to Vitamin B12 or folate deficiency affecting DNA synthesis."
+    },
+    {
+        "id": 200,
+        "question": "Which anemia is associated with pancytopenia and hypocellular marrow?",
+        "answer": "Aplastic anemia",
+        "explanation": "Bone marrow failure decreases all blood cell lines."
+    },
+    {
+        "id": 201,
+        "question": "Which lab finding is characteristic of iron deficiency anemia?",
+        "answer": "Low serum ferritin, low serum iron, high TIBC",
+        "explanation": "Ferritin reflects iron stores, iron is low due to deficiency, and TIBC increases as the body tries to capture more iron."
+    },
+    {
+        "id": 202,
+        "question": "Which anemia is characterized by increased reticulocytes and unconjugated bilirubin?",
+        "answer": "Hemolytic anemia",
+        "explanation": "RBC destruction increases bilirubin and triggers bone marrow to release reticulocytes."
+    },
+    {
+        "id": 203,
+        "question": "Which RBC inclusion is seen in lead poisoning?",
+        "answer": "Basophilic stippling",
+        "explanation": "Lead inhibits heme synthesis, causing ribosomal RNA aggregates."
+    },
+    {
+        "id": 204,
+        "question": "Which type of anemia results from impaired DNA synthesis?",
+        "answer": "Megaloblastic anemia",
+        "explanation": "Vitamin B12 or folate deficiency leads to defective DNA synthesis and large, immature RBCs."
+    },
+    {
+        "id": 205,
+        "question": "Which anemia is associated with pancytopenia and hypocellular bone marrow?",
+        "answer": "Aplastic anemia",
+        "explanation": "Bone marrow failure results in decreased RBCs, WBCs, and platelets."
+    },
+    {
+        "id": 206,
+        "question": "Which anemia is caused by autoimmune destruction of intrinsic factor?",
+        "answer": "Pernicious anemia",
+        "explanation": "Lack of intrinsic factor leads to Vitamin B12 deficiency and megaloblastic anemia."
+    },
+    {
+        "id": 207,
+        "question": "Which hemoglobinopathy is caused by point mutation in beta globin gene replacing glutamic acid with valine?",
+        "answer": "Sickle cell disease",
+        "explanation": "Mutation causes hemoglobin polymerization, resulting in sickle-shaped RBCs under low oxygen."
+    },
+    {
+        "id": 208,
+        "question": "Which lab test confirms autoimmune hemolytic anemia?",
+        "answer": "Direct Coombs test",
+        "explanation": "Detects antibodies or complement attached to RBCs."
+    },
+    {
+        "id": 209,
+        "question": "Which anemia is associated with microcytic, hypochromic RBCs and normal iron stores?",
+        "answer": "Thalassemia minor",
+        "explanation": "RBCs are small and pale due to globin chain imbalance, not iron deficiency."
+    },
+    {
+        "id": 210,
+        "question": "Which lab test differentiates beta thalassemia trait from iron deficiency anemia?",
+        "answer": "Hemoglobin electrophoresis and Mentzer index",
+        "explanation": "Beta thalassemia shows increased HbA2 and low Mentzer index (<13); iron deficiency shows normal HbA2 and index >13."
+    },
+    {
+        "id": 211,
+        "question": "Which anemia shows bite cells and Heinz bodies?",
+        "answer": "G6PD deficiency",
+        "explanation": "Oxidative stress denatures hemoglobin; spleen removes Heinz bodies forming bite cells."
+    },
+    {
+        "id": 212,
+        "question": "Which type of anemia shows hypersegmented neutrophils?",
+        "answer": "Megaloblastic anemia",
+        "explanation": "Impaired DNA synthesis affects neutrophil nuclear maturation."
+    },
+    {
+        "id": 213,
+        "question": "Which anemia is associated with increased HbF levels?",
+        "answer": "Beta thalassemia major",
+        "explanation": "Body compensates for defective beta globin by producing fetal hemoglobin."
+    },
+    {
+        "id": 214,
+        "question": "Which anemia shows target cells in peripheral smear?",
+        "answer": "Thalassemia and liver disease",
+        "explanation": "RBC membrane and hemoglobin abnormalities cause target cell appearance."
+    },
+    {
+        "id": 215,
+        "question": "Which anemia is associated with chronic inflammation?",
+        "answer": "Anemia of chronic disease",
+        "explanation": "Cytokines impair iron utilization and suppress erythropoiesis."
+    },
+    {
+        "id": 216,
+        "question": "Which anemia shows normocytic, normochromic RBCs with low reticulocyte count?",
+        "answer": "Aplastic anemia",
+        "explanation": "Bone marrow fails to produce RBCs."
+    },
+    {
+        "id": 217,
+        "question": "Which enzyme deficiency leads to hemolytic anemia after oxidative stress?",
+        "answer": "G6PD deficiency",
+        "explanation": "Oxidative agents damage RBCs leading to hemolysis."
+    },
+    {
+        "id": 218,
+        "question": "Which anemia is associated with macrocytic, oval-shaped RBCs?",
+        "answer": "Megaloblastic anemia",
+        "explanation": "Defective DNA synthesis produces large, ovalocytes."
+    },
+    {
+        "id": 219,
+        "question": "Which anemia is characterized by pancytopenia with hypercellular bone marrow?",
+        "answer": "Megaloblastic anemia",
+        "explanation": "Ineffective erythropoiesis leads to marrow hypercellularity despite anemia."
+    },
+    {
+        "id": 220,
+        "question": "Which anemia shows spherical RBCs on peripheral smear?",
+        "answer": "Hereditary spherocytosis",
+        "explanation": "Membrane protein defects cause RBCs to lose biconcave shape."
+    },
+    {
+        "id": 221,
+        "question": "Which anemia is associated with defective globin synthesis leading to ineffective erythropoiesis?",
+        "answer": "Thalassemia major",
+        "explanation": "Severe imbalance of alpha and beta chains causes RBC destruction in marrow."
+    },
+    {
+        "id": 222,
+        "question": "Which lab finding is decreased in iron deficiency anemia?",
+        "answer": "Serum ferritin",
+        "explanation": "Reflects depleted iron stores."
+    },
+    {
+        "id": 223,
+        "question": "Which lab finding is elevated in intravascular hemolysis?",
+        "answer": "Plasma hemoglobin and LDH",
+        "explanation": "RBC destruction in vessels releases hemoglobin and LDH."
+    },
+    {
+        "id": 224,
+        "question": "Which anemia shows basophilic stippling of RBCs?",
+        "answer": "Lead poisoning",
+        "explanation": "Aggregates of RNA appear due to impaired heme synthesis."
+    },
+    {
+        "id": 225,
+        "question": "Which anemia is associated with chronic kidney disease?",
+        "answer": "Normocytic, normochromic anemia",
+        "explanation": "Decreased erythropoietin production leads to low RBCs."
+    },
+    {
+        "id": 226,
+        "question": "Which anemia is associated with autoimmune destruction of parietal cells?",
+        "answer": "Pernicious anemia",
+        "explanation": "Leads to intrinsic factor deficiency and B12 malabsorption."
+    },
+    {
+        "id": 227,
+        "question": "Which test is used to detect antibodies on RBCs in autoimmune hemolytic anemia?",
+        "answer": "Direct Coombs test",
+        "explanation": "Detects IgG or complement bound to RBCs."
+    },
+    {
+        "id": 228,
+        "question": "Which anemia is characterized by macrocytic RBCs and hypersegmented neutrophils?",
+        "answer": "Megaloblastic anemia",
+        "explanation": "Defective DNA synthesis affects both RBCs and neutrophils."
+    },
+    {
+        "id": 229,
+        "question": "Which lab finding differentiates iron deficiency anemia from anemia of chronic disease?",
+        "answer": "Serum ferritin and TIBC",
+        "explanation": "Iron deficiency: low ferritin, high TIBC; chronic disease: high ferritin, low TIBC."
+    },
+    {
+        "id": 230,
+        "question": "Which hemoglobinopathy is due to deletion of alpha globin genes?",
+        "answer": "Alpha thalassemia",
+        "explanation": "Severity depends on the number of alpha genes deleted."
+    },
+    {
+        "id": 231,
+        "question": "Which hemoglobinopathy is caused by substitution of valine for glutamic acid in beta globin?",
+        "answer": "Sickle cell disease",
+        "explanation": "Causes hemoglobin polymerization and RBC sickling under low oxygen."
+    },
+    {
+        "id": 232,
+        "question": "Which anemia shows ringed sideroblasts in bone marrow?",
+        "answer": "Sideroblastic anemia",
+        "explanation": "Iron-laden mitochondria form rings around erythroblast nuclei."
+    },
+    {
+        "id": 233,
+        "question": "Which enzyme deficiency predisposes to hemolysis after fava bean ingestion?",
+        "answer": "G6PD deficiency",
+        "explanation": "Oxidative stress triggers RBC destruction."
+    },
+    {
+        "id": 234,
+        "question": "Which anemia shows normocytic, normochromic RBCs with low reticulocyte count?",
+        "answer": "Aplastic anemia",
+        "explanation": "Bone marrow fails to produce RBCs."
+    },
+    {
+        "id": 235,
+        "question": "Which lab finding is elevated in hemolytic anemia due to RBC destruction?",
+        "answer": "Indirect bilirubin and LDH",
+        "explanation": "RBC breakdown releases these substances into the blood."
+    },
+    {
+        "id": 236,
+        "question": "Which anemia shows bite cells on peripheral smear after oxidative stress?",
+        "answer": "G6PD deficiency",
+        "explanation": "Heinz bodies are removed by the spleen, producing bite cells."
+    },
+    {
+        "id": 237,
+        "question": "Which anemia shows spherical RBCs on peripheral smear?",
+        "answer": "Hereditary spherocytosis",
+        "explanation": "Membrane protein defects make RBCs lose biconcave shape."
+    },
+    {
+        "id": 238,
+        "question": "Which anemia shows hypercellular marrow with ineffective erythropoiesis?",
+        "answer": "Megaloblastic anemia",
+        "explanation": "Defective DNA synthesis leads to large abnormal precursors."
+    },
+    {
+        "id": 239,
+        "question": "Which anemia shows oval macrocytes and hypersegmented neutrophils?",
+        "answer": "Megaloblastic anemia",
+        "explanation": "Due to vitamin B12 or folate deficiency affecting DNA synthesis."
+    },
+    {
+        "id": 240,
+        "question": "Which lab finding is decreased in hemolytic anemia?",
+        "answer": "Haptoglobin",
+        "explanation": "Binds free hemoglobin; consumed during RBC destruction."
+    },
+    {
+        "id": 241,
+        "question": "Which anemia shows reticulocytosis and jaundice?",
+        "answer": "Hemolytic anemia",
+        "explanation": "RBC destruction increases bilirubin and stimulates marrow to produce reticulocytes."
+    },
+    {
+        "id": 242,
+        "question": "Which anemia shows microcytic, hypochromic RBCs with elevated RBC count?",
+        "answer": "Thalassemia minor",
+        "explanation": "Body produces more RBCs to compensate for ineffective hemoglobin synthesis."
+    },
+    {
+        "id": 243,
+        "question": "Which test differentiates iron deficiency from thalassemia minor?",
+        "answer": "Mentzer index (MCV/RBC count)",
+        "explanation": "Index <13 suggests thalassemia; >13 suggests iron deficiency."
+    },
+    {
+        "id": 244,
+        "question": "Which lab finding is elevated in polycythemia vera?",
+        "answer": "Hemoglobin and hematocrit",
+        "explanation": "Increased RBC mass due to JAK2 mutation."
+    },
+    {
+        "id": 245,
+        "question": "Which mutation is most commonly seen in polycythemia vera?",
+        "answer": "JAK2 V617F",
+        "explanation": "Activating mutation causes uncontrolled RBC production."
+    },
+    {
+        "id": 246,
+        "question": "Which anemia is associated with chronic alcoholism?",
+        "answer": "Macrocytic anemia",
+        "explanation": "Alcohol impairs folate metabolism and bone marrow function."
+    },
+    {
+        "id": 247,
+        "question": "Which lab finding differentiates B12 from folate deficiency?",
+        "answer": "Serum B12 and folate levels",
+        "explanation": "Low B12 or folate confirms the specific deficiency."
+    },
+    {
+        "id": 248,
+        "question": "Which neurologic symptom is specific to B12 deficiency?",
+        "answer": "Subacute combined degeneration",
+        "explanation": "Demyelination of dorsal columns and corticospinal tracts occurs."
+    },
+    {
+        "id": 249,
+        "question": "Which anemia shows Howell-Jolly bodies in RBCs?",
+        "answer": "Post-splenectomy or functional asplenia",
+        "explanation": "Nuclear remnants appear due to absent splenic filtration."
+    },
+    {
+        "id": 250,
+        "question": "Which anemia is characterized by microcytic, hypochromic RBCs with normal iron stores?",
+        "answer": "Thalassemia minor",
+        "explanation": "Globin chain imbalance causes small, pale RBCs despite normal iron."
+    },
+    {
+        "id": 251,
+        "question": "Which lab finding is elevated in hemolytic anemia?",
+        "answer": "Reticulocyte count",
+        "explanation": "Bone marrow compensates for RBC destruction by producing more reticulocytes."
+    },
+    {
+        "id": 252,
+        "question": "Which anemia shows Heinz bodies in RBCs?",
+        "answer": "G6PD deficiency",
+        "explanation": "Denatured hemoglobin precipitates under oxidative stress."
+    },
+    {
+        "id": 253,
+        "question": "Which anemia is associated with chronic inflammation and infection?",
+        "answer": "Anemia of chronic disease",
+        "explanation": "Cytokines impair iron utilization and erythropoiesis."
+    },
+    {
+        "id": 254,
+        "question": "Which anemia shows elevated ferritin with low serum iron?",
+        "answer": "Anemia of chronic disease",
+        "explanation": "Iron is trapped in storage due to inflammatory cytokines."
+    },
+    {
+        "id": 255,
+        "question": "Which anemia is caused by defective erythropoietin production?",
+        "answer": "Chronic kidney disease anemia",
+        "explanation": "Reduced EPO leads to decreased RBC production."
+    },
+    {
+        "id": 256,
+        "question": "Which lab finding is low in hemolytic anemia?",
+        "answer": "Haptoglobin",
+        "explanation": "Binds free hemoglobin; consumed during RBC lysis."
+    },
+    {
+        "id": 257,
+        "question": "Which anemia is associated with increased RDW (red cell distribution width)?",
+        "answer": "Iron deficiency anemia",
+        "explanation": "Variation in RBC size increases RDW."
+    },
+    {
+        "id": 258,
+        "question": "Which anemia shows poikilocytosis and anisocytosis?",
+        "answer": "Iron deficiency anemia",
+        "explanation": "RBCs vary in shape and size due to impaired hemoglobin synthesis."
+    },
+    {
+        "id": 259,
+        "question": "Which anemia shows pancytopenia with hypercellular marrow?",
+        "answer": "Megaloblastic anemia",
+        "explanation": "Ineffective erythropoiesis leads to marrow hypercellularity despite anemia."
+    },
+    {
+        "id": 260,
+        "question": "Which anemia is associated with ineffective erythropoiesis and ringed sideroblasts?",
+        "answer": "Sideroblastic anemia",
+        "explanation": "Defective heme synthesis leads to iron-laden mitochondria around nucleus."
+    },
+    {
+        "id": 261,
+        "question": "Which anemia is microcytic and hypochromic with elevated RBC count?",
+        "answer": "Thalassemia minor",
+        "explanation": "Body compensates for ineffective hemoglobin by producing more RBCs."
+    },
+    {
+        "id": 262,
+        "question": "Which lab test detects globin chain abnormalities?",
+        "answer": "Hemoglobin electrophoresis",
+        "explanation": "Separates different hemoglobin types to identify hemoglobinopathies."
+    },
+    {
+        "id": 263,
+        "question": "Which anemia is associated with chronic alcohol use and folate deficiency?",
+        "answer": "Macrocytic anemia",
+        "explanation": "Folate metabolism is impaired, leading to large RBCs."
+    },
+    {
+        "id": 264,
+        "question": "Which anemia shows increased bilirubin due to RBC destruction?",
+        "answer": "Hemolytic anemia",
+        "explanation": "RBC breakdown releases unconjugated bilirubin."
+    },
+    {
+        "id": 265,
+        "question": "Which anemia shows normocytic, normochromic RBCs in chronic inflammation?",
+        "answer": "Anemia of chronic disease",
+        "explanation": "Cytokines impair iron utilization and suppress erythropoiesis."
+    },
+    {
+        "id": 266,
+        "question": "Which anemia is caused by autoimmune destruction of RBCs?",
+        "answer": "Autoimmune hemolytic anemia",
+        "explanation": "Antibodies target RBCs leading to premature destruction."
+    },
+    {
+        "id": 267,
+        "question": "Which anemia shows Heinz bodies and bite cells after oxidant exposure?",
+        "answer": "G6PD deficiency",
+        "explanation": "Oxidative stress denatures hemoglobin; spleen removes Heinz bodies."
+    },
+    {
+        "id": 268,
+        "question": "Which anemia is associated with JAK2 mutation?",
+        "answer": "Polycythemia vera",
+        "explanation": "Activating mutation leads to uncontrolled RBC proliferation."
+    },
+    {
+        "id": 269,
+        "question": "Which anemia shows microcytosis, hypochromia, and target cells?",
+        "answer": "Thalassemia",
+        "explanation": "Globin chain imbalance alters RBC size, color, and shape."
+    },
+    {
+        "id": 270,
+        "question": "Which anemia is associated with low reticulocyte count and pancytopenia?",
+        "answer": "Aplastic anemia",
+        "explanation": "Bone marrow failure decreases production of all blood cell lines."
+    },
+    {
+        "id": 271,
+        "question": "Which anemia shows oval macrocytes in peripheral smear?",
+        "answer": "Megaloblastic anemia",
+        "explanation": "Defective DNA synthesis produces large, oval RBCs."
+    },
+    {
+        "id": 272,
+        "question": "Which lab finding differentiates iron deficiency from thalassemia?",
+        "answer": "Mentzer index (MCV/RBC count)",
+        "explanation": "Index <13 suggests thalassemia; >13 suggests iron deficiency."
+    },
+    {
+        "id": 273,
+        "question": "Which anemia shows target cells, basophilic stippling, and microcytosis?",
+        "answer": "Thalassemia",
+        "explanation": "Abnormal globin chain synthesis causes these RBC morphologies."
+    },
+    {
+        "id": 274,
+        "question": "Which anemia is associated with decreased hepcidin?",
+        "answer": "Iron deficiency anemia",
+        "explanation": "Low hepcidin increases iron absorption but stores are depleted."
+    },
+    {
+        "id": 275,
+        "question": "Which anemia shows hypersegmented neutrophils and pancytopenia?",
+        "answer": "Megaloblastic anemia",
+        "explanation": "DNA synthesis defects affect both RBCs and WBCs."
+    },
+    {
+        "id": 276,
+        "question": "Which anemia shows normocytic, normochromic RBCs and elevated ferritin?",
+        "answer": "Anemia of chronic disease",
+        "explanation": "Iron is sequestered in storage due to inflammatory cytokines."
+    },
+    {
+        "id": 277,
+        "question": "Which anemia shows macrocytosis due to folate deficiency?",
+        "answer": "Megaloblastic anemia",
+        "explanation": "Folate deficiency impairs DNA synthesis, producing large RBCs."
+    },
+    {
+        "id": 278,
+        "question": "Which anemia shows reticulocytosis in response to RBC destruction?",
+        "answer": "Hemolytic anemia",
+        "explanation": "Bone marrow compensates for RBC loss by releasing more reticulocytes."
+    },
+    {
+        "id": 279,
+        "question": "Which anemia is caused by intrinsic factor deficiency?",
+        "answer": "Pernicious anemia",
+        "explanation": "Leads to B12 malabsorption and megaloblastic anemia."
+    },
+    {
+        "id": 280,
+        "question": "Which anemia shows hypercellular marrow with ineffective erythropoiesis?",
+        "answer": "Megaloblastic anemia",
+        "explanation": "DNA synthesis defects lead to large abnormal precursors in marrow."
+    },
+    {
+        "id": 281,
+        "question": "Which anemia shows microcytosis, hypochromia, and elevated RBC count?",
+        "answer": "Thalassemia minor",
+        "explanation": "Body compensates for ineffective hemoglobin by producing more RBCs."
+    },
+    {
+        "id": 282,
+        "question": "Which lab test is used to assess iron stores in the body?",
+        "answer": "Serum ferritin",
+        "explanation": "Low ferritin indicates depleted iron stores."
+    },
+    {
+        "id": 283,
+        "question": "Which anemia shows bite cells after oxidant exposure?",
+        "answer": "G6PD deficiency",
+        "explanation": "Heinz bodies removed by the spleen form bite cells."
+    },
+    {
+        "id": 284,
+        "question": "Which anemia shows spherical RBCs on peripheral smear?",
+        "answer": "Hereditary spherocytosis",
+        "explanation": "Defective membrane proteins reduce RBC deformability."
+    },
+    {
+        "id": 285,
+        "question": "Which anemia is associated with chronic kidney disease?",
+        "answer": "Normocytic, normochromic anemia",
+        "explanation": "Low erythropoietin leads to decreased RBC production."
+    },
+    {
+        "id": 286,
+        "question": "Which lab finding is elevated in hemolysis?",
+        "answer": "Indirect bilirubin and LDH",
+        "explanation": "RBC destruction releases these substances."
+    },
+    {
+        "id": 287,
+        "question": "Which anemia is associated with oxidative stress and triggers hemolysis?",
+        "answer": "G6PD deficiency",
+        "explanation": "RBCs are susceptible to oxidative damage due to enzyme deficiency."
+    },
+    {
+        "id": 288,
+        "question": "Which anemia is caused by autoimmune destruction of RBCs?",
+        "answer": "Autoimmune hemolytic anemia",
+        "explanation": "Antibodies target RBCs leading to their premature destruction."
+    },
+    {
+        "id": 289,
+        "question": "Which anemia is characterized by macrocytic ovalocytes?",
+        "answer": "Megaloblastic anemia",
+        "explanation": "Defective DNA synthesis produces large, oval RBCs."
+    },
+    {
+        "id": 290,
+        "question": "Which anemia shows target cells in peripheral smear?",
+        "answer": "Thalassemia",
+        "explanation": "Abnormal hemoglobin or membrane causes target cell appearance."
+    },
+    {
+        "id": 291,
+        "question": "Which anemia is associated with low reticulocyte count and pancytopenia?",
+        "answer": "Aplastic anemia",
+        "explanation": "Bone marrow failure decreases production of all blood cell lines."
+    },
+    {
+        "id": 292,
+        "question": "Which anemia shows hypersegmented neutrophils and macrocytosis?",
+        "answer": "Megaloblastic anemia",
+        "explanation": "Vitamin B12 or folate deficiency affects DNA synthesis."
+    },
+    {
+        "id": 293,
+        "question": "Which anemia shows elevated HbA2 on electrophoresis?",
+        "answer": "Beta thalassemia trait",
+        "explanation": "Compensatory increase in delta chains elevates HbA2."
+    },
+    {
+        "id": 294,
+        "question": "Which anemia shows ringed sideroblasts?",
+        "answer": "Sideroblastic anemia",
+        "explanation": "Iron-laden mitochondria form rings around erythroblast nuclei."
+    },
+    {
+        "id": 295,
+        "question": "Which anemia is associated with chronic infection or inflammation?",
+        "answer": "Anemia of chronic disease",
+        "explanation": "Cytokines impair iron utilization and suppress erythropoiesis."
+    },
+    {
+        "id": 296,
+        "question": "Which lab test differentiates B12 deficiency from folate deficiency?",
+        "answer": "Serum B12 and serum folate levels",
+        "explanation": "Low specific vitamin confirms the deficiency."
+    },
+    {
+        "id": 297,
+        "question": "Which anemia shows Heinz bodies and bite cells?",
+        "answer": "G6PD deficiency",
+        "explanation": "Oxidative stress causes hemoglobin denaturation and removal by spleen."
+    },
+    {
+        "id": 298,
+        "question": "Which anemia shows poikilocytosis and anisocytosis?",
+        "answer": "Iron deficiency anemia",
+        "explanation": "RBCs vary in shape and size due to impaired hemoglobin synthesis."
+    },
+    {
+        "id": 299,
+        "question": "Which anemia shows reticulocytosis as compensation for RBC loss?",
+        "answer": "Hemolytic anemia",
+        "explanation": "Bone marrow increases reticulocyte production to replace destroyed RBCs."
+    },
+    {
+        "id": 300,
+        "question": "Which anemia shows pancytopenia with hypocellular marrow?",
+        "answer": "Aplastic anemia",
+        "explanation": "Bone marrow failure decreases all blood cell lines."
+    },
+    {
+        "id": 301,
+        "question": "Which anemia is associated with chronic inflammation or chronic disease?",
+        "answer": "Anemia of chronic disease (normocytic or microcytic)",
+        "explanation": "Chronic inflammation leads to impaired iron utilization, decreased erythropoietin, and shortened RBC lifespan."
+    },
+    {
+        "id": 302,
+        "question": "Which lab finding is typical in anemia of chronic disease?",
+        "answer": "Low serum iron, low TIBC, normal or high ferritin",
+        "explanation": "Iron is sequestered in macrophages; ferritin is an acute-phase reactant and may be normal or elevated."
+    },
+    {
+        "id": 303,
+        "question": "Which anemia is caused by impaired heme synthesis?",
+        "answer": "Sideroblastic anemia",
+        "explanation": "Defective incorporation of iron into heme causes ringed sideroblasts in the marrow."
+    },
+    {
+        "id": 304,
+        "question": "Which lab finding is characteristic of sideroblastic anemia?",
+        "answer": "Ringed sideroblasts in bone marrow",
+        "explanation": "Iron accumulates in mitochondria around the nucleus forming a ring, seen with Prussian blue stain."
+    },
+    {
+        "id": 305,
+        "question": "Which anemia shows microcytic hypochromic RBCs with basophilic stippling?",
+        "answer": "Lead poisoning",
+        "explanation": "Lead inhibits enzymes in heme synthesis; basophilic stippling represents aggregated ribosomal RNA."
+    },
+    {
+        "id": 306,
+        "question": "Which test confirms lead poisoning?",
+        "answer": "Blood lead level",
+        "explanation": "Direct measurement of lead in blood is diagnostic and correlates with exposure."
+    },
+    {
+        "id": 307,
+        "question": "Which enzyme deficiency causes hemolytic anemia triggered by oxidative stress?",
+        "answer": "G6PD deficiency",
+        "explanation": "G6PD protects RBCs from oxidative damage; deficiency leads to hemolysis under stress, drugs, or infection."
+    },
+    {
+        "id": 308,
+        "question": "Which lab finding is typical during hemolysis in G6PD deficiency?",
+        "answer": "Heinz bodies and bite cells on peripheral smear",
+        "explanation": "Heinz bodies are denatured hemoglobin; bite cells result from splenic removal of Heinz inclusions."
+    },
+    {
+        "id": 309,
+        "question": "Which anemia presents with hypersegmented neutrophils?",
+        "answer": "Megaloblastic anemia (B12 or folate deficiency)",
+        "explanation": "Impaired DNA synthesis delays nuclear maturation, causing hypersegmentation of neutrophils."
+    },
+    {
+        "id": 310,
+        "question": "Which lab test differentiates B12 from folate deficiency?",
+        "answer": "Serum methylmalonic acid (elevated in B12 deficiency) and homocysteine (elevated in both)",
+        "explanation": "Methylmalonic acid accumulates only in B12 deficiency; homocysteine rises in both folate and B12 deficiency."
+    },
+    {
+        "id": 311,
+        "question": "Which vitamin deficiency leads to neurologic symptoms along with anemia?",
+        "answer": "Vitamin B12 deficiency",
+        "explanation": "B12 deficiency causes demyelination, leading to neuropathy, alongside megaloblastic anemia."
+    },
+    {
+        "id": 312,
+        "question": "Which anemia is characterized by low reticulocyte count, pancytopenia, and fatty marrow?",
+        "answer": "Aplastic anemia",
+        "explanation": "Bone marrow failure leads to decreased production of all blood cells."
+    },
+    {
+        "id": 313,
+        "question": "Which condition presents with spherocytes on peripheral smear?",
+        "answer": "Hereditary spherocytosis or autoimmune hemolytic anemia",
+        "explanation": "Loss of membrane surface area causes spherical RBCs that are more prone to hemolysis."
+    },
+    {
+        "id": 314,
+        "question": "Which test confirms hereditary spherocytosis?",
+        "answer": "Osmotic fragility test",
+        "explanation": "Spherocytes are less able to withstand hypotonic stress, lysing more easily than normal RBCs."
+    },
+    {
+        "id": 315,
+        "question": "Which hemolytic anemia is due to intrinsic RBC enzyme defects?",
+        "answer": "G6PD deficiency",
+        "explanation": "Defective RBC enzymes impair oxidative defense, leading to episodic hemolysis."
+    },
+    {
+        "id": 316,
+        "question": "Which hemolytic anemia is due to membrane defects?",
+        "answer": "Hereditary spherocytosis",
+        "explanation": "Structural membrane protein defects cause spherocyte formation and hemolysis."
+    },
+    {
+        "id": 317,
+        "question": "Which lab finding is characteristic of autoimmune hemolytic anemia?",
+        "answer": "Positive direct Coombs test",
+        "explanation": "Direct Coombs detects antibodies bound to RBCs, confirming immune-mediated hemolysis."
+    },
+    {
+        "id": 318,
+        "question": "Which anemia presents with target cells on smear?",
+        "answer": "Thalassemia",
+        "explanation": "Target cells result from excess membrane relative to hemoglobin, typical in thalassemias."
+    },
+    {
+        "id": 319,
+        "question": "Which test confirms thalassemia?",
+        "answer": "Hemoglobin electrophoresis",
+        "explanation": "Identifies abnormal hemoglobin patterns like HbA2 or HbF elevations."
+    },
+    {
+        "id": 320,
+        "question": "Which lab finding is typical in iron deficiency anemia?",
+        "answer": "Low serum iron, low ferritin, high TIBC, microcytic hypochromic RBCs",
+        "explanation": "Iron depletion reduces hemoglobin synthesis; ferritin drops, TIBC rises to increase iron transport."
+    },
+    {
+        "id": 321,
+        "question": "Which lab test differentiates iron deficiency anemia from anemia of chronic disease?",
+        "answer": "Serum ferritin, serum iron, TIBC",
+        "explanation": "Iron deficiency shows low ferritin and high TIBC, whereas chronic disease shows normal/high ferritin and low TIBC."
+    },
+    {
+        "id": 322,
+        "question": "Which anemia is characterized by normal MCV but low hemoglobin and low reticulocyte count?",
+        "answer": "Normocytic anemia (e.g., anemia of chronic disease, renal failure)",
+        "explanation": "MCV is normal because cell size is preserved; low reticulocytes indicate reduced RBC production."
+    },
+    {
+        "id": 323,
+        "question": "Which lab finding indicates intravascular hemolysis?",
+        "answer": "Hemoglobinemia, hemoglobinuria, elevated LDH, decreased haptoglobin",
+        "explanation": "Free hemoglobin from lysed RBCs appears in plasma and urine; haptoglobin binds free hemoglobin and decreases."
+    },
+    {
+        "id": 324,
+        "question": "Which WBC increases in bacterial infections?",
+        "answer": "Neutrophils",
+        "explanation": "Neutrophilia occurs as the first-line defense against bacteria."
+    },
+    {
+        "id": 325,
+        "question": "Which WBC increases in viral infections?",
+        "answer": "Lymphocytes",
+        "explanation": "Lymphocytosis reflects adaptive immune activation in response to viruses."
+    },
+    {
+        "id": 326,
+        "question": "Which WBC increases in allergic reactions or parasitic infections?",
+        "answer": "Eosinophils",
+        "explanation": "Eosinophils mediate defense against parasites and allergic inflammation."
+    },
+    {
+        "id": 327,
+        "question": "Which lab test measures intrinsic and common coagulation pathways?",
+        "answer": "aPTT",
+        "explanation": "aPTT assesses factors VIII, IX, XI, XII and common pathway factors."
+    },
+    {
+        "id": 328,
+        "question": "Which lab test measures extrinsic and common coagulation pathways?",
+        "answer": "PT",
+        "explanation": "PT assesses factor VII and common pathway factors II, V, X, and fibrinogen."
+    },
+    {
+        "id": 329,
+        "question": "Which lab finding is seen in vitamin K deficiency?",
+        "answer": "Prolonged PT, normal or slightly prolonged aPTT",
+        "explanation": "Factor VII has the shortest half-life and affects PT first; other factors prolong aPTT later."
+    },
+    {
+        "id": 330,
+        "question": "Which hormone regulates RBC production?",
+        "answer": "Erythropoietin",
+        "explanation": "Erythropoietin from the kidney stimulates marrow erythropoiesis in response to hypoxia."
+    },
+    {
+        "id": 331,
+        "question": "Where is erythropoiesis primarily located in adults?",
+        "answer": "Bone marrow",
+        "explanation": "Red marrow of vertebrae, ribs, pelvis, and sternum produces RBCs in adults."
+    },
+    {
+        "id": 332,
+        "question": "Which test is used to monitor warfarin therapy?",
+        "answer": "INR",
+        "explanation": "INR standardizes PT to monitor anticoagulation."
+    },
+    {
+        "id": 333,
+        "question": "Which test is used to monitor unfractionated heparin therapy?",
+        "answer": "aPTT",
+        "explanation": "Heparin prolongs aPTT by potentiating antithrombin and inhibiting intrinsic pathway factors."
+    },
+    {
+        "id": 334,
+        "question": "Which inherited coagulation disorder causes prolonged aPTT but normal PT?",
+        "answer": "Hemophilia A (Factor VIII deficiency) or Hemophilia B (Factor IX deficiency)",
+        "explanation": "These deficiencies affect the intrinsic pathway, prolonging aPTT without affecting PT."
+    },
+    {
+        "id": 335,
+        "question": "Which inherited coagulation disorder causes prolonged PT but normal aPTT?",
+        "answer": "Factor VII deficiency",
+        "explanation": "Factor VII affects only the extrinsic pathway, measured by PT."
+    },
+    {
+        "id": 336,
+        "question": "Which disorder presents with prolonged bleeding time and abnormal platelet function but normal platelet count?",
+        "answer": "Platelet function disorders (e.g., Glanzmann thrombasthenia)",
+        "explanation": "Platelet count is normal, but aggregation is defective due to receptor abnormalities."
+    },
+    {
+        "id": 337,
+        "question": "Which platelet disorder presents with large platelets and mild thrombocytopenia?",
+        "answer": "Bernard-Soulier syndrome",
+        "explanation": "GPIb receptor defect causes defective adhesion and characteristic giant platelets."
+    },
+    {
+        "id": 338,
+        "question": "Which lab test measures platelet function?",
+        "answer": "Bleeding time or platelet function analyzer (PFA-100)",
+        "explanation": "Assesses platelet adhesion and aggregation, not just count."
+    },
+    {
+        "id": 339,
+        "question": "Which clotting disorder presents with low fibrinogen, elevated PT/aPTT, and thrombocytopenia?",
+        "answer": "Disseminated intravascular coagulation (DIC)",
+        "explanation": "Consumptive coagulopathy depletes clotting factors and platelets."
+    },
+    {
+        "id": 340,
+        "question": "Which lab finding is seen in chronic myeloid leukemia (CML)?",
+        "answer": "Leukocytosis with left shift, basophilia, Philadelphia chromosome t(9;22)",
+        "explanation": "BCR-ABL fusion protein drives myeloid proliferation."
+    },
+    {
+        "id": 341,
+        "question": "Which leukemia is most common in children?",
+        "answer": "Acute lymphoblastic leukemia (ALL)",
+        "explanation": "ALL accounts for ~75% of pediatric leukemias."
+    },
+    {
+        "id": 342,
+        "question": "Which leukemia shows Auer rods on peripheral smear?",
+        "answer": "Acute myeloid leukemia (AML)",
+        "explanation": "Auer rods are fused lysosomal granules in myeloblasts."
+    },
+    {
+        "id": 343,
+        "question": "Which lab finding indicates chronic lymphocytic leukemia (CLL)?",
+        "answer": "Lymphocytosis with smudge cells on peripheral smear",
+        "explanation": "Smudge cells are fragile lymphocytes seen in CLL."
+    },
+    {
+        "id": 344,
+        "question": "Which lab finding is typical in polycythemia vera?",
+        "answer": "Increased RBC mass, elevated hemoglobin/hematocrit, JAK2 mutation",
+        "explanation": "Primary myeloproliferation increases red cell mass independent of EPO."
+    },
+    {
+        "id": 345,
+        "question": "Which lab test is characteristic of hereditary spherocytosis?",
+        "answer": "Spherocytes on peripheral smear, increased MCHC, positive osmotic fragility test",
+        "explanation": "RBC membrane defects produce spherical RBCs that lyse easily in hypotonic solutions."
+    },
+    {
+        "id": 346,
+        "question": "Which lab test differentiates immune vs non-immune hemolytic anemia?",
+        "answer": "Direct Coombs test",
+        "explanation": "Detects antibodies bound to RBCs; positive in immune hemolysis."
+    },
+    {
+        "id": 347,
+        "question": "Which anemia presents with elevated homocysteine but normal methylmalonic acid?",
+        "answer": "Folate deficiency",
+        "explanation": "Folate is required for DNA synthesis; methylmalonic acid is normal since B12 is sufficient."
+    },
+    {
+        "id": 348,
+        "question": "Which anemia presents with elevated homocysteine and methylmalonic acid?",
+        "answer": "Vitamin B12 deficiency",
+        "explanation": "B12 deficiency blocks conversion of methylmalonic acid to succinyl-CoA and homocysteine to methionine."
+    },
+    {
+        "id": 349,
+        "question": "Which lab finding indicates intravascular hemolysis?",
+        "answer": "Hemoglobinemia, hemoglobinuria, elevated LDH, low haptoglobin",
+        "explanation": "RBC lysis releases free hemoglobin into plasma and urine, depleting haptoglobin."
+    },
+    {
+        "id": 350,
+        "question": "Which anemia shows basophilic stippling of RBCs?",
+        "answer": "Lead poisoning or sideroblastic anemia",
+        "explanation": "Aggregated ribosomal RNA appears as basophilic stippling in microcytic anemia."
+    },
+    {
+        "id": 351,
+        "question": "Which anemia shows ringed sideroblasts in bone marrow?",
+        "answer": "Sideroblastic anemia",
+        "explanation": "Iron-laden mitochondria encircle the nucleus forming a ring visible with Prussian blue stain."
+    },
+    {
+        "id": 352,
+        "question": "Which anemia presents with pancytopenia and hypocellular marrow?",
+        "answer": "Aplastic anemia",
+        "explanation": "Bone marrow failure reduces production of all blood cell lines."
+    },
+    {
+        "id": 353,
+        "question": "Which disorder presents with thrombocytopenia, microangiopathic hemolytic anemia, renal failure, fever, and neurologic symptoms?",
+        "answer": "Thrombotic thrombocytopenic purpura (TTP)",
+        "explanation": "ADAMTS13 deficiency leads to platelet-rich thrombi causing hemolysis and organ ischemia."
+    },
+    {
+        "id": 354,
+        "question": "Which disorder presents with microangiopathic hemolytic anemia, thrombocytopenia, and renal failure, often after diarrhea?",
+        "answer": "Hemolytic uremic syndrome (HUS)",
+        "explanation": "Shiga toxin–producing E. coli damages endothelial cells causing hemolysis and renal injury."
+    },
+    {
+        "id": 355,
+        "question": "Which lab test confirms paroxysmal nocturnal hemoglobinuria?",
+        "answer": "Flow cytometry for CD55/CD59 deficiency",
+        "explanation": "RBCs lack protective GPI-anchored proteins, making them susceptible to complement-mediated lysis."
+    },
+    {
+        "id": 356,
+        "question": "Which hemoglobin variant is seen in sickle cell disease?",
+        "answer": "Hemoglobin S",
+        "explanation": "Mutation in beta-globin causes HbS polymerization under deoxygenated conditions, distorting RBCs."
+    },
+    {
+        "id": 357,
+        "question": "Which lab test confirms sickle cell disease?",
+        "answer": "Hemoglobin electrophoresis",
+        "explanation": "Detects HbS and distinguishes homozygous (disease) from heterozygous (trait)."
+    },
+    {
+        "id": 358,
+        "question": "Which anemia shows target cells and microcytosis disproportionate to hemoglobin?",
+        "answer": "Thalassemia trait",
+        "explanation": "Reduced globin synthesis alters RBC shape and size; target cells are characteristic."
+    },
+    {
+        "id": 359,
+        "question": "Which anemia presents with low reticulocyte count, normal MCV, and chronic disease?",
+        "answer": "Anemia of chronic disease",
+        "explanation": "Inflammatory cytokines suppress marrow production and iron utilization."
+    },
+    {
+        "id": 360,
+        "question": "Which lab finding indicates hemolytic anemia?",
+        "answer": "Elevated LDH, indirect bilirubin, decreased haptoglobin, reticulocytosis",
+        "explanation": "Markers reflect RBC destruction and compensatory marrow response."
+    },
+    {
+        "id": 361,
+        "question": "Which disorder presents with prolonged PT and aPTT, decreased fibrinogen, and elevated D-dimer?",
+        "answer": "Disseminated intravascular coagulation (DIC)",
+        "explanation": "Widespread clotting consumes clotting factors and platelets, activating fibrinolysis."
+    },
+    {
+        "id": 362,
+        "question": "Which lab test is prolonged in hemophilia A and B?",
+        "answer": "aPTT",
+        "explanation": "Intrinsic pathway factor deficiencies extend clotting time measured by aPTT."
+    },
+    {
+        "id": 363,
+        "question": "Which lab test is used to monitor vitamin K antagonist therapy?",
+        "answer": "INR",
+        "explanation": "Standardized PT value to ensure therapeutic anticoagulation."
+    },
+    {
+        "id": 364,
+        "question": "Which WBC disorder shows a 'shift to left' phenomenon?",
+        "answer": "Bacterial infection (increase in immature neutrophils)",
+        "explanation": "Bone marrow releases more band forms to fight acute infection."
+    },
+    {
+        "id": 365,
+        "question": "Which lab finding is characteristic of chronic liver disease affecting coagulation?",
+        "answer": "Prolonged PT and aPTT, low fibrinogen, thrombocytopenia",
+        "explanation": "Liver produces most clotting factors and thrombopoietin; liver dysfunction impairs synthesis."
+    },
+    {
+        "id": 366,
+        "question": "Which condition presents with Howell-Jolly bodies on peripheral smear?",
+        "answer": "Post-splenectomy or functional asplenia",
+        "explanation": "Nuclear remnants persist in RBCs when the spleen is absent or non-functional."
+    },
+    {
+        "id": 367,
+        "question": "Which leukemia shows t(15;17) translocation?",
+        "answer": "Acute promyelocytic leukemia (APL)",
+        "explanation": "PML-RARA fusion blocks differentiation of promyelocytes; responsive to ATRA therapy."
+    },
+    {
+        "id": 368,
+        "question": "Which factor deficiency is associated with Christmas disease?",
+        "answer": "Factor IX",
+        "explanation": "Also called Hemophilia B, X-linked recessive, prolongs aPTT but not PT."
+    },
+    {
+        "id": 369,
+        "question": "Which factor deficiency is associated with Hemophilia A?",
+        "answer": "Factor VIII",
+        "explanation": "X-linked deficiency of intrinsic pathway factor prolongs aPTT."
+    },
+    {
+        "id": 370,
+        "question": "Which disorder shows decreased leukocyte alkaline phosphatase (LAP) score?",
+        "answer": "Chronic myeloid leukemia (CML)",
+        "explanation": "Neutrophils in CML have low LAP compared to leukemoid reactions."
+    },
+    {
+        "id": 371,
+        "question": "Which hemolytic anemia shows Heinz bodies?",
+        "answer": "G6PD deficiency",
+        "explanation": "Oxidized hemoglobin precipitates forming inclusions in RBCs."
+    },
+    {
+        "id": 372,
+        "question": "Which anemia presents with elevated HbF and absent or low HbA?",
+        "answer": "Beta-thalassemia major",
+        "explanation": "Severe beta-globin deficiency leads to compensatory gamma-chain production (HbF)."
+    },
+    {
+        "id": 373,
+        "question": "Which lab finding indicates autoimmune hemolysis?",
+        "answer": "Positive direct Coombs test",
+        "explanation": "Antibodies coat RBCs, leading to immune-mediated hemolysis."
+    },
+    {
+        "id": 374,
+        "question": "Which anemia shows microcytic hypochromic RBCs?",
+        "answer": "Iron deficiency anemia",
+        "explanation": "Low hemoglobin production reduces RBC size and color."
+    },
+    {
+        "id": 375,
+        "question": "Which anemia is associated with chronic kidney disease?",
+        "answer": "Normocytic normochromic anemia due to low erythropoietin",
+        "explanation": "Kidney damage reduces erythropoietin, limiting RBC production."
+    },
+    {
+        "id": 376,
+        "question": "Which lab finding is typical in megaloblastic anemia?",
+        "answer": "Hypersegmented neutrophils, macrocytosis",
+        "explanation": "Impaired DNA synthesis delays nuclear maturation, enlarging RBCs and neutrophils."
+    },
+    {
+        "id": 377,
+        "question": "Which lab test confirms vitamin B12 deficiency?",
+        "answer": "Serum B12, methylmalonic acid",
+        "explanation": "Methylmalonic acid rises only in B12 deficiency; serum B12 confirms deficiency."
+    },
+    {
+        "id": 378,
+        "question": "Which lab test confirms folate deficiency?",
+        "answer": "Serum folate, RBC folate",
+        "explanation": "RBC folate reflects long-term stores; serum folate reflects recent intake."
+    },
+    {
+        "id": 379,
+        "question": "Which disorder presents with pancytopenia and hypercellular marrow?",
+        "answer": "Myelodysplastic syndrome",
+        "explanation": "Dysplastic marrow produces abnormal cells leading to cytopenias."
+    },
+    {
+        "id": 380,
+        "question": "Which lab finding is seen in chronic lymphocytic leukemia?",
+        "answer": "Lymphocytosis with smudge cells",
+        "explanation": "Fragile lymphocytes smear easily, producing smudge cells."
+    },
+    {
+        "id": 381,
+        "question": "Which leukemia is most common in adults?",
+        "answer": "Chronic lymphocytic leukemia (CLL)",
+        "explanation": "Typically affects older adults, slow-progressing lymphoproliferative disorder."
+    },
+    {
+        "id": 382,
+        "question": "Which lab finding is typical in polycythemia vera?",
+        "answer": "Increased RBC mass, elevated hemoglobin/hematocrit, JAK2 mutation",
+        "explanation": "Clonal proliferation leads to erythrocytosis independent of EPO."
+    },
+    {
+        "id": 383,
+        "question": "Which lab finding indicates hemolytic uremic syndrome?",
+        "answer": "MAHA, thrombocytopenia, renal failure",
+        "explanation": "Endothelial injury causes microangiopathic hemolysis and kidney damage."
+    },
+    {
+        "id": 384,
+        "question": "Which lab test detects paroxysmal nocturnal hemoglobinuria?",
+        "answer": "Flow cytometry for CD55/CD59 deficiency",
+        "explanation": "RBCs lack GPI-anchored protective proteins, increasing complement-mediated lysis."
+    },
+    {
+        "id": 385,
+        "question": "Which lab finding is typical in disseminated intravascular coagulation?",
+        "answer": "Prolonged PT/aPTT, low fibrinogen, elevated D-dimer",
+        "explanation": "Widespread clotting consumes clotting factors and triggers fibrinolysis."
+    },
+    {
+        "id": 386,
+        "question": "Which lab finding is characteristic of hereditary spherocytosis?",
+        "answer": "Spherocytes on peripheral smear, increased MCHC",
+        "explanation": "Membrane loss leads to spherical, dense RBCs."
+    },
+    {
+        "id": 387,
+        "question": "Which lab finding is characteristic of G6PD deficiency?",
+        "answer": "Heinz bodies and bite cells",
+        "explanation": "Oxidative stress denatures hemoglobin forming inclusions removed by spleen."
+    },
+    {
+        "id": 388,
+        "question": "Which lab finding is seen in lead poisoning?",
+        "answer": "Basophilic stippling of RBCs",
+        "explanation": "Lead inhibits RNA degradation, leaving aggregates visible in RBCs."
+    },
+    {
+        "id": 389,
+        "question": "Which anemia is characterized by normal MCV and low RBC count?",
+        "answer": "Normocytic anemia",
+        "explanation": "MCV is normal but RBC production is insufficient."
+    },
+    {
+        "id": 390,
+        "question": "Which anemia presents with pancytopenia and fatty marrow?",
+        "answer": "Aplastic anemia",
+        "explanation": "Bone marrow failure reduces all blood lineages."
+    },
+    {
+        "id": 391,
+        "question": "Which leukemia is associated with Philadelphia chromosome?",
+        "answer": "Chronic myeloid leukemia (CML)",
+        "explanation": "t(9;22) translocation creates BCR-ABL fusion, driving myeloid proliferation."
+    },
+    {
+        "id": 392,
+        "question": "Which lab finding is seen in acute promyelocytic leukemia (APL)?",
+        "answer": "t(15;17) translocation",
+        "explanation": "PML-RARA fusion blocks differentiation of promyelocytes."
+    },
+    {
+        "id": 393,
+        "question": "Which anemia is caused by folate deficiency?",
+        "answer": "Megaloblastic anemia",
+        "explanation": "Impaired DNA synthesis leads to large, immature RBCs."
+    },
+    {
+        "id": 394,
+        "question": "Which anemia is caused by vitamin B12 deficiency?",
+        "answer": "Megaloblastic anemia",
+        "explanation": "B12 deficiency slows DNA synthesis, causing macrocytosis and hypersegmentation."
+    },
+    {
+        "id": 395,
+        "question": "Which test is used to differentiate folate vs B12 deficiency?",
+        "answer": "Serum methylmalonic acid and homocysteine",
+        "explanation": "MMA rises only in B12 deficiency; homocysteine rises in both."
+    },
+    {
+        "id": 396,
+        "question": "Which anemia shows target cells on peripheral smear?",
+        "answer": "Thalassemia",
+        "explanation": "Excess membrane relative to hemoglobin creates target-shaped RBCs."
+    },
+    {
+        "id": 397,
+        "question": "Which anemia shows ringed sideroblasts?",
+        "answer": "Sideroblastic anemia",
+        "explanation": "Iron-laden mitochondria encircle the nucleus in the marrow."
+    },
+    {
+        "id": 398,
+        "question": "Which lab finding is seen in autoimmune hemolytic anemia?",
+        "answer": "Positive direct Coombs test",
+        "explanation": "Detects antibodies coating RBCs, confirming immune-mediated hemolysis."
+    },
+    {
+        "id": 399,
+        "question": "Which anemia presents with low reticulocyte count and normal MCV?",
+        "answer": "Aplastic anemia or anemia of chronic disease",
+        "explanation": "Low RBC production with preserved size results in normocytic anemia."
+    },
+    {
+        "id": 400,
+        "question": "Which anemia is most common worldwide?",
+        "answer": "Iron deficiency anemia",
+        "explanation": "Dietary iron deficiency is the leading cause of anemia globally."
+    },
+    {
+        "id": 401,
+        "question": "Which lab test is used to detect microcytic anemia due to iron deficiency?",
+        "answer": "Serum ferritin",
+        "explanation": "Ferritin reflects iron stores; low ferritin is the most sensitive indicator of iron deficiency."
+    },
+    {
+        "id": 402,
+        "question": "Which lab finding is characteristic of vitamin B12 deficiency?",
+        "answer": "Macrocytosis, hypersegmented neutrophils, elevated methylmalonic acid",
+        "explanation": "B12 deficiency impairs DNA synthesis, leading to enlarged RBCs and delayed nuclear maturation."
+    },
+    {
+        "id": 403,
+        "question": "Which lab finding is typical in folate deficiency?",
+        "answer": "Macrocytosis, hypersegmented neutrophils, elevated homocysteine",
+        "explanation": "Folate deficiency affects DNA synthesis; methylmalonic acid is normal."
+    },
+    {
+        "id": 404,
+        "question": "Which anemia is caused by decreased erythropoietin production in chronic kidney disease?",
+        "answer": "Normocytic normochromic anemia",
+        "explanation": "Low EPO reduces RBC production without changing cell size."
+    },
+    {
+        "id": 405,
+        "question": "Which lab finding is seen in hemolytic anemia?",
+        "answer": "Elevated LDH, indirect bilirubin, reticulocytosis, low haptoglobin",
+        "explanation": "Markers indicate RBC destruction and compensatory marrow response."
+    },
+    {
+        "id": 406,
+        "question": "Which hemolytic anemia is caused by an intrinsic RBC membrane defect?",
+        "answer": "Hereditary spherocytosis",
+        "explanation": "Defective cytoskeletal proteins produce spherical RBCs prone to splenic destruction."
+    },
+    {
+        "id": 407,
+        "question": "Which lab test confirms hereditary spherocytosis?",
+        "answer": "Osmotic fragility test",
+        "explanation": "Spherocytes are less able to withstand hypotonic stress, lysing easily."
+    },
+    {
+        "id": 408,
+        "question": "Which anemia shows target cells on peripheral smear?",
+        "answer": "Thalassemia",
+        "explanation": "Target cells form due to excess membrane relative to hemoglobin."
+    },
+    {
+        "id": 409,
+        "question": "Which lab test confirms thalassemia?",
+        "answer": "Hemoglobin electrophoresis",
+        "explanation": "Electrophoresis identifies abnormal hemoglobins (HbA2, HbF)."
+    },
+    {
+        "id": 410,
+        "question": "Which anemia presents with ringed sideroblasts in bone marrow?",
+        "answer": "Sideroblastic anemia",
+        "explanation": "Iron-laden mitochondria encircle the nucleus, visible on Prussian blue stain."
+    },
+    {
+        "id": 411,
+        "question": "Which lab finding is seen in G6PD deficiency during oxidative stress?",
+        "answer": "Heinz bodies and bite cells",
+        "explanation": "Oxidative damage denatures hemoglobin; spleen removes these inclusions."
+    },
+    {
+        "id": 412,
+        "question": "Which anemia presents with low reticulocyte count, pancytopenia, and fatty marrow?",
+        "answer": "Aplastic anemia",
+        "explanation": "Bone marrow failure reduces production of all blood cell lines."
+    },
+    {
+        "id": 413,
+        "question": "Which lab finding is typical in autoimmune hemolytic anemia?",
+        "answer": "Positive direct Coombs test",
+        "explanation": "Detects antibodies attached to RBCs causing immune-mediated hemolysis."
+    },
+    {
+        "id": 414,
+        "question": "Which anemia is associated with chronic inflammation or chronic disease?",
+        "answer": "Anemia of chronic disease (normocytic or microcytic)",
+        "explanation": "Cytokines impair iron utilization and reduce erythropoietin production."
+    },
+    {
+        "id": 415,
+        "question": "Which lab finding is typical in anemia of chronic disease?",
+        "answer": "Low serum iron, low TIBC, normal/high ferritin",
+        "explanation": "Iron is sequestered in macrophages; ferritin as an acute-phase reactant may be normal or elevated."
+    },
+    {
+        "id": 416,
+        "question": "Which lab test is used to monitor warfarin therapy?",
+        "answer": "INR",
+        "explanation": "Standardized PT value used to adjust anticoagulation therapy."
+    },
+    {
+        "id": 417,
+        "question": "Which lab test is used to monitor unfractionated heparin therapy?",
+        "answer": "aPTT",
+        "explanation": "Heparin potentiates antithrombin, prolonging intrinsic pathway clotting time."
+    },
+    {
+        "id": 418,
+        "question": "Which inherited coagulation disorder prolongs aPTT but not PT?",
+        "answer": "Hemophilia A (Factor VIII) or Hemophilia B (Factor IX)",
+        "explanation": "Intrinsic pathway factor deficiency increases aPTT, PT remains normal."
+    },
+    {
+        "id": 419,
+        "question": "Which inherited coagulation disorder prolongs PT but not aPTT?",
+        "answer": "Factor VII deficiency",
+        "explanation": "Factor VII affects only extrinsic pathway measured by PT."
+    },
+    {
+        "id": 420,
+        "question": "Which platelet disorder presents with normal platelet count but defective aggregation?",
+        "answer": "Glanzmann thrombasthenia",
+        "explanation": "GPIIb/IIIa defect prevents platelet aggregation; bleeding time is prolonged."
+    },
+    {
+        "id": 421,
+        "question": "Which platelet disorder presents with giant platelets and mild thrombocytopenia?",
+        "answer": "Bernard-Soulier syndrome",
+        "explanation": "GPIb defect causes impaired adhesion and characteristic large platelets."
+    },
+    {
+        "id": 422,
+        "question": "Which lab test measures platelet function?",
+        "answer": "Bleeding time or PFA-100",
+        "explanation": "Assesses platelet adhesion and aggregation capacity."
+    },
+    {
+        "id": 423,
+        "question": "Which disorder presents with low fibrinogen, prolonged PT/aPTT, and thrombocytopenia?",
+        "answer": "Disseminated intravascular coagulation (DIC)",
+        "explanation": "Consumptive coagulopathy depletes clotting factors and platelets, activating fibrinolysis."
+    },
+    {
+        "id": 424,
+        "question": "Which lab finding is seen in chronic myeloid leukemia (CML)?",
+        "answer": "Leukocytosis with left shift, basophilia, Philadelphia chromosome t(9;22)",
+        "explanation": "BCR-ABL fusion drives myeloid proliferation."
+    },
+    {
+        "id": 425,
+        "question": "Which leukemia is most common in children?",
+        "answer": "Acute lymphoblastic leukemia (ALL)",
+        "explanation": "ALL accounts for ~75% of pediatric leukemias."
+    },
+    {
+        "id": 426,
+        "question": "Which leukemia shows Auer rods on peripheral smear?",
+        "answer": "Acute myeloid leukemia (AML)",
+        "explanation": "Auer rods are fused lysosomal granules in myeloblasts."
+    },
+    {
+        "id": 427,
+        "question": "Which lab finding indicates chronic lymphocytic leukemia (CLL)?",
+        "answer": "Lymphocytosis with smudge cells",
+        "explanation": "Fragile lymphocytes smear easily, producing smudge cells."
+    },
+    {
+        "id": 428,
+        "question": "Which lab finding is typical in polycythemia vera?",
+        "answer": "Increased RBC mass, elevated hemoglobin/hematocrit, JAK2 mutation",
+        "explanation": "Primary myeloproliferation increases red cell mass independent of EPO."
+    },
+    {
+        "id": 429,
+        "question": "Which disorder presents with thrombocytopenia, microangiopathic hemolytic anemia, renal failure, fever, and neurologic symptoms?",
+        "answer": "Thrombotic thrombocytopenic purpura (TTP)",
+        "explanation": "ADAMTS13 deficiency leads to platelet-rich thrombi causing hemolysis and organ ischemia."
+    },
+    {
+        "id": 430,
+        "question": "Which disorder presents with microangiopathic hemolytic anemia, thrombocytopenia, and renal failure, often after diarrhea?",
+        "answer": "Hemolytic uremic syndrome (HUS)",
+        "explanation": "Shiga toxin–producing E. coli damages endothelial cells causing hemolysis and kidney injury."
+    },
+    {
+        "id": 431,
+        "question": "Which lab test confirms paroxysmal nocturnal hemoglobinuria?",
+        "answer": "Flow cytometry for CD55/CD59 deficiency",
+        "explanation": "RBCs lack GPI-anchored protective proteins, making them susceptible to complement-mediated lysis."
+    },
+    {
+        "id": 432,
+        "question": "Which hemoglobin variant is seen in sickle cell disease?",
+        "answer": "Hemoglobin S",
+        "explanation": "Beta-globin mutation causes HbS polymerization under deoxygenated conditions, distorting RBCs."
+    },
+    {
+        "id": 433,
+        "question": "Which lab test confirms sickle cell disease?",
+        "answer": "Hemoglobin electrophoresis",
+        "explanation": "Detects HbS and distinguishes homozygous disease from heterozygous trait."
+    },
+    {
+        "id": 434,
+        "question": "Which anemia shows target cells and microcytosis disproportionate to hemoglobin?",
+        "answer": "Thalassemia trait",
+        "explanation": "Reduced globin synthesis alters RBC shape and size; target cells are characteristic."
+    },
+    {
+        "id": 435,
+        "question": "Which anemia presents with low reticulocyte count, normal MCV, and chronic disease?",
+        "answer": "Anemia of chronic disease",
+        "explanation": "Inflammatory cytokines suppress marrow production and iron utilization."
+    },
+    {
+        "id": 436,
+        "question": "Which lab finding indicates hemolytic anemia?",
+        "answer": "Elevated LDH, indirect bilirubin, decreased haptoglobin, reticulocytosis",
+        "explanation": "Markers reflect RBC destruction and compensatory marrow response."
+    },
+    {
+        "id": 437,
+        "question": "Which disorder presents with prolonged PT and aPTT, decreased fibrinogen, and elevated D-dimer?",
+        "answer": "Disseminated intravascular coagulation (DIC)",
+        "explanation": "Widespread clotting consumes clotting factors and triggers fibrinolysis."
+    },
+    {
+        "id": 438,
+        "question": "Which lab test is prolonged in hemophilia A and B?",
+        "answer": "aPTT",
+        "explanation": "Intrinsic pathway factor deficiencies extend clotting time measured by aPTT."
+    },
+    {
+        "id": 439,
+        "question": "Which lab test is used to monitor vitamin K antagonist therapy?",
+        "answer": "INR",
+        "explanation": "Standardized PT value ensures therapeutic anticoagulation."
+    },
+    {
+        "id": 440,
+        "question": "Which WBC disorder shows a 'shift to left' phenomenon?",
+        "answer": "Bacterial infection (increase in immature neutrophils)",
+        "explanation": "Bone marrow releases more band forms to fight acute infection."
+    },
+    {
+        "id": 441,
+        "question": "Which lab finding is characteristic of chronic liver disease affecting coagulation?",
+        "answer": "Prolonged PT and aPTT, low fibrinogen, thrombocytopenia",
+        "explanation": "Liver produces most clotting factors and thrombopoietin; liver dysfunction impairs synthesis."
+    },
+    {
+        "id": 442,
+        "question": "Which condition presents with Howell-Jolly bodies on peripheral smear?",
+        "answer": "Post-splenectomy or functional asplenia",
+        "explanation": "Nuclear remnants persist in RBCs when the spleen is absent or non-functional."
+    },
+    {
+        "id": 443,
+        "question": "Which leukemia shows t(15;17) translocation?",
+        "answer": "Acute promyelocytic leukemia (APL)",
+        "explanation": "PML-RARA fusion blocks differentiation of promyelocytes; responsive to ATRA therapy."
+    },
+    {
+        "id": 444,
+        "question": "Which factor deficiency is associated with Christmas disease?",
+        "answer": "Factor IX",
+        "explanation": "Also called Hemophilia B; X-linked recessive, prolongs aPTT but not PT."
+    },
+    {
+        "id": 445,
+        "question": "Which factor deficiency is associated with Hemophilia A?",
+        "answer": "Factor VIII",
+        "explanation": "X-linked deficiency prolongs aPTT without affecting PT."
+    },
+    {
+        "id": 446,
+        "question": "Which disorder shows decreased leukocyte alkaline phosphatase (LAP) score?",
+        "answer": "Chronic myeloid leukemia (CML)",
+        "explanation": "Neutrophils in CML have low LAP compared to leukemoid reactions."
+    },
+    {
+        "id": 447,
+        "question": "Which hemolytic anemia shows Heinz bodies?",
+        "answer": "G6PD deficiency",
+        "explanation": "Oxidized hemoglobin precipitates forming inclusions in RBCs."
+    },
+    {
+        "id": 448,
+        "question": "Which anemia presents with elevated HbF and absent or low HbA?",
+        "answer": "Beta-thalassemia major",
+        "explanation": "Severe beta-globin deficiency leads to compensatory gamma-chain production (HbF)."
+    },
+    {
+        "id": 449,
+        "question": "Which lab finding indicates autoimmune hemolysis?",
+        "answer": "Positive direct Coombs test",
+        "explanation": "Antibodies coat RBCs, leading to immune-mediated hemolysis."
+    },
+    {
+        "id": 450,
+        "question": "Which anemia shows microcytic hypochromic RBCs?",
+        "answer": "Iron deficiency anemia",
+        "explanation": "Low hemoglobin synthesis reduces RBC size and color."
+    },
+    {
+        "id": 451,
+        "question": "Which anemia is associated with chronic kidney disease?",
+        "answer": "Normocytic normochromic anemia due to low erythropoietin",
+        "explanation": "Kidney damage reduces erythropoietin, limiting RBC production."
+    },
+    {
+        "id": 452,
+        "question": "Which lab finding is typical in megaloblastic anemia?",
+        "answer": "Hypersegmented neutrophils, macrocytosis",
+        "explanation": "Impaired DNA synthesis delays nuclear maturation, enlarging RBCs and neutrophils."
+    },
+    {
+        "id": 453,
+        "question": "Which lab test confirms vitamin B12 deficiency?",
+        "answer": "Serum B12, methylmalonic acid",
+        "explanation": "Methylmalonic acid rises only in B12 deficiency; serum B12 confirms deficiency."
+    },
+    {
+        "id": 454,
+        "question": "Which lab test confirms folate deficiency?",
+        "answer": "Serum folate, RBC folate",
+        "explanation": "RBC folate reflects long-term stores; serum folate reflects recent intake."
+    },
+    {
+        "id": 455,
+        "question": "Which disorder presents with pancytopenia and hypercellular marrow?",
+        "answer": "Myelodysplastic syndrome",
+        "explanation": "Dysplastic marrow produces abnormal cells leading to cytopenias."
+    },
+    {
+        "id": 456,
+        "question": "Which lab finding is seen in chronic lymphocytic leukemia?",
+        "answer": "Lymphocytosis with smudge cells",
+        "explanation": "Fragile lymphocytes smear easily, producing smudge cells."
+    },
+    {
+        "id": 457,
+        "question": "Which leukemia is most common in adults?",
+        "answer": "Chronic lymphocytic leukemia (CLL)",
+        "explanation": "Typically affects older adults, slow-progressing lymphoproliferative disorder."
+    },
+    {
+        "id": 458,
+        "question": "Which lab finding is typical in polycythemia vera?",
+        "answer": "Increased RBC mass, elevated hemoglobin/hematocrit, JAK2 mutation",
+        "explanation": "Clonal proliferation leads to erythrocytosis independent of EPO."
+    },
+    {
+        "id": 459,
+        "question": "Which lab finding indicates hemolytic uremic syndrome?",
+        "answer": "MAHA, thrombocytopenia, renal failure",
+        "explanation": "Endothelial injury causes microangiopathic hemolysis and kidney damage."
+    },
+    {
+        "id": 460,
+        "question": "Which lab test detects paroxysmal nocturnal hemoglobinuria?",
+        "answer": "Flow cytometry for CD55/CD59 deficiency",
+        "explanation": "RBCs lack GPI-anchored protective proteins, making them susceptible to complement-mediated lysis."
+    },
+    {
+        "id": 461,
+        "question": "Which hemoglobin variant is seen in sickle cell disease?",
+        "answer": "Hemoglobin S",
+        "explanation": "Beta-globin mutation causes HbS polymerization under deoxygenated conditions, distorting RBCs."
+    },
+    {
+        "id": 462,
+        "question": "Which lab test confirms sickle cell disease?",
+        "answer": "Hemoglobin electrophoresis",
+        "explanation": "Detects HbS and distinguishes homozygous disease from heterozygous trait."
+    },
+    {
+        "id": 463,
+        "question": "Which anemia shows target cells and microcytosis disproportionate to hemoglobin?",
+        "answer": "Thalassemia trait",
+        "explanation": "Reduced globin synthesis alters RBC shape and size; target cells are characteristic."
+    },
+    {
+        "id": 464,
+        "question": "Which anemia presents with low reticulocyte count, normal MCV, and chronic disease?",
+        "answer": "Anemia of chronic disease",
+        "explanation": "Inflammatory cytokines suppress marrow production and iron utilization."
+    },
+    {
+        "id": 465,
+        "question": "Which lab finding indicates hemolytic anemia?",
+        "answer": "Elevated LDH, indirect bilirubin, decreased haptoglobin, reticulocytosis",
+        "explanation": "Markers reflect RBC destruction and compensatory marrow response."
+    },
+    {
+        "id": 466,
+        "question": "Which disorder presents with prolonged PT and aPTT, decreased fibrinogen, and elevated D-dimer?",
+        "answer": "Disseminated intravascular coagulation (DIC)",
+        "explanation": "Widespread clotting consumes clotting factors and triggers fibrinolysis."
+    },
+    {
+        "id": 467,
+        "question": "Which lab test is prolonged in hemophilia A and B?",
+        "answer": "aPTT",
+        "explanation": "Intrinsic pathway factor deficiencies extend clotting time measured by aPTT."
+    },
+    {
+        "id": 468,
+        "question": "Which lab test is used to monitor vitamin K antagonist therapy?",
+        "answer": "INR",
+        "explanation": "Standardized PT value ensures therapeutic anticoagulation."
+    },
+    {
+        "id": 469,
+        "question": "Which WBC disorder shows a 'shift to left' phenomenon?",
+        "answer": "Bacterial infection (increase in immature neutrophils)",
+        "explanation": "Bone marrow releases more band forms to fight acute infection."
+    },
+    {
+        "id": 470,
+        "question": "Which lab finding is characteristic of chronic liver disease affecting coagulation?",
+        "answer": "Prolonged PT and aPTT, low fibrinogen, thrombocytopenia",
+        "explanation": "Liver produces most clotting factors and thrombopoietin; liver dysfunction impairs synthesis."
+    },
+    {
+        "id": 471,
+        "question": "Which condition presents with Howell-Jolly bodies on peripheral smear?",
+        "answer": "Post-splenectomy or functional asplenia",
+        "explanation": "Nuclear remnants persist in RBCs when the spleen is absent or non-functional."
+    },
+    {
+        "id": 472,
+        "question": "Which leukemia shows t(15;17) translocation?",
+        "answer": "Acute promyelocytic leukemia (APL)",
+        "explanation": "PML-RARA fusion blocks differentiation of promyelocytes; responsive to ATRA therapy."
+    },
+    {
+        "id": 473,
+        "question": "Which factor deficiency is associated with Christmas disease?",
+        "answer": "Factor IX",
+        "explanation": "Also called Hemophilia B; X-linked recessive, prolongs aPTT but not PT."
+    },
+    {
+        "id": 474,
+        "question": "Which factor deficiency is associated with Hemophilia A?",
+        "answer": "Factor VIII",
+        "explanation": "X-linked deficiency prolongs aPTT without affecting PT."
+    },
+    {
+        "id": 475,
+        "question": "Which disorder shows decreased leukocyte alkaline phosphatase (LAP) score?",
+        "answer": "Chronic myeloid leukemia (CML)",
+        "explanation": "Neutrophils in CML have low LAP compared to leukemoid reactions."
+    },
+    {
+        "id": 476,
+        "question": "Which hemolytic anemia shows Heinz bodies?",
+        "answer": "G6PD deficiency",
+        "explanation": "Oxidized hemoglobin precipitates forming inclusions in RBCs."
+    },
+    {
+        "id": 477,
+        "question": "Which anemia presents with elevated HbF and absent or low HbA?",
+        "answer": "Beta-thalassemia major",
+        "explanation": "Severe beta-globin deficiency leads to compensatory gamma-chain production (HbF)."
+    },
+    {
+        "id": 478,
+        "question": "Which lab finding indicates autoimmune hemolysis?",
+        "answer": "Positive direct Coombs test",
+        "explanation": "Antibodies coat RBCs, leading to immune-mediated hemolysis."
+    },
+    {
+        "id": 479,
+        "question": "Which anemia shows microcytic hypochromic RBCs?",
+        "answer": "Iron deficiency anemia",
+        "explanation": "Low hemoglobin synthesis reduces RBC size and color."
+    },
+    {
+        "id": 480,
+        "question": "Which anemia is associated with chronic kidney disease?",
+        "answer": "Normocytic normochromic anemia due to low erythropoietin",
+        "explanation": "Kidney damage reduces erythropoietin, limiting RBC production."
+    },
+    {
+        "id": 481,
+        "question": "Which lab finding is typical in megaloblastic anemia?",
+        "answer": "Hypersegmented neutrophils, macrocytosis",
+        "explanation": "Impaired DNA synthesis delays nuclear maturation, enlarging RBCs and neutrophils."
+    },
+    {
+        "id": 482,
+        "question": "Which lab test confirms vitamin B12 deficiency?",
+        "answer": "Serum B12, methylmalonic acid",
+        "explanation": "Methylmalonic acid rises only in B12 deficiency; serum B12 confirms deficiency."
+    },
+    {
+        "id": 483,
+        "question": "Which lab test confirms folate deficiency?",
+        "answer": "Serum folate, RBC folate",
+        "explanation": "RBC folate reflects long-term stores; serum folate reflects recent intake."
+    },
+    {
+        "id": 484,
+        "question": "Which disorder presents with pancytopenia and hypercellular marrow?",
+        "answer": "Myelodysplastic syndrome",
+        "explanation": "Dysplastic marrow produces abnormal cells leading to cytopenias."
+    },
+    {
+        "id": 485,
+        "question": "Which lab finding is seen in chronic lymphocytic leukemia?",
+        "answer": "Lymphocytosis with smudge cells",
+        "explanation": "Fragile lymphocytes smear easily, producing smudge cells."
+    },
+    {
+        "id": 486,
+        "question": "Which leukemia is most common in adults?",
+        "answer": "Chronic lymphocytic leukemia (CLL)",
+        "explanation": "Typically affects older adults, slow-progressing lymphoproliferative disorder."
+    },
+    {
+        "id": 487,
+        "question": "Which lab finding is typical in polycythemia vera?",
+        "answer": "Increased RBC mass, elevated hemoglobin/hematocrit, JAK2 mutation",
+        "explanation": "Clonal proliferation leads to erythrocytosis independent of EPO."
+    },
+    {
+        "id": 488,
+        "question": "Which lab finding indicates hemolytic uremic syndrome?",
+        "answer": "MAHA, thrombocytopenia, renal failure",
+        "explanation": "Endothelial injury causes microangiopathic hemolysis and kidney damage."
+    },
+    {
+        "id": 489,
+        "question": "Which lab test detects paroxysmal nocturnal hemoglobinuria?",
+        "answer": "Flow cytometry for CD55/CD59 deficiency",
+        "explanation": "RBCs lack GPI-anchored protective proteins, making them susceptible to complement-mediated lysis."
+    },
+    {
+        "id": 490,
+        "question": "Which hemoglobin variant is seen in sickle cell disease?",
+        "answer": "Hemoglobin S",
+        "explanation": "Beta-globin mutation causes HbS polymerization under deoxygenated conditions, distorting RBCs."
+    },
+    {
+        "id": 491,
+        "question": "Which lab test confirms sickle cell disease?",
+        "answer": "Hemoglobin electrophoresis",
+        "explanation": "Detects HbS and distinguishes homozygous disease from heterozygous trait."
+    },
+    {
+        "id": 492,
+        "question": "Which anemia shows target cells and microcytosis disproportionate to hemoglobin?",
+        "answer": "Thalassemia trait",
+        "explanation": "Reduced globin synthesis alters RBC shape and size; target cells are characteristic."
+    },
+    {
+        "id": 493,
+        "question": "Which anemia presents with low reticulocyte count, normal MCV, and chronic disease?",
+        "answer": "Anemia of chronic disease",
+        "explanation": "Inflammatory cytokines suppress marrow production and iron utilization."
+    },
+    {
+        "id": 494,
+        "question": "Which lab finding indicates hemolytic anemia?",
+        "answer": "Elevated LDH, indirect bilirubin, decreased haptoglobin, reticulocytosis",
+        "explanation": "Markers reflect RBC destruction and compensatory marrow response."
+    },
+    {
+        "id": 495,
+        "question": "Which lab finding is seen in iron deficiency anemia?",
+        "answer": "Low serum iron, low ferritin, high TIBC, microcytic hypochromic RBCs",
+        "explanation": "Iron depletion reduces hemoglobin synthesis; ferritin drops, TIBC rises to increase iron transport."
+    },
+    {
+        "id": 496,
+        "question": "Which anemia is associated with chronic kidney disease?",
+        "answer": "Normocytic normochromic anemia due to decreased erythropoietin",
+        "explanation": "Reduced erythropoietin leads to decreased RBC production without altering size."
+    },
+    {
+        "id": 497,
+        "question": "Which test evaluates platelet aggregation to various agonists?",
+        "answer": "Platelet aggregometry",
+        "explanation": "Measures platelet response to agonists like ADP, collagen, or ristocetin."
+    },
+    {
+        "id": 498,
+        "question": "Which condition presents with pancytopenia, hypercellular marrow, and dysplastic changes?",
+        "answer": "Myelodysplastic syndrome",
+        "explanation": "Defective hematopoiesis produces abnormal cells and multiple cytopenias."
+    },
+    {
+        "id": 499,
+        "question": "Which lab finding is characteristic of beta-thalassemia major?",
+        "answer": "Marked microcytosis, target cells, elevated HbF",
+        "explanation": "Severe beta-globin deficiency causes ineffective erythropoiesis and compensatory HbF production."
+    },
+    {
+        "id": 500,
+        "question": "Which type of anemia is characterized by normal MCV and low reticulocyte count?",
+        "answer": "Aplastic anemia or anemia of chronic disease (normocytic, low retic)",
+        "explanation": "RBC production is reduced despite normal cell size, resulting in low reticulocytes."
+    }
+]

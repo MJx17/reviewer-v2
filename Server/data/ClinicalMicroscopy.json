@@ -1,0 +1,3002 @@
+[
+  {
+    "id": 1,
+    "question": "What is the normal pH range of urine?",
+    "answer": "4.5–8.0",
+    "explanation": "Urine pH can vary with diet, hydration, and systemic acid-base status."
+  },
+  {
+    "id": 2,
+    "question": "What is the significance of a positive nitrite test in urine?",
+    "answer": "Indicates bacterial infection",
+    "explanation": "Certain bacteria reduce nitrates to nitrites, suggesting urinary tract infection."
+  },
+  {
+    "id": 3,
+    "question": "Which cells are normally found in small numbers in urine sediment?",
+    "answer": "Squamous epithelial cells",
+    "explanation": "Small numbers are normal; large numbers suggest contamination."
+  },
+  {
+    "id": 4,
+    "question": "What does the presence of RBC casts in urine indicate?",
+    "answer": "Glomerulonephritis",
+    "explanation": "RBC casts are formed in the distal nephron due to glomerular bleeding."
+  },
+  {
+    "id": 5,
+    "question": "What is the primary method for measuring urine specific gravity?",
+    "answer": "Refractometry",
+    "explanation": "Refractometers measure urine solute concentration based on light refraction."
+  },
+  {
+    "id": 6,
+    "question": "Which crystal is commonly seen in acidic urine?",
+    "answer": "Uric acid",
+    "explanation": "Uric acid crystals form in low pH conditions."
+  },
+  {
+    "id": 7,
+    "question": "Which crystal is commonly seen in alkaline urine?",
+    "answer": "Triple phosphate (struvite)",
+    "explanation": "Struvite crystals form in high pH urine, often associated with infection."
+  },
+  {
+    "id": 8,
+    "question": "What is the significance of detecting glucose in urine?",
+    "answer": "Glucosuria, often due to diabetes mellitus",
+    "explanation": "Normally glucose is reabsorbed in the proximal tubule; presence indicates hyperglycemia or renal threshold exceeded."
+  },
+  {
+    "id": 9,
+    "question": "What is the normal color of urine?",
+    "answer": "Straw to amber",
+    "explanation": "Color results from urochrome pigment; deviations suggest pathology or medications."
+  },
+  {
+    "id": 10,
+    "question": "Which type of leukocyte is most commonly seen in urine sediment during infection?",
+    "answer": "Neutrophils",
+    "explanation": "Neutrophils respond to bacterial infection in the urinary tract."
+  },
+  {
+    "id": 11,
+    "question": "What does the presence of hyaline casts indicate?",
+    "answer": "Can be normal or due to mild stress",
+    "explanation": "Hyaline casts are composed of Tamm-Horsfall protein and may appear after exercise or dehydration."
+  },
+  {
+    "id": 12,
+    "question": "What is the main significance of epithelial casts?",
+    "answer": "Renal tubular damage",
+    "explanation": "Casts containing renal epithelial cells suggest tubular injury."
+  },
+  {
+    "id": 13,
+    "question": "Which type of urinary sediment cast is indicative of chronic renal disease?",
+    "answer": "Waxy casts",
+    "explanation": "Waxy casts are broad, dense, and formed in severe, chronic renal pathology."
+  },
+  {
+    "id": 14,
+    "question": "What is the significance of bilirubin in urine?",
+    "answer": "Suggests conjugated hyperbilirubinemia",
+    "explanation": "Bilirubinuria is seen in liver disease or biliary obstruction."
+  },
+  {
+    "id": 15,
+    "question": "What is the normal range for urine protein?",
+    "answer": "<150 mg/day",
+    "explanation": "Higher values suggest proteinuria due to renal disease."
+  },
+  {
+    "id": 16,
+    "question": "Which microorganism is most commonly associated with urinary tract infection?",
+    "answer": "Escherichia coli",
+    "explanation": "E. coli accounts for approximately 80% of UTIs."
+  },
+  {
+    "id": 17,
+    "question": "What is the significance of leukocyte esterase in urine?",
+    "answer": "Indicates pyuria",
+    "explanation": "Leukocyte esterase is an enzyme released by WBCs during infection."
+  },
+  {
+    "id": 18,
+    "question": "Which type of epithelial cell is indicative of contamination in urine sample?",
+    "answer": "Squamous epithelial cell",
+    "explanation": "Abundant squamous cells suggest improper midstream collection."
+  },
+  {
+    "id": 19,
+    "question": "Which crystal is associated with ethylene glycol poisoning?",
+    "answer": "Calcium oxalate",
+    "explanation": "Calcium oxalate crystals can be envelope-shaped and appear in urine after ethylene glycol ingestion."
+  },
+  {
+    "id": 20,
+    "question": "What is the normal range of urine volume in 24 hours?",
+    "answer": "800–2000 mL",
+    "explanation": "Varies with fluid intake and environmental factors."
+  },
+  {
+    "id": 21,
+    "question": "Which cell in urine indicates glomerular bleeding?",
+    "answer": "Dysmorphic RBCs",
+    "explanation": "RBCs altered by passage through damaged glomeruli appear dysmorphic."
+  },
+  {
+    "id": 22,
+    "question": "What does the presence of broad casts indicate?",
+    "answer": "Chronic renal failure",
+    "explanation": "Broad casts are seen in dilated tubules in end-stage renal disease."
+  },
+  {
+    "id": 23,
+    "question": "Which chemical test is used to detect ketones in urine?",
+    "answer": "Acetest or reagent strip",
+    "explanation": "Ketone bodies (acetoacetate, acetone) are detected in diabetic ketoacidosis."
+  },
+  {
+    "id": 24,
+    "question": "Which type of cast indicates infection?",
+    "answer": "WBC cast",
+    "explanation": "Presence of WBC casts suggests pyelonephritis."
+  },
+  {
+    "id": 25,
+    "question": "Which type of crystals is commonly found in acidic urine of patients with chronic diarrhea?",
+    "answer": "Uric acid crystals",
+    "explanation": "Acidic urine favors uric acid precipitation."
+  },
+  {
+    "id": 26,
+    "question": "What is the significance of observing spermatozoa in urine?",
+    "answer": "Post-ejaculatory sample or retrograde ejaculation",
+    "explanation": "Sperm can be present transiently after sexual activity or in pathology."
+  },
+  {
+    "id": 27,
+    "question": "Which body fluid is analyzed for xanthochromia?",
+    "answer": "Cerebrospinal fluid (CSF)",
+    "explanation": "Xanthochromia indicates RBC breakdown and possible subarachnoid hemorrhage."
+  },
+  {
+    "id": 28,
+    "question": "What is the normal specific gravity of urine?",
+    "answer": "1.002–1.030",
+    "explanation": "Reflects urine concentration and hydration status."
+  },
+  {
+    "id": 29,
+    "question": "Which crystal is commonly seen in patients with urinary tract infection?",
+    "answer": "Triple phosphate (struvite)",
+    "explanation": "Formed in alkaline urine in the presence of urea-splitting bacteria."
+  },
+  {
+    "id": 30,
+    "question": "Which cast is commonly seen in nephrotic syndrome?",
+    "answer": "Fatty casts",
+    "explanation": "Contain lipid droplets from proteinuria associated with nephrotic syndrome."
+  },
+  {
+    "id": 31,
+    "question": "Which method is used for urine sediment examination?",
+    "answer": "Centrifugation and microscopy",
+    "explanation": "Urine is concentrated by centrifugation and examined under microscope."
+  },
+  {
+    "id": 32,
+    "question": "What is the normal color of cerebrospinal fluid?",
+    "answer": "Clear and colorless",
+    "explanation": "Any yellow or red discoloration indicates pathology."
+  },
+  {
+    "id": 33,
+    "question": "Which cells are predominant in normal CSF?",
+    "answer": "Lymphocytes",
+    "explanation": "Normal CSF contains few lymphocytes; neutrophils indicate infection."
+  },
+  {
+    "id": 34,
+    "question": "Which crystal is seen in ethylene glycol poisoning?",
+    "answer": "Calcium oxalate monohydrate",
+    "explanation": "These crystals appear as envelope-shaped or dumbbell-shaped structures in urine."
+  },
+  {
+    "id": 35,
+    "question": "Which test is used to detect bilirubin in urine?",
+    "answer": "Diazo test or reagent strip",
+    "explanation": "Detects conjugated bilirubin in cholestatic liver disease."
+  },
+  {
+    "id": 36,
+    "question": "Which cell type is predominant in bacterial urinary tract infection?",
+    "answer": "Neutrophils",
+    "explanation": "Neutrophils respond to bacterial infection in the urinary tract."
+  },
+  {
+    "id": 37,
+    "question": "Which urine crystal indicates liver disease or obstruction?",
+    "answer": "Bilirubin crystals",
+    "explanation": "Yellow-brown needles in acidic urine suggest bilirubinuria."
+  },
+  {
+    "id": 38,
+    "question": "Which urine crystal is commonly seen in patients with hyperparathyroidism?",
+    "answer": "Calcium phosphate crystals",
+    "explanation": "Alkaline urine favors calcium phosphate precipitation."
+  },
+  {
+    "id": 39,
+    "question": "Which urine test is used to detect hematuria?",
+    "answer": "Microscopic examination of sediment",
+    "explanation": "RBCs are observed under microscope; dipstick may detect heme pigment."
+  },
+  {
+    "id": 40,
+    "question": "Which casts are associated with acute tubular necrosis?",
+    "answer": "Granular casts",
+    "explanation": "Degenerated tubular epithelial cells form coarse or fine granular casts."
+  },
+  {
+    "id": 41,
+    "question": "What is the normal WBC count in CSF?",
+    "answer": "0–5 cells/μL",
+    "explanation": "Higher counts suggest infection or inflammation."
+  },
+  {
+    "id": 42,
+    "question": "What is the normal glucose level in CSF relative to plasma?",
+    "answer": "About 2/3 of plasma glucose",
+    "explanation": "CSF glucose reflects plasma glucose; low CSF glucose suggests bacterial infection."
+  },
+  {
+    "id": 43,
+    "question": "Which cells are normally absent in urine?",
+    "answer": "RBC casts",
+    "explanation": "RBC casts indicate glomerular bleeding and are not normal."
+  },
+  {
+    "id": 44,
+    "question": "Which microscopic finding is diagnostic of Candida infection in urine?",
+    "answer": "Budding yeast and pseudohyphae",
+    "explanation": "Candida appears as yeast cells and hyphal forms in urine sediment."
+  },
+  {
+    "id": 45,
+    "question": "Which crystal is commonly associated with gout?",
+    "answer": "Uric acid",
+    "explanation": "Uric acid crystals in urine or joint fluid indicate hyperuricemia."
+  },
+  {
+    "id": 46,
+    "question": "Which type of semen analysis parameter evaluates male fertility?",
+    "answer": "Sperm count, motility, and morphology",
+    "explanation": "Standard semen analysis assesses these parameters to determine fertility."
+  },
+  {
+    "id": 47,
+    "question": "Which body fluid is analyzed using the Gram stain to detect bacterial meningitis?",
+    "answer": "Cerebrospinal fluid",
+    "explanation": "Gram stain allows rapid detection of bacterial pathogens in CSF."
+  },
+  {
+    "id": 48,
+    "question": "Which urine test is used to detect proteins in minimal quantities?",
+    "answer": "Sulfosalicylic acid (SSA) test",
+    "explanation": "SSA precipitates protein for detection, including Bence-Jones proteins."
+  },
+  {
+    "id": 49,
+    "question": "Which type of leukocyte in CSF suggests bacterial infection?",
+    "answer": "Neutrophils",
+    "explanation": "Predominant neutrophils in CSF indicate bacterial meningitis."
+  },
+  {
+    "id": 50,
+    "question": "Which type of leukocyte in CSF suggests viral infection?",
+    "answer": "Lymphocytes",
+    "explanation": "Viral infections produce a lymphocytic pleocytosis in CSF."
+  },
+  {
+    "id": 51,
+    "question": "Which urine test detects urobilinogen?",
+    "answer": "Ehrlich’s test",
+    "explanation": "Urobilinogen in urine can indicate hemolytic or liver disease."
+  },
+  {
+    "id": 52,
+    "question": "Which crystal is commonly seen in alkaline urine and renal infection?",
+    "answer": "Triple phosphate (struvite)",
+    "explanation": "These crystals are associated with urea-splitting bacteria."
+  },
+  {
+    "id": 53,
+    "question": "Which cast type is indicative of pyelonephritis?",
+    "answer": "WBC casts",
+    "explanation": "WBC casts suggest infection or inflammation in renal tubules."
+  },
+  {
+    "id": 54,
+    "question": "Which cast type is indicative of glomerulonephritis?",
+    "answer": "RBC casts",
+    "explanation": "RBC casts form in the nephron due to glomerular bleeding."
+  },
+  {
+    "id": 55,
+    "question": "Which crystals are needle-shaped and yellow-brown, often seen in liver disease?",
+    "answer": "Bilirubin crystals",
+    "explanation": "They appear in acidic urine and indicate bilirubinuria."
+  },
+  {
+    "id": 56,
+    "question": "Which crystals are seen in cystinuria?",
+    "answer": "Cystine crystals",
+    "explanation": "Hexagonal crystals in acidic urine indicate cystine metabolic disorder."
+  },
+  {
+    "id": 57,
+    "question": "Which microscopic finding is diagnostic of trichomoniasis in urine?",
+    "answer": "Motile flagellates",
+    "explanation": "Trichomonas vaginalis appears as motile protozoa in wet mount."
+  },
+  {
+    "id": 58,
+    "question": "Which type of leukocyte is seen in allergic reactions in urine?",
+    "answer": "Eosinophils",
+    "explanation": "Eosinophiluria may indicate drug-induced interstitial nephritis."
+  },
+  {
+    "id": 59,
+    "question": "Which urine test is used to detect glucose at the point-of-care?",
+    "answer": "Dipstick glucose test",
+    "explanation": "Uses glucose oxidase reaction for rapid detection."
+  },
+  {
+    "id": 60,
+    "question": "Which urine crystal is associated with ethylene glycol poisoning?",
+    "answer": "Calcium oxalate",
+    "explanation": "Calcium oxalate crystals appear in acidic urine after ethylene glycol ingestion."
+  },
+  {
+    "id": 61,
+    "question": "Which component of semen provides energy for sperm motility?",
+    "answer": "Fructose",
+    "explanation": "Secreted by seminal vesicles, fructose fuels sperm activity."
+  },
+  {
+    "id": 62,
+    "question": "Which body fluid is analyzed for amniotic fluid bilirubin to detect hemolytic disease of the newborn?",
+    "answer": "Amniotic fluid",
+    "explanation": "Bilirubin levels indicate fetal hemolysis."
+  },
+  {
+    "id": 63,
+    "question": "Which urine component is normally absent but appears in diabetes mellitus?",
+    "answer": "Glucose",
+    "explanation": "Glucosuria occurs when blood glucose exceeds renal threshold."
+  },
+  {
+    "id": 64,
+    "question": "Which crystal is commonly seen in acidic urine of gout patients?",
+    "answer": "Uric acid",
+    "explanation": "Acidic urine promotes uric acid crystal formation."
+  },
+  {
+    "id": 65,
+    "question": "Which method is used to quantify urine protein accurately?",
+    "answer": "24-hour urine collection",
+    "explanation": "Total protein excretion over 24 hours reflects kidney function."
+  },
+  {
+    "id": 66,
+    "question": "Which type of urine crystal forms coffin-lid shapes?",
+    "answer": "Triple phosphate (struvite)",
+    "explanation": "Found in alkaline urine with urea-splitting bacterial infection."
+  },
+  {
+    "id": 67,
+    "question": "Which cast type is associated with nephrotic syndrome?",
+    "answer": "Fatty casts",
+    "explanation": "Contains lipid droplets from proteinuria."
+  },
+  {
+    "id": 68,
+    "question": "Which body fluid is analyzed for adenosine deaminase to detect tuberculosis?",
+    "answer": "Pleural fluid",
+    "explanation": "High ADA levels suggest tuberculous pleuritis."
+  },
+  {
+    "id": 69,
+    "question": "Which chemical is used to detect ketone bodies in urine?",
+    "answer": "Nitroprusside (Acetest)",
+    "explanation": "Detects acetoacetate and acetone in diabetic ketoacidosis."
+  },
+  {
+    "id": 70,
+    "question": "Which microscopic finding indicates fungal infection in urine?",
+    "answer": "Budding yeast and hyphae",
+    "explanation": "Candida species appear as yeast cells and pseudohyphae."
+  },
+  {
+    "id": 71,
+    "question": "Which type of RBC morphology is associated with hematuria due to glomerular disease?",
+    "answer": "Dysmorphic RBCs",
+    "explanation": "RBCs are deformed while passing through damaged glomeruli."
+  },
+  {
+    "id": 72,
+    "question": "Which test detects urobilinogen in urine?",
+    "answer": "Ehrlich's test",
+    "explanation": "Detects excess urobilinogen from hemolysis or liver disease."
+  },
+  {
+    "id": 73,
+    "question": "Which crystal is hexagonal and indicates cystinuria?",
+    "answer": "Cystine crystals",
+    "explanation": "Seen in acidic urine, associated with inherited metabolic disorder."
+  },
+  {
+    "id": 74,
+    "question": "Which body fluid is examined for xanthochromia to detect subarachnoid hemorrhage?",
+    "answer": "CSF",
+    "explanation": "Yellow discoloration indicates RBC breakdown."
+  },
+  {
+    "id": 75,
+    "question": "Which cast type indicates tubular damage from drugs or toxins?",
+    "answer": "Epithelial casts",
+    "explanation": "Composed of sloughed renal tubular epithelial cells."
+  },
+  {
+    "id": 76,
+    "question": "Which body fluid is used to detect cryptococcal infection using India ink?",
+    "answer": "CSF",
+    "explanation": "India ink stains the capsule of Cryptococcus neoformans."
+  },
+  {
+    "id": 77,
+    "question": "Which type of urine cast is broad and waxy?",
+    "answer": "Waxy casts",
+    "explanation": "Indicates chronic renal disease or tubular atrophy."
+  },
+  {
+    "id": 78,
+    "question": "Which urine crystal indicates liver disease?",
+    "answer": "Bilirubin crystals",
+    "explanation": "Yellow-brown needles in acidic urine suggest bilirubinuria."
+  },
+  {
+    "id": 79,
+    "question": "Which microscopic finding in urine indicates bacterial infection?",
+    "answer": "Bacteria with WBCs",
+    "explanation": "Presence of bacteria with pyuria confirms infection."
+  },
+  {
+    "id": 80,
+    "question": "Which body fluid is used to measure amniotic fluid creatinine for fetal lung maturity?",
+    "answer": "Amniotic fluid",
+    "explanation": "Assessing fetal maturity involves chemical and cytologic analysis."
+  },
+  {
+    "id": 81,
+    "question": "Which urine crystal appears as envelope-shaped?",
+    "answer": "Calcium oxalate dihydrate",
+    "explanation": "Commonly seen in acidic or neutral urine."
+  },
+  {
+    "id": 82,
+    "question": "Which urine test detects leukocyte esterase?",
+    "answer": "Dipstick test",
+    "explanation": "Detects enzyme released by neutrophils in infection."
+  },
+  {
+    "id": 83,
+    "question": "Which cast type is seen in pyelonephritis?",
+    "answer": "WBC casts",
+    "explanation": "Formed in distal tubules during infection."
+  },
+  {
+    "id": 84,
+    "question": "Which body fluid is analyzed for cytology to detect malignancy?",
+    "answer": "Pleural or peritoneal fluid",
+    "explanation": "Cytology identifies malignant cells in body fluids."
+  },
+  {
+    "id": 85,
+    "question": "Which urine crystal is commonly found in acidic urine and renal calculi?",
+    "answer": "Uric acid",
+    "explanation": "Acidic urine favors uric acid precipitation."
+  },
+  {
+    "id": 86,
+    "question": "Which test is used to detect protein in urine at the bedside?",
+    "answer": "Dipstick protein test",
+    "explanation": "Uses colorimetric method to detect albumin."
+  },
+  {
+    "id": 87,
+    "question": "Which body fluid is analyzed for glucose to diagnose bacterial vs viral meningitis?",
+    "answer": "CSF",
+    "explanation": "Low CSF glucose suggests bacterial infection."
+  },
+  {
+    "id": 88,
+    "question": "Which type of urine cast indicates tubular injury due to toxins or ischemia?",
+    "answer": "Granular casts",
+    "explanation": "Formed by degenerated cellular casts."
+  },
+  {
+    "id": 89,
+    "question": "Which microscopic feature in urine suggests contamination?",
+    "answer": "Large number of squamous epithelial cells",
+    "explanation": "Indicates improper midstream urine collection."
+  },
+  {
+    "id": 90,
+    "question": "Which crystal is dumbbell-shaped or ovoid in urine?",
+    "answer": "Calcium oxalate monohydrate",
+    "explanation": "Seen in ethylene glycol poisoning or oxalate stones."
+  },
+  {
+    "id": 91,
+    "question": "Which body fluid is tested for lactate dehydrogenase to differentiate transudate vs exudate?",
+    "answer": "Pleural fluid",
+    "explanation": "High LDH suggests exudative effusion."
+  },
+  {
+    "id": 92,
+    "question": "Which test detects hemoglobinuria?",
+    "answer": "Dipstick for blood",
+    "explanation": "Detects free hemoglobin in urine, even without intact RBCs."
+  },
+  {
+    "id": 93,
+    "question": "Which cast type indicates severe chronic renal disease?",
+    "answer": "Broad waxy casts",
+    "explanation": "Formed in dilated, atrophied tubules."
+  },
+  {
+    "id": 94,
+    "question": "Which body fluid is analyzed for amniotic fluid bilirubin to detect fetal hemolysis?",
+    "answer": "Amniotic fluid",
+    "explanation": "Increased bilirubin suggests hemolytic disease of the newborn."
+  },
+  {
+    "id": 95,
+    "question": "Which urine crystal is colorless and hexagonal?",
+    "answer": "Cystine crystals",
+    "explanation": "Pathognomonic for cystinuria."
+  },
+  {
+    "id": 96,
+    "question": "Which urine crystals appear as coffin-lid shapes?",
+    "answer": "Triple phosphate (struvite)",
+    "explanation": "Common in alkaline urine due to urea-splitting bacteria."
+  },
+  {
+    "id": 97,
+    "question": "Which cast type is seen in nephrotic syndrome?",
+    "answer": "Fatty casts",
+    "explanation": "Composed of lipid droplets from proteinuria."
+  },
+  {
+    "id": 98,
+    "question": "Which body fluid is used for Gram stain to detect bacterial meningitis?",
+    "answer": "CSF",
+    "explanation": "Gram stain rapidly identifies bacterial pathogens."
+  },
+  {
+    "id": 99,
+    "question": "Which urine test detects ketones?",
+    "answer": "Acetest or dipstick",
+    "explanation": "Detects acetoacetate and acetone in diabetic ketoacidosis."
+  },
+  {
+    "id": 100,
+    "question": "Which body fluid is tested with India ink to detect Cryptococcus?",
+    "answer": "CSF",
+    "explanation": "India ink stains the polysaccharide capsule of Cryptococcus neoformans."
+  },
+  {
+    "id": 101,
+    "question": "What is the normal pH of semen?",
+    "answer": "7.2–8.0",
+    "explanation": "Semen is slightly alkaline to protect sperm in acidic vaginal environment."
+  },
+  {
+    "id": 102,
+    "question": "What is the normal sperm count in semen analysis?",
+    "answer": ">15 million/mL",
+    "explanation": "WHO 2010 criteria consider ≥15 million/mL as normal sperm concentration."
+  },
+  {
+    "id": 103,
+    "question": "Which body fluid is analyzed using wet mount to detect motile protozoa?",
+    "answer": "Urine, vaginal fluid, or semen",
+    "explanation": "Wet mount allows visualization of motile organisms such as Trichomonas."
+  },
+  {
+    "id": 104,
+    "question": "What is the normal volume of semen per ejaculate?",
+    "answer": "1.5–6.0 mL",
+    "explanation": "Volume is produced mainly by seminal vesicles and prostate."
+  },
+  {
+    "id": 105,
+    "question": "Which stain is commonly used for sperm morphology?",
+    "answer": "Papanicolaou or eosin-nigrosin",
+    "explanation": "Allows assessment of head, midpiece, and tail abnormalities."
+  },
+  {
+    "id": 106,
+    "question": "Which microscopic findings in urine indicate Trichomonas infection?",
+    "answer": "Motile flagellated protozoa",
+    "explanation": "Trichomonas vaginalis can occasionally be seen in urine sediment."
+  },
+  {
+    "id": 107,
+    "question": "Which cells in feces indicate intestinal inflammation?",
+    "answer": "Neutrophils",
+    "explanation": "Presence of fecal WBCs suggests bacterial dysentery or inflammatory bowel disease."
+  },
+  {
+    "id": 108,
+    "question": "Which fecal chemical test detects occult blood?",
+    "answer": "Guaiac test",
+    "explanation": "Peroxidase reaction detects heme in stool, used for colorectal cancer screening."
+  },
+  {
+    "id": 109,
+    "question": "Which fecal microscopic finding indicates Giardia lamblia infection?",
+    "answer": "Trophozoites or cysts",
+    "explanation": "Giardia cysts are oval with 2–4 nuclei; trophozoites have flagella."
+  },
+  {
+    "id": 110,
+    "question": "Which fecal microscopic finding indicates Entamoeba histolytica infection?",
+    "answer": "Trophozoites with ingested RBCs",
+    "explanation": "Pathognomonic for invasive amoebiasis."
+  },
+  {
+    "id": 111,
+    "question": "Which fecal component indicates fat malabsorption?",
+    "answer": "Steatorrhea",
+    "explanation": "Excess fat in stool occurs in pancreatic insufficiency or celiac disease."
+  },
+  {
+    "id": 112,
+    "question": "Which stain is used to detect fecal fat?",
+    "answer": "Sudan III or Sudan IV",
+    "explanation": "Lipids stain orange-red with Sudan dyes under microscopy."
+  },
+  {
+    "id": 113,
+    "question": "Which urine crystal is associated with liver disease?",
+    "answer": "Bilirubin crystals",
+    "explanation": "Needle-like yellow-brown crystals in acidic urine indicate bilirubinuria."
+  },
+  {
+    "id": 114,
+    "question": "Which body fluid is analyzed to detect amniotic fluid phosphatidylglycerol for fetal lung maturity?",
+    "answer": "Amniotic fluid",
+    "explanation": "Presence of phosphatidylglycerol indicates mature fetal lungs."
+  },
+  {
+    "id": 115,
+    "question": "Which body fluid is used to detect eosinophils in allergic reactions?",
+    "answer": "Urine (eosinophiluria)",
+    "explanation": "Drug-induced interstitial nephritis can cause eosinophiluria."
+  },
+  {
+    "id": 116,
+    "question": "Which body fluid is examined to detect malignant cells?",
+    "answer": "Pleural, peritoneal, or CSF",
+    "explanation": "Cytology identifies abnormal or malignant cells."
+  },
+  {
+    "id": 117,
+    "question": "Which CSF finding suggests bacterial meningitis?",
+    "answer": "Low glucose, high protein, neutrophilic pleocytosis",
+    "explanation": "Bacteria consume glucose; inflammatory response increases WBCs and protein."
+  },
+  {
+    "id": 118,
+    "question": "Which CSF finding suggests viral meningitis?",
+    "answer": "Normal or slightly low glucose, high protein, lymphocytic pleocytosis",
+    "explanation": "Viral infection induces lymphocyte predominance in CSF."
+  },
+  {
+    "id": 119,
+    "question": "Which crystal is hexagonal and indicates cystinuria?",
+    "answer": "Cystine crystals",
+    "explanation": "Pathognomonic for cystine metabolic disorder."
+  },
+  {
+    "id": 120,
+    "question": "Which body fluid is tested for amniotic fluid bilirubin to assess hemolytic disease of the newborn?",
+    "answer": "Amniotic fluid",
+    "explanation": "Yellow color indicates bilirubin from fetal hemolysis."
+  },
+  {
+    "id": 121,
+    "question": "Which fecal finding indicates hookworm infection?",
+    "answer": "Eggs with thin shell and larva inside",
+    "explanation": "Hookworm eggs are oval and can be visualized in stool microscopy."
+  },
+  {
+    "id": 122,
+    "question": "Which fecal microscopic finding indicates Ascaris lumbricoides infection?",
+    "answer": "Fertilized or unfertilized eggs",
+    "explanation": "Eggs have thick shells; fertilized eggs are oval with a mammillated layer."
+  },
+  {
+    "id": 123,
+    "question": "Which fecal microscopic finding indicates Taenia species infection?",
+    "answer": "Eggs with striated shell and hooklets",
+    "explanation": "Egg morphology differentiates Taenia from other cestodes."
+  },
+  {
+    "id": 124,
+    "question": "Which fecal test detects occult blood at home?",
+    "answer": "Guaiac-based fecal occult blood test (gFOBT)",
+    "explanation": "Detects heme peroxidase activity in stool for screening colorectal cancer."
+  },
+  {
+    "id": 125,
+    "question": "Which urine crystal is envelope-shaped?",
+    "answer": "Calcium oxalate dihydrate",
+    "explanation": "Common in acidic or neutral urine and kidney stones."
+  },
+  {
+    "id": 126,
+    "question": "Which urine crystal is dumbbell-shaped?",
+    "answer": "Calcium oxalate monohydrate",
+    "explanation": "Seen in ethylene glycol poisoning or oxalate stones."
+  },
+  {
+    "id": 127,
+    "question": "Which body fluid is tested using Gram stain to detect bacterial meningitis?",
+    "answer": "CSF",
+    "explanation": "Rapid identification of bacterial pathogens in CSF."
+  },
+  {
+    "id": 128,
+    "question": "Which body fluid is used to detect tuberculosis using adenosine deaminase (ADA)?",
+    "answer": "Pleural fluid",
+    "explanation": "High ADA suggests tuberculous pleuritis."
+  },
+  {
+    "id": 129,
+    "question": "Which body fluid is used to detect Cryptococcus using India ink?",
+    "answer": "CSF",
+    "explanation": "India ink stains the capsule of Cryptococcus neoformans."
+  },
+  {
+    "id": 130,
+    "question": "Which body fluid is analyzed for eosinophils in allergic reactions or drug-induced nephritis?",
+    "answer": "Urine",
+    "explanation": "Eosinophiluria indicates interstitial nephritis."
+  },
+  {
+    "id": 131,
+    "question": "Which body fluid is tested to differentiate transudate vs exudate?",
+    "answer": "Pleural fluid",
+    "explanation": "Protein and LDH levels distinguish transudative from exudative effusions."
+  },
+  {
+    "id": 132,
+    "question": "Which semen parameter assesses motility?",
+    "answer": "Progressive motility percentage",
+    "explanation": "Normal is ≥40% motile sperm with ≥32% progressive motility."
+  },
+  {
+    "id": 133,
+    "question": "Which semen parameter assesses morphology?",
+    "answer": "Percentage of normal forms",
+    "explanation": "Abnormal morphology affects fertility potential."
+  },
+  {
+    "id": 134,
+    "question": "Which body fluid is used to detect xanthochromia for subarachnoid hemorrhage?",
+    "answer": "CSF",
+    "explanation": "Yellow coloration indicates RBC breakdown products."
+  },
+  {
+    "id": 135,
+    "question": "Which body fluid is used for cytology to detect malignancy?",
+    "answer": "Pleural, peritoneal, or CSF",
+    "explanation": "Identifies abnormal or malignant cells."
+  },
+  {
+    "id": 136,
+    "question": "Which urine cast type indicates pyelonephritis?",
+    "answer": "WBC casts",
+    "explanation": "Indicates inflammation in renal tubules."
+  },
+  {
+    "id": 137,
+    "question": "Which urine cast type indicates glomerulonephritis?",
+    "answer": "RBC casts",
+    "explanation": "Formed in nephron due to glomerular bleeding."
+  },
+  {
+    "id": 138,
+    "question": "Which urine cast type indicates nephrotic syndrome?",
+    "answer": "Fatty casts",
+    "explanation": "Composed of lipid droplets from proteinuria."
+  },
+  {
+    "id": 139,
+    "question": "Which urine cast type indicates chronic renal disease?",
+    "answer": "Waxy casts",
+    "explanation": "Broad, dense casts formed in severe chronic renal pathology."
+  },
+  {
+    "id": 140,
+    "question": "Which urine crystal indicates ethylene glycol poisoning?",
+    "answer": "Calcium oxalate",
+    "explanation": "Monohydrate or dihydrate crystals appear in urine."
+  },
+  {
+    "id": 141,
+    "question": "Which body fluid is analyzed to detect fetal lung maturity?",
+    "answer": "Amniotic fluid",
+    "explanation": "Tests include L/S ratio, phosphatidylglycerol, or lamellar body count."
+  },
+  {
+    "id": 142,
+    "question": "Which body fluid is tested to detect bilirubin from hemolytic disease of the newborn?",
+    "answer": "Amniotic fluid",
+    "explanation": "Increased bilirubin indicates fetal hemolysis."
+  },
+  {
+    "id": 143,
+    "question": "Which fecal finding indicates steatorrhea?",
+    "answer": "Excess fat droplets under microscopy",
+    "explanation": "Suggests malabsorption syndromes like celiac disease or pancreatic insufficiency."
+  },
+  {
+    "id": 144,
+    "question": "Which fecal finding indicates bacterial dysentery?",
+    "answer": "Presence of neutrophils in stool",
+    "explanation": "Pyocytes indicate inflammation in the intestinal mucosa."
+  },
+  {
+    "id": 145,
+    "question": "Which fecal parasite has a knob at one end of the egg?",
+    "answer": "Trichuris trichiura",
+    "explanation": "Eggs are barrel-shaped with bipolar plugs."
+  },
+  {
+    "id": 146,
+    "question": "Which fecal parasite egg has a thick shell with a mammillated layer?",
+    "answer": "Ascaris lumbricoides",
+    "explanation": "Oval eggs; fertilized eggs have mammillated layer."
+  },
+  {
+    "id": 147,
+    "question": "Which fecal parasite egg has radial striations and hooklets?",
+    "answer": "Taenia spp.",
+    "explanation": "Cestode eggs are diagnostic in stool microscopy."
+  },
+  {
+    "id": 148,
+    "question": "Which fecal parasite cyst is quadrinucleated?",
+    "answer": "Giardia lamblia",
+    "explanation": "Cyst has 4 nuclei and is oval-shaped."
+  },
+  {
+    "id": 149,
+    "question": "Which fecal parasite trophozoite ingests RBCs?",
+    "answer": "Entamoeba histolytica",
+    "explanation": "Diagnostic for invasive amoebiasis."
+  },
+  {
+    "id": 150,
+    "question": "Which fecal test detects occult blood using guaiac?",
+    "answer": "gFOBT",
+    "explanation": "Peroxidase activity of heme produces blue color on guaiac paper."
+  },
+  {
+    "id": 151,
+    "question": "Which fecal test uses immunoassay to detect human hemoglobin?",
+    "answer": "FIT (fecal immunochemical test)",
+    "explanation": "More specific than gFOBT; detects lower GI bleeding."
+  },
+  {
+    "id": 152,
+    "question": "Which fecal component indicates parasitic infection?",
+    "answer": "Ova or cysts",
+    "explanation": "Microscopy detects parasites or their cysts."
+  },
+  {
+    "id": 153,
+    "question": "Which fecal chemical test indicates fat malabsorption?",
+    "answer": "Sudan stain for fecal fat",
+    "explanation": "Excess fat appears as red-orange droplets."
+  },
+  {
+    "id": 154,
+    "question": "Which body fluid is examined for spermatozoa to evaluate fertility?",
+    "answer": "Semen",
+    "explanation": "Sperm count, motility, and morphology are assessed."
+  },
+  {
+    "id": 155,
+    "question": "Which body fluid test uses eosin-nigrosin stain?",
+    "answer": "Semen",
+    "explanation": "Assesses sperm viability and morphology."
+  },
+  {
+    "id": 156,
+    "question": "Which body fluid is analyzed for motility of protozoa?",
+    "answer": "Wet mount of urine, vaginal fluid, or feces",
+    "explanation": "Motile organisms like Trichomonas or Giardia are visualized."
+  },
+  {
+    "id": 157,
+    "question": "Which body fluid is used to detect Cryptococcus neoformans?",
+    "answer": "CSF using India ink",
+    "explanation": "Capsule appears as a halo around yeast cells."
+  },
+  {
+    "id": 158,
+    "question": "Which body fluid is used to detect bacteria using Gram stain?",
+    "answer": "CSF",
+    "explanation": "Rapid detection of bacterial meningitis."
+  },
+  {
+    "id": 159,
+    "question": "Which body fluid is analyzed for adenosine deaminase in TB?",
+    "answer": "Pleural fluid",
+    "explanation": "High ADA indicates tuberculous effusion."
+  },
+  {
+    "id": 160,
+    "question": "Which CSF finding indicates bacterial infection?",
+    "answer": "Neutrophilic pleocytosis, high protein, low glucose",
+    "explanation": "Bacteria consume glucose; inflammatory response increases WBC and protein."
+  },
+  {
+    "id": 161,
+    "question": "Which CSF finding indicates viral infection?",
+    "answer": "Lymphocytic pleocytosis, slightly high protein, normal glucose",
+    "explanation": "Viral meningitis increases lymphocytes rather than neutrophils."
+  },
+  {
+    "id": 162,
+    "question": "Which urine crystal is coffin-lid shaped?",
+    "answer": "Triple phosphate (struvite)",
+    "explanation": "Found in alkaline urine associated with urea-splitting bacteria."
+  },
+  {
+    "id": 163,
+    "question": "Which urine crystal is hexagonal?",
+    "answer": "Cystine",
+    "explanation": "Pathognomonic for cystinuria."
+  },
+  {
+    "id": 164,
+    "question": "Which urine crystal is envelope-shaped?",
+    "answer": "Calcium oxalate dihydrate",
+    "explanation": "Found in normal urine and kidney stones."
+  },
+  {
+    "id": 165,
+    "question": "Which urine crystal is dumbbell-shaped?",
+    "answer": "Calcium oxalate monohydrate",
+    "explanation": "Found in ethylene glycol poisoning or kidney stones."
+  },
+  {
+    "id": 166,
+    "question": "Which urine cast type indicates tubular injury?",
+    "answer": "Epithelial casts",
+    "explanation": "Formed by sloughed renal tubular epithelial cells."
+  },
+  {
+    "id": 167,
+    "question": "Which urine cast type indicates infection?",
+    "answer": "WBC casts",
+    "explanation": "Indicates pyelonephritis."
+  },
+  {
+    "id": 168,
+    "question": "Which urine cast type indicates glomerular bleeding?",
+    "answer": "RBC casts",
+    "explanation": "Formed in distal nephron due to glomerular bleeding."
+  },
+  {
+    "id": 169,
+    "question": "Which urine cast type indicates chronic renal disease?",
+    "answer": "Waxy casts",
+    "explanation": "Broad, dense casts formed in chronic renal pathology."
+  },
+  {
+    "id": 170,
+    "question": "Which urine cast type indicates nephrotic syndrome?",
+    "answer": "Fatty casts",
+    "explanation": "Contains lipid droplets from heavy proteinuria."
+  },
+  {
+    "id": 171,
+    "question": "Which body fluid is used to assess fetal lung maturity?",
+    "answer": "Amniotic fluid",
+    "explanation": "Tests include L/S ratio, phosphatidylglycerol, or lamellar body count."
+  },
+  {
+    "id": 172,
+    "question": "Which body fluid is tested for bilirubin to assess hemolytic disease of the newborn?",
+    "answer": "Amniotic fluid",
+    "explanation": "Yellow color indicates fetal hemolysis."
+  },
+  {
+    "id": 173,
+    "question": "Which fecal microscopic finding indicates bacterial dysentery?",
+    "answer": "Neutrophils in stool",
+    "explanation": "Pyocytes suggest inflammation of intestinal mucosa."
+  },
+  {
+    "id": 174,
+    "question": "Which fecal microscopic finding indicates steatorrhea?",
+    "answer": "Excess fat droplets",
+    "explanation": "Suggests malabsorption syndromes like celiac disease or pancreatic insufficiency."
+  },
+  {
+    "id": 175,
+    "question": "Which fecal parasite egg is barrel-shaped with bipolar plugs?",
+    "answer": "Trichuris trichiura",
+    "explanation": "Diagnostic for whipworm infection."
+  },
+  {
+    "id": 176,
+    "question": "Which fecal parasite egg has thick shell and mammillated layer?",
+    "answer": "Ascaris lumbricoides",
+    "explanation": "Oval eggs; fertilized eggs are mammillated."
+  },
+  {
+    "id": 177,
+    "question": "Which fecal parasite egg has radial striations and hooklets?",
+    "answer": "Taenia spp.",
+    "explanation": "Cestode eggs seen in stool microscopy."
+  },
+  {
+    "id": 178,
+    "question": "Which fecal parasite cyst has four nuclei?",
+    "answer": "Giardia lamblia",
+    "explanation": "Cyst is oval with 4 nuclei."
+  },
+  {
+    "id": 179,
+    "question": "Which fecal parasite trophozoite ingests RBCs?",
+    "answer": "Entamoeba histolytica",
+    "explanation": "Diagnostic for invasive amoebiasis."
+  },
+  {
+    "id": 180,
+    "question": "Which fecal test detects occult blood using guaiac?",
+    "answer": "gFOBT",
+    "explanation": "Peroxidase activity of heme produces blue color."
+  },
+  {
+    "id": 181,
+    "question": "Which fecal test uses immunoassay to detect human hemoglobin?",
+    "answer": "FIT",
+    "explanation": "More specific than gFOBT; detects lower GI bleeding."
+  },
+  {
+    "id": 182,
+    "question": "Which fecal component indicates parasitic infection?",
+    "answer": "Ova or cysts",
+    "explanation": "Detected via stool microscopy."
+  },
+  {
+    "id": 183,
+    "question": "Which fecal chemical test detects fat malabsorption?",
+    "answer": "Sudan stain",
+    "explanation": "Fat droplets stain red-orange under microscopy."
+  },
+  {
+    "id": 184,
+    "question": "Which semen parameter assesses motility?",
+    "answer": "Progressive motility",
+    "explanation": "Normal is ≥40% motile sperm with ≥32% progressive motility."
+  },
+  {
+    "id": 185,
+    "question": "Which semen parameter assesses morphology?",
+    "answer": "Percentage of normal forms",
+    "explanation": "Abnormal morphology affects fertility potential."
+  },
+  {
+    "id": 186,
+    "question": "Which stain is used for sperm viability?",
+    "answer": "Eosin-nigrosin",
+    "explanation": "Dead sperm stain pink; live sperm remain unstained."
+  },
+  {
+    "id": 187,
+    "question": "Which body fluid is used to detect motile protozoa?",
+    "answer": "Wet mount of urine, vaginal fluid, or feces",
+    "explanation": "Allows visualization of motile organisms like Trichomonas."
+  },
+  {
+    "id": 188,
+    "question": "Which body fluid is tested using India ink for Cryptococcus?",
+    "answer": "CSF",
+    "explanation": "Capsule appears as a halo around yeast cells."
+  },
+  {
+    "id": 189,
+    "question": "Which body fluid is tested for bacteria using Gram stain?",
+    "answer": "CSF",
+    "explanation": "Rapid detection of bacterial meningitis."
+  },
+  {
+    "id": 190,
+    "question": "Which body fluid is analyzed for ADA in TB?",
+    "answer": "Pleural fluid",
+    "explanation": "High ADA indicates tuberculous effusion."
+  },
+  {
+    "id": 191,
+    "question": "Which CSF finding indicates bacterial infection?",
+    "answer": "Neutrophilic pleocytosis, high protein, low glucose",
+    "explanation": "Bacteria consume glucose; inflammatory response increases WBC and protein."
+  },
+  {
+    "id": 192,
+    "question": "Which CSF finding indicates viral infection?",
+    "answer": "Lymphocytic pleocytosis, slightly high protein, normal glucose",
+    "explanation": "Viral meningitis increases lymphocytes rather than neutrophils."
+  },
+  {
+    "id": 193,
+    "question": "Which urine crystal indicates infection with urease-producing bacteria?",
+    "answer": "Triple phosphate (struvite)",
+    "explanation": "Alkaline urine crystals formed in urinary tract infection."
+  },
+  {
+    "id": 194,
+    "question": "Which urine crystal is hexagonal?",
+    "answer": "Cystine",
+    "explanation": "Pathognomonic for cystinuria."
+  },
+  {
+    "id": 195,
+    "question": "Which urine crystal is envelope-shaped?",
+    "answer": "Calcium oxalate dihydrate",
+    "explanation": "Found in normal urine and kidney stones."
+  },
+  {
+    "id": 196,
+    "question": "Which urine crystal is dumbbell-shaped?",
+    "answer": "Calcium oxalate monohydrate",
+    "explanation": "Found in ethylene glycol poisoning or kidney stones."
+  },
+  {
+    "id": 197,
+    "question": "Which urine cast type indicates tubular injury?",
+    "answer": "Epithelial casts",
+    "explanation": "Formed by sloughed renal tubular epithelial cells."
+  },
+  {
+    "id": 198,
+    "question": "Which urine cast type indicates infection?",
+    "answer": "WBC casts",
+    "explanation": "Indicates pyelonephritis."
+  },
+  {
+    "id": 199,
+    "question": "Which urine cast type indicates glomerular bleeding?",
+    "answer": "RBC casts",
+    "explanation": "Formed in distal nephron due to glomerular bleeding."
+  },
+  {
+    "id": 200,
+    "question": "Which urine cast type indicates chronic renal disease?",
+    "answer": "Waxy casts",
+    "explanation": "Broad, dense casts formed in chronic renal pathology."
+  },
+  {
+    "id": 201,
+    "question": "Which urine cast type indicates nephrotic syndrome?",
+    "answer": "Fatty casts",
+    "explanation": "Contains lipid droplets from heavy proteinuria."
+  },
+  {
+    "id": 202,
+    "question": "Which urine cast type indicates renal tubular degeneration due to ischemia or toxins?",
+    "answer": "Granular casts",
+    "explanation": "Degenerated cellular casts appear granular under microscopy."
+  },
+  {
+    "id": 203,
+    "question": "Which urine cast type indicates severe chronic renal disease?",
+    "answer": "Broad waxy casts",
+    "explanation": "Formed in dilated, atrophied tubules in advanced renal disease."
+  },
+  {
+    "id": 204,
+    "question": "Which test detects hemoglobinuria?",
+    "answer": "Urine dipstick for blood",
+    "explanation": "Detects free hemoglobin in urine, even without intact RBCs."
+  },
+  {
+    "id": 205,
+    "question": "Which urine test detects ketones?",
+    "answer": "Urine dipstick or Acetest",
+    "explanation": "Detects acetoacetate and acetone in diabetic ketoacidosis."
+  },
+  {
+    "id": 206,
+    "question": "Which body fluid is tested for glucose to differentiate bacterial from viral meningitis?",
+    "answer": "CSF",
+    "explanation": "Low CSF glucose suggests bacterial infection."
+  },
+  {
+    "id": 207,
+    "question": "Which body fluid is used to detect xanthochromia?",
+    "answer": "CSF",
+    "explanation": "Yellow discoloration indicates RBC breakdown in subarachnoid hemorrhage."
+  },
+  {
+    "id": 208,
+    "question": "Which body fluid is analyzed to detect Cryptococcus using India ink?",
+    "answer": "CSF",
+    "explanation": "India ink stains the capsule of Cryptococcus neoformans."
+  },
+  {
+    "id": 209,
+    "question": "Which body fluid is used to detect malignant cells?",
+    "answer": "Pleural, peritoneal, or CSF",
+    "explanation": "Cytology identifies abnormal or malignant cells."
+  },
+  {
+    "id": 210,
+    "question": "Which body fluid is analyzed to detect fetal lung maturity?",
+    "answer": "Amniotic fluid",
+    "explanation": "Tests include L/S ratio, phosphatidylglycerol, or lamellar body count."
+  },
+  {
+    "id": 211,
+    "question": "Which body fluid is tested for bilirubin to assess hemolytic disease of the newborn?",
+    "answer": "Amniotic fluid",
+    "explanation": "Yellow color indicates fetal hemolysis."
+  },
+  {
+    "id": 212,
+    "question": "Which fecal microscopic finding indicates neutrophilic inflammation?",
+    "answer": "Fecal WBCs",
+    "explanation": "Presence of neutrophils indicates bacterial dysentery or inflammatory bowel disease."
+  },
+  {
+    "id": 213,
+    "question": "Which fecal test detects occult blood using guaiac?",
+    "answer": "gFOBT",
+    "explanation": "Peroxidase activity of heme produces blue color on guaiac paper."
+  },
+  {
+    "id": 214,
+    "question": "Which fecal test uses immunoassay to detect human hemoglobin?",
+    "answer": "FIT",
+    "explanation": "More specific than gFOBT; detects lower GI bleeding."
+  },
+  {
+    "id": 215,
+    "question": "Which fecal chemical test detects fat malabsorption?",
+    "answer": "Sudan stain for fecal fat",
+    "explanation": "Excess fat droplets stain red-orange under microscopy."
+  },
+  {
+    "id": 216,
+    "question": "Which fecal parasite egg is barrel-shaped with bipolar plugs?",
+    "answer": "Trichuris trichiura",
+    "explanation": "Diagnostic for whipworm infection."
+  },
+  {
+    "id": 217,
+    "question": "Which fecal parasite egg has thick shell and mammillated layer?",
+    "answer": "Ascaris lumbricoides",
+    "explanation": "Oval eggs; fertilized eggs are mammillated."
+  },
+  {
+    "id": 218,
+    "question": "Which fecal parasite egg has radial striations and hooklets?",
+    "answer": "Taenia spp.",
+    "explanation": "Cestode eggs diagnostic in stool microscopy."
+  },
+  {
+    "id": 219,
+    "question": "Which fecal parasite cyst has four nuclei?",
+    "answer": "Giardia lamblia",
+    "explanation": "Cyst is oval with 4 nuclei."
+  },
+  {
+    "id": 220,
+    "question": "Which fecal parasite trophozoite ingests RBCs?",
+    "answer": "Entamoeba histolytica",
+    "explanation": "Pathognomonic for invasive amoebiasis."
+  },
+  {
+    "id": 221,
+    "question": "Which body fluid is used to detect eosinophils in allergic reactions or drug-induced nephritis?",
+    "answer": "Urine",
+    "explanation": "Eosinophiluria indicates interstitial nephritis."
+  },
+  {
+    "id": 222,
+    "question": "Which body fluid is analyzed to differentiate transudate from exudate?",
+    "answer": "Pleural fluid",
+    "explanation": "Protein and LDH levels distinguish transudative from exudative effusions."
+  },
+  {
+    "id": 223,
+    "question": "Which body fluid is tested for adenosine deaminase to suggest tuberculosis?",
+    "answer": "Pleural fluid",
+    "explanation": "High ADA levels indicate tuberculous pleuritis."
+  },
+  {
+    "id": 224,
+    "question": "Which body fluid is examined using wet mount to detect motile protozoa?",
+    "answer": "Urine, vaginal fluid, or feces",
+    "explanation": "Allows visualization of motile organisms like Trichomonas or Giardia."
+  },
+  {
+    "id": 225,
+    "question": "Which stain is used for sperm morphology and viability?",
+    "answer": "Eosin-nigrosin or Papanicolaou stain",
+    "explanation": "Assess head, midpiece, tail abnormalities and live/dead sperm."
+  },
+  {
+    "id": 226,
+    "question": "Which CSF finding suggests bacterial meningitis?",
+    "answer": "Neutrophilic pleocytosis, high protein, low glucose",
+    "explanation": "Bacteria consume glucose; WBCs and protein increase due to inflammation."
+  },
+  {
+    "id": 227,
+    "question": "Which CSF finding suggests viral meningitis?",
+    "answer": "Lymphocytic pleocytosis, slightly high protein, normal glucose",
+    "explanation": "Viral infections usually increase lymphocytes, not neutrophils."
+  },
+  {
+    "id": 228,
+    "question": "Which urine crystal is associated with alkaline urine and infections with urease-producing bacteria?",
+    "answer": "Triple phosphate (struvite)",
+    "explanation": "Coffin-lid shaped crystals form in urinary tract infections."
+  },
+  {
+    "id": 229,
+    "question": "Which urine crystal is hexagonal and pathognomonic for cystinuria?",
+    "answer": "Cystine",
+    "explanation": "Found in acidic urine; indicates inherited metabolic disorder."
+  },
+  {
+    "id": 230,
+    "question": "Which urine crystal is envelope-shaped?",
+    "answer": "Calcium oxalate dihydrate",
+    "explanation": "Found in acidic or neutral urine and kidney stones."
+  },
+  {
+    "id": 231,
+    "question": "Which urine crystal is dumbbell-shaped?",
+    "answer": "Calcium oxalate monohydrate",
+    "explanation": "Seen in ethylene glycol poisoning or kidney stones."
+  },
+  {
+    "id": 232,
+    "question": "Which urine cast type indicates tubular injury?",
+    "answer": "Epithelial casts",
+    "explanation": "Formed by sloughed renal tubular epithelial cells."
+  },
+  {
+    "id": 233,
+    "question": "Which urine cast type indicates pyelonephritis?",
+    "answer": "WBC casts",
+    "explanation": "Indicates inflammation in renal tubules."
+  },
+  {
+    "id": 234,
+    "question": "Which urine cast type indicates glomerular bleeding?",
+    "answer": "RBC casts",
+    "explanation": "Formed in nephron due to glomerular bleeding."
+  },
+  {
+    "id": 235,
+    "question": "Which urine cast type indicates chronic renal disease?",
+    "answer": "Waxy casts",
+    "explanation": "Broad, dense casts formed in severe chronic renal disease."
+  },
+  {
+    "id": 236,
+    "question": "Which urine cast type indicates nephrotic syndrome?",
+    "answer": "Fatty casts",
+    "explanation": "Contains lipid droplets from heavy proteinuria."
+  },
+  {
+    "id": 237,
+    "question": "Which urine cast type indicates severe tubular degeneration?",
+    "answer": "Granular casts",
+    "explanation": "Formed by degenerated cellular casts due to toxins or ischemia."
+  },
+  {
+    "id": 238,
+    "question": "Which test detects protein in urine at the bedside?",
+    "answer": "Dipstick protein test",
+    "explanation": "Colorimetric method detects mainly albumin."
+  },
+  {
+    "id": 239,
+    "question": "Which urine test detects leukocyte esterase?",
+    "answer": "Dipstick test",
+    "explanation": "Detects enzyme released by neutrophils in urinary tract infections."
+  },
+  {
+    "id": 240,
+    "question": "Which body fluid is tested for glucose to differentiate bacterial vs viral meningitis?",
+    "answer": "CSF",
+    "explanation": "Low glucose suggests bacterial infection."
+  },
+  {
+    "id": 241,
+    "question": "Which body fluid is tested for amniotic fluid creatinine?",
+    "answer": "Amniotic fluid",
+    "explanation": "Used to assess fetal maturity or renal function."
+  },
+  {
+    "id": 242,
+    "question": "Which body fluid is tested for bilirubin to assess hemolytic disease of the newborn?",
+    "answer": "Amniotic fluid",
+    "explanation": "Yellow color indicates fetal hemolysis."
+  },
+  {
+    "id": 243,
+    "question": "Which body fluid is analyzed for cytology to detect malignancy?",
+    "answer": "Pleural, peritoneal, or CSF",
+    "explanation": "Identifies abnormal or malignant cells."
+  },
+  {
+    "id": 244,
+    "question": "Which body fluid is tested using India ink?",
+    "answer": "CSF",
+    "explanation": "Capsule of Cryptococcus neoformans appears as halo."
+  },
+  {
+    "id": 245,
+    "question": "Which body fluid is analyzed for eosinophils in drug-induced nephritis?",
+    "answer": "Urine",
+    "explanation": "Eosinophiluria is indicative of interstitial nephritis."
+  },
+  {
+    "id": 246,
+    "question": "Which body fluid is analyzed to differentiate transudate vs exudate?",
+    "answer": "Pleural fluid",
+    "explanation": "Protein and LDH levels distinguish transudative from exudative effusions."
+  },
+  {
+    "id": 247,
+    "question": "Which fecal parasite egg has a knob at one end?",
+    "answer": "Trichuris trichiura",
+    "explanation": "Barrel-shaped egg with bipolar plugs."
+  },
+  {
+    "id": 248,
+    "question": "Which fecal parasite egg is oval with a thick shell and mammillated layer?",
+    "answer": "Ascaris lumbricoides",
+    "explanation": "Diagnostic for roundworm infection."
+  },
+  {
+    "id": 249,
+    "question": "Which fecal parasite egg has radial striations and hooklets?",
+    "answer": "Taenia spp.",
+    "explanation": "Cestode eggs diagnostic in stool microscopy."
+  },
+  {
+    "id": 250,
+    "question": "Which fecal parasite cyst is quadrinucleated?",
+    "answer": "Giardia lamblia",
+    "explanation": "Cyst has 4 nuclei and is oval-shaped."
+  },
+  {
+    "id": 251,
+    "question": "Which fecal parasite trophozoite ingests RBCs?",
+    "answer": "Entamoeba histolytica",
+    "explanation": "Pathognomonic for invasive amoebiasis."
+  },
+  {
+    "id": 252,
+    "question": "Which fecal chemical test detects occult blood?",
+    "answer": "Guaiac test (gFOBT)",
+    "explanation": "Peroxidase reaction of heme produces blue color."
+  },
+  {
+    "id": 253,
+    "question": "Which fecal test uses immunoassay for human hemoglobin?",
+    "answer": "FIT",
+    "explanation": "Detects lower GI bleeding more specifically than gFOBT."
+  },
+  {
+    "id": 254,
+    "question": "Which fecal chemical test detects fat malabsorption?",
+    "answer": "Sudan III or IV stain",
+    "explanation": "Fat droplets stain red-orange under microscopy."
+  },
+  {
+    "id": 255,
+    "question": "Which body fluid is tested to assess sperm count, motility, and morphology?",
+    "answer": "Semen",
+    "explanation": "Key in fertility evaluation."
+  },
+  {
+    "id": 256,
+    "question": "Which semen parameter assesses progressive motility?",
+    "answer": "Progressive motility percentage",
+    "explanation": "Normal is ≥32% progressive motility."
+  },
+  {
+    "id": 257,
+    "question": "Which semen parameter assesses morphology?",
+    "answer": "Percentage of normal forms",
+    "explanation": "Abnormal morphology affects fertility potential."
+  },
+  {
+    "id": 258,
+    "question": "Which semen stain assesses sperm viability?",
+    "answer": "Eosin-nigrosin",
+    "explanation": "Dead sperm stain pink; live sperm remain unstained."
+  },
+  {
+    "id": 259,
+    "question": "Which urine crystal is hexagonal and pathognomonic for cystinuria?",
+    "answer": "Cystine",
+    "explanation": "Found in acidic urine; indicates inherited metabolic disorder."
+  },
+  {
+    "id": 260,
+    "question": "Which urine crystal is envelope-shaped?",
+    "answer": "Calcium oxalate dihydrate",
+    "explanation": "Found in normal urine and kidney stones."
+  },
+  {
+    "id": 261,
+    "question": "Which urine crystal is dumbbell-shaped?",
+    "answer": "Calcium oxalate monohydrate",
+    "explanation": "Seen in ethylene glycol poisoning or kidney stones."
+  },
+  {
+    "id": 262,
+    "question": "Which urine crystal is coffin-lid shaped?",
+    "answer": "Triple phosphate (struvite)",
+    "explanation": "Found in alkaline urine and infections with urease-producing bacteria."
+  },
+  {
+    "id": 263,
+    "question": "Which urine cast type indicates infection?",
+    "answer": "WBC casts",
+    "explanation": "Indicates pyelonephritis."
+  },
+  {
+    "id": 264,
+    "question": "Which urine cast type indicates tubular injury?",
+    "answer": "Epithelial casts",
+    "explanation": "Formed by sloughed renal tubular epithelial cells."
+  },
+  {
+    "id": 265,
+    "question": "Which urine cast type indicates glomerular bleeding?",
+    "answer": "RBC casts",
+    "explanation": "Formed in nephron due to glomerular bleeding."
+  },
+  {
+    "id": 266,
+    "question": "Which urine cast type indicates nephrotic syndrome?",
+    "answer": "Fatty casts",
+    "explanation": "Contains lipid droplets from heavy proteinuria."
+  },
+  {
+    "id": 267,
+    "question": "Which urine cast type indicates chronic renal disease?",
+    "answer": "Waxy casts",
+    "explanation": "Broad, dense casts formed in chronic renal pathology."
+  },
+  {
+    "id": 268,
+    "question": "Which urine cast type indicates tubular degeneration?",
+    "answer": "Granular casts",
+    "explanation": "Formed by degenerated cellular casts due to toxins or ischemia."
+  },
+  {
+    "id": 269,
+    "question": "Which urine test detects protein at the bedside?",
+    "answer": "Dipstick protein test",
+    "explanation": "Uses colorimetric reaction to detect mainly albumin."
+  },
+  {
+    "id": 270,
+    "question": "Which urine test detects leukocyte esterase?",
+    "answer": "Dipstick test",
+    "explanation": "Detects enzyme from neutrophils in infection."
+  },
+  {
+    "id": 271,
+    "question": "Which urine test detects hemoglobinuria?",
+    "answer": "Dipstick for blood",
+    "explanation": "Detects free hemoglobin even without RBCs."
+  },
+  {
+    "id": 272,
+    "question": "Which urine test detects ketones?",
+    "answer": "Dipstick or Acetest",
+    "explanation": "Detects acetoacetate and acetone in diabetic ketoacidosis."
+  },
+  {
+    "id": 273,
+    "question": "Which body fluid is used to differentiate bacterial from viral meningitis?",
+    "answer": "CSF",
+    "explanation": "Low glucose and neutrophils indicate bacterial; lymphocytes indicate viral."
+  },
+  {
+    "id": 274,
+    "question": "Which body fluid is analyzed for fetal lung maturity?",
+    "answer": "Amniotic fluid",
+    "explanation": "Tests include L/S ratio, phosphatidylglycerol, lamellar body count."
+  },
+  {
+    "id": 275,
+    "question": "Which body fluid is tested for bilirubin in hemolytic disease of the newborn?",
+    "answer": "Amniotic fluid",
+    "explanation": "Yellow color indicates fetal hemolysis."
+  },
+  {
+    "id": 276,
+    "question": "Which body fluid is used for cytology to detect malignancy?",
+    "answer": "Pleural, peritoneal, or CSF",
+    "explanation": "Identifies abnormal or malignant cells."
+  },
+  {
+    "id": 277,
+    "question": "Which body fluid is tested using India ink?",
+    "answer": "CSF",
+    "explanation": "Capsule of Cryptococcus neoformans appears as a halo."
+  },
+  {
+    "id": 278,
+    "question": "Which body fluid is analyzed for eosinophils in drug-induced nephritis?",
+    "answer": "Urine",
+    "explanation": "Eosinophiluria is indicative of interstitial nephritis."
+  },
+  {
+    "id": 279,
+    "question": "Which body fluid is analyzed to differentiate transudate vs exudate?",
+    "answer": "Pleural fluid",
+    "explanation": "Protein and LDH levels distinguish transudative from exudative effusions."
+  },
+  {
+    "id": 280,
+    "question": "Which fecal parasite egg is barrel-shaped with bipolar plugs?",
+    "answer": "Trichuris trichiura",
+    "explanation": "Diagnostic for whipworm infection."
+  },
+  {
+    "id": 281,
+    "question": "Which fecal parasite egg is oval with thick shell and mammillated layer?",
+    "answer": "Ascaris lumbricoides",
+    "explanation": "Roundworm diagnostic egg."
+  },
+  {
+    "id": 282,
+    "question": "Which fecal parasite egg has radial striations and hooklets?",
+    "answer": "Taenia spp.",
+    "explanation": "Cestode eggs diagnostic in stool microscopy."
+  },
+  {
+    "id": 283,
+    "question": "Which fecal parasite cyst has four nuclei?",
+    "answer": "Giardia lamblia",
+    "explanation": "Cyst is oval with 4 nuclei."
+  },
+  {
+    "id": 284,
+    "question": "Which fecal parasite trophozoite ingests RBCs?",
+    "answer": "Entamoeba histolytica",
+    "explanation": "Indicative of invasive amoebiasis."
+  },
+  {
+    "id": 285,
+    "question": "Which fecal chemical test detects occult blood?",
+    "answer": "Guaiac test (gFOBT)",
+    "explanation": "Peroxidase reaction produces blue color."
+  },
+  {
+    "id": 286,
+    "question": "Which fecal test uses immunoassay for human hemoglobin?",
+    "answer": "FIT",
+    "explanation": "Detects lower GI bleeding more specifically."
+  },
+  {
+    "id": 287,
+    "question": "Which fecal chemical test detects fat malabsorption?",
+    "answer": "Sudan III or IV stain",
+    "explanation": "Fat droplets stain red-orange under microscopy."
+  },
+  {
+    "id": 288,
+    "question": "Which semen parameter assesses motility?",
+    "answer": "Progressive motility",
+    "explanation": "Normal is ≥40% motile sperm with ≥32% progressive motility."
+  },
+  {
+    "id": 289,
+    "question": "Which semen parameter assesses morphology?",
+    "answer": "Percentage of normal forms",
+    "explanation": "Abnormal morphology affects fertility potential."
+  },
+  {
+    "id": 290,
+    "question": "Which semen stain assesses viability?",
+    "answer": "Eosin-nigrosin",
+    "explanation": "Dead sperm stain pink; live sperm remain unstained."
+  },
+  {
+    "id": 291,
+    "question": "Which CSF finding suggests bacterial meningitis?",
+    "answer": "Neutrophilic pleocytosis, high protein, low glucose",
+    "explanation": "Bacteria consume glucose; inflammatory response increases WBC and protein."
+  },
+  {
+    "id": 292,
+    "question": "Which CSF finding suggests viral meningitis?",
+    "answer": "Lymphocytic pleocytosis, slightly high protein, normal glucose",
+    "explanation": "Viral infections increase lymphocytes rather than neutrophils."
+  },
+  {
+    "id": 293,
+    "question": "Which urine crystal indicates cystinuria?",
+    "answer": "Cystine",
+    "explanation": "Hexagonal crystals found in acidic urine."
+  },
+  {
+    "id": 294,
+    "question": "Which urine crystal is envelope-shaped?",
+    "answer": "Calcium oxalate dihydrate",
+    "explanation": "Found in normal urine and kidney stones."
+  },
+  {
+    "id": 295,
+    "question": "Which urine crystal is dumbbell-shaped?",
+    "answer": "Calcium oxalate monohydrate",
+    "explanation": "Found in ethylene glycol poisoning or kidney stones."
+  },
+  {
+    "id": 296,
+    "question": "Which urine crystal is coffin-lid shaped?",
+    "answer": "Triple phosphate (struvite)",
+    "explanation": "Formed in alkaline urine with urease-producing bacteria."
+  },
+  {
+    "id": 297,
+    "question": "Which urine cast type indicates pyelonephritis?",
+    "answer": "WBC casts",
+    "explanation": "Formed in renal tubules due to infection."
+  },
+  {
+    "id": 298,
+    "question": "Which urine cast type indicates tubular injury?",
+    "answer": "Epithelial casts",
+    "explanation": "Formed by sloughed renal tubular epithelial cells."
+  },
+  {
+    "id": 299,
+    "question": "Which urine cast type indicates glomerular bleeding?",
+    "answer": "RBC casts",
+    "explanation": "Formed in nephron due to glomerular bleeding."
+  },
+  {
+    "id": 300,
+    "question": "Which urine cast type indicates nephrotic syndrome?",
+    "answer": "Fatty casts",
+    "explanation": "Contains lipid droplets from heavy proteinuria."
+  },
+  {
+    "id": 301,
+    "question": "Which body fluid is analyzed for amniotic fluid lecithin/sphingomyelin (L/S) ratio?",
+    "answer": "Amniotic fluid",
+    "explanation": "Used to assess fetal lung maturity; L/S ratio ≥2 indicates maturity."
+  },
+  {
+    "id": 302,
+    "question": "Which body fluid is tested for phosphatidylglycerol to assess fetal lung maturity?",
+    "answer": "Amniotic fluid",
+    "explanation": "Presence of phosphatidylglycerol indicates mature fetal lungs."
+  },
+  {
+    "id": 303,
+    "question": "Which body fluid is analyzed for lamellar body count?",
+    "answer": "Amniotic fluid",
+    "explanation": "Lamellar body count ≥50,000–100,000/μL indicates fetal lung maturity."
+  },
+  {
+    "id": 304,
+    "question": "Which body fluid is analyzed for bilirubin in hemolytic disease of the newborn?",
+    "answer": "Amniotic fluid",
+    "explanation": "Yellow color indicates fetal hemolysis."
+  },
+  {
+    "id": 305,
+    "question": "Which body fluid is analyzed for cytology to detect malignant cells?",
+    "answer": "Pleural, peritoneal, or CSF",
+    "explanation": "Detects abnormal or malignant cells."
+  },
+  {
+    "id": 306,
+    "question": "Which body fluid is examined with India ink?",
+    "answer": "CSF",
+    "explanation": "Capsule of Cryptococcus neoformans appears as a halo."
+  },
+  {
+    "id": 307,
+    "question": "Which body fluid shows eosinophils in drug-induced nephritis?",
+    "answer": "Urine",
+    "explanation": "Eosinophiluria indicates interstitial nephritis."
+  },
+  {
+    "id": 308,
+    "question": "Which body fluid differentiates transudate from exudate?",
+    "answer": "Pleural fluid",
+    "explanation": "Protein and LDH levels are used; transudate has low protein/LDH, exudate is high."
+  },
+  {
+    "id": 309,
+    "question": "Which body fluid is tested for adenosine deaminase (ADA) to suggest tuberculosis?",
+    "answer": "Pleural fluid",
+    "explanation": "High ADA (>40 U/L) indicates tuberculous pleuritis."
+  },
+  {
+    "id": 310,
+    "question": "Which body fluid is examined via wet mount to detect motile protozoa?",
+    "answer": "Urine, vaginal fluid, or feces",
+    "explanation": "Allows visualization of motile organisms like Trichomonas or Giardia."
+  },
+  {
+    "id": 311,
+    "question": "Which semen parameter assesses motility?",
+    "answer": "Progressive motility",
+    "explanation": "Normal is ≥40% motile sperm with ≥32% progressive motility."
+  },
+  {
+    "id": 312,
+    "question": "Which semen parameter assesses morphology?",
+    "answer": "Percentage of normal forms",
+    "explanation": "Abnormal morphology affects fertility potential."
+  },
+  {
+    "id": 313,
+    "question": "Which semen stain assesses viability?",
+    "answer": "Eosin-nigrosin",
+    "explanation": "Dead sperm stain pink; live sperm remain unstained."
+  },
+  {
+    "id": 314,
+    "question": "Which fecal parasite egg is barrel-shaped with bipolar plugs?",
+    "answer": "Trichuris trichiura",
+    "explanation": "Diagnostic for whipworm infection."
+  },
+  {
+    "id": 315,
+    "question": "Which fecal parasite egg is oval with thick shell and mammillated layer?",
+    "answer": "Ascaris lumbricoides",
+    "explanation": "Diagnostic for roundworm infection."
+  },
+  {
+    "id": 316,
+    "question": "Which fecal parasite egg has radial striations and hooklets?",
+    "answer": "Taenia spp.",
+    "explanation": "Cestode eggs seen in stool microscopy."
+  },
+  {
+    "id": 317,
+    "question": "Which fecal parasite cyst has four nuclei?",
+    "answer": "Giardia lamblia",
+    "explanation": "Oval cyst with 4 nuclei; infectious form."
+  },
+  {
+    "id": 318,
+    "question": "Which fecal parasite trophozoite ingests RBCs?",
+    "answer": "Entamoeba histolytica",
+    "explanation": "Pathognomonic for invasive amoebiasis."
+  },
+  {
+    "id": 319,
+    "question": "Which fecal chemical test detects occult blood using guaiac?",
+    "answer": "gFOBT",
+    "explanation": "Peroxidase activity of heme produces blue color."
+  },
+  {
+    "id": 320,
+    "question": "Which fecal test uses immunoassay to detect human hemoglobin?",
+    "answer": "FIT",
+    "explanation": "Detects lower GI bleeding more specifically than gFOBT."
+  },
+  {
+    "id": 321,
+    "question": "Which fecal chemical test detects fat malabsorption?",
+    "answer": "Sudan III or IV stain",
+    "explanation": "Fat droplets stain red-orange under microscopy."
+  },
+  {
+    "id": 322,
+    "question": "Which urine crystal is hexagonal and pathognomonic for cystinuria?",
+    "answer": "Cystine",
+    "explanation": "Found in acidic urine; indicates inherited metabolic disorder."
+  },
+  {
+    "id": 323,
+    "question": "Which urine crystal is envelope-shaped?",
+    "answer": "Calcium oxalate dihydrate",
+    "explanation": "Found in normal urine and kidney stones."
+  },
+  {
+    "id": 324,
+    "question": "Which urine crystal is dumbbell-shaped?",
+    "answer": "Calcium oxalate monohydrate",
+    "explanation": "Seen in ethylene glycol poisoning or kidney stones."
+  },
+  {
+    "id": 325,
+    "question": "Which urine crystal is coffin-lid shaped?",
+    "answer": "Triple phosphate (struvite)",
+    "explanation": "Forms in alkaline urine with urease-producing bacteria."
+  },
+  {
+    "id": 326,
+    "question": "Which urine cast type indicates tubular injury?",
+    "answer": "Epithelial casts",
+    "explanation": "Formed by sloughed renal tubular epithelial cells."
+  },
+  {
+    "id": 327,
+    "question": "Which urine cast type indicates infection?",
+    "answer": "WBC casts",
+    "explanation": "Indicates pyelonephritis."
+  },
+  {
+    "id": 328,
+    "question": "Which urine cast type indicates glomerular bleeding?",
+    "answer": "RBC casts",
+    "explanation": "Formed in nephron due to glomerular bleeding."
+  },
+  {
+    "id": 329,
+    "question": "Which urine cast type indicates nephrotic syndrome?",
+    "answer": "Fatty casts",
+    "explanation": "Contains lipid droplets from heavy proteinuria."
+  },
+  {
+    "id": 330,
+    "question": "Which urine cast type indicates chronic renal disease?",
+    "answer": "Waxy casts",
+    "explanation": "Broad, dense casts formed in chronic renal pathology."
+  },
+  {
+    "id": 331,
+    "question": "Which urine cast type indicates tubular degeneration?",
+    "answer": "Granular casts",
+    "explanation": "Formed by degenerated cellular casts due to toxins or ischemia."
+  },
+  {
+    "id": 332,
+    "question": "Which urine test detects protein at the bedside?",
+    "answer": "Dipstick protein test",
+    "explanation": "Detects mainly albumin using colorimetric reaction."
+  },
+  {
+    "id": 333,
+    "question": "Which urine test detects leukocyte esterase?",
+    "answer": "Dipstick test",
+    "explanation": "Detects neutrophil enzyme in urinary tract infections."
+  },
+  {
+    "id": 334,
+    "question": "Which urine test detects hemoglobinuria?",
+    "answer": "Dipstick for blood",
+    "explanation": "Detects free hemoglobin even without intact RBCs."
+  },
+  {
+    "id": 335,
+    "question": "Which urine test detects ketones?",
+    "answer": "Dipstick or Acetest",
+    "explanation": "Detects acetoacetate and acetone in diabetic ketoacidosis."
+  },
+  {
+    "id": 336,
+    "question": "Which CSF finding suggests bacterial meningitis?",
+    "answer": "Neutrophilic pleocytosis, high protein, low glucose",
+    "explanation": "Bacteria consume glucose; WBC and protein increase."
+  },
+  {
+    "id": 337,
+    "question": "Which CSF finding suggests viral meningitis?",
+    "answer": "Lymphocytic pleocytosis, slightly high protein, normal glucose",
+    "explanation": "Viral infections usually increase lymphocytes rather than neutrophils."
+  },
+  {
+    "id": 338,
+    "question": "Which body fluid is used to differentiate bacterial vs viral meningitis?",
+    "answer": "CSF",
+    "explanation": "Glucose and WBC pattern help differentiate."
+  },
+  {
+    "id": 339,
+    "question": "Which body fluid is tested for fetal lung maturity?",
+    "answer": "Amniotic fluid",
+    "explanation": "Tests include L/S ratio, phosphatidylglycerol, lamellar body count."
+  },
+  {
+    "id": 340,
+    "question": "Which body fluid is tested for bilirubin in hemolytic disease of the newborn?",
+    "answer": "Amniotic fluid",
+    "explanation": "Yellow color indicates fetal hemolysis."
+  },
+  {
+    "id": 341,
+    "question": "Which body fluid is used for cytology to detect malignancy?",
+    "answer": "Pleural, peritoneal, or CSF",
+    "explanation": "Detects abnormal or malignant cells."
+  },
+  {
+    "id": 342,
+    "question": "Which body fluid is examined using India ink?",
+    "answer": "CSF",
+    "explanation": "Capsule of Cryptococcus neoformans appears as a halo."
+  },
+  {
+    "id": 343,
+    "question": "Which body fluid shows eosinophils in drug-induced nephritis?",
+    "answer": "Urine",
+    "explanation": "Eosinophiluria indicates interstitial nephritis."
+  },
+  {
+    "id": 344,
+    "question": "Which body fluid differentiates transudate vs exudate?",
+    "answer": "Pleural fluid",
+    "explanation": "Protein and LDH levels are used; transudate has low protein/LDH, exudate is high."
+  },
+  {
+    "id": 345,
+    "question": "Which body fluid is tested for adenosine deaminase (ADA) to suggest tuberculosis?",
+    "answer": "Pleural fluid",
+    "explanation": "High ADA (>40 U/L) indicates tuberculous pleuritis."
+  },
+  {
+    "id": 346,
+    "question": "Which body fluid is examined via wet mount to detect motile protozoa?",
+    "answer": "Urine, vaginal fluid, or feces",
+    "explanation": "Allows visualization of motile organisms like Trichomonas or Giardia."
+  },
+  {
+    "id": 347,
+    "question": "Which body fluid is analyzed for glucose to differentiate bacterial from viral meningitis?",
+    "answer": "CSF",
+    "explanation": "Low CSF glucose suggests bacterial infection."
+  },
+  {
+    "id": 348,
+    "question": "Which body fluid is used to detect xanthochromia?",
+    "answer": "CSF",
+    "explanation": "Yellow discoloration indicates RBC breakdown (subarachnoid hemorrhage)."
+  },
+  {
+    "id": 349,
+    "question": "Which body fluid is tested for ADA in TB?",
+    "answer": "Pleural fluid",
+    "explanation": "High ADA suggests tuberculous effusion."
+  },
+  {
+    "id": 350,
+    "question": "Which urine crystal is found in ethylene glycol poisoning?",
+    "answer": "Calcium oxalate monohydrate",
+    "explanation": "Dumbbell-shaped crystals are characteristic."
+  },
+  {
+    "id": 351,
+    "question": "Which urine cast type indicates acute tubular necrosis?",
+    "answer": "Granular casts",
+    "explanation": "Formed by degenerated renal tubular cells, seen in ATN."
+  },
+  {
+    "id": 352,
+    "question": "Which urine cast type indicates severe chronic kidney disease?",
+    "answer": "Waxy casts",
+    "explanation": "Broad, dense casts formed in chronic renal pathology."
+  },
+  {
+    "id": 353,
+    "question": "Which urine cast type indicates nephrotic syndrome?",
+    "answer": "Fatty casts",
+    "explanation": "Contains lipid droplets from heavy proteinuria."
+  },
+  {
+    "id": 354,
+    "question": "Which urine cast type indicates infection?",
+    "answer": "WBC casts",
+    "explanation": "Formed in renal tubules due to pyelonephritis."
+  },
+  {
+    "id": 355,
+    "question": "Which urine cast type indicates glomerular bleeding?",
+    "answer": "RBC casts",
+    "explanation": "Formed in nephron due to glomerular hemorrhage."
+  },
+  {
+    "id": 356,
+    "question": "Which urine crystal is hexagonal and pathognomonic for cystinuria?",
+    "answer": "Cystine",
+    "explanation": "Found in acidic urine; indicates inherited metabolic disorder."
+  },
+  {
+    "id": 357,
+    "question": "Which urine crystal is envelope-shaped?",
+    "answer": "Calcium oxalate dihydrate",
+    "explanation": "Seen in normal urine and kidney stones."
+  },
+  {
+    "id": 358,
+    "question": "Which urine crystal is dumbbell-shaped?",
+    "answer": "Calcium oxalate monohydrate",
+    "explanation": "Seen in ethylene glycol poisoning or kidney stones."
+  },
+  {
+    "id": 359,
+    "question": "Which urine crystal is coffin-lid shaped?",
+    "answer": "Triple phosphate (struvite)",
+    "explanation": "Forms in alkaline urine with urease-producing bacteria."
+  },
+  {
+    "id": 360,
+    "question": "Which chemical test detects urinary protein at the bedside?",
+    "answer": "Dipstick protein test",
+    "explanation": "Detects mainly albumin using colorimetric reaction."
+  },
+  {
+    "id": 361,
+    "question": "Which chemical test detects leukocyte esterase in urine?",
+    "answer": "Dipstick test",
+    "explanation": "Indicates presence of neutrophils, suggestive of UTI."
+  },
+  {
+    "id": 362,
+    "question": "Which chemical test detects hemoglobinuria or myoglobinuria?",
+    "answer": "Dipstick for blood",
+    "explanation": "Detects free hemoglobin or myoglobin even without intact RBCs."
+  },
+  {
+    "id": 363,
+    "question": "Which chemical test detects ketones in urine?",
+    "answer": "Dipstick or Acetest",
+    "explanation": "Detects acetoacetate and acetone in diabetic ketoacidosis."
+  },
+  {
+    "id": 364,
+    "question": "Which body fluid is used to differentiate bacterial vs viral meningitis?",
+    "answer": "CSF",
+    "explanation": "Glucose, protein, and WBC pattern help differentiate bacterial from viral infection."
+  },
+  {
+    "id": 365,
+    "question": "Which body fluid shows xanthochromia?",
+    "answer": "CSF",
+    "explanation": "Yellow discoloration indicates RBC breakdown, often in subarachnoid hemorrhage."
+  },
+  {
+    "id": 366,
+    "question": "Which body fluid is tested for adenosine deaminase (ADA) in tuberculosis?",
+    "answer": "Pleural fluid",
+    "explanation": "High ADA (>40 U/L) suggests tuberculous pleuritis."
+  },
+  {
+    "id": 367,
+    "question": "Which body fluid is examined with India ink?",
+    "answer": "CSF",
+    "explanation": "Capsule of Cryptococcus neoformans appears as a halo."
+  },
+  {
+    "id": 368,
+    "question": "Which body fluid is analyzed for eosinophils in drug-induced nephritis?",
+    "answer": "Urine",
+    "explanation": "Eosinophiluria is indicative of interstitial nephritis."
+  },
+  {
+    "id": 369,
+    "question": "Which body fluid differentiates transudate from exudate?",
+    "answer": "Pleural fluid",
+    "explanation": "Protein and LDH levels distinguish transudative from exudative effusions."
+  },
+  {
+    "id": 370,
+    "question": "Which body fluid is examined via wet mount to detect motile protozoa?",
+    "answer": "Urine, vaginal fluid, or feces",
+    "explanation": "Allows visualization of motile organisms like Trichomonas or Giardia."
+  },
+  {
+    "id": 371,
+    "question": "Which body fluid is analyzed for amniotic fluid L/S ratio?",
+    "answer": "Amniotic fluid",
+    "explanation": "Lecithin/sphingomyelin ratio ≥2 indicates fetal lung maturity."
+  },
+  {
+    "id": 372,
+    "question": "Which body fluid is analyzed for phosphatidylglycerol to assess fetal lung maturity?",
+    "answer": "Amniotic fluid",
+    "explanation": "Presence indicates mature fetal lungs."
+  },
+  {
+    "id": 373,
+    "question": "Which body fluid is analyzed for lamellar body count?",
+    "answer": "Amniotic fluid",
+    "explanation": "Lamellar body count ≥50,000–100,000/μL indicates fetal lung maturity."
+  },
+  {
+    "id": 374,
+    "question": "Which body fluid is analyzed for bilirubin in hemolytic disease of the newborn?",
+    "answer": "Amniotic fluid",
+    "explanation": "Yellow color indicates fetal hemolysis."
+  },
+  {
+    "id": 375,
+    "question": "Which fecal parasite egg is barrel-shaped with bipolar plugs?",
+    "answer": "Trichuris trichiura",
+    "explanation": "Diagnostic for whipworm infection."
+  },
+  {
+    "id": 376,
+    "question": "Which fecal parasite egg is oval with thick shell and mammillated layer?",
+    "answer": "Ascaris lumbricoides",
+    "explanation": "Diagnostic for roundworm infection."
+  },
+  {
+    "id": 377,
+    "question": "Which fecal parasite egg has radial striations and hooklets?",
+    "answer": "Taenia spp.",
+    "explanation": "Cestode eggs diagnostic in stool microscopy."
+  },
+  {
+    "id": 378,
+    "question": "Which fecal parasite cyst has four nuclei?",
+    "answer": "Giardia lamblia",
+    "explanation": "Oval cyst with 4 nuclei; infectious form."
+  },
+  {
+    "id": 379,
+    "question": "Which fecal parasite trophozoite ingests RBCs?",
+    "answer": "Entamoeba histolytica",
+    "explanation": "Pathognomonic for invasive amoebiasis."
+  },
+  {
+    "id": 380,
+    "question": "Which fecal chemical test detects occult blood using guaiac?",
+    "answer": "gFOBT",
+    "explanation": "Peroxidase activity of heme produces blue color."
+  },
+  {
+    "id": 381,
+    "question": "Which fecal test uses immunoassay to detect human hemoglobin?",
+    "answer": "FIT",
+    "explanation": "Detects lower GI bleeding specifically."
+  },
+  {
+    "id": 382,
+    "question": "Which fecal chemical test detects fat malabsorption?",
+    "answer": "Sudan III or IV stain",
+    "explanation": "Fat droplets stain red-orange under microscopy."
+  },
+  {
+    "id": 383,
+    "question": "Which semen parameter assesses motility?",
+    "answer": "Progressive motility",
+    "explanation": "Normal is ≥40% motile sperm with ≥32% progressive motility."
+  },
+  {
+    "id": 384,
+    "question": "Which semen parameter assesses morphology?",
+    "answer": "Percentage of normal forms",
+    "explanation": "Abnormal morphology affects fertility potential."
+  },
+  {
+    "id": 385,
+    "question": "Which semen stain assesses viability?",
+    "answer": "Eosin-nigrosin",
+    "explanation": "Dead sperm stain pink; live sperm remain unstained."
+  },
+  {
+    "id": 386,
+    "question": "Which CSF finding suggests bacterial meningitis?",
+    "answer": "Neutrophilic pleocytosis, high protein, low glucose",
+    "explanation": "Bacteria consume glucose; WBC and protein increase."
+  },
+  {
+    "id": 387,
+    "question": "Which CSF finding suggests viral meningitis?",
+    "answer": "Lymphocytic pleocytosis, slightly high protein, normal glucose",
+    "explanation": "Viral infections increase lymphocytes rather than neutrophils."
+  },
+  {
+    "id": 388,
+    "question": "Which CSF finding suggests fungal meningitis?",
+    "answer": "Lymphocytic pleocytosis, low/normal glucose, high protein",
+    "explanation": "Cryptococcus or other fungi may present with these changes."
+  },
+  {
+    "id": 389,
+    "question": "Which CSF finding suggests tuberculous meningitis?",
+    "answer": "Lymphocytic pleocytosis, very low glucose, high protein",
+    "explanation": "Typical of TB infection in the CNS."
+  },
+  {
+    "id": 390,
+    "question": "Which body fluid is tested for glucose to differentiate bacterial from viral meningitis?",
+    "answer": "CSF",
+    "explanation": "Low CSF glucose suggests bacterial infection."
+  },
+  {
+    "id": 391,
+    "question": "Which body fluid is used to detect xanthochromia?",
+    "answer": "CSF",
+    "explanation": "Yellow discoloration indicates RBC breakdown (subarachnoid hemorrhage)."
+  },
+  {
+    "id": 392,
+    "question": "Which body fluid is used for cytology to detect malignancy?",
+    "answer": "Pleural, peritoneal, or CSF",
+    "explanation": "Detects abnormal or malignant cells."
+  },
+  {
+    "id": 393,
+    "question": "Which body fluid is used to detect cryptococcal infection?",
+    "answer": "CSF",
+    "explanation": "India ink stain highlights capsules of Cryptococcus neoformans."
+  },
+  {
+    "id": 394,
+    "question": "Which body fluid shows eosinophils in drug-induced interstitial nephritis?",
+    "answer": "Urine",
+    "explanation": "Presence of eosinophils indicates hypersensitivity reaction."
+  },
+  {
+    "id": 395,
+    "question": "Which body fluid differentiates transudate vs exudate?",
+    "answer": "Pleural fluid",
+    "explanation": "Protein and LDH levels distinguish transudative vs exudative effusions."
+  },
+  {
+    "id": 396,
+    "question": "Which body fluid is tested for amniotic fluid lecithin/sphingomyelin ratio?",
+    "answer": "Amniotic fluid",
+    "explanation": "Used to assess fetal lung maturity."
+  },
+  {
+    "id": 397,
+    "question": "Which body fluid is tested for phosphatidylglycerol to assess fetal lung maturity?",
+    "answer": "Amniotic fluid",
+    "explanation": "Presence indicates mature fetal lungs."
+  },
+  {
+    "id": 398,
+    "question": "Which body fluid is analyzed for lamellar body count?",
+    "answer": "Amniotic fluid",
+    "explanation": "Lamellar body count ≥50,000–100,000/μL indicates fetal lung maturity."
+  },
+  {
+    "id": 399,
+    "question": "Which body fluid is analyzed for bilirubin in hemolytic disease of the newborn?",
+    "answer": "Amniotic fluid",
+    "explanation": "Yellow color indicates fetal hemolysis."
+  },
+  {
+    "id": 400,
+    "question": "Which fecal parasite egg is diagnostic for whipworm?",
+    "answer": "Trichuris trichiura",
+    "explanation": "Barrel-shaped egg with bipolar plugs is characteristic."
+  },
+  {
+    "id": 401,
+    "question": "Which fecal parasite egg is diagnostic for roundworm infection?",
+    "answer": "Ascaris lumbricoides",
+    "explanation": "Oval egg with thick shell and mammillated layer."
+  },
+  {
+    "id": 402,
+    "question": "Which fecal parasite egg is diagnostic for tapeworm infection?",
+    "answer": "Taenia spp.",
+    "explanation": "Egg has radial striations and hooklets."
+  },
+  {
+    "id": 403,
+    "question": "Which fecal parasite cyst has four nuclei and is infectious?",
+    "answer": "Giardia lamblia",
+    "explanation": "Oval cyst with 4 nuclei; causes giardiasis."
+  },
+  {
+    "id": 404,
+    "question": "Which fecal parasite trophozoite ingests RBCs?",
+    "answer": "Entamoeba histolytica",
+    "explanation": "Invasive amoebiasis can be diagnosed by trophozoites with ingested RBCs."
+  },
+  {
+    "id": 405,
+    "question": "Which fecal chemical test detects occult blood using guaiac?",
+    "answer": "gFOBT",
+    "explanation": "Peroxidase activity of heme produces a blue color."
+  },
+  {
+    "id": 406,
+    "question": "Which fecal chemical test uses immunoassay to detect human hemoglobin?",
+    "answer": "FIT",
+    "explanation": "Detects lower GI bleeding specifically."
+  },
+  {
+    "id": 407,
+    "question": "Which fecal chemical test detects fat malabsorption?",
+    "answer": "Sudan III or IV stain",
+    "explanation": "Fat droplets stain red-orange under microscopy."
+  },
+  {
+    "id": 408,
+    "question": "Which semen parameter evaluates motility?",
+    "answer": "Progressive motility",
+    "explanation": "Normal is ≥40% motile sperm with ≥32% progressive motility."
+  },
+  {
+    "id": 409,
+    "question": "Which semen parameter evaluates morphology?",
+    "answer": "Percentage of normal forms",
+    "explanation": "Abnormal morphology can affect fertility."
+  },
+  {
+    "id": 410,
+    "question": "Which semen stain is used to assess sperm viability?",
+    "answer": "Eosin-nigrosin",
+    "explanation": "Dead sperm stain pink; live sperm remain unstained."
+  },
+  {
+    "id": 411,
+    "question": "Which CSF finding indicates bacterial meningitis?",
+    "answer": "Neutrophilic pleocytosis, high protein, low glucose",
+    "explanation": "Bacteria consume glucose; WBCs and protein increase."
+  },
+  {
+    "id": 412,
+    "question": "Which CSF finding indicates viral meningitis?",
+    "answer": "Lymphocytic pleocytosis, slightly high protein, normal glucose",
+    "explanation": "Viral infections mainly increase lymphocytes."
+  },
+  {
+    "id": 413,
+    "question": "Which CSF finding indicates fungal meningitis?",
+    "answer": "Lymphocytic pleocytosis, low/normal glucose, high protein",
+    "explanation": "Seen in infections such as Cryptococcus."
+  },
+  {
+    "id": 414,
+    "question": "Which CSF finding indicates tuberculous meningitis?",
+    "answer": "Lymphocytic pleocytosis, very low glucose, high protein",
+    "explanation": "Typical of TB infection in the CNS."
+  },
+  {
+    "id": 415,
+    "question": "Which urine crystal is hexagonal and diagnostic for cystinuria?",
+    "answer": "Cystine",
+    "explanation": "Found in acidic urine; indicates inherited metabolic disorder."
+  },
+  {
+    "id": 416,
+    "question": "Which urine crystal is envelope-shaped?",
+    "answer": "Calcium oxalate dihydrate",
+    "explanation": "Found in normal urine and kidney stones."
+  },
+  {
+    "id": 417,
+    "question": "Which urine crystal is dumbbell-shaped?",
+    "answer": "Calcium oxalate monohydrate",
+    "explanation": "Seen in ethylene glycol poisoning or kidney stones."
+  },
+  {
+    "id": 418,
+    "question": "Which urine crystal is coffin-lid shaped?",
+    "answer": "Triple phosphate (struvite)",
+    "explanation": "Forms in alkaline urine with urease-producing bacteria."
+  },
+  {
+    "id": 419,
+    "question": "Which urine cast type indicates acute tubular necrosis?",
+    "answer": "Granular casts",
+    "explanation": "Formed by degenerated renal tubular cells."
+  },
+  {
+    "id": 420,
+    "question": "Which urine cast type indicates chronic renal disease?",
+    "answer": "Waxy casts",
+    "explanation": "Broad, dense casts formed in chronic renal pathology."
+  },
+  {
+    "id": 421,
+    "question": "Which urine cast type indicates nephrotic syndrome?",
+    "answer": "Fatty casts",
+    "explanation": "Contains lipid droplets from heavy proteinuria."
+  },
+  {
+    "id": 422,
+    "question": "Which urine cast type indicates infection?",
+    "answer": "WBC casts",
+    "explanation": "Formed in renal tubules due to pyelonephritis."
+  },
+  {
+    "id": 423,
+    "question": "Which urine cast type indicates glomerular bleeding?",
+    "answer": "RBC casts",
+    "explanation": "Formed in nephron due to glomerular hemorrhage."
+  },
+  {
+    "id": 424,
+    "question": "Which chemical test detects urinary protein?",
+    "answer": "Dipstick protein test",
+    "explanation": "Detects mainly albumin via colorimetric reaction."
+  },
+  {
+    "id": 425,
+    "question": "Which chemical test detects leukocyte esterase in urine?",
+    "answer": "Dipstick test",
+    "explanation": "Indicates presence of neutrophils, suggestive of UTI."
+  },
+  {
+    "id": 426,
+    "question": "Which chemical test detects hemoglobinuria or myoglobinuria?",
+    "answer": "Dipstick for blood",
+    "explanation": "Detects free hemoglobin or myoglobin even without intact RBCs."
+  },
+  {
+    "id": 427,
+    "question": "Which chemical test detects ketones in urine?",
+    "answer": "Dipstick or Acetest",
+    "explanation": "Detects acetoacetate and acetone in diabetic ketoacidosis."
+  },
+  {
+    "id": 428,
+    "question": "Which body fluid is used to detect cryptococcal infection?",
+    "answer": "CSF",
+    "explanation": "India ink stain highlights capsules of Cryptococcus neoformans."
+  },
+  {
+    "id": 429,
+    "question": "Which body fluid shows eosinophils in drug-induced nephritis?",
+    "answer": "Urine",
+    "explanation": "Eosinophiluria indicates interstitial nephritis."
+  },
+  {
+    "id": 430,
+    "question": "Which body fluid differentiates transudate vs exudate?",
+    "answer": "Pleural fluid",
+    "explanation": "Protein and LDH levels distinguish transudative from exudative effusions."
+  },
+  {
+    "id": 431,
+    "question": "Which body fluid is analyzed for amniotic fluid L/S ratio?",
+    "answer": "Amniotic fluid",
+    "explanation": "Used to assess fetal lung maturity; L/S ratio ≥2 indicates maturity."
+  },
+  {
+    "id": 432,
+    "question": "Which body fluid is analyzed for phosphatidylglycerol?",
+    "answer": "Amniotic fluid",
+    "explanation": "Presence indicates mature fetal lungs."
+  },
+  {
+    "id": 433,
+    "question": "Which body fluid is analyzed for lamellar body count?",
+    "answer": "Amniotic fluid",
+    "explanation": "Lamellar body count ≥50,000–100,000/μL indicates fetal lung maturity."
+  },
+  {
+    "id": 434,
+    "question": "Which body fluid is analyzed for bilirubin in hemolytic disease of the newborn?",
+    "answer": "Amniotic fluid",
+    "explanation": "Yellow color indicates fetal hemolysis."
+  },
+  {
+    "id": 435,
+    "question": "Which body fluid is examined via wet mount to detect motile protozoa?",
+    "answer": "Urine, vaginal fluid, or feces",
+    "explanation": "Allows visualization of motile organisms like Trichomonas or Giardia."
+  },
+  {
+    "id": 436,
+    "question": "Which urine test detects glucose in diabetic patients?",
+    "answer": "Dipstick test",
+    "explanation": "Glucose in urine indicates hyperglycemia exceeding renal threshold."
+  },
+  {
+    "id": 437,
+    "question": "Which urine test detects bilirubin in liver disease?",
+    "answer": "Dipstick test",
+    "explanation": "Detects conjugated bilirubin in urine; unconjugated bilirubin is not excreted."
+  },
+  {
+    "id": 438,
+    "question": "Which fecal test is used for quantitative fat measurement?",
+    "answer": "72-hour fecal fat test",
+    "explanation": "Used to diagnose steatorrhea and fat malabsorption."
+  },
+  {
+    "id": 439,
+    "question": "Which fecal test is used for ova and parasite detection?",
+    "answer": "Stool microscopy",
+    "explanation": "Wet mount, concentration, and permanent stains help detect parasites."
+  },
+  {
+    "id": 440,
+    "question": "Which semen parameter indicates male fertility potential?",
+    "answer": "Sperm count, motility, and morphology",
+    "explanation": "Normal parameters: count ≥15 million/mL, motility ≥40%, normal forms ≥4%."
+  },
+  {
+    "id": 441,
+    "question": "Which CSF protein test indicates CNS infection or inflammation?",
+    "answer": "Total protein",
+    "explanation": "Elevated protein suggests infection, inflammation, or demyelination."
+  },
+  {
+    "id": 442,
+    "question": "Which CSF test differentiates bacterial from viral infection?",
+    "answer": "Glucose concentration",
+    "explanation": "Low glucose suggests bacterial infection; normal glucose suggests viral."
+  },
+  {
+    "id": 443,
+    "question": "Which CSF test detects xanthochromia in subarachnoid hemorrhage?",
+    "answer": "Spectrophotometry",
+    "explanation": "Detects bilirubin breakdown products from RBCs."
+  },
+  {
+    "id": 444,
+    "question": "Which urine test detects nitrite as an indicator of UTI?",
+    "answer": "Dipstick nitrite test",
+    "explanation": "Certain bacteria convert nitrate to nitrite in urine."
+  },
+  {
+    "id": 445,
+    "question": "Which urine test detects urine specific gravity?",
+    "answer": "Refractometer or dipstick",
+    "explanation": "Measures urine concentration; normal 1.005–1.030."
+  },
+  {
+    "id": 446,
+    "question": "Which urine test detects pH?",
+    "answer": "Dipstick or pH meter",
+    "explanation": "Normal urine pH is 4.5–8."
+  },
+  {
+    "id": 447,
+    "question": "Which urine sediment element indicates kidney stone formation?",
+    "answer": "Crystals (oxalate, uric acid, cystine)",
+    "explanation": "Presence of crystals can indicate risk for nephrolithiasis."
+  },
+  {
+    "id": 448,
+    "question": "Which urine sediment element indicates pyelonephritis?",
+    "answer": "WBC casts",
+    "explanation": "Indicates renal tubular infection."
+  },
+  {
+    "id": 449,
+    "question": "Which urine sediment element indicates glomerulonephritis?",
+    "answer": "RBC casts",
+    "explanation": "Indicates glomerular bleeding."
+  },
+  {
+    "id": 450,
+    "question": "Which urine sediment element indicates nephrotic syndrome?",
+    "answer": "Fatty casts",
+    "explanation": "Contains lipid droplets from heavy proteinuria."
+  },
+  {
+    "id": 451,
+    "question": "Which urine test detects urobilinogen?",
+    "answer": "Dipstick test",
+    "explanation": "Detects urobilinogen formed from bilirubin reduction; increased in hemolysis or liver disease."
+  },
+  {
+    "id": 452,
+    "question": "Which urine test detects glucose using Benedict’s solution?",
+    "answer": "Clinitest",
+    "explanation": "Copper reduction test; detects all reducing sugars, not just glucose."
+  },
+  {
+    "id": 453,
+    "question": "Which urine test detects ketones using sodium nitroprusside?",
+    "answer": "Acetest or dipstick",
+    "explanation": "Detects acetoacetate and acetone; beta-hydroxybutyrate is poorly detected."
+  },
+  {
+    "id": 454,
+    "question": "Which urine test detects protein using sulfosalicylic acid?",
+    "answer": "SSA test",
+    "explanation": "Precipitates all proteins; more sensitive than dipstick for non-albumin proteins."
+  },
+  {
+    "id": 455,
+    "question": "Which urine test detects blood/hemoglobin?",
+    "answer": "Dipstick",
+    "explanation": "Detects peroxidase activity; positive with hematuria, hemoglobinuria, or myoglobinuria."
+  },
+  {
+    "id": 456,
+    "question": "Which body fluid is used to diagnose bacterial meningitis?",
+    "answer": "CSF",
+    "explanation": "Analyzed for WBCs, glucose, protein, and Gram stain."
+  },
+  {
+    "id": 457,
+    "question": "Which body fluid is used for detecting subarachnoid hemorrhage?",
+    "answer": "CSF",
+    "explanation": "Xanthochromia indicates RBC breakdown."
+  },
+  {
+    "id": 458,
+    "question": "Which body fluid is used for detecting tuberculosis?",
+    "answer": "Pleural fluid",
+    "explanation": "High ADA and lymphocytic pleocytosis suggest TB pleuritis."
+  },
+  {
+    "id": 459,
+    "question": "Which body fluid is tested for fetal lung maturity using L/S ratio?",
+    "answer": "Amniotic fluid",
+    "explanation": "L/S ratio ≥2 indicates mature lungs."
+  },
+  {
+    "id": 460,
+    "question": "Which body fluid is tested for phosphatidylglycerol to assess fetal lungs?",
+    "answer": "Amniotic fluid",
+    "explanation": "Presence confirms lung maturity."
+  },
+  {
+    "id": 461,
+    "question": "Which body fluid is used for cytology to detect malignancy?",
+    "answer": "Pleural, peritoneal, or CSF",
+    "explanation": "Detects abnormal or malignant cells."
+  },
+  {
+    "id": 462,
+    "question": "Which fecal test detects occult blood using chemical reaction?",
+    "answer": "gFOBT",
+    "explanation": "Guaiac reacts with heme peroxidase to produce blue color."
+  },
+  {
+    "id": 463,
+    "question": "Which fecal test detects human hemoglobin using antibodies?",
+    "answer": "FIT",
+    "explanation": "Immunochemical test specific for human hemoglobin."
+  },
+  {
+    "id": 464,
+    "question": "Which fecal test detects fat in steatorrhea?",
+    "answer": "Sudan III or IV stain",
+    "explanation": "Fat droplets stain red-orange under microscopy."
+  },
+  {
+    "id": 465,
+    "question": "Which fecal parasite egg is diagnostic for whipworm?",
+    "answer": "Trichuris trichiura",
+    "explanation": "Barrel-shaped egg with bipolar plugs."
+  },
+  {
+    "id": 466,
+    "question": "Which fecal parasite egg is diagnostic for roundworm?",
+    "answer": "Ascaris lumbricoides",
+    "explanation": "Oval egg with thick shell and mammillated layer."
+  },
+  {
+    "id": 467,
+    "question": "Which fecal parasite egg is diagnostic for tapeworm?",
+    "answer": "Taenia spp.",
+    "explanation": "Egg has radial striations and hooklets."
+  },
+  {
+    "id": 468,
+    "question": "Which fecal parasite cyst is infectious and has four nuclei?",
+    "answer": "Giardia lamblia",
+    "explanation": "Oval cyst with 4 nuclei; causes giardiasis."
+  },
+  {
+    "id": 469,
+    "question": "Which fecal parasite trophozoite ingests RBCs?",
+    "answer": "Entamoeba histolytica",
+    "explanation": "Pathognomonic for invasive amoebiasis."
+  },
+  {
+    "id": 470,
+    "question": "Which semen parameter indicates male fertility?",
+    "answer": "Sperm count, motility, and morphology",
+    "explanation": "Normal: count ≥15 million/mL, motility ≥40%, normal forms ≥4%."
+  },
+  {
+    "id": 471,
+    "question": "Which semen stain assesses viability?",
+    "answer": "Eosin-nigrosin",
+    "explanation": "Dead sperm stain pink; live sperm remain unstained."
+  },
+  {
+    "id": 472,
+    "question": "Which CSF finding suggests bacterial meningitis?",
+    "answer": "Neutrophilic pleocytosis, low glucose, high protein",
+    "explanation": "Bacteria consume glucose; neutrophils and protein increase."
+  },
+  {
+    "id": 473,
+    "question": "Which CSF finding suggests viral meningitis?",
+    "answer": "Lymphocytic pleocytosis, normal glucose, slightly elevated protein",
+    "explanation": "Viral infections primarily increase lymphocytes."
+  },
+  {
+    "id": 474,
+    "question": "Which CSF finding suggests fungal meningitis?",
+    "answer": "Lymphocytic pleocytosis, low/normal glucose, high protein",
+    "explanation": "Seen in cryptococcal or other fungal infections."
+  },
+  {
+    "id": 475,
+    "question": "Which CSF finding suggests tuberculous meningitis?",
+    "answer": "Lymphocytic pleocytosis, very low glucose, high protein",
+    "explanation": "Classic pattern for TB CNS infection."
+  },
+  {
+    "id": 476,
+    "question": "Which urine sediment element indicates kidney stones?",
+    "answer": "Crystals (oxalate, uric acid, cystine)",
+    "explanation": "Presence of crystals indicates risk for nephrolithiasis."
+  },
+  {
+    "id": 477,
+    "question": "Which urine sediment element indicates pyelonephritis?",
+    "answer": "WBC casts",
+    "explanation": "Indicates infection in renal tubules."
+  },
+  {
+    "id": 478,
+    "question": "Which urine sediment element indicates glomerulonephritis?",
+    "answer": "RBC casts",
+    "explanation": "Indicates glomerular bleeding."
+  },
+  {
+    "id": 479,
+    "question": "Which urine sediment element indicates nephrotic syndrome?",
+    "answer": "Fatty casts",
+    "explanation": "Contains lipid droplets from heavy proteinuria."
+  },
+  {
+    "id": 480,
+    "question": "Which urine test detects nitrite in UTI?",
+    "answer": "Dipstick nitrite test",
+    "explanation": "Certain bacteria convert nitrate to nitrite in urine."
+  },
+  {
+    "id": 481,
+    "question": "Which urine test detects specific gravity?",
+    "answer": "Refractometer or dipstick",
+    "explanation": "Measures urine concentration; normal 1.005–1.030."
+  },
+  {
+    "id": 482,
+    "question": "Which urine test detects pH?",
+    "answer": "Dipstick or pH meter",
+    "explanation": "Normal urine pH is 4.5–8."
+  },
+  {
+    "id": 483,
+    "question": "Which urine test detects bilirubin in liver disease?",
+    "answer": "Dipstick test",
+    "explanation": "Detects conjugated bilirubin; unconjugated bilirubin is not excreted."
+  },
+  {
+    "id": 484,
+    "question": "Which urine test detects urobilinogen?",
+    "answer": "Dipstick test",
+    "explanation": "Elevated in hemolysis or liver disease."
+  },
+  {
+    "id": 485,
+    "question": "Which urine test detects reducing sugars other than glucose?",
+    "answer": "Clinitest",
+    "explanation": "Copper reduction test; detects all reducing sugars."
+  },
+  {
+    "id": 486,
+    "question": "Which chemical urine test is more sensitive for non-albumin proteins?",
+    "answer": "Sulfosalicylic acid (SSA) test",
+    "explanation": "Precipitates all proteins including globulins."
+  },
+  {
+    "id": 487,
+    "question": "Which urine test detects hematuria, hemoglobinuria, or myoglobinuria?",
+    "answer": "Dipstick for blood",
+    "explanation": "Detects peroxidase activity."
+  },
+  {
+    "id": 488,
+    "question": "Which body fluid is analyzed for ADA in tuberculosis?",
+    "answer": "Pleural fluid",
+    "explanation": "ADA >40 U/L suggests TB pleuritis."
+  },
+  {
+    "id": 489,
+    "question": "Which body fluid is examined using India ink for fungal infection?",
+    "answer": "CSF",
+    "explanation": "India ink highlights the capsule of Cryptococcus neoformans."
+  },
+  {
+    "id": 490,
+    "question": "Which body fluid is used for amniotic fluid bilirubin measurement?",
+    "answer": "Amniotic fluid",
+    "explanation": "Yellow color indicates fetal hemolysis."
+  },
+  {
+    "id": 491,
+    "question": "Which fecal chemical test detects occult blood immunologically?",
+    "answer": "FIT",
+    "explanation": "Detects human hemoglobin, specific for lower GI bleeding."
+  },
+  {
+    "id": 492,
+    "question": "Which fecal chemical test detects occult blood chemically?",
+    "answer": "gFOBT",
+    "explanation": "Guaiac reacts with heme peroxidase to produce blue color."
+  },
+  {
+    "id": 493,
+    "question": "Which fecal test detects fat malabsorption?",
+    "answer": "Sudan III or IV stain",
+    "explanation": "Fat droplets stain red-orange under microscopy."
+  },
+  {
+    "id": 494,
+    "question": "Which parasite egg has bipolar plugs?",
+    "answer": "Trichuris trichiura",
+    "explanation": "Diagnostic for whipworm."
+  },
+  {
+    "id": 495,
+    "question": "Which parasite egg has thick shell and mammillated layer?",
+    "answer": "Ascaris lumbricoides",
+    "explanation": "Diagnostic for roundworm."
+  },
+  {
+    "id": 496,
+    "question": "Which parasite egg has radial striations and hooklets?",
+    "answer": "Taenia spp.",
+    "explanation": "Diagnostic for tapeworm infection."
+  },
+  {
+    "id": 497,
+    "question": "Which fecal parasite cyst has four nuclei?",
+    "answer": "Giardia lamblia",
+    "explanation": "Infectious cyst form."
+  },
+  {
+    "id": 498,
+    "question": "Which fecal parasite trophozoite ingests RBCs?",
+    "answer": "Entamoeba histolytica",
+    "explanation": "Pathognomonic for invasive amoebiasis."
+  },
+  {
+    "id": 499,
+    "question": "Which semen parameter assesses viability?",
+    "answer": "Eosin-nigrosin stain",
+    "explanation": "Dead sperm stain pink; live sperm remain unstained."
+  },
+  {
+    "id": 500,
+    "question": "Which semen parameters indicate fertility potential?",
+    "answer": "Sperm count, motility, and morphology",
+    "explanation": "Normal: count ≥15 million/mL, motility ≥40%, normal forms ≥4%."
+  }
+]

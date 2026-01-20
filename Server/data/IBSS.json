@@ -1,0 +1,3002 @@
+[
+  {
+    "id": 1,
+    "question": "What is the main antigen in the ABO blood group system?",
+    "answer": "A and B antigens",
+    "explanation": "ABO blood group is determined by the presence of A and/or B antigens on red blood cells."
+  },
+  {
+    "id": 2,
+    "question": "What antibody is naturally occurring in blood group O individuals?",
+    "answer": "Anti-A and Anti-B",
+    "explanation": "Group O individuals lack A and B antigens and thus produce both anti-A and anti-B antibodies."
+  },
+  {
+    "id": 3,
+    "question": "Which antibody reacts at room temperature and is clinically insignificant?",
+    "answer": "Cold antibodies (IgM)",
+    "explanation": "IgM antibodies react at 4°C–25°C and usually do not cause hemolysis at body temperature."
+  },
+  {
+    "id": 4,
+    "question": "Which antibody reacts at 37°C and is clinically significant?",
+    "answer": "Warm antibodies (IgG)",
+    "explanation": "IgG antibodies react at body temperature and can cause hemolytic transfusion reactions."
+  },
+  {
+    "id": 5,
+    "question": "What is the Bombay (Oh) phenotype?",
+    "answer": "Lack of H antigen",
+    "explanation": "Individuals cannot form A or B antigens due to absent H antigen; only compatible with Oh blood."
+  },
+  {
+    "id": 6,
+    "question": "Which blood group is the universal donor?",
+    "answer": "O negative",
+    "explanation": "Lacks A, B, and Rh antigens, minimizing risk of hemolytic reaction."
+  },
+  {
+    "id": 7,
+    "question": "Which blood group is the universal recipient?",
+    "answer": "AB positive",
+    "explanation": "Has A, B, and Rh antigens, so can receive all ABO and Rh types."
+  },
+  {
+    "id": 8,
+    "question": "What is the main antigen in the Rh system?",
+    "answer": "D antigen",
+    "explanation": "Presence of D antigen defines Rh-positive; absence is Rh-negative."
+  },
+  {
+    "id": 9,
+    "question": "What test is used to detect ABO antibodies in serum?",
+    "answer": "Reverse grouping",
+    "explanation": "Patient serum is tested against known A and B red cells to detect naturally occurring antibodies."
+  },
+  {
+    "id": 10,
+    "question": "What test is used to detect ABO antigens on RBCs?",
+    "answer": "Forward grouping",
+    "explanation": "Patient RBCs are tested with anti-A and anti-B reagents."
+  },
+  {
+    "id": 11,
+    "question": "What is the purpose of the Coombs (Antiglobulin) test?",
+    "answer": "Detects antibodies bound to RBCs",
+    "explanation": "Direct Coombs detects in vivo bound antibodies; indirect Coombs detects antibodies in serum."
+  },
+  {
+    "id": 12,
+    "question": "Which test is used to detect hemolytic disease of the newborn?",
+    "answer": "Direct Coombs test",
+    "explanation": "Detects maternal IgG antibodies coating fetal RBCs."
+  },
+  {
+    "id": 13,
+    "question": "Which test is used for antibody screening before transfusion?",
+    "answer": "Indirect Coombs test",
+    "explanation": "Detects clinically significant antibodies in the patient’s serum."
+  },
+  {
+    "id": 14,
+    "question": "What is crossmatching?",
+    "answer": "Testing donor RBCs against recipient serum",
+    "explanation": "Ensures compatibility and prevents hemolytic transfusion reactions."
+  },
+  {
+    "id": 15,
+    "question": "Which antibody is clinically significant in transfusion medicine?",
+    "answer": "IgG antibodies reacting at 37°C",
+    "explanation": "Can cause hemolytic transfusion reactions or HDFN."
+  },
+  {
+    "id": 16,
+    "question": "Which ABO subgroup can cause weak reactions in blood typing?",
+    "answer": "A2",
+    "explanation": "A2 subgroup has fewer A antigens and may show weak agglutination."
+  },
+  {
+    "id": 17,
+    "question": "What is the most immunogenic antigen after D antigen?",
+    "answer": "Kell (K) antigen",
+    "explanation": "Kell antibodies can cause severe HDFN and transfusion reactions."
+  },
+  {
+    "id": 18,
+    "question": "Which antibody is associated with delayed hemolytic transfusion reactions?",
+    "answer": "Anamnestic antibodies",
+    "explanation": "Previously sensitized antibodies may not be detectable initially but react upon re-exposure."
+  },
+  {
+    "id": 19,
+    "question": "Which test is used to confirm weak D phenotype?",
+    "answer": "Indirect antiglobulin test",
+    "explanation": "Weak or partial D may not react with routine anti-D; IAT enhances detection."
+  },
+  {
+    "id": 20,
+    "question": "What is the purpose of an antibody identification panel?",
+    "answer": "To determine specificity of unknown antibodies",
+    "explanation": "Uses multiple reagent RBCs with known antigen profiles."
+  },
+  {
+    "id": 21,
+    "question": "Which blood component is used to treat anemia without volume overload?",
+    "answer": "Packed red blood cells (PRBCs)",
+    "explanation": "Provides concentrated RBCs with minimal plasma."
+  },
+  {
+    "id": 22,
+    "question": "Which blood component is used to treat thrombocytopenia?",
+    "answer": "Platelet concentrate",
+    "explanation": "Increases platelet count; may be pooled or single donor."
+  },
+  {
+    "id": 23,
+    "question": "Which blood component is used to treat coagulation factor deficiencies?",
+    "answer": "Fresh frozen plasma (FFP)",
+    "explanation": "Contains all coagulation factors and plasma proteins."
+  },
+  {
+    "id": 24,
+    "question": "Which blood component is used to treat cryoprecipitable factor deficiencies?",
+    "answer": "Cryoprecipitate",
+    "explanation": "Contains fibrinogen, factor VIII, factor XIII, vWF, and fibronectin."
+  },
+  {
+    "id": 25,
+    "question": "Which antibody causes hemolytic disease of the newborn most commonly?",
+    "answer": "Anti-D",
+    "explanation": "Maternal IgG anti-D crosses the placenta and destroys fetal Rh-positive RBCs."
+  },
+  {
+    "id": 26,
+    "question": "Which antibody reacts with all red cells except autologous cells?",
+    "answer": "Panagglutinin",
+    "explanation": "May indicate warm autoantibodies causing autoimmune hemolysis."
+  },
+  {
+    "id": 27,
+    "question": "Which antibody is naturally occurring in group B individuals?",
+    "answer": "Anti-A",
+    "explanation": "Forms spontaneously without prior exposure."
+  },
+  {
+    "id": 28,
+    "question": "Which antibody is naturally occurring in group A individuals?",
+    "answer": "Anti-B",
+    "explanation": "Forms spontaneously without prior exposure."
+  },
+  {
+    "id": 29,
+    "question": "What is the difference between agglutination and hemolysis?",
+    "answer": "Agglutination is clumping of RBCs; hemolysis is RBC destruction",
+    "explanation": "Agglutination is visible clumping; hemolysis releases hemoglobin into plasma."
+  },
+  {
+    "id": 30,
+    "question": "Which Rh antibodies are clinically significant?",
+    "answer": "Anti-D, anti-C, anti-E, anti-c, anti-e",
+    "explanation": "IgG antibodies that react at 37°C can cause HTR or HDFN."
+  },
+  {
+    "id": 31,
+    "question": "What is a major crossmatch?",
+    "answer": "Patient serum vs donor RBCs",
+    "explanation": "Detects incompatibility due to recipient antibodies."
+  },
+  {
+    "id": 32,
+    "question": "What is a minor crossmatch?",
+    "answer": "Donor plasma vs patient RBCs",
+    "explanation": "Rarely performed today due to small plasma volume in PRBC transfusions."
+  },
+  {
+    "id": 33,
+    "question": "What is the purpose of washing RBCs before transfusion?",
+    "answer": "Remove plasma proteins to prevent reactions",
+    "explanation": "Used for patients with IgA deficiency or allergic reactions."
+  },
+  {
+    "id": 34,
+    "question": "Which blood group antibody is IgM and usually cold-reacting?",
+    "answer": "Anti-M, Anti-N, Anti-Lea",
+    "explanation": "Typically react below 37°C and are usually clinically insignificant."
+  },
+  {
+    "id": 35,
+    "question": "Which antibody is IgG and clinically significant in transfusion?",
+    "answer": "Anti-K, Anti-D, Anti-E",
+    "explanation": "Reacts at 37°C; can cause hemolysis."
+  },
+  {
+    "id": 36,
+    "question": "What is the purpose of saline replacement in antibody testing?",
+    "answer": "Differentiate rouleaux from true agglutination",
+    "explanation": "True agglutination remains after saline wash; rouleaux disperses."
+  },
+  {
+    "id": 37,
+    "question": "What is the difference between alloantibody and autoantibody?",
+    "answer": "Alloantibody reacts with foreign RBCs; autoantibody reacts with self RBCs",
+    "explanation": "Alloantibodies arise from transfusion, pregnancy, or transplant."
+  },
+  {
+    "id": 38,
+    "question": "Which test detects weak D in donors?",
+    "answer": "Indirect antiglobulin test",
+    "explanation": "Weak D may not agglutinate with routine anti-D; IAT confirms presence."
+  },
+  {
+    "id": 39,
+    "question": "Which blood group system includes antigens highly immunogenic like K, k, Fya, Fyb?",
+    "answer": "Kell and Duffy systems",
+    "explanation": "Kell: K, k; Duffy: Fya, Fyb—can cause HTR and HDFN."
+  },
+  {
+    "id": 40,
+    "question": "Which antibody may cause intravascular hemolysis in transfusion?",
+    "answer": "IgM complement-fixing antibodies",
+    "explanation": "Can activate complement leading to rapid hemolysis."
+  },
+  {
+    "id": 41,
+    "question": "Which antibody may cause extravascular hemolysis in transfusion?",
+    "answer": "IgG antibodies",
+    "explanation": "RBCs coated with IgG are removed by macrophages in the spleen."
+  },
+  {
+    "id": 42,
+    "question": "Which blood group system is associated with malaria resistance?",
+    "answer": "Duffy (Fy) system",
+    "explanation": "Duffy-negative individuals are resistant to Plasmodium vivax."
+  },
+  {
+    "id": 43,
+    "question": "Which test is used to detect fetal-maternal hemorrhage?",
+    "answer": "Kleihauer-Betke test",
+    "explanation": "Detects fetal RBCs in maternal blood."
+  },
+  {
+    "id": 44,
+    "question": "Which antibody reacts best at pH 6.5?",
+    "answer": "Anti-M",
+    "explanation": "Cold-reacting IgM antibodies are pH dependent."
+  },
+  {
+    "id": 45,
+    "question": "Which antibody reacts best at pH 7.0–7.4?",
+    "answer": "Most clinically significant IgG antibodies",
+    "explanation": "Reacts at physiological pH; may cause hemolysis."
+  },
+  {
+    "id": 46,
+    "question": "Which blood component is irradiated before transfusion?",
+    "answer": "PRBCs or platelets for immunocompromised patients",
+    "explanation": "Prevents transfusion-associated graft-versus-host disease."
+  },
+  {
+    "id": 47,
+    "question": "What is the shelf life of stored PRBCs at 1–6°C?",
+    "answer": "35–42 days depending on anticoagulant",
+    "explanation": "CPDA-1: 35 days; additive solution: up to 42 days."
+  },
+  {
+    "id": 48,
+    "question": "What is the shelf life of platelets stored at 20–24°C?",
+    "answer": "5 days with continuous agitation",
+    "explanation": "Short shelf life due to risk of bacterial growth."
+  },
+  {
+    "id": 49,
+    "question": "What is the shelf life of FFP stored at –18°C?",
+    "answer": "1 year",
+    "explanation": "Retains coagulation factors when properly frozen."
+  },
+  {
+    "id": 50,
+    "question": "Which blood product is ABO-compatible but Rh-incompatible can be transfused in emergencies?",
+    "answer": "O negative PRBCs",
+    "explanation": "Lacks ABO and Rh antigens; safest in emergencies."
+  },
+  {
+    "id": 51,
+    "question": "Which blood group system includes antigens Fya and Fyb?",
+    "answer": "Duffy system",
+    "explanation": "Duffy antigens are clinically significant; antibodies can cause HTR and HDFN."
+  },
+  {
+    "id": 52,
+    "question": "Which blood group system includes antigens M, N, S, s?",
+    "answer": "MNS system",
+    "explanation": "MNS antibodies are usually IgM and cold-reacting; M and N are less clinically significant."
+  },
+  {
+    "id": 53,
+    "question": "Which blood group system includes antigens Lea and Leb?",
+    "answer": "Lewis system",
+    "explanation": "Lewis antibodies are usually IgM, cold-reacting, and rarely cause HTR."
+  },
+  {
+    "id": 54,
+    "question": "Which blood group antibody may be neutralized by plasma transfusion?",
+    "answer": "Lewis antibodies",
+    "explanation": "Plasma contains soluble Lea and Leb antigens that neutralize the antibody."
+  },
+  {
+    "id": 55,
+    "question": "Which blood group system includes antigen Kp^a and Kp^b?",
+    "answer": "Kell system",
+    "explanation": "Kell antigens are highly immunogenic; antibodies can cause HTR and HDFN."
+  },
+  {
+    "id": 56,
+    "question": "Which antibody reacts only at cold temperatures (4–25°C) and is usually clinically insignificant?",
+    "answer": "Anti-I or Anti-H",
+    "explanation": "Cold IgM antibodies generally do not cause hemolysis at body temperature."
+  },
+  {
+    "id": 57,
+    "question": "Which antibody is responsible for paroxysmal cold hemoglobinuria?",
+    "answer": "Donath-Landsteiner antibody",
+    "explanation": "Biphasic hemolysin (IgG) that binds RBCs in cold and causes hemolysis when warmed."
+  },
+  {
+    "id": 58,
+    "question": "What is the major antigen in Kidd blood group system?",
+    "answer": "Jka and Jkb",
+    "explanation": "Kidd antibodies are IgG, react at 37°C, and may cause delayed HTR."
+  },
+  {
+    "id": 59,
+    "question": "Which antibody is notorious for causing delayed hemolytic transfusion reactions?",
+    "answer": "Anti-Jka or Anti-Jkb",
+    "explanation": "Can be weak and undetectable in initial screen; reacts upon re-exposure."
+  },
+  {
+    "id": 60,
+    "question": "Which blood group system includes antigens P1, P, and Pk?",
+    "answer": "P blood group system",
+    "explanation": "Antibodies are usually IgM and cold-reacting; P antigen is receptor for parvovirus B19."
+  },
+  {
+    "id": 61,
+    "question": "Which antibody is associated with intravascular hemolysis due to complement activation?",
+    "answer": "IgM antibodies (e.g., anti-A, anti-B, anti-P1)",
+    "explanation": "Fix complement efficiently at cold temperatures leading to hemolysis."
+  },
+  {
+    "id": 62,
+    "question": "Which blood group antigen is found on almost all RBCs and is called the H antigen?",
+    "answer": "H antigen",
+    "explanation": "Precursor for A and B antigens; absent in Bombay phenotype."
+  },
+  {
+    "id": 63,
+    "question": "Which blood group system is associated with resistance to P. vivax malaria?",
+    "answer": "Duffy system (Fy[a-b-])",
+    "explanation": "Lack of Duffy antigen on RBCs prevents invasion by Plasmodium vivax."
+  },
+  {
+    "id": 64,
+    "question": "Which test detects IgG antibodies already bound to RBCs in vivo?",
+    "answer": "Direct Coombs test",
+    "explanation": "Used for hemolytic disease of the newborn, autoimmune hemolytic anemia, or transfusion reactions."
+  },
+  {
+    "id": 65,
+    "question": "Which test detects antibodies in serum that may react with donor RBCs in vitro?",
+    "answer": "Indirect Coombs test",
+    "explanation": "Used in pretransfusion antibody screening."
+  },
+  {
+    "id": 66,
+    "question": "What is the purpose of antibody screening?",
+    "answer": "To detect clinically significant antibodies in patient serum",
+    "explanation": "Prevents hemolytic transfusion reactions."
+  },
+  {
+    "id": 67,
+    "question": "Which antibody causes the most severe hemolytic disease of the newborn?",
+    "answer": "Anti-D",
+    "explanation": "Maternal IgG anti-D crosses placenta and destroys fetal RBCs."
+  },
+  {
+    "id": 68,
+    "question": "What is the principle of the antiglobulin (Coombs) test?",
+    "answer": "Detection of antibodies attached to RBCs using anti-human globulin",
+    "explanation": "Agglutination indicates presence of antibodies."
+  },
+  {
+    "id": 69,
+    "question": "Which type of antibody is responsible for acute hemolytic transfusion reaction?",
+    "answer": "IgM antibodies",
+    "explanation": "Fix complement and cause intravascular hemolysis."
+  },
+  {
+    "id": 70,
+    "question": "Which type of antibody is responsible for delayed hemolytic transfusion reaction?",
+    "answer": "IgG antibodies",
+    "explanation": "Cause extravascular hemolysis several days after transfusion."
+  },
+  {
+    "id": 71,
+    "question": "Which antibody is commonly encountered in multiparous women?",
+    "answer": "Anti-D or other Rh antibodies",
+    "explanation": "Exposure to fetal RBC antigens can stimulate antibody formation."
+  },
+  {
+    "id": 72,
+    "question": "What is the purpose of crossmatching before transfusion?",
+    "answer": "Ensure compatibility between donor RBCs and patient serum",
+    "explanation": "Prevents hemolytic transfusion reactions."
+  },
+  {
+    "id": 73,
+    "question": "Which blood component should be transfused to a patient with IgA deficiency to prevent anaphylaxis?",
+    "answer": "Washed RBCs",
+    "explanation": "Removes plasma proteins including IgA."
+  },
+  {
+    "id": 74,
+    "question": "Which blood group antigen is absent in Bombay phenotype?",
+    "answer": "H antigen",
+    "explanation": "Leads to inability to form A or B antigens; only compatible with Oh blood."
+  },
+  {
+    "id": 75,
+    "question": "Which antibody may be neutralized by soluble antigens in plasma?",
+    "answer": "Lewis antibodies",
+    "explanation": "Plasma contains soluble Lea and Leb antigens that neutralize corresponding antibodies."
+  },
+  {
+    "id": 76,
+    "question": "Which blood group system antigens are highly immunogenic after D antigen?",
+    "answer": "Kell system (K antigen)",
+    "explanation": "Kell antibodies can cause severe HTR and HDFN."
+  },
+  {
+    "id": 77,
+    "question": "Which blood product is used to replace platelets in thrombocytopenia?",
+    "answer": "Platelet concentrate",
+    "explanation": "Can be pooled from multiple donors or collected by apheresis."
+  },
+  {
+    "id": 78,
+    "question": "Which blood product is used to treat factor VIII deficiency?",
+    "answer": "Cryoprecipitate",
+    "explanation": "Contains factor VIII, fibrinogen, vWF, and factor XIII."
+  },
+  {
+    "id": 79,
+    "question": "Which blood product is used to treat multiple coagulation factor deficiencies?",
+    "answer": "Fresh frozen plasma (FFP)",
+    "explanation": "Contains all coagulation factors and plasma proteins."
+  },
+  {
+    "id": 80,
+    "question": "What is the shelf life of FFP at –18°C?",
+    "answer": "1 year",
+    "explanation": "Retains coagulation factors if stored correctly."
+  },
+  {
+    "id": 81,
+    "question": "What is the shelf life of platelets at 20–24°C?",
+    "answer": "5 days with continuous agitation",
+    "explanation": "Short shelf life due to risk of bacterial growth."
+  },
+  {
+    "id": 82,
+    "question": "Which test differentiates rouleaux formation from true agglutination?",
+    "answer": "Saline replacement test",
+    "explanation": "True agglutination persists; rouleaux disperses in saline."
+  },
+  {
+    "id": 83,
+    "question": "Which blood group antibody is often pH dependent and reacts best at pH 6.5?",
+    "answer": "Anti-M",
+    "explanation": "Cold-reacting IgM antibody that may be clinically insignificant."
+  },
+  {
+    "id": 84,
+    "question": "Which blood group antibody reacts best at body temperature (37°C)?",
+    "answer": "Clinically significant IgG antibodies (e.g., anti-D, anti-K)",
+    "explanation": "Can cause HTR or HDFN."
+  },
+  {
+    "id": 85,
+    "question": "Which antibody is biphasic hemolysin causing paroxysmal cold hemoglobinuria?",
+    "answer": "Donath-Landsteiner antibody",
+    "explanation": "Binds RBCs in cold and causes hemolysis when warmed."
+  },
+  {
+    "id": 86,
+    "question": "Which blood group antibody may cause delayed HTR but is often weak or undetectable initially?",
+    "answer": "Anamnestic antibody",
+    "explanation": "Previously sensitized antibodies respond upon re-exposure."
+  },
+  {
+    "id": 87,
+    "question": "Which blood group antibody is usually IgM, reacts at cold temperature, and clinically insignificant?",
+    "answer": "Lewis antibodies",
+    "explanation": "Does not cause HTR or HDFN."
+  },
+  {
+    "id": 88,
+    "question": "Which blood group system antigens are receptors for parvovirus B19?",
+    "answer": "P blood group system",
+    "explanation": "P antigen serves as receptor for parvovirus B19."
+  },
+  {
+    "id": 89,
+    "question": "Which blood component should be irradiated to prevent GVHD?",
+    "answer": "PRBCs or platelets for immunocompromised patients",
+    "explanation": "Gamma irradiation inactivates donor lymphocytes."
+  },
+  {
+    "id": 90,
+    "question": "Which blood group system includes antigens that confer resistance to malaria?",
+    "answer": "Duffy system",
+    "explanation": "Fy(a-b-) phenotype resistant to P. vivax infection."
+  },
+  {
+    "id": 91,
+    "question": "Which blood group antibody can cause intravascular hemolysis due to complement fixation?",
+    "answer": "IgM antibodies",
+    "explanation": "Fixes complement efficiently at cold temperatures."
+  },
+  {
+    "id": 92,
+    "question": "Which blood group antibody causes extravascular hemolysis?",
+    "answer": "IgG antibodies",
+    "explanation": "RBCs coated with IgG are cleared by splenic macrophages."
+  },
+  {
+    "id": 93,
+    "question": "Which test is used to detect fetal-maternal hemorrhage?",
+    "answer": "Kleihauer-Betke test",
+    "explanation": "Acid elution stains fetal hemoglobin to detect fetal RBCs in maternal blood."
+  },
+  {
+    "id": 94,
+    "question": "Which antibody reacts with all red cells except autologous cells?",
+    "answer": "Panagglutinin (warm autoantibody)",
+    "explanation": "May cause autoimmune hemolytic anemia."
+  },
+  {
+    "id": 95,
+    "question": "Which blood product can be transfused to a patient with multiple antibodies to minor antigens?",
+    "answer": "Phenotype-matched RBCs",
+    "explanation": "Reduces risk of alloimmunization and transfusion reactions."
+  },
+  {
+    "id": 96,
+    "question": "Which blood product is used to prevent hemolytic disease of the newborn in Rh-negative mothers?",
+    "answer": "Anti-D immunoglobulin (Rho(D) Ig)",
+    "explanation": "Prevents maternal sensitization to fetal Rh-positive RBCs."
+  },
+  {
+    "id": 97,
+    "question": "Which antibody is most commonly associated with delayed hemolytic transfusion reaction?",
+    "answer": "Anti-Jka or Anti-E",
+    "explanation": "Can be weak and undetectable initially; reacts on re-exposure."
+  },
+  {
+    "id": 98,
+    "question": "Which antibody is known as the 'universal cold-reacting antibody'?",
+    "answer": "Anti-I",
+    "explanation": "Reacts with adult RBCs; clinically usually insignificant."
+  },
+  {
+    "id": 99,
+    "question": "Which antibody is present in newborns and disappears by 6 months?",
+    "answer": "Maternal IgG anti-D",
+    "explanation": "Transferred via placenta; disappears as maternal antibodies degrade."
+  },
+  {
+    "id": 100,
+    "question": "Which blood product is used for exchange transfusion in neonates with severe jaundice?",
+    "answer": "Fresh whole blood or reconstituted blood",
+    "explanation": "Removes bilirubin and antibody-coated RBCs; provides fresh RBCs and plasma."
+  },
+  {
+    "id": 101,
+    "question": "What is the primary indication for phototherapy in neonates?",
+    "answer": "Unconjugated hyperbilirubinemia",
+    "explanation": "Phototherapy converts bilirubin into water-soluble isomers for excretion."
+  },
+  {
+    "id": 102,
+    "question": "Which antibody is most commonly implicated in hemolytic disease of the newborn?",
+    "answer": "Anti-D",
+    "explanation": "Maternal anti-D IgG crosses the placenta and destroys fetal Rh-positive RBCs."
+  },
+  {
+    "id": 103,
+    "question": "What blood group system is most important in transfusion reactions?",
+    "answer": "ABO system",
+    "explanation": "ABO incompatibility can cause severe, immediate hemolytic reactions."
+  },
+  {
+    "id": 104,
+    "question": "Which component is preferred for treating thrombocytopenia?",
+    "answer": "Platelet concentrate",
+    "explanation": "Provides platelets to prevent or control bleeding."
+  },
+  {
+    "id": 105,
+    "question": "What anticoagulant is commonly used in blood collection bags?",
+    "answer": "CPDA-1",
+    "explanation": "Preserves RBC viability and extends shelf life."
+  },
+  {
+    "id": 106,
+    "question": "What is the shelf life of packed red blood cells stored at 1–6°C?",
+    "answer": "35–42 days",
+    "explanation": "Depends on the anticoagulant-preservative used."
+  },
+  {
+    "id": 107,
+    "question": "Which blood component is indicated for patients with coagulation factor deficiencies?",
+    "answer": "Fresh frozen plasma",
+    "explanation": "Contains all stable and labile clotting factors."
+  },
+  {
+    "id": 108,
+    "question": "What test is used to detect unexpected antibodies in serum?",
+    "answer": "Antibody screen",
+    "explanation": "Identifies clinically significant alloantibodies."
+  },
+  {
+    "id": 109,
+    "question": "Which immunoglobulin class is responsible for immediate hemolytic transfusion reactions?",
+    "answer": "IgM",
+    "explanation": "IgM activates complement efficiently."
+  },
+  {
+    "id": 110,
+    "question": "What is leukoreduction?",
+    "answer": "Removal of white blood cells from blood products",
+    "explanation": "Reduces febrile reactions and CMV transmission."
+  },
+  {
+    "id": 111,
+    "question": "Which blood product is used to treat hemophilia A?",
+    "answer": "Factor VIII concentrate",
+    "explanation": "Replaces deficient clotting factor VIII."
+  },
+  {
+    "id": 112,
+    "question": "What complication can result from massive transfusion?",
+    "answer": "Hypocalcemia",
+    "explanation": "Citrate in transfused blood binds calcium."
+  },
+  {
+    "id": 113,
+    "question": "Which disease can be transmitted by transfusion?",
+    "answer": "Hepatitis B",
+    "explanation": "A known transfusion-transmissible infection."
+  },
+  {
+    "id": 114,
+    "question": "What is the universal donor blood type?",
+    "answer": "O negative",
+    "explanation": "Lacks A, B, and Rh D antigens."
+  },
+  {
+    "id": 115,
+    "question": "What is the universal recipient blood type?",
+    "answer": "AB positive",
+    "explanation": "Has no anti-A, anti-B, or anti-D antibodies."
+  },
+  {
+    "id": 116,
+    "question": "Which test confirms in vivo antibody-coated RBCs?",
+    "answer": "Direct antiglobulin test",
+    "explanation": "Detects IgG or complement on RBCs."
+  },
+  {
+    "id": 117,
+    "question": "What is the main risk of platelet transfusion?",
+    "answer": "Bacterial contamination",
+    "explanation": "Platelets are stored at room temperature."
+  },
+  {
+    "id": 118,
+    "question": "Which blood product should be irradiated for immunocompromised patients?",
+    "answer": "Cellular blood components",
+    "explanation": "Prevents transfusion-associated graft-versus-host disease."
+  },
+  {
+    "id": 119,
+    "question": "What is the purpose of crossmatching?",
+    "answer": "Ensure donor-recipient compatibility",
+    "explanation": "Prevents hemolytic transfusion reactions."
+  },
+  {
+    "id": 120,
+    "question": "Which antigen is most immunogenic after D?",
+    "answer": "K antigen (Kell system)",
+    "explanation": "Frequently causes clinically significant antibodies."
+  },
+  {
+    "id": 121,
+    "question": "What is autologous transfusion?",
+    "answer": "Transfusion of patient’s own blood",
+    "explanation": "Eliminates risk of alloimmunization."
+  },
+  {
+    "id": 122,
+    "question": "Which component is used for volume expansion?",
+    "answer": "Plasma",
+    "explanation": "Provides oncotic pressure and clotting factors."
+  },
+  {
+    "id": 123,
+    "question": "What is the main indication for cryoprecipitate?",
+    "answer": "Hypofibrinogenemia",
+    "explanation": "Rich in fibrinogen, factor VIII, and XIII."
+  },
+  {
+    "id": 124,
+    "question": "Which infection is screened using NAT testing?",
+    "answer": "HIV",
+    "explanation": "Detects viral RNA during window period."
+  },
+  {
+    "id": 125,
+    "question": "What causes delayed hemolytic transfusion reactions?",
+    "answer": "Anamnestic antibody response",
+    "explanation": "Due to previously formed alloantibodies."
+  },
+  {
+    "id": 126,
+    "question": "Which blood group antibodies are naturally occurring?",
+    "answer": "ABO antibodies",
+    "explanation": "Develop without prior exposure."
+  },
+  {
+    "id": 127,
+    "question": "What is the primary storage lesion in RBCs?",
+    "answer": "Decreased ATP",
+    "explanation": "Leads to reduced RBC survival."
+  },
+  {
+    "id": 128,
+    "question": "Which transfusion reaction presents with fever and chills?",
+    "answer": "Febrile non-hemolytic transfusion reaction",
+    "explanation": "Caused by cytokines or anti-leukocyte antibodies."
+  },
+  {
+    "id": 129,
+    "question": "What blood product is contraindicated in IgA deficiency?",
+    "answer": "Plasma with IgA",
+    "explanation": "Risk of anaphylactic reaction."
+  },
+  {
+    "id": 130,
+    "question": "Which test determines Rh D status?",
+    "answer": "Anti-D typing",
+    "explanation": "Detects presence of D antigen on RBCs."
+  },
+  {
+    "id": 131,
+    "question": "What is the purpose of Rh immune globulin?",
+    "answer": "Prevent anti-D formation",
+    "explanation": "Given to Rh-negative mothers."
+  },
+  {
+    "id": 132,
+    "question": "Which component is used in neonatal transfusions?",
+    "answer": "Packed RBCs",
+    "explanation": "Minimizes volume overload."
+  },
+  {
+    "id": 133,
+    "question": "What is hemovigilance?",
+    "answer": "Monitoring transfusion safety",
+    "explanation": "Tracks adverse transfusion events."
+  },
+  {
+    "id": 134,
+    "question": "Which blood product must be ABO compatible?",
+    "answer": "Plasma",
+    "explanation": "Contains antibodies that can hemolyze RBCs."
+  },
+  {
+    "id": 135,
+    "question": "What is the primary indication for whole blood?",
+    "answer": "Massive acute blood loss",
+    "explanation": "Provides RBCs, plasma, and platelets."
+  },
+  {
+    "id": 136,
+    "question": "Which antigen system includes D, C, c, E, e?",
+    "answer": "Rh system",
+    "explanation": "Second most important blood group system."
+  },
+  {
+    "id": 137,
+    "question": "What is the main cause of TRALI?",
+    "answer": "Donor anti-leukocyte antibodies",
+    "explanation": "Causes acute lung injury."
+  },
+  {
+    "id": 138,
+    "question": "Which blood component has the shortest shelf life?",
+    "answer": "Platelets",
+    "explanation": "Stored for 5–7 days."
+  },
+  {
+    "id": 139,
+    "question": "What is the normal storage temperature for platelets?",
+    "answer": "20–24°C",
+    "explanation": "Maintains platelet function."
+  },
+  {
+    "id": 140,
+    "question": "Which test is used for compatibility testing before transfusion?",
+    "answer": "Crossmatch",
+    "explanation": "Ensures no reaction between donor and recipient."
+  },
+  {
+    "id": 141,
+    "question": "What causes post-transfusion purpura?",
+    "answer": "Anti-HPA antibodies",
+    "explanation": "Immune-mediated platelet destruction."
+  },
+  {
+    "id": 142,
+    "question": "Which blood product is preferred for anemia without volume overload?",
+    "answer": "Packed red blood cells",
+    "explanation": "Provides RBCs with less plasma."
+  },
+  {
+    "id": 143,
+    "question": "What is the main risk of massive transfusion in neonates?",
+    "answer": "Electrolyte imbalance",
+    "explanation": "Includes hypocalcemia and hyperkalemia."
+  },
+  {
+    "id": 144,
+    "question": "Which donor type reduces CMV transmission?",
+    "answer": "CMV-seronegative donor",
+    "explanation": "Used for high-risk patients."
+  },
+  {
+    "id": 145,
+    "question": "What is the primary function of albumin?",
+    "answer": "Maintain oncotic pressure",
+    "explanation": "Used for volume expansion."
+  },
+  {
+    "id": 146,
+    "question": "Which blood group system is associated with malaria resistance?",
+    "answer": "Duffy system",
+    "explanation": "Duffy-negative individuals resist Plasmodium vivax."
+  },
+  {
+    "id": 147,
+    "question": "What is the most common adverse transfusion reaction?",
+    "answer": "Febrile non-hemolytic reaction",
+    "explanation": "Usually mild and self-limiting."
+  },
+  {
+    "id": 148,
+    "question": "Which test differentiates immune from non-immune hemolysis?",
+    "answer": "Direct antiglobulin test",
+    "explanation": "Positive in immune-mediated hemolysis."
+  },
+  {
+    "id": 149,
+    "question": "What is the primary indication for washed RBCs?",
+    "answer": "Severe allergic transfusion reactions",
+    "explanation": "Removes plasma proteins."
+  },
+  {
+    "id": 150,
+    "question": "Which factor is deficient in hemophilia B?",
+    "answer": "Factor IX",
+    "explanation": "Also known as Christmas disease."
+  },
+  {
+    "id": 151,
+    "question": "What blood product is used in DIC?",
+    "answer": "Fresh frozen plasma",
+    "explanation": "Replenishes consumed clotting factors."
+  },
+  {
+    "id": 152,
+    "question": "Which antigen is absent in Bombay phenotype?",
+    "answer": "H antigen",
+    "explanation": "Appears as group O but incompatible with O blood."
+  },
+  {
+    "id": 153,
+    "question": "What is the main goal of transfusion therapy?",
+    "answer": "Restore oxygen-carrying capacity or hemostasis",
+    "explanation": "Based on patient’s clinical need."
+  },
+  {
+    "id": 154,
+    "question": "Which test measures bilirubin levels in neonates?",
+    "answer": "Serum bilirubin test",
+    "explanation": "Guides treatment decisions."
+  },
+  {
+    "id": 155,
+    "question": "What is the purpose of component therapy?",
+    "answer": "Targeted treatment",
+    "explanation": "Reduces unnecessary transfusion risks."
+  },
+  {
+    "id": 156,
+    "question": "Which reaction is characterized by hypotension and bronchospasm?",
+    "answer": "Anaphylactic transfusion reaction",
+    "explanation": "Often seen in IgA-deficient patients."
+  },
+  {
+    "id": 157,
+    "question": "Which blood product is used for burn patients?",
+    "answer": "Albumin",
+    "explanation": "Restores plasma volume."
+  },
+  {
+    "id": 158,
+    "question": "What is the main indication for granulocyte transfusion?",
+    "answer": "Severe neutropenia with infection",
+    "explanation": "Used rarely due to risks."
+  },
+  {
+    "id": 159,
+    "question": "Which antigen system includes Fya and Fyb?",
+    "answer": "Duffy system",
+    "explanation": "Clinically significant antibodies."
+  },
+  {
+    "id": 160,
+    "question": "What is the role of haptoglobin in hemolysis?",
+    "answer": "Binds free hemoglobin",
+    "explanation": "Decreased levels indicate hemolysis."
+  },
+  {
+    "id": 161,
+    "question": "Which blood product requires constant agitation during storage?",
+    "answer": "Platelets",
+    "explanation": "Prevents clumping and maintains function."
+  },
+  {
+    "id": 162,
+    "question": "What is the primary cause of transfusion-associated circulatory overload?",
+    "answer": "Rapid or excessive transfusion",
+    "explanation": "Leads to pulmonary edema."
+  },
+  {
+    "id": 163,
+    "question": "Which test is used to detect fetal-maternal hemorrhage?",
+    "answer": "Kleihauer-Betke test",
+    "explanation": "Quantifies fetal RBCs in maternal blood."
+  },
+  {
+    "id": 164,
+    "question": "Which blood component is least likely to cause alloimmunization?",
+    "answer": "Plasma",
+    "explanation": "Contains no RBC antigens."
+  },
+  {
+    "id": 165,
+    "question": "What is the main indication for Rh-negative blood in emergencies?",
+    "answer": "Unknown blood type",
+    "explanation": "Prevents anti-D formation."
+  },
+  {
+    "id": 166,
+    "question": "Which antigen system is associated with mild HDFN?",
+    "answer": "ABO system",
+    "explanation": "Usually less severe than Rh HDFN."
+  },
+  {
+    "id": 167,
+    "question": "What is the primary function of transferrin?",
+    "answer": "Iron transport",
+    "explanation": "Not directly related to transfusion but important in anemia."
+  },
+  {
+    "id": 168,
+    "question": "Which blood product is used for warfarin reversal?",
+    "answer": "Fresh frozen plasma",
+    "explanation": "Provides vitamin K–dependent factors."
+  },
+  {
+    "id": 169,
+    "question": "What is the main advantage of apheresis platelets?",
+    "answer": "Single donor exposure",
+    "explanation": "Reduces alloimmunization risk."
+  },
+  {
+    "id": 170,
+    "question": "Which reaction presents with back pain and hemoglobinuria?",
+    "answer": "Acute hemolytic transfusion reaction",
+    "explanation": "Often due to ABO incompatibility."
+  },
+  {
+    "id": 171,
+    "question": "What is the primary cause of iron overload in transfusion patients?",
+    "answer": "Repeated RBC transfusions",
+    "explanation": "Each unit adds ~250 mg iron."
+  },
+  {
+    "id": 172,
+    "question": "Which test is used to identify specific antibodies?",
+    "answer": "Antibody identification panel",
+    "explanation": "Uses reagent red cells with known antigens."
+  },
+  {
+    "id": 173,
+    "question": "What blood component is used for factor XIII deficiency?",
+    "answer": "Cryoprecipitate",
+    "explanation": "Contains high levels of factor XIII."
+  },
+  {
+    "id": 174,
+    "question": "Which antigen system includes Jka and Jkb?",
+    "answer": "Kidd system",
+    "explanation": "Antibodies often cause delayed reactions."
+  },
+  {
+    "id": 175,
+    "question": "What is the main indication for exchange transfusion?",
+    "answer": "Severe hyperbilirubinemia or HDFN",
+    "explanation": "Removes bilirubin and antibodies."
+  },
+  {
+    "id": 176,
+    "question": "Which blood product should be CMV-safe for neonates?",
+    "answer": "Leukoreduced blood",
+    "explanation": "Reduces CMV transmission risk."
+  },
+  {
+    "id": 177,
+    "question": "What is the primary cause of hemolysis in G6PD deficiency?",
+    "answer": "Oxidative stress",
+    "explanation": "Leads to RBC membrane damage."
+  },
+  {
+    "id": 178,
+    "question": "Which reaction occurs days to weeks after transfusion?",
+    "answer": "Delayed hemolytic transfusion reaction",
+    "explanation": "Due to secondary immune response."
+  },
+  {
+    "id": 179,
+    "question": "Which blood product is used to treat von Willebrand disease?",
+    "answer": "Cryoprecipitate or vWF concentrate",
+    "explanation": "Provides vWF and factor VIII."
+  },
+  {
+    "id": 180,
+    "question": "What is the main purpose of donor screening?",
+    "answer": "Ensure blood safety",
+    "explanation": "Reduces risk of TTIs."
+  },
+  {
+    "id": 181,
+    "question": "Which antigen system includes S and s?",
+    "answer": "MNS system",
+    "explanation": "Clinically significant antibodies."
+  },
+  {
+    "id": 182,
+    "question": "What blood product is preferred for neonates with anemia?",
+    "answer": "Packed RBCs",
+    "explanation": "Minimizes circulatory overload."
+  },
+  {
+    "id": 183,
+    "question": "Which test monitors transfusion effectiveness?",
+    "answer": "Post-transfusion hemoglobin",
+    "explanation": "Assesses response to transfusion."
+  },
+  {
+    "id": 184,
+    "question": "What is the primary cause of alloimmunization?",
+    "answer": "Exposure to foreign antigens",
+    "explanation": "Occurs after transfusion or pregnancy."
+  },
+  {
+    "id": 185,
+    "question": "Which blood product has no clotting factors?",
+    "answer": "Packed red blood cells",
+    "explanation": "Plasma is mostly removed."
+  },
+  {
+    "id": 186,
+    "question": "What is the main indication for plasma exchange?",
+    "answer": "Autoimmune or toxic conditions",
+    "explanation": "Removes pathogenic substances."
+  },
+  {
+    "id": 187,
+    "question": "Which blood product is contraindicated in TTP?",
+    "answer": "Platelets",
+    "explanation": "May worsen thrombosis."
+  },
+  {
+    "id": 188,
+    "question": "What is the main cause of neonatal jaundice?",
+    "answer": "Physiologic breakdown of fetal RBCs",
+    "explanation": "Increased bilirubin production."
+  },
+  {
+    "id": 189,
+    "question": "Which test detects weak D antigen?",
+    "answer": "Indirect antiglobulin test",
+    "explanation": "Enhances detection of weakly expressed D."
+  },
+  {
+    "id": 190,
+    "question": "What is the primary purpose of blood typing?",
+    "answer": "Ensure transfusion compatibility",
+    "explanation": "Prevents immune reactions."
+  },
+  {
+    "id": 191,
+    "question": "Which reaction is most commonly fatal?",
+    "answer": "Acute hemolytic transfusion reaction",
+    "explanation": "Usually due to ABO mismatch."
+  },
+  {
+    "id": 192,
+    "question": "Which blood component is used to correct INR?",
+    "answer": "Fresh frozen plasma",
+    "explanation": "Supplies clotting factors."
+  },
+  {
+    "id": 193,
+    "question": "What is the main indication for washed platelets?",
+    "answer": "Severe allergic reactions",
+    "explanation": "Removes plasma proteins."
+  },
+  {
+    "id": 194,
+    "question": "Which antigen system is highly polymorphic?",
+    "answer": "Rh system",
+    "explanation": "Contains many antigens."
+  },
+  {
+    "id": 195,
+    "question": "What is the primary cause of transfusion-related infections?",
+    "answer": "Asymptomatic donor infection",
+    "explanation": "Detected through screening."
+  },
+  {
+    "id": 196,
+    "question": "Which blood product is used for liver disease–related coagulopathy?",
+    "answer": "Fresh frozen plasma",
+    "explanation": "Replaces multiple clotting factors."
+  },
+  {
+    "id": 197,
+    "question": "What is the main function of factor XIII?",
+    "answer": "Stabilize fibrin clot",
+    "explanation": "Cross-links fibrin strands."
+  },
+  {
+    "id": 198,
+    "question": "Which test detects antibodies bound to RBCs in vivo?",
+    "answer": "Direct antiglobulin test",
+    "explanation": "Also called direct Coombs test."
+  },
+  {
+    "id": 199,
+    "question": "What is the primary goal of neonatal exchange transfusion?",
+    "answer": "Prevent kernicterus",
+    "explanation": "Rapidly lowers bilirubin levels."
+  },
+  {
+    "id": 200,
+    "question": "Which blood product provides both volume and oxygen-carrying capacity?",
+    "answer": "Whole blood",
+    "explanation": "Contains RBCs, plasma, and platelets."
+  },
+  {
+    "id": 201,
+    "question": "What is the main indication for emergency uncrossmatched blood?",
+    "answer": "Life-threatening hemorrhage",
+    "explanation": "Used when there is no time for compatibility testing."
+  },
+  {
+    "id": 202,
+    "question": "Which blood type is preferred for emergency transfusion in females of childbearing age?",
+    "answer": "O negative",
+    "explanation": "Prevents Rh alloimmunization."
+  },
+  {
+    "id": 203,
+    "question": "What component is used to increase fibrinogen levels rapidly?",
+    "answer": "Cryoprecipitate",
+    "explanation": "Contains concentrated fibrinogen."
+  },
+  {
+    "id": 204,
+    "question": "Which test is used to detect anti-A and anti-B antibodies?",
+    "answer": "Reverse typing",
+    "explanation": "Tests patient serum against reagent RBCs."
+  },
+  {
+    "id": 205,
+    "question": "What is the primary cause of clerical errors in transfusion?",
+    "answer": "Patient misidentification",
+    "explanation": "Most common cause of ABO-incompatible transfusions."
+  },
+  {
+    "id": 206,
+    "question": "Which transfusion reaction presents with hypotension and fever within hours?",
+    "answer": "Septic transfusion reaction",
+    "explanation": "Caused by bacterial contamination."
+  },
+  {
+    "id": 207,
+    "question": "What blood product is used to treat hypovolemia without anemia?",
+    "answer": "Plasma expanders",
+    "explanation": "Restore volume without increasing RBC mass."
+  },
+  {
+    "id": 208,
+    "question": "Which storage lesion increases potassium levels in stored blood?",
+    "answer": "RBC membrane leakage",
+    "explanation": "Potassium leaks into plasma during storage."
+  },
+  {
+    "id": 209,
+    "question": "Which blood product is preferred in sickle cell disease exchange transfusion?",
+    "answer": "Phenotype-matched packed RBCs",
+    "explanation": "Reduces alloimmunization risk."
+  },
+  {
+    "id": 210,
+    "question": "What is the primary goal of leukoreduction?",
+    "answer": "Reduce transfusion reactions",
+    "explanation": "Decreases FNHTR, CMV, and alloimmunization."
+  },
+  {
+    "id": 211,
+    "question": "Which test evaluates platelet function?",
+    "answer": "Bleeding time",
+    "explanation": "Assesses platelet adhesion and aggregation."
+  },
+  {
+    "id": 212,
+    "question": "What is the main indication for HLA-matched platelets?",
+    "answer": "Platelet refractoriness",
+    "explanation": "Due to anti-HLA antibodies."
+  },
+  {
+    "id": 213,
+    "question": "Which blood product is used to treat factor V deficiency?",
+    "answer": "Fresh frozen plasma",
+    "explanation": "No specific factor V concentrate available."
+  },
+  {
+    "id": 214,
+    "question": "What is the shelf life of thawed plasma?",
+    "answer": "24 hours",
+    "explanation": "When stored at 1–6°C."
+  },
+  {
+    "id": 215,
+    "question": "Which blood group antigen is destroyed by enzymes?",
+    "answer": "Duffy antigens",
+    "explanation": "Sensitive to proteolytic enzymes."
+  },
+  {
+    "id": 216,
+    "question": "What is the primary risk of whole blood transfusion?",
+    "answer": "Volume overload",
+    "explanation": "Contains plasma in addition to RBCs."
+  },
+  {
+    "id": 217,
+    "question": "Which transfusion reaction is mediated by IgE?",
+    "answer": "Allergic transfusion reaction",
+    "explanation": "Usually mild urticaria."
+  },
+  {
+    "id": 218,
+    "question": "What blood product is used for neonatal exchange transfusion?",
+    "answer": "Reconstituted whole blood",
+    "explanation": "Packed RBCs mixed with plasma."
+  },
+  {
+    "id": 219,
+    "question": "Which blood group system antibodies often cause delayed reactions?",
+    "answer": "Kidd system",
+    "explanation": "Antibodies may become undetectable over time."
+  },
+  {
+    "id": 220,
+    "question": "What is the main indication for prophylactic platelet transfusion?",
+    "answer": "Severe thrombocytopenia",
+    "explanation": "Prevents spontaneous bleeding."
+  },
+  {
+    "id": 221,
+    "question": "Which disease is associated with anti-P antibodies?",
+    "answer": "Paroxysmal cold hemoglobinuria",
+    "explanation": "Caused by Donath–Landsteiner antibody."
+  },
+  {
+    "id": 222,
+    "question": "What is the primary purpose of blood irradiation?",
+    "answer": "Prevent TA-GVHD",
+    "explanation": "Inactivates donor lymphocytes."
+  },
+  {
+    "id": 223,
+    "question": "Which blood component is richest in factor VIII?",
+    "answer": "Cryoprecipitate",
+    "explanation": "Contains concentrated factor VIII."
+  },
+  {
+    "id": 224,
+    "question": "What is the normal increment after one unit of PRBCs in adults?",
+    "answer": "Increase of ~1 g/dL hemoglobin",
+    "explanation": "Assuming no ongoing bleeding."
+  },
+  {
+    "id": 225,
+    "question": "Which blood product should be avoided in heart failure patients?",
+    "answer": "Whole blood",
+    "explanation": "High risk of circulatory overload."
+  },
+  {
+    "id": 226,
+    "question": "Which antibody reacts best at cold temperatures?",
+    "answer": "IgM",
+    "explanation": "Common in cold agglutinin disease."
+  },
+  {
+    "id": 227,
+    "question": "What is the main cause of hemoglobinuria after transfusion?",
+    "answer": "Intravascular hemolysis",
+    "explanation": "Often due to ABO incompatibility."
+  },
+  {
+    "id": 228,
+    "question": "Which test measures clotting time of intrinsic pathway?",
+    "answer": "Activated partial thromboplastin time",
+    "explanation": "Evaluates factors VIII, IX, XI, XII."
+  },
+  {
+    "id": 229,
+    "question": "What blood product is used for factor XI deficiency?",
+    "answer": "Fresh frozen plasma",
+    "explanation": "Supplies factor XI."
+  },
+  {
+    "id": 230,
+    "question": "Which antigen system includes Lea and Leb?",
+    "answer": "Lewis system",
+    "explanation": "Antibodies are usually IgM."
+  },
+  {
+    "id": 231,
+    "question": "What is the primary cause of neonatal alloimmune thrombocytopenia?",
+    "answer": "Maternal anti-platelet antibodies",
+    "explanation": "Most commonly anti-HPA-1a."
+  },
+  {
+    "id": 232,
+    "question": "Which blood product is preferred for chronic transfusion programs?",
+    "answer": "Leukoreduced PRBCs",
+    "explanation": "Reduces alloimmunization and reactions."
+  },
+  {
+    "id": 233,
+    "question": "What is the main advantage of pathogen-reduced platelets?",
+    "answer": "Lower infection risk",
+    "explanation": "Inactivates bacteria and viruses."
+  },
+  {
+    "id": 234,
+    "question": "Which transfusion reaction presents with respiratory distress and hypoxemia?",
+    "answer": "TRALI",
+    "explanation": "Occurs within 6 hours of transfusion."
+  },
+  {
+    "id": 235,
+    "question": "What blood product is indicated for fibrinogen <100 mg/dL?",
+    "answer": "Cryoprecipitate",
+    "explanation": "Rapidly raises fibrinogen levels."
+  },
+  {
+    "id": 236,
+    "question": "Which blood group antigen is adsorbed from plasma?",
+    "answer": "Lewis antigens",
+    "explanation": "Not intrinsic to RBC membrane."
+  },
+  {
+    "id": 237,
+    "question": "What is the primary risk of apheresis granulocytes?",
+    "answer": "Pulmonary complications",
+    "explanation": "Includes TRALI-like reactions."
+  },
+  {
+    "id": 238,
+    "question": "Which blood product is used for massive obstetric hemorrhage?",
+    "answer": "Balanced component therapy",
+    "explanation": "PRBCs, plasma, and platelets."
+  },
+  {
+    "id": 239,
+    "question": "What is the main cause of false-negative antibody screens?",
+    "answer": "Low antibody titer",
+    "explanation": "May become undetectable over time."
+  },
+  {
+    "id": 240,
+    "question": "Which test detects complement on RBCs?",
+    "answer": "Direct antiglobulin test",
+    "explanation": "Detects C3d bound to RBCs."
+  },
+  {
+    "id": 241,
+    "question": "What blood product is contraindicated in cold agglutinin disease?",
+    "answer": "Unwarmed RBCs",
+    "explanation": "May exacerbate hemolysis."
+  },
+  {
+    "id": 242,
+    "question": "Which factor deficiency prolongs PT but not aPTT?",
+    "answer": "Factor VII deficiency",
+    "explanation": "Part of the extrinsic pathway."
+  },
+  {
+    "id": 243,
+    "question": "What is the primary cause of storage-related hemolysis?",
+    "answer": "Oxidative damage",
+    "explanation": "Occurs during prolonged storage."
+  },
+  {
+    "id": 244,
+    "question": "Which blood group system is associated with severe HDFN after Rh?",
+    "answer": "Kell system",
+    "explanation": "Suppresses fetal erythropoiesis."
+  },
+  {
+    "id": 245,
+    "question": "What is the main goal of predeposit autologous donation?",
+    "answer": "Avoid allogeneic transfusion",
+    "explanation": "Eliminates risk of TTIs."
+  },
+  {
+    "id": 246,
+    "question": "Which transfusion reaction is characterized by jaundice days later?",
+    "answer": "Delayed hemolytic transfusion reaction",
+    "explanation": "Due to extravascular hemolysis."
+  },
+  {
+    "id": 247,
+    "question": "What blood product is used to treat factor X deficiency?",
+    "answer": "Fresh frozen plasma",
+    "explanation": "Supplies factor X."
+  },
+  {
+    "id": 248,
+    "question": "Which blood group antibody is clinically insignificant?",
+    "answer": "Anti-Lea",
+    "explanation": "Usually IgM and not reactive at 37°C."
+  },
+  {
+    "id": 249,
+    "question": "What is the primary cause of hypothermia during massive transfusion?",
+    "answer": "Cold blood products",
+    "explanation": "Stored at 1–6°C."
+  },
+  {
+    "id": 250,
+    "question": "Which blood product is used to treat plasmapheresis-induced hypoproteinemia?",
+    "answer": "Albumin",
+    "explanation": "Restores oncotic pressure."
+  },
+  {
+    "id": 251,
+    "question": "What is the main advantage of extended phenotype matching?",
+    "answer": "Reduced alloimmunization",
+    "explanation": "Important in chronically transfused patients."
+  },
+  {
+    "id": 252,
+    "question": "Which test assesses the extrinsic coagulation pathway?",
+    "answer": "Prothrombin time",
+    "explanation": "Measures factors I, II, V, VII, X."
+  },
+  {
+    "id": 253,
+    "question": "What blood product is used in neonatal anemia of prematurity?",
+    "answer": "Packed RBCs",
+    "explanation": "Given in small-volume transfusions."
+  },
+  {
+    "id": 254,
+    "question": "Which antigen system includes M and N?",
+    "answer": "MNS system",
+    "explanation": "Some antibodies are clinically significant."
+  },
+  {
+    "id": 255,
+    "question": "What is the main cause of transfusion-associated hypocalcemia?",
+    "answer": "Citrate toxicity",
+    "explanation": "Citrate chelates calcium."
+  },
+  {
+    "id": 256,
+    "question": "Which blood product is preferred for patients with multiple alloantibodies?",
+    "answer": "Phenotype-matched RBCs",
+    "explanation": "Reduces risk of reactions."
+  },
+  {
+    "id": 257,
+    "question": "What is the primary indication for intrauterine transfusion?",
+    "answer": "Severe fetal anemia",
+    "explanation": "Often due to HDFN."
+  },
+  {
+    "id": 258,
+    "question": "Which blood group antibody causes hemolysis at body temperature?",
+    "answer": "IgG",
+    "explanation": "Causes extravascular hemolysis."
+  },
+  {
+    "id": 259,
+    "question": "What is the main purpose of blood bank quality control?",
+    "answer": "Ensure safety and accuracy",
+    "explanation": "Prevents transfusion errors."
+  },
+  {
+    "id": 260,
+    "question": "Which blood product is used to treat factor II deficiency?",
+    "answer": "Fresh frozen plasma",
+    "explanation": "Provides prothrombin."
+  },
+  {
+    "id": 261,
+    "question": "What is the main cause of false-positive DAT?",
+    "answer": "Recent transfusion",
+    "explanation": "Donor antibodies may coat RBCs."
+  },
+  {
+    "id": 262,
+    "question": "Which antigen system includes Dia?",
+    "answer": "Diego system",
+    "explanation": "More common in certain ethnic groups."
+  },
+  {
+    "id": 263,
+    "question": "What is the primary indication for therapeutic phlebotomy?",
+    "answer": "Iron overload",
+    "explanation": "Used in hemochromatosis."
+  },
+  {
+    "id": 264,
+    "question": "Which blood product is contraindicated in severe volume overload?",
+    "answer": "Plasma",
+    "explanation": "Adds significant volume."
+  },
+  {
+    "id": 265,
+    "question": "What is the main cause of platelet refractoriness?",
+    "answer": "Anti-HLA antibodies",
+    "explanation": "Immune-mediated platelet destruction."
+  },
+  {
+    "id": 266,
+    "question": "Which test is used to monitor heparin therapy?",
+    "answer": "Activated partial thromboplastin time",
+    "explanation": "Measures intrinsic pathway."
+  },
+  {
+    "id": 267,
+    "question": "What blood product is used for factor XII deficiency?",
+    "answer": "No transfusion required",
+    "explanation": "Does not cause bleeding."
+  },
+  {
+    "id": 268,
+    "question": "Which transfusion reaction presents with flushing and itching?",
+    "answer": "Mild allergic reaction",
+    "explanation": "Usually due to plasma proteins."
+  },
+  {
+    "id": 269,
+    "question": "What is the primary cause of donor deferral?",
+    "answer": "Risk of transfusion-transmissible infection",
+    "explanation": "Ensures recipient safety."
+  },
+  {
+    "id": 270,
+    "question": "Which blood product is preferred for trauma resuscitation?",
+    "answer": "Balanced ratio transfusion",
+    "explanation": "PRBCs, plasma, and platelets."
+  },
+  {
+    "id": 271,
+    "question": "What is the main advantage of cold-stored platelets?",
+    "answer": "Improved hemostatic function",
+    "explanation": "Used in trauma settings."
+  },
+  {
+    "id": 272,
+    "question": "Which antigen system includes Xga?",
+    "answer": "Xg system",
+    "explanation": "X-linked inheritance."
+  },
+  {
+    "id": 273,
+    "question": "What is the primary purpose of bedside transfusion checks?",
+    "answer": "Prevent wrong-blood transfusion",
+    "explanation": "Ensures correct patient-product match."
+  },
+  {
+    "id": 274,
+    "question": "Which blood product is used to correct hypoproteinemia?",
+    "answer": "Albumin",
+    "explanation": "Increases plasma oncotic pressure."
+  },
+  {
+    "id": 275,
+    "question": "What is the main cause of metabolic alkalosis after massive transfusion?",
+    "answer": "Citrate metabolism to bicarbonate",
+    "explanation": "Occurs after citrate clearance."
+  },
+  {
+    "id": 276,
+    "question": "Which blood group antibody is associated with severe delayed reactions?",
+    "answer": "Anti-Jka",
+    "explanation": "Commonly causes delayed hemolysis."
+  },
+  {
+    "id": 277,
+    "question": "What is the primary indication for plateletpheresis donation?",
+    "answer": "Collect high-dose platelets",
+    "explanation": "From a single donor."
+  },
+  {
+    "id": 278,
+    "question": "Which blood product should be used cautiously in renal failure?",
+    "answer": "PRBCs",
+    "explanation": "Risk of hyperkalemia."
+  },
+  {
+    "id": 279,
+    "question": "What is the main purpose of transfusion consent?",
+    "answer": "Inform patient of risks and benefits",
+    "explanation": "Ethical and legal requirement."
+  },
+  {
+    "id": 280,
+    "question": "Which test detects hemolysis after transfusion?",
+    "answer": "Plasma free hemoglobin",
+    "explanation": "Elevated in intravascular hemolysis."
+  },
+  {
+    "id": 281,
+    "question": "What blood product is preferred for factor XIII deficiency?",
+    "answer": "Cryoprecipitate",
+    "explanation": "Rich source of factor XIII."
+  },
+  {
+    "id": 282,
+    "question": "Which antigen system includes Kpa and Kpb?",
+    "answer": "Kell system",
+    "explanation": "Antibodies are clinically significant."
+  },
+  {
+    "id": 283,
+    "question": "What is the main cause of hemolysis in incompatible transfusion?",
+    "answer": "Complement activation",
+    "explanation": "Leads to RBC destruction."
+  },
+  {
+    "id": 284,
+    "question": "Which blood product is used for massive pediatric hemorrhage?",
+    "answer": "Weight-based component therapy",
+    "explanation": "Adjusted to child’s size."
+  },
+  {
+    "id": 285,
+    "question": "What is the primary risk of plasma transfusion?",
+    "answer": "Allergic reactions",
+    "explanation": "Due to donor plasma proteins."
+  },
+  {
+    "id": 286,
+    "question": "Which blood group system antibodies are usually IgG?",
+    "answer": "Rh system",
+    "explanation": "Cause extravascular hemolysis."
+  },
+  {
+    "id": 287,
+    "question": "What is the main purpose of transfusion audits?",
+    "answer": "Improve transfusion practices",
+    "explanation": "Ensures appropriate blood use."
+  },
+  {
+    "id": 288,
+    "question": "Which blood product is used for factor I deficiency?",
+    "answer": "Cryoprecipitate",
+    "explanation": "Provides fibrinogen."
+  },
+  {
+    "id": 289,
+    "question": "What is the primary cause of positive antibody screen in pregnancy?",
+    "answer": "Fetal-maternal hemorrhage",
+    "explanation": "Leads to maternal alloimmunization."
+  },
+  {
+    "id": 290,
+    "question": "Which transfusion reaction presents with dyspnea and hypertension?",
+    "answer": "TACO",
+    "explanation": "Due to volume overload."
+  },
+  {
+    "id": 291,
+    "question": "What blood product is preferred for chronic liver disease bleeding?",
+    "answer": "Fresh frozen plasma",
+    "explanation": "Replaces multiple clotting factors."
+  },
+  {
+    "id": 292,
+    "question": "Which antigen system includes Vel?",
+    "answer": "Vel system",
+    "explanation": "Antibodies can cause severe hemolysis."
+  },
+  {
+    "id": 293,
+    "question": "What is the main cause of delayed serologic transfusion reaction?",
+    "answer": "Secondary immune response",
+    "explanation": "Antibody rises without hemolysis."
+  },
+  {
+    "id": 294,
+    "question": "Which blood product should be used within 30 minutes of issue?",
+    "answer": "Red blood cells",
+    "explanation": "To maintain temperature control."
+  },
+  {
+    "id": 295,
+    "question": "What is the primary purpose of transfusion thresholds?",
+    "answer": "Avoid unnecessary transfusions",
+    "explanation": "Based on evidence-based practice."
+  },
+  {
+    "id": 296,
+    "question": "Which blood product is used to treat factor VIII inhibitors?",
+    "answer": "Bypassing agents",
+    "explanation": "Such as activated prothrombin complex."
+  },
+  {
+    "id": 297,
+    "question": "What is the main cause of post-transfusion iron overload?",
+    "answer": "Chronic transfusion therapy",
+    "explanation": "Common in thalassemia."
+  },
+  {
+    "id": 298,
+    "question": "Which antigen system includes Yta?",
+    "answer": "Cartwright (Yt) system",
+    "explanation": "Antibodies are usually clinically significant."
+  },
+  {
+    "id": 299,
+    "question": "What is the primary goal of patient blood management?",
+    "answer": "Optimize patient outcomes",
+    "explanation": "Minimize unnecessary transfusions."
+  },
+  {
+    "id": 300,
+    "question": "Which blood product provides immediate oxygen delivery and volume?",
+    "answer": "Whole blood",
+    "explanation": "Used in selected trauma settings."
+  },
+  {
+    "id": 301,
+    "question": "What is the primary indication for type and screen testing?",
+    "answer": "Possible future transfusion",
+    "explanation": "Determines ABO/Rh type and screens for unexpected antibodies."
+  },
+  {
+    "id": 302,
+    "question": "Which blood component contains no viable lymphocytes?",
+    "answer": "Plasma",
+    "explanation": "Cellular elements are removed."
+  },
+  {
+    "id": 303,
+    "question": "What is the most common cause of transfusion-associated sepsis?",
+    "answer": "Bacterial contamination of platelets",
+    "explanation": "Platelets are stored at room temperature."
+  },
+  {
+    "id": 304,
+    "question": "Which antigen system is associated with urea transport?",
+    "answer": "Kidd system",
+    "explanation": "Kidd antigens are urea transporters."
+  },
+  {
+    "id": 305,
+    "question": "What blood product is used to treat hypogammaglobulinemia?",
+    "answer": "Intravenous immunoglobulin",
+    "explanation": "Provides passive immunity."
+  },
+  {
+    "id": 306,
+    "question": "Which test is used to confirm ABO discrepancies?",
+    "answer": "Repeat forward and reverse typing",
+    "explanation": "Rules out technical or clerical errors."
+  },
+  {
+    "id": 307,
+    "question": "What is the main indication for washed red blood cells?",
+    "answer": "Recurrent severe allergic reactions",
+    "explanation": "Removes plasma proteins."
+  },
+  {
+    "id": 308,
+    "question": "Which blood group system is carbohydrate-based?",
+    "answer": "ABO system",
+    "explanation": "Antigens are oligosaccharides."
+  },
+  {
+    "id": 309,
+    "question": "What is the shelf life of cryoprecipitate after thawing?",
+    "answer": "6 hours",
+    "explanation": "Must be transfused promptly."
+  },
+  {
+    "id": 310,
+    "question": "Which transfusion reaction is associated with pink plasma?",
+    "answer": "Acute hemolytic transfusion reaction",
+    "explanation": "Free hemoglobin released into plasma."
+  },
+  {
+    "id": 311,
+    "question": "What is the primary indication for plasma-derived factor concentrates?",
+    "answer": "Specific clotting factor deficiency",
+    "explanation": "Provides targeted replacement therapy."
+  },
+  {
+    "id": 312,
+    "question": "Which blood product is used in neonatal vitamin K deficiency bleeding?",
+    "answer": "Fresh frozen plasma",
+    "explanation": "Supplies vitamin K–dependent factors."
+  },
+  {
+    "id": 313,
+    "question": "What is the main purpose of donor hemoglobin screening?",
+    "answer": "Protect donor safety",
+    "explanation": "Prevents donation-related anemia."
+  },
+  {
+    "id": 314,
+    "question": "Which transfusion reaction presents with fever, hypotension, and shock?",
+    "answer": "Acute hemolytic transfusion reaction",
+    "explanation": "Often due to ABO incompatibility."
+  },
+  {
+    "id": 315,
+    "question": "What blood product is preferred for anemia in heart failure patients?",
+    "answer": "Packed red blood cells",
+    "explanation": "Minimizes volume load."
+  },
+  {
+    "id": 316,
+    "question": "Which antigen system includes P1 antigen?",
+    "answer": "P blood group system",
+    "explanation": "Associated with cold-reactive antibodies."
+  },
+  {
+    "id": 317,
+    "question": "What is the main indication for fibrin sealants?",
+    "answer": "Local hemostasis",
+    "explanation": "Used in surgical bleeding control."
+  },
+  {
+    "id": 318,
+    "question": "Which blood product is contraindicated in hyperkalemia?",
+    "answer": "Older stored PRBCs",
+    "explanation": "Contain higher potassium levels."
+  },
+  {
+    "id": 319,
+    "question": "What is the primary role of the transfusion committee?",
+    "answer": "Oversee safe blood use",
+    "explanation": "Implements transfusion policies."
+  },
+  {
+    "id": 320,
+    "question": "Which test is used to detect fibrin degradation products?",
+    "answer": "D-dimer assay",
+    "explanation": "Indicates active clot breakdown."
+  },
+  {
+    "id": 321,
+    "question": "What blood product is used to treat factor VII deficiency?",
+    "answer": "Recombinant factor VIIa",
+    "explanation": "Provides targeted replacement."
+  },
+  {
+    "id": 322,
+    "question": "Which blood group antigen is resistant to enzyme treatment?",
+    "answer": "Rh antigens",
+    "explanation": "Remain intact after enzyme exposure."
+  },
+  {
+    "id": 323,
+    "question": "What is the primary cause of febrile non-hemolytic transfusion reactions?",
+    "answer": "Cytokines from donor leukocytes",
+    "explanation": "Accumulated during storage."
+  },
+  {
+    "id": 324,
+    "question": "Which blood product is preferred for patients with IgA deficiency?",
+    "answer": "Washed red blood cells",
+    "explanation": "Minimizes IgA exposure."
+  },
+  {
+    "id": 325,
+    "question": "What is the main indication for therapeutic plasma exchange?",
+    "answer": "Removal of pathogenic antibodies",
+    "explanation": "Used in autoimmune disorders."
+  },
+  {
+    "id": 326,
+    "question": "Which transfusion reaction presents with urticaria only?",
+    "answer": "Mild allergic transfusion reaction",
+    "explanation": "No systemic involvement."
+  },
+  {
+    "id": 327,
+    "question": "What is the primary purpose of transfusion documentation?",
+    "answer": "Traceability and safety",
+    "explanation": "Ensures accountability and monitoring."
+  },
+  {
+    "id": 328,
+    "question": "Which blood product is used to treat hypofibrinogenemia in DIC?",
+    "answer": "Cryoprecipitate",
+    "explanation": "Raises fibrinogen concentration."
+  },
+  {
+    "id": 329,
+    "question": "Which antigen system includes Coa?",
+    "answer": "Colton system",
+    "explanation": "Antigens are aquaporin proteins."
+  },
+  {
+    "id": 330,
+    "question": "What is the main cause of transfusion-related hypotension?",
+    "answer": "Bradykinin accumulation",
+    "explanation": "Associated with ACE inhibitor use."
+  },
+  {
+    "id": 331,
+    "question": "Which blood product is preferred for massive GI bleeding?",
+    "answer": "Balanced component therapy",
+    "explanation": "Prevents dilutional coagulopathy."
+  },
+  {
+    "id": 332,
+    "question": "What is the shelf life of platelets stored at room temperature?",
+    "answer": "5–7 days",
+    "explanation": "Limited by bacterial growth risk."
+  },
+  {
+    "id": 333,
+    "question": "Which transfusion reaction is associated with ACE inhibitor therapy?",
+    "answer": "Hypotensive transfusion reaction",
+    "explanation": "Bradykinin-mediated."
+  },
+  {
+    "id": 334,
+    "question": "What blood product is used to treat severe burns after 24 hours?",
+    "answer": "Albumin",
+    "explanation": "Restores oncotic pressure."
+  },
+  {
+    "id": 335,
+    "question": "Which blood group antibody is most likely to cause severe HDFN?",
+    "answer": "Anti-D",
+    "explanation": "Highly immunogenic Rh antigen."
+  },
+  {
+    "id": 336,
+    "question": "What is the main indication for directed donation?",
+    "answer": "Patient preference",
+    "explanation": "No proven safety advantage."
+  },
+  {
+    "id": 337,
+    "question": "Which test confirms factor XIII deficiency?",
+    "answer": "Clot solubility test",
+    "explanation": "Detects unstable fibrin clots."
+  },
+  {
+    "id": 338,
+    "question": "What is the primary cause of donor vasovagal reactions?",
+    "answer": "Anxiety or hypovolemia",
+    "explanation": "Common during blood donation."
+  },
+  {
+    "id": 339,
+    "question": "Which blood product is contraindicated in TACO?",
+    "answer": "Plasma",
+    "explanation": "Adds significant intravascular volume."
+  },
+  {
+    "id": 340,
+    "question": "What is the main purpose of antibody titration in pregnancy?",
+    "answer": "Assess risk of HDFN",
+    "explanation": "Guides monitoring and intervention."
+  },
+  {
+    "id": 341,
+    "question": "Which blood group system includes Lub antigen?",
+    "answer": "Lutheran system",
+    "explanation": "Antibodies usually cause mild reactions."
+  },
+  {
+    "id": 342,
+    "question": "What is the primary cause of false-positive crossmatch?",
+    "answer": "Autoantibodies",
+    "explanation": "React with donor and patient cells."
+  },
+  {
+    "id": 343,
+    "question": "Which blood product is preferred for perioperative anemia management?",
+    "answer": "Restrictive transfusion strategy",
+    "explanation": "Uses PRBCs only when indicated."
+  },
+  {
+    "id": 344,
+    "question": "What is the main advantage of solvent-detergent plasma?",
+    "answer": "Reduced viral transmission",
+    "explanation": "Inactivates lipid-enveloped viruses."
+  },
+  {
+    "id": 345,
+    "question": "Which transfusion reaction presents with hemoglobinuria and renal failure?",
+    "answer": "Acute hemolytic transfusion reaction",
+    "explanation": "Due to intravascular hemolysis."
+  },
+  {
+    "id": 346,
+    "question": "What blood product is used to treat factor VIII deficiency with inhibitors?",
+    "answer": "Recombinant factor VIIa",
+    "explanation": "Bypasses factor VIII."
+  },
+  {
+    "id": 347,
+    "question": "Which antigen system includes Ina?",
+    "answer": "Indian blood group system",
+    "explanation": "Rare but clinically significant."
+  },
+  {
+    "id": 348,
+    "question": "What is the main cause of platelet storage lesion?",
+    "answer": "Metabolic and structural changes",
+    "explanation": "Occurs during room-temperature storage."
+  },
+  {
+    "id": 349,
+    "question": "Which blood product is used to correct factor deficiencies in liver failure?",
+    "answer": "Fresh frozen plasma",
+    "explanation": "Provides multiple clotting factors."
+  },
+  {
+    "id": 350,
+    "question": "What is the primary indication for neonatal top-up transfusion?",
+    "answer": "Symptomatic anemia",
+    "explanation": "Improves oxygen delivery."
+  },
+  {
+    "id": 351,
+    "question": "Which blood group antibody is commonly naturally occurring?",
+    "answer": "Anti-A and anti-B",
+    "explanation": "Develop without prior exposure."
+  },
+  {
+    "id": 352,
+    "question": "What is the main purpose of post-transfusion monitoring?",
+    "answer": "Early detection of reactions",
+    "explanation": "Improves patient safety."
+  },
+  {
+    "id": 353,
+    "question": "Which blood product is preferred for acute symptomatic anemia?",
+    "answer": "Packed red blood cells",
+    "explanation": "Rapidly increases oxygen-carrying capacity."
+  },
+  {
+    "id": 354,
+    "question": "Which antigen system includes Sc1?",
+    "answer": "Scianna system",
+    "explanation": "Antibodies are usually clinically significant."
+  },
+  {
+    "id": 355,
+    "question": "What is the primary cause of transfusion-associated dyspnea?",
+    "answer": "Volume overload or TRALI",
+    "explanation": "Requires prompt evaluation."
+  },
+  {
+    "id": 356,
+    "question": "Which blood product is used to treat factor XI deficiency bleeding?",
+    "answer": "Fresh frozen plasma",
+    "explanation": "Provides factor XI."
+  },
+  {
+    "id": 357,
+    "question": "What is the main advantage of universal leukoreduction?",
+    "answer": "Reduced transfusion reactions",
+    "explanation": "Improves overall safety."
+  },
+  {
+    "id": 358,
+    "question": "Which transfusion reaction presents with anxiety and chest pain?",
+    "answer": "Acute hemolytic transfusion reaction",
+    "explanation": "Often early warning signs."
+  },
+  {
+    "id": 359,
+    "question": "What blood product is contraindicated in severe allergic history?",
+    "answer": "Plasma",
+    "explanation": "High plasma protein content."
+  },
+  {
+    "id": 360,
+    "question": "Which blood group system includes Cromer antigens?",
+    "answer": "Cromer system",
+    "explanation": "Antigens are complement regulatory proteins."
+  },
+  {
+    "id": 361,
+    "question": "What is the main cause of transfusion-associated hyperkalemia?",
+    "answer": "Potassium leakage from stored RBCs",
+    "explanation": "More common with older blood."
+  },
+  {
+    "id": 362,
+    "question": "Which blood product is preferred for exchange transfusion in sickle cell crisis?",
+    "answer": "Phenotype-matched PRBCs",
+    "explanation": "Reduces alloimmunization."
+  },
+  {
+    "id": 363,
+    "question": "What is the primary indication for bedside ABO recheck?",
+    "answer": "Prevent wrong blood transfusion",
+    "explanation": "Adds an extra safety layer."
+  },
+  {
+    "id": 364,
+    "question": "Which transfusion reaction presents with isolated hypotension?",
+    "answer": "Hypotensive transfusion reaction",
+    "explanation": "Often bradykinin-mediated."
+  },
+  {
+    "id": 365,
+    "question": "What blood product is used for congenital afibrinogenemia?",
+    "answer": "Cryoprecipitate",
+    "explanation": "Supplies fibrinogen."
+  },
+  {
+    "id": 366,
+    "question": "Which blood group system includes Knops antigens?",
+    "answer": "Knops system",
+    "explanation": "Antigens are complement receptor proteins."
+  },
+  {
+    "id": 367,
+    "question": "What is the main indication for emergency release blood?",
+    "answer": "Uncontrolled hemorrhage",
+    "explanation": "Issued before compatibility testing."
+  },
+  {
+    "id": 368,
+    "question": "Which blood product is preferred for patients with massive transfusion needs?",
+    "answer": "Balanced component therapy",
+    "explanation": "Prevents coagulopathy."
+  },
+  {
+    "id": 369,
+    "question": "What is the primary cause of transfusion-associated metabolic acidosis?",
+    "answer": "Lactic acid from stored blood",
+    "explanation": "Usually transient."
+  },
+  {
+    "id": 370,
+    "question": "Which blood group antibody causes cold agglutinin disease?",
+    "answer": "Anti-I",
+    "explanation": "IgM antibody reacting at cold temperatures."
+  },
+  {
+    "id": 371,
+    "question": "What is the main advantage of male-only plasma?",
+    "answer": "Reduced TRALI risk",
+    "explanation": "Lower anti-HLA antibody prevalence."
+  },
+  {
+    "id": 372,
+    "question": "Which blood product is used to treat hypovolemic shock initially?",
+    "answer": "Crystalloids",
+    "explanation": "Blood given if hemorrhagic."
+  },
+  {
+    "id": 373,
+    "question": "What is the primary cause of transfusion-associated hypomagnesemia?",
+    "answer": "Citrate binding",
+    "explanation": "Occurs in massive transfusion."
+  },
+  {
+    "id": 374,
+    "question": "Which blood group system includes Ok antigen?",
+    "answer": "Ok system",
+    "explanation": "Rare but clinically significant."
+  },
+  {
+    "id": 375,
+    "question": "What blood product is preferred for perioperative coagulation correction?",
+    "answer": "Fresh frozen plasma",
+    "explanation": "Replaces clotting factors."
+  },
+  {
+    "id": 376,
+    "question": "Which transfusion reaction presents with cough and dyspnea without overload?",
+    "answer": "TRALI",
+    "explanation": "Non-cardiogenic pulmonary edema."
+  },
+  {
+    "id": 377,
+    "question": "What is the main purpose of transfusion time limits?",
+    "answer": "Prevent bacterial growth",
+    "explanation": "Limits exposure at room temperature."
+  },
+  {
+    "id": 378,
+    "question": "Which blood product is used for acquired hemophilia A?",
+    "answer": "Bypassing agents",
+    "explanation": "Such as recombinant factor VIIa."
+  },
+  {
+    "id": 379,
+    "question": "What is the primary cause of transfusion-related fever?",
+    "answer": "Cytokine release",
+    "explanation": "From donor leukocytes."
+  },
+  {
+    "id": 380,
+    "question": "Which blood group system includes Jr(a) antigen?",
+    "answer": "Junior system",
+    "explanation": "Antibodies can cause severe reactions."
+  },
+  {
+    "id": 381,
+    "question": "What blood product is contraindicated in volume-sensitive patients?",
+    "answer": "Whole blood",
+    "explanation": "High plasma volume."
+  },
+  {
+    "id": 382,
+    "question": "Which test confirms platelet alloimmunization?",
+    "answer": "HLA antibody testing",
+    "explanation": "Identifies immune refractoriness."
+  },
+  {
+    "id": 383,
+    "question": "What is the main indication for cryosupernatant plasma?",
+    "answer": "TTP",
+    "explanation": "Lacks large vWF multimers."
+  },
+  {
+    "id": 384,
+    "question": "Which transfusion reaction presents with nausea and vomiting?",
+    "answer": "Acute hemolytic transfusion reaction",
+    "explanation": "Early systemic symptoms."
+  },
+  {
+    "id": 385,
+    "question": "What blood product is used to treat neonatal sepsis-related coagulopathy?",
+    "answer": "Fresh frozen plasma",
+    "explanation": "Replaces consumed clotting factors."
+  },
+  {
+    "id": 386,
+    "question": "Which blood group system includes Chido/Rodgers antigens?",
+    "answer": "Chido/Rodgers system",
+    "explanation": "Antigens are complement fragments."
+  },
+  {
+    "id": 387,
+    "question": "What is the primary purpose of transfusion reaction reporting?",
+    "answer": "Improve patient safety",
+    "explanation": "Enables surveillance and prevention."
+  },
+  {
+    "id": 388,
+    "question": "Which blood product is preferred for exchange transfusion in neonates?",
+    "answer": "Reconstituted whole blood",
+    "explanation": "Optimizes hematocrit and volume."
+  },
+  {
+    "id": 389,
+    "question": "What is the main cause of transfusion-associated hypoxia?",
+    "answer": "Pulmonary complications",
+    "explanation": "Includes TRALI and TACO."
+  },
+  {
+    "id": 390,
+    "question": "Which blood group antibody causes paroxysmal cold hemoglobinuria?",
+    "answer": "Anti-P",
+    "explanation": "Donath–Landsteiner antibody."
+  },
+  {
+    "id": 391,
+    "question": "What blood product is contraindicated in fibrinolysis?",
+    "answer": "Plasma alone",
+    "explanation": "Requires antifibrinolytic therapy."
+  },
+  {
+    "id": 392,
+    "question": "Which test measures overall coagulation?",
+    "answer": "Thromboelastography",
+    "explanation": "Assesses clot formation and stability."
+  },
+  {
+    "id": 393,
+    "question": "What is the primary advantage of pathogen-reduced plasma?",
+    "answer": "Improved infectious safety",
+    "explanation": "Reduces viral transmission."
+  },
+  {
+    "id": 394,
+    "question": "Which blood group system includes Lan antigen?",
+    "answer": "Langereis system",
+    "explanation": "Antibodies may cause severe hemolysis."
+  },
+  {
+    "id": 395,
+    "question": "What is the main indication for prophylactic FFP transfusion?",
+    "answer": "Significant coagulopathy before procedure",
+    "explanation": "Not recommended without bleeding risk."
+  },
+  {
+    "id": 396,
+    "question": "Which transfusion reaction presents with dark urine?",
+    "answer": "Acute hemolytic transfusion reaction",
+    "explanation": "Due to hemoglobinuria."
+  },
+  {
+    "id": 397,
+    "question": "What blood product is used to treat protein C deficiency?",
+    "answer": "Fresh frozen plasma",
+    "explanation": "Provides protein C."
+  },
+  {
+    "id": 398,
+    "question": "Which blood group system includes At(a) antigen?",
+    "answer": "Augustine system",
+    "explanation": "Rare but clinically significant."
+  },
+  {
+    "id": 399,
+    "question": "What is the primary purpose of emergency transfusion protocols?",
+    "answer": "Rapid, safe blood delivery",
+    "explanation": "Standardizes response to hemorrhage."
+  },
+  {
+    "id": 400,
+    "question": "Which blood product provides red cells, plasma, and platelets together?",
+    "answer": "Whole blood",
+    "explanation": "Used in selected trauma settings."
+  },
+  {
+    "id": 401,
+    "question": "Which blood group system is most important in transfusion reactions after ABO?",
+    "answer": "Rh blood group system",
+    "explanation": "Rh antibodies are highly immunogenic and can cause severe hemolytic reactions."
+  },
+  {
+    "id": 402,
+    "question": "Which Rh antigen is the most immunogenic?",
+    "answer": "D antigen",
+    "explanation": "Anti-D is the most common cause of severe HDFN."
+  },
+  {
+    "id": 403,
+    "question": "What antibody is naturally occurring in the ABO system?",
+    "answer": "IgM",
+    "explanation": "ABO antibodies develop without prior antigen exposure."
+  },
+  {
+    "id": 404,
+    "question": "Which antibody can cross the placenta?",
+    "answer": "IgG",
+    "explanation": "IgG causes hemolytic disease of the fetus and newborn."
+  },
+  {
+    "id": 405,
+    "question": "What is the confirmatory test for weak D?",
+    "answer": "Indirect antiglobulin test",
+    "explanation": "Enhances detection of weakly expressed D antigen."
+  },
+  {
+    "id": 406,
+    "question": "Which antibody is associated with cold agglutinin disease?",
+    "answer": "Anti-I",
+    "explanation": "Anti-I reacts best at cold temperatures."
+  },
+  {
+    "id": 407,
+    "question": "What is the universal donor for packed RBCs?",
+    "answer": "O negative",
+    "explanation": "Lacks A, B, and D antigens."
+  },
+  {
+    "id": 408,
+    "question": "What is the universal recipient for packed RBCs?",
+    "answer": "AB positive",
+    "explanation": "Has no anti-A, anti-B, or anti-D antibodies."
+  },
+  {
+    "id": 409,
+    "question": "Which blood component is used to correct clotting factor deficiencies?",
+    "answer": "Fresh frozen plasma",
+    "explanation": "Contains all coagulation factors."
+  },
+{
+    "id": 410,
+    "question": "What blood product is indicated for thrombocytopenia?",
+    "answer": "Platelet concentrate",
+    "explanation": "Raises platelet count and prevents bleeding."
+  },
+{
+    "id": 411,
+    "question": "Which test detects antibodies bound to RBCs in vivo?",
+    "answer": "Direct antiglobulin test",
+    "explanation": "Detects IgG or complement on patient RBCs."
+  },
+{
+    "id": 412,
+    "question": "Which test detects antibodies in patient serum?",
+    "answer": "Indirect antiglobulin test",
+    "explanation": "Used in antibody screening and crossmatching."
+  },
+{
+    "id": 413,
+    "question": "Which antibody is commonly associated with delayed transfusion reactions?",
+    "answer": "Anti-K",
+    "explanation": "Kell antibodies cause extravascular hemolysis."
+  },
+{
+    "id": 414,
+    "question": "Which blood group system includes antigens Fya and Fyb?",
+    "answer": "Duffy",
+    "explanation": "Duffy antigens are receptors for malaria parasites."
+  },
+{
+    "id": 415,
+    "question": "Which blood group system includes antigens Jka and Jkb?",
+    "answer": "Kidd",
+    "explanation": "Kidd antibodies are notorious for causing delayed reactions."
+  },
+{
+    "id": 416,
+    "question": "Which enhancement medium reduces zeta potential?",
+    "answer": "Low ionic strength solution",
+    "explanation": "Enhances antigen-antibody reactions."
+  },
+{
+    "id": 417,
+    "question": "Which enhancement medium neutralizes surface charge?",
+    "answer": "Albumin",
+    "explanation": "Allows RBCs to come closer for agglutination."
+  },
+{
+    "id": 418,
+    "question": "Which reagent destroys IgM antibodies?",
+    "answer": "Dithiothreitol",
+    "explanation": "Used to differentiate IgM from IgG antibodies."
+  },
+{
+    "id": 419,
+    "question": "Which antibody is clinically insignificant?",
+    "answer": "Anti-Lea",
+    "explanation": "Lewis antibodies rarely cause hemolysis."
+  },
+{
+    "id": 420,
+    "question": "Which antibody is most associated with HDFN?",
+    "answer": "Anti-D",
+    "explanation": "Causes severe fetal anemia."
+  },
+{
+    "id": 421,
+    "question": "What is the purpose of antibody screening?",
+    "answer": "Detect unexpected antibodies",
+    "explanation": "Prevents transfusion reactions."
+  },
+{
+    "id": 422,
+    "question": "Which sample is preferred for compatibility testing?",
+    "answer": "EDTA plasma",
+    "explanation": "Prevents complement activation."
+  },
+{
+    "id": 423,
+    "question": "What is the storage temperature for packed RBCs?",
+    "answer": "1–6 °C",
+    "explanation": "Maintains RBC viability."
+  },
+{
+    "id": 424,
+    "question": "What anticoagulant is used in blood bags?",
+    "answer": "CPDA-1",
+    "explanation": "Extends shelf life of stored blood."
+  },
+{
+    "id": 425,
+    "question": "Which blood product has the shortest shelf life?",
+    "answer": "Platelets",
+    "explanation": "Stored only for 5–7 days at room temperature."
+  },
+{
+    "id": 426,
+    "question": "Which transfusion reaction presents with fever and chills?",
+    "answer": "Febrile non-hemolytic reaction",
+    "explanation": "Caused by cytokines or leukocyte antibodies."
+  },
+{
+    "id": 427,
+    "question": "Which transfusion reaction is life-threatening and immediate?",
+    "answer": "Acute hemolytic reaction",
+    "explanation": "Often due to ABO incompatibility."
+  },
+{
+    "id": 428,
+    "question": "Which test is used to detect fetomaternal hemorrhage?",
+    "answer": "Kleihauer-Betke test",
+    "explanation": "Identifies fetal RBCs in maternal blood."
+  },
+{
+    "id": 429,
+    "question": "Which immunoglobulin is elevated in allergic transfusion reactions?",
+    "answer": "IgE",
+    "explanation": "Triggers histamine release."
+  },
+{
+    "id": 430,
+    "question": "What is the main indication for washed RBCs?",
+    "answer": "IgA deficiency",
+    "explanation": "Removes plasma proteins that cause reactions."
+  },
+{
+    "id": 431,
+    "question": "Which virus is most associated with transfusion transmission?",
+    "answer": "Hepatitis B virus",
+    "explanation": "Highly infectious and prevalent."
+  },
+{
+    "id": 432,
+    "question": "What test detects HBsAg?",
+    "answer": "ELISA",
+    "explanation": "Common screening method in blood banks."
+  },
+{
+    "id": 433,
+    "question": "Which component therapy reduces volume overload?",
+    "answer": "Packed RBCs",
+    "explanation": "Provides RBCs with less plasma."
+  },
+{
+    "id": 434,
+    "question": "Which blood group antigen is destroyed by enzymes?",
+    "answer": "Duffy",
+    "explanation": "Proteolytic enzymes denature Duffy antigens."
+  },
+{
+    "id": 435,
+    "question": "Which blood group antigen is enhanced by enzymes?",
+    "answer": "Rh",
+    "explanation": "Enzymes increase Rh antigen reactivity."
+  },
+{
+    "id": 436,
+    "question": "Which antibody reacts best at 37 °C?",
+    "answer": "IgG",
+    "explanation": "Clinically significant antibodies are warm-reactive."
+  },
+{
+    "id": 437,
+    "question": "Which antibody reacts below 25 °C?",
+    "answer": "IgM",
+    "explanation": "Cold-reactive antibodies."
+  },
+{
+    "id": 438,
+    "question": "Which blood group system is associated with U antigen?",
+    "answer": "MNS",
+    "explanation": "U antigen is part of the MNS system."
+  },
+{
+    "id": 439,
+    "question": "Which reagent is used in antiglobulin testing?",
+    "answer": "Coombs reagent",
+    "explanation": "Contains anti-IgG and anti-complement."
+  },
+{
+    "id": 440,
+    "question": "Which test phase detects cold antibodies?",
+    "answer": "Immediate spin",
+    "explanation": "Performed at room temperature."
+  },
+{
+    "id": 441,
+    "question": "Which test phase detects warm antibodies?",
+    "answer": "AHG phase",
+    "explanation": "Detects clinically significant IgG antibodies."
+  },
+{
+    "id": 442,
+    "question": "Which transfusion reaction causes hypotension without fever?",
+    "answer": "Anaphylactic reaction",
+    "explanation": "Common in IgA-deficient patients."
+  },
+{
+    "id": 443,
+    "question": "Which pathogen screening is mandatory in blood donors?",
+    "answer": "HIV",
+    "explanation": "Prevents transfusion-transmitted infection."
+  },
+{
+    "id": 444,
+    "question": "Which blood product contains fibrinogen?",
+    "answer": "Cryoprecipitate",
+    "explanation": "Used in hypofibrinogenemia."
+  },
+{
+    "id": 445,
+    "question": "What is the main antibody in anti-A and anti-B?",
+    "answer": "IgM",
+    "explanation": "Responsible for immediate hemolysis."
+  },
+{
+    "id": 446,
+    "question": "Which blood group is most common worldwide?",
+    "answer": "O",
+    "explanation": "Highest frequency among populations."
+  },
+{
+    "id": 447,
+    "question": "Which blood group system is least polymorphic?",
+    "answer": "Rh",
+    "explanation": "Limited antigen variability compared to others."
+  },
+{
+    "id": 448,
+    "question": "Which donor type reduces CMV transmission?",
+    "answer": "Leukoreduced blood",
+    "explanation": "Removes white blood cells harboring CMV."
+  },
+{
+    "id": 449,
+    "question": "Which transfusion reaction occurs 5–10 days post-transfusion?",
+    "answer": "Delayed hemolytic reaction",
+    "explanation": "Due to secondary immune response."
+  },
+{
+    "id": 450,
+    "question": "Which antibody shows dosage effect?",
+    "answer": "Anti-Jka",
+    "explanation": "Reacts stronger with homozygous cells."
+  },
+{
+    "id": 451,
+    "question": "Which blood group antigen is carbohydrate in nature?",
+    "answer": "ABO",
+    "explanation": "ABO antigens are sugars."
+  },
+{
+    "id": 452,
+    "question": "Which blood group antigen is protein-based?",
+    "answer": "Rh",
+    "explanation": "Rh antigens are transmembrane proteins."
+  },
+{
+    "id": 453,
+    "question": "Which test is used for donor ABO typing?",
+    "answer": "Forward grouping",
+    "explanation": "Detects antigens on RBCs."
+  },
+{
+    "id": 454,
+    "question": "Which test confirms ABO discrepancies?",
+    "answer": "Reverse grouping",
+    "explanation": "Detects antibodies in serum."
+  },
+{
+    "id": 455,
+    "question": "Which antibody is associated with Mycoplasma pneumoniae infection?",
+    "answer": "Anti-I",
+    "explanation": "Causes cold agglutinin disease."
+  },
+{
+    "id": 456,
+    "question": "Which transfusion reaction causes pink plasma?",
+    "answer": "Acute hemolytic reaction",
+    "explanation": "Due to intravascular hemolysis."
+  },
+{
+    "id": 457,
+    "question": "Which blood group system includes antigen K?",
+    "answer": "Kell",
+    "explanation": "Highly immunogenic system."
+  },
+{
+    "id": 458,
+    "question": "Which antibody suppresses erythropoiesis in fetus?",
+    "answer": "Anti-K",
+    "explanation": "Inhibits RBC production."
+  },
+{
+    "id": 459,
+    "question": "Which blood product should not be refrigerated?",
+    "answer": "Platelets",
+    "explanation": "Cold storage reduces platelet function."
+  },
+{
+    "id": 460,
+    "question": "Which antibody is usually naturally occurring and cold-reactive?",
+    "answer": "Anti-M",
+    "explanation": "Often clinically insignificant."
+  },
+{
+    "id": 461,
+    "question": "Which reagent is used to remove complement?",
+    "answer": "EDTA",
+    "explanation": "Chelates calcium needed for complement activation."
+  },
+{
+    "id": 462,
+    "question": "Which transfusion complication involves lung injury?",
+    "answer": "TRALI",
+    "explanation": "Transfusion-related acute lung injury."
+  },
+{
+    "id": 463,
+    "question": "Which blood product is preferred in massive transfusion?",
+    "answer": "Component therapy",
+    "explanation": "Allows targeted replacement."
+  },
+{
+    "id": 464,
+    "question": "Which antibody is enhanced by enzymes?",
+    "answer": "Anti-D",
+    "explanation": "Rh antibodies show increased reactivity."
+  },
+{
+    "id": 465,
+    "question": "Which blood group antigen is absent in Bombay phenotype?",
+    "answer": "H antigen",
+    "explanation": "Leads to anti-H formation."
+  },
+{
+    "id": 466,
+    "question": "Which blood group can donate to Bombay phenotype?",
+    "answer": "Bombay phenotype only",
+    "explanation": "Anti-H reacts with all common groups."
+  },
+{
+    "id": 467,
+    "question": "Which test detects rouleaux formation?",
+    "answer": "Saline replacement test",
+    "explanation": "Differentiates rouleaux from agglutination."
+  },
+{
+    "id": 468,
+    "question": "Which antibody is associated with autoimmune hemolytic anemia?",
+    "answer": "Warm autoantibody",
+    "explanation": "Usually IgG reacting at 37 °C."
+  },
+{
+    "id": 469,
+    "question": "Which antibody causes cold autoimmune hemolytic anemia?",
+    "answer": "Cold autoantibody",
+    "explanation": "Typically IgM."
+  },
+{
+    "id": 470,
+    "question": "Which blood group system includes S and s antigens?",
+    "answer": "MNS",
+    "explanation": "Second most complex blood group system."
+  },
+{
+    "id": 471,
+    "question": "Which antibody is neutralized by soluble substances?",
+    "answer": "Lewis antibodies",
+    "explanation": "Lewis antigens exist in plasma."
+  },
+{
+    "id": 472,
+    "question": "Which enhancement technique uses centrifugal force?",
+    "answer": "Gel card method",
+    "explanation": "Improves standardization."
+  },
+{
+    "id": 473,
+    "question": "Which test ensures donor-recipient compatibility?",
+    "answer": "Crossmatching",
+    "explanation": "Final check before transfusion."
+  },
+{
+    "id": 474,
+    "question": "Which crossmatch detects unexpected antibodies?",
+    "answer": "AHG crossmatch",
+    "explanation": "Detects IgG antibodies."
+  },
+{
+    "id": 475,
+    "question": "Which blood group antigen is resistant to enzymes?",
+    "answer": "Kell",
+    "explanation": "Not destroyed by proteolytic enzymes."
+  },
+{
+    "id": 476,
+    "question": "Which antibody is commonly found in pregnant women?",
+    "answer": "Anti-D",
+    "explanation": "Due to Rh incompatibility."
+  },
+{
+    "id": 477,
+    "question": "Which blood product is used in hemophilia A?",
+    "answer": "Cryoprecipitate",
+    "explanation": "Rich in factor VIII."
+  },
+{
+    "id": 478,
+    "question": "Which antibody is associated with transfusion refractoriness?",
+    "answer": "HLA antibodies",
+    "explanation": "Affects platelet transfusion."
+  },
+{
+    "id": 479,
+    "question": "Which blood product contains immunoglobulins?",
+    "answer": "Plasma",
+    "explanation": "Provides passive immunity."
+  },
+{
+    "id": 480,
+    "question": "Which donor screening test detects syphilis?",
+    "answer": "VDRL",
+    "explanation": "Non-treponemal screening test."
+  },
+{
+    "id": 481,
+    "question": "Which antibody is enhanced at low ionic strength?",
+    "answer": "IgG",
+    "explanation": "LISS accelerates antibody uptake."
+  },
+{
+    "id": 482,
+    "question": "Which blood group system includes P1 antigen?",
+    "answer": "P system",
+    "explanation": "Associated with cold-reactive antibodies."
+  },
+{
+    "id": 483,
+    "question": "Which antibody is commonly insignificant but cold-reactive?",
+    "answer": "Anti-P1",
+    "explanation": "Rarely causes transfusion reactions."
+  },
+{
+    "id": 484,
+    "question": "Which blood product is used to treat hypovolemia?",
+    "answer": "Whole blood",
+    "explanation": "Restores volume and oxygen-carrying capacity."
+  },
+{
+    "id": 485,
+    "question": "Which transfusion reaction is caused by bacterial contamination?",
+    "answer": "Septic reaction",
+    "explanation": "Commonly associated with platelets."
+  },
+{
+    "id": 486,
+    "question": "Which antibody is most commonly detected in antibody screening?",
+    "answer": "Anti-E",
+    "explanation": "Common Rh system antibody."
+  },
+{
+    "id": 487,
+    "question": "Which test confirms Rh negativity?",
+    "answer": "Weak D test",
+    "explanation": "Ensures accurate Rh typing."
+  },
+{
+    "id": 488,
+    "question": "Which blood group antigen is formed by fucosylation?",
+    "answer": "H antigen",
+    "explanation": "Precursor to A and B antigens."
+  },
+{
+    "id": 489,
+    "question": "Which antibody reacts best at pH 6.5?",
+    "answer": "Anti-M",
+    "explanation": "pH-dependent reactivity."
+  },
+{
+    "id": 490,
+    "question": "Which antibody is destroyed by enzymes?",
+    "answer": "Anti-Fya",
+    "explanation": "Duffy antigens are enzyme-sensitive."
+  },
+{
+    "id": 491,
+    "question": "Which antibody is resistant to enzymes?",
+    "answer": "Anti-K",
+    "explanation": "Kell antigens remain intact."
+  },
+{
+    "id": 492,
+    "question": "Which transfusion reaction causes urticaria?",
+    "answer": "Allergic reaction",
+    "explanation": "Due to plasma proteins."
+  },
+{
+    "id": 493,
+    "question": "Which antibody is associated with lupus?",
+    "answer": "Warm autoantibody",
+    "explanation": "Causes autoimmune hemolysis."
+  },
+{
+    "id": 494,
+    "question": "Which blood group antigen is absent in newborns?",
+    "answer": "Lewis",
+    "explanation": "Lewis antigens develop after birth."
+  },
+{
+    "id": 495,
+    "question": "Which antibody is neutralized by saliva?",
+    "answer": "Lewis antibodies",
+    "explanation": "Lewis antigens are secreted."
+  },
+{
+    "id": 496,
+    "question": "Which blood product is irradiated to prevent GVHD?",
+    "answer": "Cellular blood components",
+    "explanation": "Inactivates donor lymphocytes."
+  },
+{
+    "id": 497,
+    "question": "Which transfusion reaction occurs weeks after transfusion?",
+    "answer": "Post-transfusion purpura",
+    "explanation": "Immune-mediated platelet destruction."
+  },
+{
+    "id": 498,
+    "question": "Which antibody targets platelets?",
+    "answer": "Anti-HPA",
+    "explanation": "Causes platelet refractoriness."
+  },
+{
+    "id": 499,
+    "question": "Which blood group system is associated with malaria resistance?",
+    "answer": "Duffy",
+    "explanation": "Duffy-negative individuals resist P. vivax."
+  },
+{
+    "id": 500,
+    "question": "Which IBSS topic integrates immunology, serology, and transfusion science?",
+    "answer": "Blood banking",
+    "explanation": "Core subject in the MedTech board exam."
+  }
+]

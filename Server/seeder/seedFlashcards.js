@@ -1,49 +1,73 @@
-require("dotenv").config();
-const connectDB = require("../config/db");
-const Subject = require("../models/Subject");
-const Flashcard = require("../models/Flashcard");
-const flashcardsData = require("../data/flashcard.json"); // your sample data
+// require("dotenv").config();
+// const path = require("path");
+// const connectDB = require("../config/db");
+// const Subject = require("../models/Subject");
+// const Flashcard = require("../models/Flashcard");
 
-const seedFlashcards = async () => {
-  await connectDB();
 
-  // Create subject if not exists
-  let subject = await Subject.findOne({ name: "Math" });
-  if (!subject) {
-    subject = await Subject.create({ name: "Math", description: "Sample Math subject" });
-    console.log("Created subject:", subject.name);
-  }
+// const subjects = {
+//   "clinical chemistry": "ClinicalChemistry.json",
+//   "clinical microscopy": "ClinicalMicroscopy.json",
+//   ibss: "IBSS.json",
+//   hematology: "Hematology.json",
+//   "medtech laws": "MedtechLaws.json",
+//   microbiology: "Microbiology.json",
+// };
 
-  console.log("Seeding flashcards...");
+// const seedFlashcards = async () => {
+//   await connectDB();
+//   console.log("🌱 Connected to database");
 
-  // Use for...of to properly await each create
-  for (const item of flashcardsData) {
-    try {
-      await Flashcard.create({
-        question: item.question,
-        answer: item.answer,
-        explanation: item.explanation || "",
-        subjectId: subject._id,
+//   for (const [subjectName, fileName] of Object.entries(subjects)) {
+//     console.log(`\n📘 Processing subject: ${subjectName}`);
 
-        // Add defaults for required fields in case schema needs them
-        state: "new",
-        easeFactor: 2.5,
-        interval: 0,
-        repetitions: 0,
-        lastReviewed: null,
-        totalReviews: 0,
-        lapses: 0,
-        lastDifficulty: null,
-        dueDate: new Date(),
-      });
-      console.log("Seeded flashcard:", item.question);
-    } catch (err) {
-      console.error("Failed to seed flashcard:", item.question, err.message);
-    }
-  }
+//     // 1. Find or create subject
+//     let subject = await Subject.findOne({ name: subjectName });
+//     if (!subject) {
+//       subject = await Subject.create({
+//         name: subjectName,
+//         description: `${subjectName} flashcards`,
+//       });
+//       console.log(`✅ Created subject: ${subjectName}`);
+//     }
 
-  console.log("✅ Flashcards seeding finished!");
-  process.exit(0);
-};
+//     // 2. Load flashcard JSON file
+//     const filePath = path.join(__dirname, "../data", fileName);
+//     const flashcardsData = require(filePath);
 
-seedFlashcards();
+//     // 3. Seed flashcards
+//     for (const item of flashcardsData) {
+//       try {
+//         await Flashcard.create({
+//           question: item.question,
+//           answer: item.answer,
+//           explanation: item.explanation || "",
+//           subjectId: subject._id,
+
+//           // SM-2 defaults
+//           state: "new",
+//           easeFactor: 2.5,
+//           interval: 0,
+//           repetitions: 0,
+//           lastReviewed: null,
+//           totalReviews: 0,
+//           lapses: 0,
+//           lastDifficulty: null,
+//           dueDate: new Date(),
+//         });
+
+//         console.log(`✔ Seeded: ${item.question.slice(0, 50)}...`);
+//       } catch (err) {
+//         console.error(
+//           `❌ Failed: ${item.question?.slice(0, 50)}...`,
+//           err.message
+//         );
+//       }
+//     }
+//   }
+
+//   console.log("\n🎉 All flashcards seeded successfully!");
+//   process.exit(0);
+// };
+
+// seedFlashcards();
