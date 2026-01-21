@@ -336,7 +336,7 @@ const getProfile = async (req, res) => {
     return res.status(401).json({ message: "User not authenticated" });
   }
 
-  const safeUser = { _id: user._id, name: user.name, email: user.email };
+  const safeUser = { _id: user._id, name: user.name, };
   res.json({ message: "User is authenticated!", user: safeUser });
 };
 

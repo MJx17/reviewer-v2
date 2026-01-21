@@ -1,4 +1,3 @@
-// src/pages/SubjectNotesPage.jsx
 import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import NotesList from "../components/notes/NoteList";
@@ -9,19 +8,22 @@ import { toast } from "react-toastify";
 
 import { getNotes, createNote, updateNote, deleteNote } from "../services/noteService";
 import { getSubjects } from "../services/subjectService";
-import "../styles/subject-notes.css"
+import "../styles/subject-notes.css";
 
 export default function SubjectNotesPage() {
   const { subjectId } = useParams();
   const navigate = useNavigate();
 
   const [subject, setSubject] = useState(null);
-  const [notes, setNotes] = useState([]);
-  const [editingNote, setEditingNote] = useState(null);
   const [modalOpen, setModalOpen] = useState(false);
-
+  const [editingNote, setEditingNote] = useState(null);
   const [deleteModalOpen, setDeleteModalOpen] = useState(false);
   const [noteToDelete, setNoteToDelete] = useState(null);
+
+  const [currentPage, setCurrentPage] = useState(1);
+  const [totalPages, setTotalPages] = useState(1);
+  const [notes, setNotes] = useState([]);
+  const [loading, setLoading] = useState(true);
   const [loadingDelete, setLoadingDelete] = useState(false);
 
   /* =========================
@@ -29,12 +31,16 @@ export default function SubjectNotesPage() {
   ========================= */
   useEffect(() => {
     fetchSubject();
-    fetchNotes();
   }, [subjectId]);
+
+  useEffect(() => {
+    if (subject) fetchNotes(currentPage);
+  }, [subject, currentPage]);
 
   const fetchSubject = async () => {
     try {
       const data = await getSubjects(subjectId);
+      if (!data) throw new Error("Subject not found");
       setSubject(data);
     } catch (err) {
       console.error(err);
@@ -43,13 +49,17 @@ export default function SubjectNotesPage() {
     }
   };
 
-  const fetchNotes = async () => {
+  const fetchNotes = async (page = 1) => {
+    setLoading(true);
     try {
-      const allNotes = await getNotes({ subjectId });
-      setNotes(allNotes);
+      const res = await getNotes({ subjectId, page, limit: 9 });
+      setNotes(res.notes || []);
+      setTotalPages(res.pagination?.totalPages || 1);
     } catch (err) {
       console.error(err);
       toast.error("Failed to load notes");
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -77,7 +87,7 @@ export default function SubjectNotesPage() {
       }
       setModalOpen(false);
       setEditingNote(null);
-      fetchNotes();
+      fetchNotes(currentPage);
     } catch (err) {
       console.error(err);
       toast.error("Failed to save note");
@@ -89,7 +99,7 @@ export default function SubjectNotesPage() {
       setLoadingDelete(true);
       await deleteNote(id);
       toast.success("Note deleted");
-      fetchNotes();
+      fetchNotes(currentPage);
     } catch (err) {
       console.error(err);
       toast.error("Failed to delete note");
@@ -109,6 +119,10 @@ export default function SubjectNotesPage() {
         <NotesList
           subject={subject}
           notes={notes}
+          loading={loading}
+          currentPage={currentPage}
+          totalPages={totalPages}
+          onPageChange={setCurrentPage}
           onAddNote={handleAddNote}
           onEditNote={handleEditNote}
           onDeleteNote={(note) => {
@@ -138,7 +152,7 @@ export default function SubjectNotesPage() {
         >
           {editingNote && (
             <NoteForm
-              key={editingNote._id || "new"} // forces re-init for TinyMCE
+              key={editingNote._id || "new"}
               note={editingNote}
               subjects={[subject]}
               onSubmit={handleSaveNote}

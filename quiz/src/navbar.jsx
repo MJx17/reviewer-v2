@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { NavLink, useNavigate } from "react-router-dom";
+import { NavLink, Link, useNavigate } from "react-router-dom";
 import { useAuth } from "./context/authContext";
 import "./styles/navbar.css";
 
@@ -20,7 +20,10 @@ export default function Navbar() {
 
   return (
     <header className="navbar">
-      <h1 className="navbar-logo">Reviewer</h1>
+      {/* ✅ Logo navigates to /home */}
+      <Link to="/home" className="navbar-logo-link" onClick={() => setOpen(false)}>
+        <h1 className="navbar-logo">Reviewer</h1>
+      </Link>
 
       {/* Hamburger Button (mobile only) */}
       <button className="navbar-toggle" onClick={() => setOpen(!open)}>
@@ -60,7 +63,6 @@ export default function Navbar() {
           Flashcards
         </NavLink>
 
-        {/* ✅ Logout (only shown inside mobile menu) */}
         {user && (
           <button className="nav-link-logout-btn mobile-logout" onClick={handleLogout}>
             Logout
@@ -68,10 +70,11 @@ export default function Navbar() {
         )}
       </nav>
 
-      {/* Logout button for desktop */}
-      {user && <button className="nav-link-logout-btn desktop-logout" onClick={handleLogout}>Logout</button>}
+      {user && (
+        <button className="nav-link-logout-btn desktop-logout" onClick={handleLogout}>
+          Logout
+        </button>
+      )}
     </header>
-
-
   );
 }

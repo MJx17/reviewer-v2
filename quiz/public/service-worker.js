@@ -15,6 +15,7 @@ self.addEventListener('fetch', event => {
 });
 
 self.addEventListener('push', event => {
+  console.log('[SW] Push received:', event.data?.text());
   const data = event.data?.json() || {};
   event.waitUntil(
     self.registration.showNotification(data.title || 'Notification', {

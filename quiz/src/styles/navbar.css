@@ -132,3 +132,12 @@
     margin-top: 10px;
   }
 }
+
+.navbar-logo-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar-logo {
+  cursor: pointer;
+}

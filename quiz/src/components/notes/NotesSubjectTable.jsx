@@ -8,8 +8,7 @@ const ITEMS_PER_PAGE = 9;
 export default function NotesSubjectTable({ subjects, onSelect }) {
   const [page, setPage] = useState(1);
   const [notesBySubject, setNotesBySubject] = useState({});
-  const [loadingSubjects, setLoadingSubjects] = useState({}); // tracks loading per subject
-  const [pagination, setPagination] = useState({}); // optional if needed
+  const [loadingSubjects, setLoadingSubjects] = useState({});
 
   const totalPages = Math.ceil(subjects.length / ITEMS_PER_PAGE);
 
@@ -18,18 +17,14 @@ export default function NotesSubjectTable({ subjects, onSelect }) {
     page * ITEMS_PER_PAGE
   );
 
-  // fetch notes for a subject
   const fetchNotesForSubject = async (subjectId) => {
     if (loadingSubjects[subjectId] || notesBySubject[subjectId]) return;
 
     setLoadingSubjects((prev) => ({ ...prev, [subjectId]: true }));
-
     try {
-      const response = await getNotes({ subjectId, page: 1, limit: 1000 }); 
-      // optionally fetch all notes for counting
+      const response = await getNotes({ subjectId, page: 1, limit: 1000 });
       const notes = Array.isArray(response.notes) ? response.notes : [];
       setNotesBySubject((prev) => ({ ...prev, [subjectId]: notes }));
-      setPagination((prev) => ({ ...prev, [subjectId]: response.pagination }));
     } catch (err) {
       console.error(`Failed to fetch notes for ${subjectId}`, err);
       setNotesBySubject((prev) => ({ ...prev, [subjectId]: [] }));
@@ -42,15 +37,9 @@ export default function NotesSubjectTable({ subjects, onSelect }) {
     paginatedSubjects.forEach((subject) => fetchNotesForSubject(subject._id));
   }, [paginatedSubjects]);
 
-  const getNoteCount = (subjectId) => {
-    const notes = notesBySubject[subjectId];
-    if (!notes) return 0;
-    return notes.length;
-  };
+  const getNoteCount = (subjectId) => notesBySubject[subjectId]?.length || 0;
 
-  if (!subjects || subjects.length === 0) {
-    return <p className="empty-message">No subjects available. Please add a subject first.</p>;
-  }
+  if (!subjects.length) return <p className="empty-message">No subjects available.</p>;
 
   return (
     <>
@@ -67,7 +56,6 @@ export default function NotesSubjectTable({ subjects, onSelect }) {
                   {isLoading ? "Loading..." : `${count} ${count === 1 ? "Note" : "Notes"}`}
                 </span>
               </div>
-
               <div className="notes-subject-card-actions">
                 {count > 0 ? (
                   <button className="notes-subject-btn" onClick={() => onSelect(subject)}>

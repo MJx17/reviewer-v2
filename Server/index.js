@@ -40,6 +40,16 @@ app.use("/auth", authRoutes);
 app.use("/password", passwordRoutes);
 app.use("/push", pushRoutes);
 
+app.post("/send-daily-reminder", async (req, res) => {
+  try {
+    await sendDailyReminder(); // call your async function
+    res.json({ message: "Daily reminder triggered." });
+  } catch (err) {
+    console.error("Daily reminder error:", err);
+    res.status(500).json({ error: "Failed to send daily reminder" });
+  }
+});
+
 // Only run cron in dev or a persistent server
 if (process.env.NODE_ENV !== "production") {
   cron.schedule("0 8 * * *", async () => {
