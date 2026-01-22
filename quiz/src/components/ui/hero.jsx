@@ -125,8 +125,8 @@ const Hero = () => {
                 </h1>
 
                 <p className="hero-description">
-                    Streamline your productivity with intuitive tools for to-do lists,
-                    flashcards, and progress tracking. Ready to crush your goals today?
+                    "Boost your productivity with handy features for to-do lists, flashcards, and notes. Stay motivated and make every day count!"
+
                 </p>
 
                 <div className="hero-actions">
