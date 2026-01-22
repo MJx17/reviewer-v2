@@ -1,0 +1,17 @@
+[
+  {
+    "id": "cm1",
+    "title": "Urinalysis – Physical Examination",
+    "body": "<h2>Physical Examination of Urine</h2><p>Observe color, clarity, and specific gravity. Abnormal color may indicate hematuria, bilirubinuria, or infection. Turbidity may suggest crystals, cells, or bacteria.</p><img src=\"https://upload.wikimedia.org/wikipedia/commons/2/25/Urine_colors_chart.png\" alt=\"Urine color chart\" />"
+  },
+  {
+    "id": "cm2",
+    "title": "Microscopic Examination of Urine Sediment",
+    "body": "<h2>Urine Sediment Analysis</h2><p>Microscopic examination reveals cells, casts, crystals, and microorganisms. Key elements:</p><ul><li>RBCs – hematuria</li><li>WBCs – infection or inflammation</li><li>Casts – renal pathology</li><li>Crystals – metabolic disorders</li></ul><img src=\"https://upload.wikimedia.org/wikipedia/commons/5/5e/Urine_microscopy.png\" alt=\"Urine microscopy\" />"
+  },
+  {
+    "id": "cm3",
+    "title": "Stool Examination – Macroscopic and Microscopic",
+    "body": "<h2>Stool Analysis</h2><p>Stool examination includes macroscopic observation (color, consistency, presence of blood/mucus) and microscopic analysis (ova, cysts, parasites). Common findings in parasitic infections include Giardia, Entamoeba, and helminth eggs.</p><img src=\"https://upload.wikimedia.org/wikipedia/commons/f/f6/Stool_microscopy_example.png\" alt=\"Stool microscopy\" />"
+  }
+]

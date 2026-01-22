@@ -1,0 +1,17 @@
+[
+  {
+    "id": "cc1",
+    "title": "Carbohydrate Metabolism & Glucose Regulation",
+    "body": "<h2>Glucose Homeostasis</h2><p>Glucose regulation is key for diagnosing diabetes mellitus. Blood sugar levels are maintained by insulin and glucagon. Key tests: FBS, RBS, OGTT, HbA1c.</p><img src=\"https://upload.wikimedia.org/wikipedia/commons/3/3f/Glucose_homeostasis.png\" alt=\"Glucose regulation diagram\" />"
+  },
+  {
+    "id": "cc2",
+    "title": "Liver Function Tests (LFTs)",
+    "body": "<h2>Liver Function Tests Overview</h2><p>LFTs evaluate hepatocellular injury and cholestasis. Important markers include ALT, AST, ALP, bilirubin, and albumin. Patterns of enzyme elevation help diagnose the type of liver disease.</p><img src=\"https://upload.wikimedia.org/wikipedia/commons/4/4b/Liver_Function_Tests.png\" alt=\"LFT diagram\" />"
+  },
+  {
+    "id": "cc3",
+    "title": "Renal Function Tests & Electrolytes",
+    "body": "<h2>Renal Function Tests</h2><p>Tests include BUN, creatinine, eGFR, and electrolytes (Na⁺, K⁺, Cl⁻). Helps differentiate prerenal, renal, and postrenal causes. Visualize electrolyte changes and acid-base disturbances.</p><img src=\"https://upload.wikimedia.org/wikipedia/commons/7/73/Kidney_Function_Diagram.png\" alt=\"Renal function diagram\" />"
+  }
+]

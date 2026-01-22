@@ -10,6 +10,7 @@ const flashcardRoutes = require("./routes/flashcards");
 const authRoutes = require("./routes/auth");
 const passwordRoutes = require("./routes/password");
 const pushRoutes = require("./routes/push");
+const supportRoutes = require("./routes/support");
 const cron = require("node-cron");
 const { sendDailyReminder } = require("./controllers/notificationController");
 
@@ -39,6 +40,7 @@ app.use("/flashcards", flashcardRoutes);
 app.use("/auth", authRoutes);
 app.use("/password", passwordRoutes);
 app.use("/push", pushRoutes);
+app.use("/support", supportRoutes);
 
 app.post("/send-daily-reminder", async (req, res) => {
   try {

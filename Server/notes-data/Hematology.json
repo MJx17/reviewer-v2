@@ -1,0 +1,17 @@
+[
+  {
+    "id": "he1",
+    "title": "Complete Blood Count (CBC)",
+    "body": "<h2>CBC Overview</h2><p>Measures RBC, WBC, hemoglobin, hematocrit, and platelets. Important for detecting anemia, infection, and hematologic disorders.</p><img src=\"https://upload.wikimedia.org/wikipedia/commons/3/33/Blood_cells_diagram.png\" alt=\"Blood cells diagram\" />"
+  },
+  {
+    "id": "he2",
+    "title": "Red Blood Cell Morphology",
+    "body": "<h2>RBC Morphology</h2><p>Examining RBCs helps diagnose anemias:</p><ul><li>Microcytic – iron deficiency</li><li>Macrocytic – B12/folate deficiency</li><li>Normocytic – hemolysis or acute blood loss</li></ul><img src=\"https://upload.wikimedia.org/wikipedia/commons/5/5a/Red_blood_cell_morphology.png\" alt=\"RBC morphology\" />"
+  },
+  {
+    "id": "he3",
+    "title": "White Blood Cell Differentiation",
+    "body": "<h2>WBC Differential</h2><p>Determines proportion of neutrophils, lymphocytes, monocytes, eosinophils, and basophils. Changes indicate infection, inflammation, or hematologic malignancy.</p><img src=\"https://upload.wikimedia.org/wikipedia/commons/2/2f/WBC_differential.png\" alt=\"WBC differential\" />"
+  }
+]

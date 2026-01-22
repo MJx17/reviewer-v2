@@ -1,0 +1,17 @@
+[
+  {
+    "id": "ibss1",
+    "title": "Basic Safety and Infection Control",
+    "body": "<h2>Infection Control Principles</h2><p>Follow standard precautions to prevent laboratory-acquired infections: hand hygiene, PPE, safe disposal of sharps, and surface decontamination.</p><img src=\"https://upload.wikimedia.org/wikipedia/commons/8/8f/Handwashing_steps.png\" alt=\"Handwashing steps\" />"
+  },
+  {
+    "id": "ibss2",
+    "title": "Biosafety Levels (BSL 1-4)",
+    "body": "<h2>Biosafety Levels Overview</h2><p>Laboratories are classified from BSL-1 to BSL-4 based on risk of pathogens handled. Key features include containment equipment, lab design, and PPE requirements.</p><ul><li>BSL-1: basic, non-pathogenic</li><li>BSL-2: moderate risk, pathogens like Hepatitis B</li><li>BSL-3: high risk, airborne pathogens</li><li>BSL-4: dangerous/exotic, Ebola, Marburg</li></ul><img src=\"https://upload.wikimedia.org/wikipedia/commons/3/3f/Biosafety_levels_chart.png\" alt=\"Biosafety levels\" />"
+  },
+  {
+    "id": "ibss3",
+    "title": "Laboratory Safety Equipment",
+    "body": "<h2>Essential Safety Equipment</h2><p>Includes biosafety cabinets, autoclaves, fire extinguishers, and emergency showers. Correct use minimizes risk of contamination and accidents.</p><img src=\"https://upload.wikimedia.org/wikipedia/commons/6/6c/BSC_class_II.png\" alt=\"Biosafety cabinet\" />"
+  }
+]

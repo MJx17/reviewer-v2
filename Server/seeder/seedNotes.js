@@ -1,8 +1,8 @@
 require("dotenv").config();
 const path = require("path");
 const connectDB = require("../config/db");
-const Subject = require("../models/Subject");
-const Note = require("../models/Note");
+const Subject = require("../Models/Subject");
+const Note = require("../Models/Note");
 
 // Map subjects to their JSON files
 const subjects = {
@@ -32,7 +32,7 @@ const seedNotes = async () => {
     }
 
     // 2️⃣ Load notes JSON file
-    const filePath = path.join(__dirname, "../data", fileName);
+    const filePath = path.join(__dirname, "../notes-data", fileName);
     const notesData = require(filePath);
 
     // 3️⃣ Seed notes

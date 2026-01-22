@@ -181,11 +181,9 @@
 }
 
 /* Subscription Button (Secondary Style) */
-.subscribe-btn {
+/* Base button style - applies to both subscribe and unsubscribe */
+.btn {
   padding: 0.875rem 2rem;
-  background-color: #ffffff;
-  color: #374151;
-  border: 1.5px solid #d1d5db;
   border-radius: 0.75rem;
   font-weight: 600;
   font-size: 1rem;
@@ -193,37 +191,42 @@
   transition: all 0.3s ease;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 8px;
+  border: 1.5px solid transparent; /* baseline border */
+  min-width: 220px; /* optional: fix width to avoid jump */
+}
+
+/* Subscribe button (secondary style) */
+.subscribe-btn {
+  background-color: #1e90ff;
+  color: white;
+  border-color: #1e90ff;
 }
 
 .subscribe-btn:hover:not(:disabled) {
-  border-color: #34d399;
-  color: #10b981;
-  background-color: #f0fdf4;
+  opacity: 0.8;
 }
 
-/* Success State when Subscribed */
-.subscribe-btn.subscribed {
+/* Unsubscribe / Subscribed button */
+.unsubscribe-btn {
+  background-color: #ff4d4f;
+  color: white;
+  border-color: #ff4d4f;
+}
+
+.unsubscribe-btn:hover {
+  opacity: 0.8;
+}
+
+/* Optional: Success state (you can use subscribed class instead of separate button) */
+.btn.subscribed {
   background-color: #f0fdf4;
   color: #059669;
   border-color: #34d399;
   cursor: default;
-  box-shadow: none;
 }
 
-.subscribe-btn {
-  background-color: #1e90ff;
-  color: white;
-}
-
-.unsubscribe-btn {
-  background-color: #ff4d4f;
-  color: white;
-}
-
-.subscribe-btn:hover, .unsubscribe-btn:hover {
-  opacity: 0.8;
-}
 
 /* Mobile & Base Styles */
 .hero-visual {
@@ -266,4 +269,144 @@
   display: block;
   /* Added a slightly stronger shadow for depth on large screens */
   box-shadow: 0 20px 40px rgba(0,0,0,0.08); 
+}
+
+
+
+
+
+/* ================= Support Section ================= */
+.support-section {
+  padding: 5rem 2rem;
+  background-color: #84adff;
+  display: flex;
+  justify-content: center;
+}
+
+.support-container {
+  display: flex;
+  gap: 5rem;
+  max-width: 1200px;
+  width: 100%;
+  align-items: center;
+  flex-wrap: wrap; /* allows mobile stacking */
+}
+
+/* Left: Image */
+.support-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.support-image img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 1rem;
+  object-fit: cover;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Right: Form Card */
+.support-card {
+  flex: 1;
+  background-color: #272727;
+  padding: 4rem 3rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.support-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+}
+
+.support-title {
+  font-size: 2rem;
+  font-weight: 700;
+ color: #ffffff;
+  text-align: left;
+}
+
+.support-subtitle {
+  font-size: 1rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.support-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.support-form input,
+.support-form textarea {
+  padding: 0.75rem 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.75rem;
+  font-size: 1rem;
+  width: 100%;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.support-form input:focus,
+.support-form textarea:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+  outline: none;
+}
+
+.support-form textarea {
+  min-height: 140px;
+  resize: vertical;
+}
+
+.support-form button {
+  padding: 0.75rem 1.5rem;
+  background-color: #3b82f6;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.support-form button:hover:not(:disabled) {
+  background-color: #2563eb;
+  transform: translateY(-2px);
+}
+
+.support-form button:disabled {
+  background-color: #93c5fd;
+  cursor: not-allowed;
+}
+
+/* ================= Responsive ================= */
+@media (max-width: 768px) {
+  .support-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .support-card,
+  .support-image {
+    flex: unset;
+    width: 100%;
+  }
+
+  .support-title {
+    text-align: center;
+  }
+
+  .support-subtitle {
+    text-align: center;
+  }
 }

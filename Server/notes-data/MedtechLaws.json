@@ -1,0 +1,17 @@
+[
+  {
+    "id": "ml1",
+    "title": "Republic Act No. 5527",
+    "body": "<h2>MedTech Law Overview</h2><p>Regulates the practice of medical technology in the Philippines, including licensure, scope of practice, and continuing education requirements.</p><img src=\"https://upload.wikimedia.org/wikipedia/commons/a/a3/Philippine_flag.png\" alt=\"Philippine flag\" />"
+  },
+  {
+    "id": "ml2",
+    "title": "PRC Licensing Requirements",
+    "body": "<h2>Licensing for MedTechs</h2><p>Requirements include graduation from a recognized MedTech program, passing the board exam, and compliance with continuing professional education (CPE).</p><img src=\"https://upload.wikimedia.org/wikipedia/commons/8/85/Professional_Regulation_Commission_seal.png\" alt=\"PRC seal\" />"
+  },
+  {
+    "id": "ml3",
+    "title": "Code of Ethics for MedTechs",
+    "body": "<h2>Professional Ethics</h2><p>Medical technologists must maintain confidentiality, competence, honesty, and professionalism in all laboratory practices.</p><img src=\"https://upload.wikimedia.org/wikipedia/commons/4/44/Ethics_symbol.png\" alt=\"Ethics symbol\" />"
+  }
+]

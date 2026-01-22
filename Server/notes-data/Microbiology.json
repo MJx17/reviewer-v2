@@ -1,0 +1,17 @@
+[
+  {
+    "id": "mb1",
+    "title": "Bacterial Morphology & Staining",
+    "body": "<h2>Bacterial Shapes and Stains</h2><p>Bacteria can be cocci, bacilli, or spirilla. Gram staining differentiates Gram-positive from Gram-negative organisms.</p><img src=\"https://upload.wikimedia.org/wikipedia/commons/1/13/Bacterial_shapes.png\" alt=\"Bacterial morphology\" />"
+  },
+  {
+    "id": "mb2",
+    "title": "Culture Media and Growth",
+    "body": "<h2>Culture Techniques</h2><p>Common media include nutrient agar, MacConkey, and blood agar. Colony morphology and hemolysis patterns help in identification.</p><img src=\"https://upload.wikimedia.org/wikipedia/commons/7/7a/Agar_plate.png\" alt=\"Agar plates\" />"
+  },
+  {
+    "id": "mb3",
+    "title": "Antimicrobial Susceptibility Testing",
+    "body": "<h2>Antibiotic Testing</h2><p>Determines bacterial susceptibility to antibiotics. Methods include disk diffusion (Kirby-Bauer) and MIC determination.</p><img src=\"https://upload.wikimedia.org/wikipedia/commons/5/56/Kirby_bauer_test.png\" alt=\"Kirby-Bauer test\" />"
+  }
+]

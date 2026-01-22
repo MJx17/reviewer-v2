@@ -130,16 +130,15 @@ const Hero = () => {
                 </p>
 
                 <div className="hero-actions">
-                    {!subscribed ? (
-                        <button className="subscribe-btn" onClick={handleSubscribe}>
-                            Get Reminders 📢
-                        </button>
-                    ) : (
-                        <button className="unsubscribe-btn" onClick={handleUnsubscribe}>
-                            Subscribed ✅ (Click to Unsubscribe)
-                        </button>
-                    )}
+                    <button
+                        className={`btn ${subscribed ? "unsubscribe-btn" : "subscribe-btn"}`}
+                        onClick={subscribed ? handleUnsubscribe : handleSubscribe}
+                    >
+                        {subscribed ? "Subscribe" : "Unsubscribed"}
+                    </button>
                 </div>
+
+
             </div>
 
             <div className="hero-visual">
