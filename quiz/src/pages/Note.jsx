@@ -4,7 +4,7 @@ import { useParams, Link } from "react-router-dom";
 import { toast } from "react-toastify";
 import DOMPurify from "dompurify";
 import "../styles/note.css";
-
+import Loading from "../components/ui/loading"
 // Services
 import { getNoteById } from "../services/noteService";
 
@@ -69,7 +69,7 @@ export default function NoteView() {
     return () => window.speechSynthesis.cancel();
   }, []);
 
-  if (loading) return <p>Loading note...</p>;
+  if (loading) return <Loading />;
   if (!note) return <p>Note not found.</p>;
 
   return (

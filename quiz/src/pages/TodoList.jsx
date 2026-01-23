@@ -7,7 +7,7 @@ import MonthView from '../components/todo/MonthView';
 import CreateTodoForm from '../components/todo/CreateTodoForm';
 import AppModal from "../components/ui/modal";
 
-import { getTodos, createTodo, updateTodo, deleteTodo } from "../services/todoService";
+import { getTodos, createTodo, } from "../services/todoService";
 
 const MONTH_NAMES = [
   'January','February','March','April','May','June',

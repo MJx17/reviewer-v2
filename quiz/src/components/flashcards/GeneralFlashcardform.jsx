@@ -1,22 +1,41 @@
 import { useEffect, useState } from "react";
-import { createFlashcard, updateFlashcard } from "../../services/flashcardService";
+import {
+  createFlashcard,
+  updateFlashcard,
+} from "../../services/flashcardService";
+import { getSubjects } from "../../services/subjectService";
 import { toast } from "react-toastify";
 
-export default function GeneralFlashcardForm({ flashcard, onSuccess, onCancel }) {
+export default function GeneralFlashcardForm({
+  flashcard,
+  onSuccess,
+  onCancel,
+}) {
   const [subjects, setSubjects] = useState([]);
-  const [selectedSubject, setSelectedSubject] = useState(flashcard?.subjectId || "");
+  const [selectedSubject, setSelectedSubject] = useState(
+    flashcard?.subjectId || ""
+  );
   const [question, setQuestion] = useState(flashcard?.question || "");
   const [answer, setAnswer] = useState(flashcard?.answer || "");
-  const [explanation, setExplanation] = useState(flashcard?.explanation || "");
+  const [explanation, setExplanation] = useState(
+    flashcard?.explanation || ""
+  );
   const [loading, setLoading] = useState(false);
 
-  // Load all subjects for the dropdown
+  // ✅ Load subjects via service
   useEffect(() => {
-    fetch("http://localhost:3001/subjects")
-      .then((res) => res.json())
-      .then(setSubjects)
-      .catch(() => toast.error("Failed to load subjects"));
+    loadSubjects();
   }, []);
+
+  const loadSubjects = async () => {
+    try {
+      const data = await getSubjects();
+      setSubjects(data);
+    } catch (err) {
+      console.error(err);
+      toast.error("Failed to load subjects");
+    }
+  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -45,7 +64,9 @@ export default function GeneralFlashcardForm({ flashcard, onSuccess, onCancel })
         ? await updateFlashcard(flashcard._id, payload)
         : await createFlashcard(payload);
 
-      toast.success(flashcard ? "Flashcard updated" : "Flashcard created");
+      toast.success(
+        flashcard ? "Flashcard updated" : "Flashcard created"
+      );
       onSuccess?.(result);
     } catch (err) {
       console.error(err);
@@ -55,10 +76,8 @@ export default function GeneralFlashcardForm({ flashcard, onSuccess, onCancel })
     }
   };
 
-
   return (
     <form className="flashcard-form" onSubmit={handleSubmit}>
-      {/* Always show the subject dropdown */}
       <div className="form-group">
         <label>Subject</label>
         <select
@@ -76,12 +95,18 @@ export default function GeneralFlashcardForm({ flashcard, onSuccess, onCancel })
 
       <div className="form-group">
         <label>Question</label>
-        <input value={question} onChange={(e) => setQuestion(e.target.value)} />
+        <input
+          value={question}
+          onChange={(e) => setQuestion(e.target.value)}
+        />
       </div>
 
       <div className="form-group">
         <label>Answer</label>
-        <input value={answer} onChange={(e) => setAnswer(e.target.value)} />
+        <input
+          value={answer}
+          onChange={(e) => setAnswer(e.target.value)}
+        />
       </div>
 
       <div className="form-group">
@@ -94,10 +119,18 @@ export default function GeneralFlashcardForm({ flashcard, onSuccess, onCancel })
       </div>
 
       <div className="modal-actions">
-        <button type="button" className="btn-secondary" onClick={onCancel}>
+        <button
+          type="button"
+          className="btn-secondary"
+          onClick={onCancel}
+        >
           Cancel
         </button>
-        <button type="submit" className="btn-primary" disabled={loading}>
+        <button
+          type="submit"
+          className="btn-primary"
+          disabled={loading}
+        >
           {loading ? "Saving..." : flashcard ? "Update" : "Add"}
         </button>
       </div>
