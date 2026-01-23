@@ -5,9 +5,12 @@
   box-sizing: border-box;
 }
 
-/* Optional: ensure body takes full width */
-body {
-  font-family: sans-serif;
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh; /* Not height: 100vh */
+}
 
- 
+body {
+  padding-bottom: 60px; /* Space at bottom */
 }

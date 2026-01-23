@@ -4,14 +4,56 @@ import { Editor } from "@tinymce/tinymce-react";
 export default function TinyMCEEditor({ value, onChange }) {
   const [editorValue, setEditorValue] = useState(value || "");
 
-  // Keep editorValue in sync if parent value changes (important for edit mode)
+  // keep in sync for edit mode
   useEffect(() => {
     setEditorValue(value || "");
   }, [value]);
 
-  // ✅ Cloudinary config from Vite env
   const cloudName = import.meta.env.VITE_CLOUDINARY_CLOUD_NAME;
   const uploadPreset = import.meta.env.VITE_CLOUDINARY_UPLOAD_PRESET;
+
+  const filePickerCallback = (callback, _value, meta) => {
+    if (meta.filetype !== "image") return;
+
+    const input = document.createElement("input");
+    input.type = "file";
+    input.accept = "image/*";
+
+    input.onchange = async () => {
+      const file = input.files?.[0];
+      if (!file) return;
+
+      const formData = new FormData();
+      formData.append("file", file);
+      formData.append("upload_preset", uploadPreset);
+
+      try {
+        const res = await fetch(
+          `https://api.cloudinary.com/v1_1/${cloudName}/image/upload`,
+          {
+            method: "POST",
+            body: formData,
+          }
+        );
+
+        const data = await res.json();
+
+        if (!data.secure_url) {
+          throw new Error("No secure_url returned from Cloudinary");
+        }
+
+        // insert image into editor
+        callback(data.secure_url, {
+          title: file.name,
+          alt: file.name,
+        });
+      } catch (err) {
+        console.error("Image upload failed:", err);
+      }
+    };
+
+    input.click();
+  };
 
   return (
     <Editor
@@ -35,7 +77,7 @@ export default function TinyMCEEditor({ value, onChange }) {
           "wordcount",
         ],
         toolbar: `
-          undo redo | blocks fontfamily fontsize formatselect |
+          undo redo | blocks fontfamily fontsize |
           bold italic underline strikethrough |
           forecolor backcolor |
           alignleft aligncenter alignright alignjustify |
@@ -51,39 +93,13 @@ export default function TinyMCEEditor({ value, onChange }) {
           Times New Roman=times new roman,times,serif;
           Verdana=verdana,geneva,sans-serif
         `,
-        advlist_bullet_styles: "disc,circle,square",
-        advlist_number_styles: "default,lower-alpha,upper-alpha",
         content_style: `
           body { font-family: Georgia, serif; font-size: 16px; }
           ul, ol { margin-left: 1.5em; }
           li { margin-bottom: 0.3em; }
         `,
-        automatic_uploads: true,
-        images_upload_handler: async function (blobInfo, success, failure) {
-          try {
-            const formData = new FormData();
-            formData.append("file", blobInfo.blob());
-            formData.append("upload_preset", uploadPreset);
-
-            const res = await fetch(
-              `https://api.cloudinary.com/v1_1/${cloudName}/image/upload`,
-              { method: "POST", body: formData }
-            );
-
-            const data = await res.json();
-            console.log("Cloudinary response:", data);
-
-            if (!data.secure_url) return failure("No secure_url returned");
-
-            // ✅ Must pass a string URL, never the object
-            success(data.secure_url);
-
-          } catch (err) {
-            failure("Upload error: " + err.message);
-          }
-        }
-
-
+        file_picker_types: "image",
+        file_picker_callback: filePickerCallback,
       }}
       onEditorChange={(newValue) => {
         setEditorValue(newValue);

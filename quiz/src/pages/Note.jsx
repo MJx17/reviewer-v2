@@ -1,5 +1,5 @@
 // src/pages/NoteView.jsx
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { useParams, Link } from "react-router-dom";
 import { toast } from "react-toastify";
 import DOMPurify from "dompurify";
@@ -36,6 +36,35 @@ export default function NoteView() {
     fetchNote();
   }, [id]);
 
+
+  const noteBodyRef = useRef(null);
+
+
+  useEffect(() => {
+    if (!noteBodyRef.current || !note || !note.body) return; // Add note and note.body check
+
+    // Wait for content to be fully rendered
+    const timeoutId = setTimeout(() => {
+      const tables = noteBodyRef.current.querySelectorAll('table');
+      console.log('Found tables:', tables.length); // Debug log
+
+      tables.forEach((table) => {
+        // Check if already wrapped
+        if (table.parentElement.classList.contains('table-wrapper')) {
+          console.log('Table already wrapped');
+          return;
+        }
+
+        console.log('Wrapping table'); // Debug log
+        const wrapper = document.createElement('div');
+        wrapper.className = 'table-wrapper';
+        table.parentNode.insertBefore(wrapper, table);
+        wrapper.appendChild(table);
+      });
+    }, 100); // Small delay to ensure DOM is ready
+
+    return () => clearTimeout(timeoutId);
+  }, [note]); // Change back to just note, or keep note?.body
   /* =========================
      Text-to-Speech
   ========================= */
@@ -99,13 +128,14 @@ export default function NoteView() {
         </Link>
       </header>
 
-      <section className="note-body">
+      <section className="note-body" ref={noteBodyRef}>
         <div
           dangerouslySetInnerHTML={{
             __html: sanitizeHtml(note.body),
           }}
         />
       </section>
+
     </div>
   );
 }
