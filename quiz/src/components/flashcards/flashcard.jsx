@@ -2,10 +2,11 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import FlashcardSubjectsTable from "../components/flashcards/FlashcardSubjectsTable";
 import { toast } from "react-toastify";
-import "../styles/notes.css"; // you can reuse styles
+import "../styles/notes.css";
 
-const SUBJECTS_API = "http://localhost:3001/subjects";
-const FLASHCARDS_API = "http://localhost:3001/flashcards";
+// ✅ import API helpers
+import { getFlashcards } from "../services/flashcardService";
+import { getSubjects } from "../services/subjectService";
 
 export default function FlashcardsPage() {
   const [subjects, setSubjects] = useState([]);
@@ -19,18 +20,18 @@ export default function FlashcardsPage() {
 
   const fetchSubjects = async () => {
     try {
-      const res = await fetch(SUBJECTS_API);
-      setSubjects(await res.json());
-    } catch {
+      const data = await getSubjects();
+      setSubjects(data);
+    } catch (err) {
       toast.error("Failed to load subjects");
     }
   };
 
   const fetchFlashcards = async () => {
     try {
-      const res = await fetch(FLASHCARDS_API);
-      setFlashcards(await res.json());
-    } catch {
+      const data = await getFlashcards();
+      setFlashcards(data);
+    } catch (err) {
       toast.error("Failed to load flashcards");
     }
   };
@@ -49,3 +50,4 @@ export default function FlashcardsPage() {
     </div>
   );
 }
+
