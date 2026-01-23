@@ -16,21 +16,26 @@ export default function SubjectFlashcardsPage() {
   const [modalOpen, setModalOpen] = useState(false);
   const [selectedFlashcard, setSelectedFlashcard] = useState(null);
   const [refreshKey, setRefreshKey] = useState(0);
-
+  const [loading, setLoading] = useState(false);
   useEffect(() => {
     if (!subjectId) return;
     fetchSubject();
   }, [subjectId]);
 
   const fetchSubject = async () => {
+    if (!subjectId) return;
+    setLoading(true); // ✅ start loading
     try {
       const data = await getSubjectById(subjectId);
       setSubject(data);
     } catch (err) {
       console.error(err);
       toast.error("Failed to load subject");
+    } finally {
+      setLoading(false); // ✅ stop loading
     }
   };
+
   const handleEdit = (card) => {
     setSelectedFlashcard(card);
     setModalOpen(true);
