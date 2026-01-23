@@ -1,3 +1,5 @@
+'use client';
+
 import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import FlashcardDeck from "../components/flashcards/flashcarddeck";
@@ -5,9 +7,9 @@ import AppModal from "../components/ui/modal";
 import AddFlashcardForm from "../components/flashcards/AddFlashcardForm";
 import { toast } from "react-toastify";
 import "../styles/flashcard.css";
-import Loading from "../components/ui/loading"
+import Loading from "../components/ui/loading";
 
-// ✅ service import
+// ✅ Service import
 import { getSubjectById } from "../services/subjectService";
 
 export default function SubjectFlashcardsPage() {
@@ -17,25 +19,31 @@ export default function SubjectFlashcardsPage() {
   const [selectedFlashcard, setSelectedFlashcard] = useState(null);
   const [refreshKey, setRefreshKey] = useState(0);
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
+
+  // Fetch subject whenever subjectId changes
   useEffect(() => {
     if (!subjectId) return;
     fetchSubject();
   }, [subjectId]);
 
   const fetchSubject = async () => {
-    if (!subjectId) return;
-    setLoading(true); // ✅ start loading
+    setLoading(true);
+    setError(null);
     try {
       const data = await getSubjectById(subjectId);
+      if (!data) throw new Error("Subject not found");
       setSubject(data);
     } catch (err) {
       console.error(err);
+      setError("Failed to load subject");
       toast.error("Failed to load subject");
     } finally {
-      setLoading(false); // ✅ stop loading
+      setLoading(false);
     }
   };
 
+  // Modal handlers
   const handleEdit = (card) => {
     setSelectedFlashcard(card);
     setModalOpen(true);
@@ -57,9 +65,11 @@ export default function SubjectFlashcardsPage() {
     setSelectedFlashcard(null);
   };
 
+  // Early returns for safety
   if (!subjectId) return <p>No subject selected.</p>;
   if (loading) return <Loading />;
-
+  if (error) return <p>{error}</p>;
+  if (!subject) return <p>Subject not found.</p>;
 
   return (
     <div className="subject-flashcards-page">
