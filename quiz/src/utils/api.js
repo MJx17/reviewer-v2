@@ -51,29 +51,83 @@
 
 
 
-// services/api.js
+// // services/api.js
+// export const apiRequest = async (endpoint, options = {}, accessToken = null) => {
+//   const API_BASE = import.meta.env.VITE_API_URL;
+
+//   const res = await fetch(`${API_BASE}${endpoint}`, {
+//     ...options,
+//     headers: {
+//       "Content-Type": "application/json",
+//       ...(accessToken ? { Authorization: `Bearer ${accessToken}` } : {}),
+//       ...options.headers,
+//     },
+//     credentials: "include", // send cookies automatically for refreshToken
+//     body: options.body ? JSON.stringify(options.body) : undefined,
+//   });
+
+//   const contentType = res.headers.get("content-type");
+//   let data = null;
+//   if (contentType?.includes("application/json")) data = await res.json();
+
+//   if (!res.ok) {
+//     // ❌ Throw the backend JSON, not a plain Error
+//     throw data || { error: res.statusText, type: "system" };
+//   }
+
+//   return data;
+// };
+
+
+let isRefreshing = false;
+let refreshPromise = null;
+
 export const apiRequest = async (endpoint, options = {}, accessToken = null) => {
   const API_BASE = import.meta.env.VITE_API_URL;
 
-  const res = await fetch(`${API_BASE}${endpoint}`, {
-    ...options,
-    headers: {
-      "Content-Type": "application/json",
-      ...(accessToken ? { Authorization: `Bearer ${accessToken}` } : {}),
-      ...options.headers,
-    },
-    credentials: "include", // send cookies automatically for refreshToken
-    body: options.body ? JSON.stringify(options.body) : undefined,
-  });
+  const makeRequest = async (token) => {
+    const res = await fetch(`${API_BASE}${endpoint}`, {
+      ...options,
+      headers: {
+        "Content-Type": "application/json",
+        ...(token ? { Authorization: `Bearer ${token}` } : {}),
+        ...options.headers,
+      },
+      credentials: "include",
+      body: options.body ? JSON.stringify(options.body) : undefined,
+    });
 
-  const contentType = res.headers.get("content-type");
-  let data = null;
-  if (contentType?.includes("application/json")) data = await res.json();
+    const contentType = res.headers.get("content-type");
+    const data = contentType?.includes("application/json")
+      ? await res.json()
+      : null;
 
-  if (!res.ok) {
-    // ❌ Throw the backend JSON, not a plain Error
-    throw data || { error: res.statusText, type: "system" };
+    if (!res.ok) throw { status: res.status, data };
+    return data;
+  };
+
+  try {
+    return await makeRequest(accessToken);
+  } catch (err) {
+    if (err.status !== 401) throw err.data;
+
+    // 👇 Prevent refresh storms
+    if (!isRefreshing) {
+      isRefreshing = true;
+      refreshPromise = refreshToken()
+        .then(res => {
+          isRefreshing = false;
+          return res.accessToken;
+        })
+        .catch(e => {
+          isRefreshing = false;
+          throw e;
+        });
+    }
+
+    const newAccessToken = await refreshPromise;
+
+    // 🔁 Retry once with fresh token
+    return makeRequest(newAccessToken);
   }
-
-  return data;
 };

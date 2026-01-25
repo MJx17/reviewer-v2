@@ -52,18 +52,39 @@ app.post("/send-daily-reminder", async (req, res) => {
   }
 });
 
+const CRON_TZ = "Asia/Manila";
+
 // Only run cron in dev or a persistent server
 if (process.env.NODE_ENV !== "production") {
-  cron.schedule("0 8 * * *", async () => {
-    console.log("Running daily 8 AM reminder...");
-    await sendDailyReminder();
-  });
+  cron.schedule(
+    "0 8 * * *",
+    async () => {
+      console.log("Running daily 8 AM reminder...");
+      await sendDailyReminder();
+    },
+    { timezone: CRON_TZ }
+  );
 
-  cron.schedule("0 8,14,20 * * *", async () => {
-    console.log("Running 6-hour interval reminder...");
-    await sendDailyReminder();
-  });
+  cron.schedule(
+    "0 8,14,20 * * *",
+    async () => {
+      console.log("Running 6-hour interval reminder...");
+      await sendDailyReminder();
+    },
+    { timezone: CRON_TZ }
+  );
 }
+
+// 🔥 TEST CRON (runs regardless of env)
+cron.schedule(
+  "28 10 * * *",
+  async () => {
+    console.log("🔥 TEST CRON fired at:", new Date().toLocaleString("en-PH"));
+    await sendDailyReminder();
+  },
+  { timezone: CRON_TZ }
+);
+
 
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {

@@ -1,153 +1,165 @@
-import React, { useState, useEffect } from 'react';
-import { toast } from 'react-toastify';
-import { subscribeToPush, unsubscribeFromPush, sendCustomNotification } from '../../services/subscribeService';
-import { useAuth } from '../../context/authContext';
-import Loading from '../ui/loading';
-import '../../styles/feature.css';
+import React, { useState, useEffect } from "react";
+import { toast } from "react-toastify";
+import {
+  subscribeToPush,
+  unsubscribeFromPush,
+  sendCustomNotification,
+} from "../../services/subscribeService";
+import { useAuth } from "../../context/authContext";
+import Loading from "../ui/loading";
+import "../../styles/feature.css";
+
+const VAPID_PUBLIC_KEY = import.meta.env.VITE_VAPID_PUBLIC_KEY;
 
 const Hero = () => {
-    const [subscribed, setSubscribed] = useState(false);
-    const [subscriptionObj, setSubscriptionObj] = useState(null);
-    const [swRegistration, setSwRegistration] = useState(null);
-    const { user, loading } = useAuth();
-    const VAPID_PUBLIC_KEY = import.meta.env.VITE_VAPID_PUBLIC_KEY;
+  const { user, loading } = useAuth();
 
-    // Helper to convert VAPID key
-    function urlBase64ToUint8Array(base64String) {
-        const padding = '='.repeat((4 - (base64String.length % 4)) % 4);
-        const base64 = (base64String + padding).replace(/-/g, '+').replace(/_/g, '/');
-        const rawData = atob(base64);
-        return new Uint8Array([...rawData].map((c) => c.charCodeAt(0)));
+  const [subscribed, setSubscribed] = useState(false);
+  const [swRegistration, setSwRegistration] = useState(null);
+
+  // Helper: convert VAPID key
+  const urlBase64ToUint8Array = (base64String) => {
+    const padding = "=".repeat((4 - (base64String.length % 4)) % 4);
+    const base64 = (base64String + padding)
+      .replace(/-/g, "+")
+      .replace(/_/g, "/");
+    const rawData = atob(base64);
+    return new Uint8Array([...rawData].map((c) => c.charCodeAt(0)));
+  };
+
+  // 1️⃣ Register SW + check REAL subscription state
+  useEffect(() => {
+    if (!("serviceWorker" in navigator) || !("PushManager" in window)) return;
+
+    const init = async () => {
+      try {
+        await navigator.serviceWorker.register("/service-worker.js", {
+          type: "module",
+        });
+
+        const reg = await navigator.serviceWorker.ready;
+        setSwRegistration(reg);
+
+        const existing = await reg.pushManager.getSubscription();
+        setSubscribed(!!existing); // 🔑 browser = truth
+      } catch (err) {
+        console.error("Service Worker init failed:", err);
+      }
+    };
+
+    init();
+  }, []);
+
+  // 2️⃣ Sync subscription to backend when user is ready
+  useEffect(() => {
+    if (!user || !swRegistration) return;
+
+    const sync = async () => {
+      const sub = await swRegistration.pushManager.getSubscription();
+      if (!sub) return;
+
+      try {
+        await subscribeToPush(sub, user._id);
+        setSubscribed(true);
+        console.log("Subscription synced with backend");
+      } catch (err) {
+        console.error("Sync failed:", err);
+        setSubscribed(false);
+      }
+    };
+
+    sync();
+  }, [user, swRegistration]);
+
+  // 3️⃣ Subscribe
+  const handleSubscribe = async () => {
+    if (!user) return toast.warning("User not loaded yet.");
+    if (!swRegistration) return toast.error("Service worker not ready.");
+
+    let permission = Notification.permission;
+    if (permission === "default") {
+      permission = await Notification.requestPermission();
     }
+    if (permission !== "granted")
+      return toast.error("Notification permission denied.");
 
-    // 1️⃣ Register SW on mount
-    useEffect(() => {
-        if (!('serviceWorker' in navigator) || !('PushManager' in window)) return;
+    try {
+      const subscription = await swRegistration.pushManager.subscribe({
+        userVisibleOnly: true,
+        applicationServerKey: urlBase64ToUint8Array(VAPID_PUBLIC_KEY),
+      });
 
-        const registerSW = async () => {
-            try {
-                const registration = await navigator.serviceWorker.register('/service-worker.js', { type: 'module' });
-                const readyReg = await navigator.serviceWorker.ready;
+      await subscribeToPush(subscription, user._id);
 
-                setSwRegistration(readyReg);
+      setSubscribed(true);
+      toast.success("Subscribed successfully!");
+    } catch (err) {
+      console.error("Subscribe failed:", err);
+      toast.error("Subscription failed.");
+    }
+  };
 
-                // Check existing subscription
-                const existing = await readyReg.pushManager.getSubscription();
-                if (existing) {
-                    setSubscriptionObj(existing);
-                }
-            } catch (err) {
-                console.error('Service Worker registration failed:', err);
-            }
-        };
+  // 4️⃣ Unsubscribe (SAFE + IDPOTENT)
+  const handleUnsubscribe = async () => {
+    if (!swRegistration) return;
 
-        registerSW();
-    }, []);
+    try {
+      const reg = await navigator.serviceWorker.ready;
+      const sub = await reg.pushManager.getSubscription();
 
-    // 2️⃣ Sync existing subscription to backend once user & subscription exist
-    // Sync subscription once both exist
-    useEffect(() => {
-        if (!user || !subscriptionObj) return; // only run when both exist
-
-        const syncSubscription = async () => {
-            try {
-                // send subscription to backend
-                await subscribeToPush(subscriptionObj, user._id); // make sure it's _id, not id
-                setSubscribed(true);
-                console.log('Subscription synced with backend');
-            } catch (err) {
-                console.error('Failed to sync subscription:', err);
-                setSubscribed(false);
-            }
-        };
-
-        syncSubscription();
-    }, [user, subscriptionObj]);
-
-
-    // 3️⃣ Subscribe handler
-    const handleSubscribe = async () => {
-        if (!user) return toast.warning('User not loaded yet.');
-        if (!swRegistration) return toast.error('Service worker not ready.');
-
-        let permission = Notification.permission;
-        if (permission === 'default') {
-            permission = await Notification.requestPermission();
-        }
-        if (permission !== 'granted') return toast.error('Notification permission denied.');
-
+      if (sub) {
         try {
-            const subscription = await swRegistration.pushManager.subscribe({
-                userVisibleOnly: true,
-                applicationServerKey: urlBase64ToUint8Array(VAPID_PUBLIC_KEY),
-            });
-
-            // ✅ use _id
-            await subscribeToPush(subscription, user._id);
-            await sendCustomNotification('696641456237f43eb2d73bfa', 'Test Title', 'Hello from backend!');
-
-            setSubscribed(true);
-            setSubscriptionObj(subscription);
-            toast.success('Subscribed successfully!');
+          await sub.unsubscribe();
         } catch (err) {
-            console.error('Push subscription failed:', err);
-            toast.error('Subscription failed. Make sure notifications are allowed.');
+          console.warn("Already unsubscribed in browser:", err);
         }
-    };
 
+        await unsubscribeFromPush(sub);
+      }
 
-    // 4️⃣ Unsubscribe handler
-    const handleUnsubscribe = async () => {
-        if (!subscriptionObj) return;
+      setSubscribed(false);
+      toast.info("You have unsubscribed from notifications.");
+    } catch (err) {
+      console.error("Unsubscribe flow failed:", err);
+      toast.error("Failed to unsubscribe.");
+    }
+  };
 
-        try {
-            await subscriptionObj.unsubscribe();
-            await unsubscribeFromPush(subscriptionObj);
+  if (loading) return <Loading />;
+  if (!user) return <p>User not authenticated.</p>;
 
-            setSubscribed(false);
-            setSubscriptionObj(null);
-            toast.info('You have unsubscribed from notifications.');
-        } catch (err) {
-            console.error('Unsubscribe failed:', err);
-            toast.error('Failed to unsubscribe.');
-        }
-    };
+  return (
+    <header className="hero-section">
+      <div className="hero-content">
+        <h1 className="hero-title">
+          <span className="hero-greeting">Welcome back,</span>
+          <span className="hero-username">{user.name} 👋</span>
+        </h1>
 
-    if (loading) return <Loading />;
-    if (!user) return <p>User not authenticated.</p>;
+        <p className="hero-description">
+          Boost your productivity with handy features for to-do lists,
+          flashcards, and notes. Stay motivated and make every day count!
+        </p>
 
-    return (
-        <header className="hero-section">
-            <div className="hero-content">
-                <h1 className="hero-title">
-                    <span className="hero-greeting">Welcome back,</span>
-                    <span className="hero-username">{user.name} 👋</span>
-                </h1>
+        <div className="hero-actions">
+          <button
+            className={`btn ${
+              subscribed ? "unsubscribe-btn" : "subscribe-btn"
+            }`}
+            onClick={subscribed ? handleUnsubscribe : handleSubscribe}
+          >
+            {subscribed ? "Unsubscribe" : "Subscribe"}
+          </button>
+        </div>
+      </div>
 
-                <p className="hero-description">
-                    "Boost your productivity with handy features for to-do lists, flashcards, and notes. Stay motivated and make every day count!"
-
-                </p>
-
-                <div className="hero-actions">
-                    <button
-                        className={`btn ${subscribed ? "unsubscribe-btn" : "subscribe-btn"}`}
-                        onClick={subscribed ? handleUnsubscribe : handleSubscribe}
-                    >
-                        {subscribed ? "Subscribe" : "Unsubscribed"}
-                    </button>
-                </div>
-
-
-            </div>
-
-            <div className="hero-visual">
-                <div className="visual-container">
-                    <img src="/study.jpg" alt="Dashboard Overview" className="hero-image" />
-                </div>
-            </div>
-        </header>
-    );
+      <div className="hero-visual">
+        <div className="visual-container">
+          <img src="/study.jpg" alt="Dashboard Overview" className="hero-image" />
+        </div>
+      </div>
+    </header>
+  );
 };
 
 export default Hero;
