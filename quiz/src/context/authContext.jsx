@@ -187,17 +187,15 @@ export const AuthProvider = ({ children }) => {
   useEffect(() => {
     const restoreSession = async () => {
       setLoading(true);
-      try {
-        setIsRefreshing(true);
+      setIsRefreshing(true);
 
-        // 1️⃣ Refresh token via cookie (HTTP-only)
-        const refreshed = await refreshToken(); // server returns new accessToken
+      try {
+        const refreshed = await refreshToken(); // returns accessToken
         if (refreshed.accessToken) setAccessToken(refreshed.accessToken);
 
-        // 2️⃣ Fetch user profile
         const profile = await getProfile(refreshed.accessToken);
         setUser(profile.user);
-      } catch (err) {
+      } catch {
         setUser(null);
         setAccessToken(null);
       } finally {
@@ -208,6 +206,7 @@ export const AuthProvider = ({ children }) => {
 
     restoreSession();
   }, []);
+
 
   // ===== Fetch profile manually =====
   const fetchProfile = async () => {

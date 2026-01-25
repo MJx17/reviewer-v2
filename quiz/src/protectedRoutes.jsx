@@ -9,7 +9,10 @@ const ProtectedRoute = ({ children }) => {
   // ✅ Wait until restoreSession / token refresh finishes
   if (loading || isRefreshing) return <Loading />;
 
-  if (!user) return <Navigate to="/login" state={{ from: location }} replace />;
+  // ✅ Only redirect if restore finished and no user
+  if (!user && !loading && !isRefreshing) {
+    return <Navigate to="/" state={{ from: location }} replace />;
+  }
 
   return children;
 };

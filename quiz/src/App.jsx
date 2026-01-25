@@ -29,7 +29,6 @@ const App = () => {
         {/* 🔓 PUBLIC ROUTES (NO NAVBAR) */}
         <Route element={<PublicLayout />}>
           <Route path="/" element={<LoginModal />} />
-          <Route path="/login" element={<LoginModal />} />
           <Route path="/Unauthorized" element={<Unauthorized />} />
           <Route path="/forgot-password" element={<ForgotPassword />} />
           <Route path="/reset-password/:token" element={<ResetPassword />} />
