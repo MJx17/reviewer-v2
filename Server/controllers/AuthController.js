@@ -159,6 +159,16 @@ const bcrypt = require('bcryptjs');
 const User = require("../Models/user");
 const { verifyAccessToken } = require("../middleware/authMiddleware");
 
+
+//local test no domain
+// const cookieOptions = {
+//   httpOnly: true,
+//   secure: true,     // required for HTTPS
+//   sameSite: "None", // works cross-site (mobile / web)
+//   path: "/",
+//   // domain: ".reviewer-app.xyz", // optional
+// };
+
 const cookieOptions = {
   httpOnly: true,
   secure: true,     // required for HTTPS
@@ -166,6 +176,7 @@ const cookieOptions = {
   path: "/",
   domain: ".reviewer-app.xyz", // optional
 };
+
 
 // =========================
 // CREATE USER

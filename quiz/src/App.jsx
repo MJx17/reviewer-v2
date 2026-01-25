@@ -7,7 +7,7 @@ import SubjectsPage from "./pages/Subject";
 import SubjectNotesPage from "./pages/SubjectNotesPage";
 import FlashcardsPage from "./pages/FlashCard";
 import SubjectFlashcardsPage from "./pages/SubjectFlashcardsPage";
-import LoginModal from "./pages/Login";
+import LoginModal from "./components/Login";
 import Loading from "./components/ui/loading";
 import ProtectedRoute from "./protectedRoutes";
 import PublicLayout from "./layouts/publicLayout";
@@ -20,6 +20,7 @@ import ForgotPassword from "./pages/ForgotPassword";
 import ResetPassword from "./pages/ResetPassword";
 import Modal from "react-modal";
 import HomePage from "./pages/homepage";
+import LoginPage from "./pages/LoginPage";
 Modal.setAppElement("#root");
 
 const App = () => {
@@ -28,7 +29,7 @@ const App = () => {
       <Routes>
         {/* 🔓 PUBLIC ROUTES (NO NAVBAR) */}
         <Route element={<PublicLayout />}>
-          <Route path="/" element={<LoginModal />} />
+          <Route path="/" element={<LoginPage />} />
           <Route path="/Unauthorized" element={<Unauthorized />} />
           <Route path="/forgot-password" element={<ForgotPassword />} />
           <Route path="/reset-password/:token" element={<ResetPassword />} />

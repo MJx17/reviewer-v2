@@ -3,8 +3,10 @@ import { useNavigate, useLocation } from "react-router-dom";
 import "../styles/login.css";
 import { loginService, getProfile } from "../services/authService";
 import { useAuth } from "../context/authContext";
-import Loading from "../components/ui/loading"; // optional spinner
+import Loading from "./ui/loading"; // optional spinner
 import { toast } from "react-toastify";
+
+
 const LoginModal = () => {
 
   const bodyRef = useRef(document.body);
