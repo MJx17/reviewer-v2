@@ -284,7 +284,7 @@ const loginUser = async (req, res) => {
 // =========================
 // REFRESH TOKEN
 // =========================
-const refreshTokenHandler = async (req, res) => {
+const refreshToken = async (req, res) => {
   try {
     const token = req.cookies.refreshToken;
     if (!token) return res.status(401).json({ error: "No refresh token provided." });
