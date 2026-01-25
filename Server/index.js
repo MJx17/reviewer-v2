@@ -77,7 +77,7 @@ if (process.env.NODE_ENV !== "production") {
 
 // 🔥 TEST CRON (runs regardless of env)
 cron.schedule(
-  "28 10 * * *",
+  "57 11 * * *",
   async () => {
     console.log("🔥 TEST CRON fired at:", new Date().toLocaleString("en-PH"));
     await sendDailyReminder();

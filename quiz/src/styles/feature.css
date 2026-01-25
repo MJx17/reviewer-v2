@@ -64,7 +64,8 @@
   color: #6b7280;
   line-height: 1.6;
   margin-bottom: 1.5rem;
-  flex-grow: 1; /* Pushes the button to the bottom */
+  flex-grow: 1;
+  /* Pushes the button to the bottom */
 }
 
 .feature-button {
@@ -86,80 +87,7 @@
   color: #10b981;
 }
 
-/* Hero */
 
-
-.hero-section {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 6rem 2.5rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 4rem;
-}
-
-@media (min-width: 1024px) {
-  .hero-section {
-    flex-direction: row;
-    text-align: left;
-    min-height: 70vh;
-  }
-}
-
-.hero-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.hero-title {
-  display: flex;
-  flex-direction: column;  /* stack lines vertically */
-  margin-bottom: 1.5rem;
-  line-height: 1.2;
-  font-size: clamp(2.2rem, 4vw, 3rem);
-  font-weight: 800;
-  color: #111827;
-}
-
-.hero-greeting {
-  align-self: flex-start;  /* left align */
-  font-weight: 600;
-  font-size: 1.2em;
-}
-
-.hero-username {
-  align-self: center;      /* center username */
-  font-weight: 900;
-  font-size: 1.4em;
-  color: #10B981;          /* optional accent color */
-}
-
-
-.hero-description {
-  font-size: 1.25rem;
-  color: #4b5563;
-  line-height: 1.7;
-  max-width: clamp(250px, 80%, 500px); /* min 250px, max 500px, otherwise 80% */
-  margin-bottom: 2rem;
-  text-align: justify;
-}
-
-@media (max-width: 640px) {
-  .hero-description {
-    margin-bottom: 1.5rem; /* less empty space on mobile */
-    text-align: left;       /* optional: better readability on narrow screens */
-  }
-}
-
-
-.hero-actions {
-  display: flex;
-  flex-wrap: wrap; /* Ensures buttons stack on very small screens */
-  gap: 1rem;
-}
 
 /* Primary Action */
 .primary-btn {
@@ -193,8 +121,10 @@
   align-items: center;
   justify-content: center;
   gap: 8px;
-  border: 1.5px solid transparent; /* baseline border */
-  min-width: 220px; /* optional: fix width to avoid jump */
+  border: 1.5px solid transparent;
+  /* baseline border */
+  min-width: 220px;
+  /* optional: fix width to avoid jump */
 }
 
 /* Subscribe button (secondary style) */
@@ -228,7 +158,65 @@
 }
 
 
-/* Mobile & Base Styles */
+
+
+
+/* ================= Hero Section ================= */
+.hero-section {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 6rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-title {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+  font-size: clamp(2.2rem, 4vw, 3rem);
+  font-weight: 800;
+  color: #111827;
+}
+
+.hero-greeting {
+  align-self: flex-start;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.hero-username {
+  align-self: center;
+  font-weight: 900;
+  font-size: 1.4em;
+  color: #10B981;
+}
+
+.hero-description {
+  font-size: 1.25rem;
+  color: #4b5563;
+  line-height: 1.7;
+  max-width: clamp(250px, 80%, 500px);
+  margin-bottom: 2rem;
+  text-align: justify;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
 .hero-visual {
   flex: 1;
   width: 100%;
@@ -236,39 +224,47 @@
   margin: 0 auto;
 }
 
-/* Tablet & Desktop Styles */
-@media (min-width: 1024px) {
-  .hero-section {
-    flex-direction: row;
-    text-align: left;
-    min-height: 80vh; /* Increased height to give the image more room */
-    gap: 6rem; /* Increased gap to prevent crowding */
-  }
-
-  .hero-content {
-    flex: 1; /* Text takes up 50% */
-  }
-
-  .hero-visual {
-    flex: 1.2; /* Image takes up slightly more than 50% to look "heroic" */
-    max-width: 700px; /* Increased limit for large monitors */
-    display: flex;
-    justify-content: flex-end; /* Aligns image to the right edge */
-  }
-
-  .visual-container {
-    padding: 3rem; /* More "breathing room" inside the mint box */
-    width: 100%;
-  }
-}
-
 .hero-image {
   width: 100%;
   height: auto;
   border-radius: 1.5rem;
   display: block;
-  /* Added a slightly stronger shadow for depth on large screens */
-  box-shadow: 0 20px 40px rgba(0,0,0,0.08); 
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+
+/* ================= Responsive ================= */
+
+/* Small screens */
+@media (max-width: 640px) {
+  .hero-description {
+    margin-bottom: 1.5rem;
+    text-align: left;
+  }
+}
+
+/* Tablet & Desktop */
+@media (min-width: 1024px) {
+  .hero-section {
+    flex-direction: row;
+    text-align: left;
+    gap: 6rem;
+  }
+
+  .hero-content {
+    flex: 1;
+  }
+
+  .hero-visual {
+    flex: 1.2;
+    max-width: 700px;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .visual-container {
+    padding: 3rem;
+    width: 100%;
+  }
 }
 
 
@@ -276,69 +272,64 @@
 
 
 /* ================= Support Section ================= */
+/* ================= Support Section ================= */
 .support-section {
   padding: 5rem 2rem;
   background-color: #84adff;
   display: flex;
   justify-content: center;
+ 
 }
 
 .support-container {
-  display: flex;
-  gap: 5rem;
   max-width: 1200px;
   width: 100%;
-  align-items: center;
-  flex-wrap: wrap; /* allows mobile stacking */
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  /* perfect symmetry */
+  gap: 4rem;
+  align-items: stretch;
 }
 
-/* Left: Image */
+/* ================= Image ================= */
 .support-image {
-  flex: 1;
-  display: flex;
-  justify-content: center;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
 }
 
 .support-image img {
   width: 100%;
-  max-width: 500px;
-  border-radius: 1rem;
+  height: 100%;
   object-fit: cover;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  display: block;
 }
 
-/* Right: Form Card */
+/* ================= Card ================= */
 .support-card {
-  flex: 1;
   background-color: #272727;
-  padding: 4rem 3rem;
+  padding: 3.5rem;
   border-radius: 1rem;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 1.5rem;
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .support-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-4px);
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
 }
 
 .support-title {
   font-size: 2rem;
   font-weight: 700;
- color: #ffffff;
-  text-align: left;
-}
-
-.support-subtitle {
-  font-size: 1rem;
   color: #ffffff;
-  margin-bottom: 1rem;
-  text-align: left;
 }
 
+/* ================= Form ================= */
 .support-form {
   display: flex;
   flex-direction: column;
@@ -347,19 +338,11 @@
 
 .support-form input,
 .support-form textarea {
-  padding: 0.75rem 1rem;
-  border: 1px solid #d1d5db;
-  border-radius: 0.75rem;
-  font-size: 1rem;
   width: 100%;
-  transition: border-color 0.3s, box-shadow 0.3s;
-}
-
-.support-form input:focus,
-.support-form textarea:focus {
-  border-color: #3b82f6;
-  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
-  outline: none;
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
+  border: 1px solid #d1d5db;
+  font-size: 1rem;
 }
 
 .support-form textarea {
@@ -367,16 +350,24 @@
   resize: vertical;
 }
 
+.support-form input:focus,
+.support-form textarea:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
 .support-form button {
+  margin-top: 0.5rem;
   padding: 0.75rem 1.5rem;
+  border-radius: 0.75rem;
+  border: none;
   background-color: #3b82f6;
   color: #fff;
-  font-weight: 600;
-  border: none;
-  border-radius: 0.75rem;
-  cursor: pointer;
   font-size: 1rem;
-  transition: background-color 0.3s, transform 0.2s;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease;
 }
 
 .support-form button:hover:not(:disabled) {
@@ -389,24 +380,52 @@
   cursor: not-allowed;
 }
 
-/* ================= Responsive ================= */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .support-container {
-    flex-direction: column;
-    gap: 2rem;
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
   }
 
-  .support-card,
-  .support-image {
-    flex: unset;
+  /* Shared framing */
+  .support-image,
+  .support-card {
     width: 100%;
+    max-width: 520px;     /* 👈 SAME width */
+    margin: 0 auto;       /* 👈 centered */
+  }
+
+  /* Image-specific */
+  .support-image {
+    background: rgba(0, 0, 0, 0.03);
+    /* padding: 1.25rem; */
+    display: flex;
+    justify-content: center;
+  }
+
+  .support-image img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
+  /* Card-specific */
+  .support-card {
+    padding: 2.75rem 2rem;
   }
 
   .support-title {
     text-align: center;
   }
+}
 
-  .support-subtitle {
-    text-align: center;
+
+/* Small phones */
+@media (max-width: 600px) {
+  .support-section {
+    padding: 3.5rem 1.5rem;
+  }
+
+  .support-card {
+    padding: 2rem 1.5rem;
   }
 }

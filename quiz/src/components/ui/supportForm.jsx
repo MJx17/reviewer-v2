@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { sendSupportMessage } from "../../services/supportService";
 import { toast } from "react-toastify";
-import "../../styles/home.css";
+
 
 export default function SupportSection({ userName }) {
   const [name, setName] = useState(userName || "");
@@ -26,19 +26,17 @@ export default function SupportSection({ userName }) {
   };
 
   return (
-    <section className="support-section section-theme-3">
+    <section className="support-section">
       <div className="support-container">
-        {/* Left: Image */}
+        {/* Image */}
         <div className="support-image">
           <img src="/help.jpg" alt="Support" />
         </div>
 
-        {/* Right: Form */}
+        {/* Form */}
         <div className="support-card">
           <h2 className="support-title">Need Help? Contact Support</h2>
-          {/* <p className="support-subtitle">
-            We’re here to help. Fill out the form and we’ll get back to you shortly.
-          </p> */}
+
           <form className="support-form" onSubmit={handleSubmit}>
             <input
               type="text"

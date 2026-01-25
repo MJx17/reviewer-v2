@@ -203,6 +203,9 @@ const createUser = async (req, res) => {
 // =========================
 // LOGIN USER
 // =========================
+// =========================
+// LOGIN
+// =========================
 const loginUser = async (req, res) => {
   const { email, password, clientType = "web" } = req.body;
 
@@ -217,7 +220,7 @@ const loginUser = async (req, res) => {
   try {
     const user = await User.findOne({ email });
 
-    // 2️⃣ Invalid credentials (generic for security)
+    // 2️⃣ Invalid credentials
     const isValid = user && (await bcrypt.compare(password, user.password));
     if (!isValid) {
       return res.status(400).json({
@@ -226,34 +229,42 @@ const loginUser = async (req, res) => {
       });
     }
 
-    // 3️⃣ Generate tokens
-    const accessToken = jwt.sign({ userId: user._id }, process.env.JWT_SECRET, {
-      expiresIn: "15m",
-    });
+    // 3️⃣ Generate access token
+    const accessToken = jwt.sign(
+      { userId: user._id },
+      process.env.JWT_SECRET,
+      {
+        // expiresIn: "15m", // original 15 minutes (commented out)
+        expiresIn: "3h", // temporary extended 3 hours
+      }
+    );
+
+    // 4️⃣ Generate refresh token (7 days)
     const refreshToken = jwt.sign(
       { userId: user._id },
       process.env.JWT_REFRESH_SECRET,
       { expiresIn: "7d" }
     );
 
-    // 4️⃣ Save refresh token in DB
+    // 5️⃣ Save refresh token in DB
     user.refreshToken = refreshToken;
     await user.save();
 
-    // 5️⃣ Send refresh token in cookie
+    // 6️⃣ Send refresh token in cookie
     res.cookie("refreshToken", refreshToken, {
       ...cookieOptions,
-      maxAge: 7 * 24 * 60 * 60 * 1000,
+      maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
     });
 
-    // 6️⃣ Safe user object
+    // 7️⃣ Safe user object
     const safeUser = { _id: user._id, name: user.name };
 
-    // 7️⃣ Send response
+    // 8️⃣ Send response
     if (clientType === "web") {
       res.cookie("accessToken", accessToken, {
         ...cookieOptions,
-        maxAge: 15 * 60 * 1000,
+        // maxAge: 15 * 60 * 1000, // original 15 minutes
+        maxAge: 3 * 60 * 60 * 1000, // 3 hours
       });
       return res.status(200).json({ message: "Login successful.", user: safeUser });
     } else {
@@ -270,24 +281,37 @@ const loginUser = async (req, res) => {
   }
 };
 
-
 // =========================
 // REFRESH TOKEN
 // =========================
-const refreshToken = async (req, res) => {
+const refreshTokenHandler = async (req, res) => {
   try {
     const token = req.cookies.refreshToken;
     if (!token) return res.status(401).json({ error: "No refresh token provided." });
 
     const decoded = jwt.verify(token, process.env.JWT_REFRESH_SECRET);
     const user = await User.findById(decoded.userId);
-    if (!user || user.refreshToken !== token) return res.status(403).json({ error: "Invalid refresh token." });
 
-    const accessToken = jwt.sign({ userId: user._id }, process.env.JWT_SECRET, { expiresIn: "15m" });
+    if (!user || user.refreshToken !== token)
+      return res.status(403).json({ error: "Invalid refresh token." });
+
+    // Generate new access token
+    const accessToken = jwt.sign(
+      { userId: user._id },
+      process.env.JWT_SECRET,
+      {
+        // expiresIn: "15m", // original 15 minutes
+        expiresIn: "3h", // temporary extended 3 hours
+      }
+    );
 
     const clientType = req.body?.clientType || "web";
     if (clientType === "web") {
-      res.cookie("accessToken", accessToken, { ...cookieOptions, maxAge: 15 * 60 * 1000 });
+      res.cookie("accessToken", accessToken, {
+        ...cookieOptions,
+        // maxAge: 15 * 60 * 1000, // original 15 minutes
+        maxAge: 3 * 60 * 60 * 1000, // 3 hours
+      });
       return res.status(200).json({ message: "Access token refreshed." });
     } else {
       return res.status(200).json({ message: "Access token refreshed.", accessToken });
@@ -297,6 +321,9 @@ const refreshToken = async (req, res) => {
     return res.status(403).json({ error: "Failed to refresh access token." });
   }
 };
+
+module.exports = { loginUser, refreshTokenHandler };
+
 
 // =========================
 // LOGOUT USER
