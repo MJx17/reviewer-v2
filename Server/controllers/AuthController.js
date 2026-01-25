@@ -164,7 +164,7 @@ const cookieOptions = {
   secure: true,     // required for HTTPS
   sameSite: "None", // works cross-site (mobile / web)
   path: "/",
-  // domain: ".yourdomain.com", // optional
+  domain: ".reviewer-app.xyz", // optional
 };
 
 // =========================
